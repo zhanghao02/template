@@ -1,0 +1,46 @@
+/* large desktop :1366px. */
+@media (min-width: 1200px) and (max-width: 1366px) {
+.blog-content-app {
+  padding: 23px 18px 23px 10px;
+}
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+.logo {
+  padding: 7px 0;
+  margin-top:0;
+}
+.slider-text h1 {
+  font-size: 40px;
+}
+ .slider-text p {
+  font-size: 15px;
+}
+.slider-active .owl-nav div {
+  font-size: 18px;
+}
+.slider-info h1 {
+  font-size: 35px;
+}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
