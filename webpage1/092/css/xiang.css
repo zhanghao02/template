@@ -1,0 +1,170 @@
+@media screen and (min-width:1200px) and (max-width:1400px){
+   .cont{
+    width:85%;
+   }
+   .warp{
+     width:85%;
+   }
+}
+@media screen and (min-width:790px) and (max-width:950px){
+   .pc>a{
+    width:40%;
+   }
+   .at_pleft .hide{
+    display: none;
+   }
+    .at_pleft li .img{
+        width:100%;
+    }
+
+}
+@media screen and (min-width:790px) and (max-width:1200px){
+   .cont{
+    width:95%;
+   }
+   .warp{
+     width:95%;
+   }
+   .hwslider{
+    display: block;
+   }
+   .banner{
+    display: none;
+   }
+   .yi{
+    display: block;
+   }
+   .box{
+    display: none;
+   }
+}
+@media screen and (max-width:790px){
+   .cont{
+    width:95%;
+   }
+   .warp{
+     width:95%;
+   }
+  .top_t p{
+    display: none;
+  }
+   .pc{
+    display: none;
+   }
+   .phone{
+    display: block;
+   }
+   .hwslider{
+    display: block;
+   }
+   .banner{
+    display: none;
+   }
+   .yi{
+    display: block;
+   }
+   .box{
+    display: none;
+   }
+    figure{
+        width:50%;
+    }
+    .idx2_left{
+        width:100%;
+    }
+    .idx2_rig{
+        width:100%;
+        padding-left:0;
+    }
+    .teac li{
+        width:48%;
+    }
+    .box-col-1,.box-row-3 .box-col-2 {
+         width: 50%;
+    }
+    .box-row-3 .box-col-3{
+        width:100%;
+    }
+    .box-col-2{
+        margin: 0 ;
+        padding-left:5px;
+    }
+    .tab-content .tabs-nav {
+        width:40%;
+    }
+    .tab-content .tab-plane{
+        width:60%;
+    }
+    .tab-content .tab-plane .news-list li{
+        width:50%;
+    }
+    .tab-content .tab-plane .news-list {
+    padding: 20px 0 0 10px;
+}
+.newslist_dt li .time{
+  float: right;
+}
+footer img{
+   display: none;
+}
+footer>div>div{
+    width:100%;
+    text-align: center;
+}
+.at_pleft .hide{
+    display: none;
+   }
+    .at_pleft li .img{
+        width:100%;
+    }
+    .n_left {
+    float: left;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding-bottom:0;
+}
+.n_left li a{
+    background: none;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.n_left li a.cur {
+    background: none;
+    color: #8f002f;
+}
+.n_nleft ul{
+    display: none;
+}
+.n_rig {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    padding-top:30px;
+    padding-left:30px;
+}
+.at_picdetail .dtl_rig{
+    width:100%;
+    margin: 0;
+}
+}
+@media screen and (max-width:500px){
+  .tabs-nav span{
+    display: none;
+  }
+  .tabs-nav p{
+    display: block;
+  }
+}
+@media screen and (max-width:400px){
+    .newslist_dt li {
+    height: 180px;
+}
+.idx_newslist1 li .info {
+    width: 100%;
+    margin: 0;
+}
+.teac li{
+    width:100%;
+}
+}

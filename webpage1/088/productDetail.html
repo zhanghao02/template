@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="UTF-8">
+    <title>走进产业园</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="top">
+    <div class="container">
+        <div class="logo"><img src="img/logo.png"></div>
+    </div>
+</div>
+<div class="nav">
+    <div class="container">
+        <ul class="nav-list">
+            <li><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+            <li><a href="about.html">走进产业园</a></li>
+            <li><a href="news.html">新闻中心</a></li>
+            <li><a href="business.html">业务平台</a></li>
+            <li class="active"><a href="product.html">石材信息</a></li>
+            <li><a href="human.html">人力资源</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="about-banner"><img src="img/banner1.jpg"></div>
+<div class="menu product-menu">
+    <div class="container">
+        <div class="menu-tag pull-left">
+            <span class="glyphicon glyphicon-home" style="color: #898989;"></span>
+            <span>石材信息</span>
+            <span class="glyphicon glyphicon-play" style="color: #898989;"></span>
+            <span>产品体验区</span>
+        </div>
+        <div class="menu-nav pull-right">
+            <ul>
+                <li><a href="curing.html">石材养护</a></li>
+                <li class="active"><a href="product.html">产品体验区</a></li>
+                <li><a href="brand.html">石材品牌</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="demo text-center" style="">
+        <div style="width: 800px;position: relative;height: 565px;overflow: hidden;">
+            <img class="scimg" src="img/demo.png" style="height: 565px;"/>
+            <div class="fimg" style="position: absolute;top: 0;left: 0;width: 800px;height: 565px;overflow: hidden;">
+                <img src="img/qiang.png" style="width: 100%;height: 100%;">
+            </div>
+        </div>
+        <div class="color">
+            <div style="width: 120px;height: 90px;float: left;overflow: hidden;margin: 30px 30px 30px 0">
+                <img src="img/demo.png" style="width: 100%;height: 90px;" data-text="text1" class="images">
+            </div>
+            <div style="width: 120px;height: 90px;float: left;overflow: hidden;margin: 30px 30px 30px 0">
+                <img src="img/goods.png" style="width: 100%;height: 90px;" data-text="text2" class="images">
+            </div>
+            <div style="width: 120px;height: 90px;float: left;overflow: hidden;margin: 30px 30px 30px 0">
+                <img src="img/img_list.png" style="width: 100%;height: 90px;" data-text="text3" class="images">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <h3 class="demo-title">大理石印花背景墙</h3>
+        <div class="demo-detail text-left">
+            <div style="display: block" class="text1">
+                这个故事，其实凸显了一个非常好的点：oschina用户是可以直接跟官方人员对话的，不管这个对话是平静还是起了波澜，都是一场精彩的对话；从这点来看，csdn和sf，cnblog之流简直就是难以望其项背；所以说oschina不注重用户是站不住脚的；
+            </div>
+            <div style="display: none" class="text2">
+                但是这其中的导火索是可以引人深思的，它告诉了我们，说话要经过大脑，在外部的时候，说话要尽量一丝不漏，避免跟未来留下祸患，这个外部不仅仅是网站，而是任何可以被公开的位置：包括手机对话（录音），QQ微信对话（截图），私人对话（截图），朋友圈（截图）等等；
+            </div>
+            <div style="display: none" class="text3">
+                同时如何处理这个事情，也是令人深思的，熟悉运营的人知道，运营有一个最大的本领就是化被动为主动，将不利因素变为有利因素；听起来很像公关，其实公关也属于运营种类之一；这个本领其实是一种思维，一种逆向思维，这种思维处理事情，可以让事情的发展不再按照正常路线行走，而是直接超越正常路线。
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="foot">
+    <div class="company">公司名称公司名称 版权所有 陕备案-123456942号</div>
+    <div class="company">公司地址：北京朝阳区十字大路168号 联系电话：029-83124598</div>
+</div>
+
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $('.images').click(function(){
+        var textname = $(this).attr('data-text');
+        var imgsrc = $(this).attr('src');
+        $('.scimg').attr('src',imgsrc);
+        $('.'+textname).css('display','block');
+        $('.'+textname).siblings().css('display','none');
+    });
+</script>
+<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>

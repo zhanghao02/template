@@ -1,0 +1,1 @@
+!function(n){n.fn.extend({simpleGal:function(t){var e={mainImage:".placeholder"};return t=n.extend(e,t),this.each(function(){var e=n(this).find("a"),i=n(this).siblings().find(t.mainImage);e.on("click",function(t){t.preventDefault();var e=n(this).attr("href");i.attr("src",e)})})}})}(jQuery);

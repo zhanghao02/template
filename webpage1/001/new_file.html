@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>新闻详情</title>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/repeat.css" />
+<script type="text/javascript" src="js/a-mai.js"></script>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/move.js"></script>
+<script type="text/javascript" src="js/cookie.js"></script>
+</head>
+<body>
+<div class="top">
+  <div class="top_box wths">
+    <p class="fl top_p1">欢迎您访问苏州安迈医疗器械有限公司官网！</p>
+    <p class="fr top_p2"> <a href="#" onClick="SetHome(this,window.location)">设为首页</a> | <a href="#" onClick="AddFavorite(window.location,document.title)">加入收藏</a> </p>
+  </div>
+</div>
+<!--head-->
+<div class="header">
+  <div class="header_box wths">
+    <div class="logo fl">
+      <h1><img src="img/logo.png" alt="苏州安迈医疗器械有限公司"></h1>
+    </div>
+    <div class="nav_box fl">
+      <ul class="nav">
+        <li><a href="index.html">网站首页</a></li>
+        <li><a href="about.html">关于我们</a></li>
+        <li><a href="new.html" class="nav_on">最新公告</a>
+          <ul class="second-nav">
+            <li><a href="#">公司新闻</a></li>
+            <li><a href="#">行业新闻</a></li>
+          </ul>
+        </li>
+        <li><a href="pro.html">产品展示</a>
+          <ul class="second-nav">
+            <li><a href="#">一次性使用（无磁）穿刺针</a></li>
+            <li><a href="#">一次性使用（无磁）穿刺针</a></li>
+            <li><a href="#">一次性使用（无磁）穿刺针</a></li>
+            <li><a href="#">一次性使用（无磁）穿刺针</a></li>
+            <li><a href="#">一次性使用（无磁）穿刺针</a></li>
+          </ul>
+        </li>
+        <li><a href="cont.html">联系我们</a></li>
+      </ul>
+    </div>
+    <div class="phone fr">
+      <p>153-7003-7321</p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		var _this1=null;
+		$('.nav>li').hover(function(){
+			_this1=$(this);
+			_this1.find('.second-nav').show();
+			var _this2=null;
+			_this1.find('.second-nav').find('li').hover(function(){
+				_this2=$(this);
+				_this2.find('.third-nav').show();
+				_this2.find('.third-nav').hover(function(){
+					$(this).show();
+					
+				},function(){
+					$(this).hide();
+				});
+			},function(){
+				_this2.find('.third-nav').hide();
+			});
+		},function(){
+			_this1.find('.second-nav').hide();
+		});
+	});
+</script>
+<div class="clear"></div>
+<!-- zy_banner -->
+<div class="zy_banner"> <img src="img/a_banner.jpg" width="1920" height="350"> </div>
+<!-- zy_banner-end -->
+<div class="oth">
+  <div  class="oth_box wths"> <span class="fl position" >当前位置：<a href="#" >首 页</a> &gt; <a href="#">最新公告</a>&gt; <a href="#">公司新闻</a></span>
+    <ul class="fr oth_nav">
+      <li class="curr"><a href="#">公司新闻</a></li>
+      <li ><a href="#">行业新闻</a></li>
+    </ul>
+  </div>
+</div>
+<!-- oth-end -->
+<div class="other_box wth">
+  <div class="wrap">
+    <p class="arttitle f16">X5CrNi62#</p>
+    <span class="arttime b f12">发布作者：admin    发布日期：2017年7月17日 09:52</span> </div>
+  <div class="xg_cp">
+    <p>相关产品推荐:</p>
+    <div id="marquee1" class="marqueeleft wow fadeInUp animated">
+      <div style="width:8000px;">
+        <ul id="marquee1_1">
+          <li> <a class="pic" href="#"><img  src="img/cp2.jpg"></a>
+            <div class="txt"><a href="#">中风瘫痪护理病床</a></div>
+          </li>
+          <li> <a class="pic" href="#"><img  src="img/cp2.jpg"></a>
+            <div class="txt"><a href="#">中风瘫痪护理病床</a></div>
+          </li>
+          <li> <a class="pic" href="#"><img  src="img/cp2.jpg"></a>
+            <div class="txt"><a href="#">中风瘫痪护理病床</a></div>
+          </li>
+        </ul>
+        <ul id="marquee1_2">
+        </ul>
+      </div>
+    </div>
+    <!--marqueeleft end--> 
+    <script type="text/javascript">marqueeStart(1, "left");</script> 
+  </div>
+</div>
+<!--other_box-->
+<div class="clear"></div>
+<div class="foot_box wow fadeInUp animated">
+  <div class="foot wths">
+    <div class="foot_p1 fl"> <img src="img/foot1.jpg">
+      <ul>
+        <li>
+          <p><b>地址：</b>江苏省苏州市相城区科技创业园（康元路777号）一栋三楼</p>
+        </li>
+        <li>
+          <p><b>邮箱：</b>yxf056115@163.com</p>
+        </li>
+        <li>
+          <p><b>网址：</b>http://www.i-med.com.cn</p>
+        </li>
+      </ul>
+    </div>
+    <div class="foot_p2 fl"> <img src="img/foot2.jpg">
+      <ul>
+        <li>
+          <p><b>总机：</b>86 0512- 65831232-803   65716179-803</p>
+        </li>
+        <li>
+          <p><b>传真 :</b> 86 0512 -65116004    65716179-802</p>
+        </li>
+      </ul>
+    </div>
+    <div class="foot_p3 fr"> <img src="img/wun.jpg">
+      <p>微信公众号</p>
+    </div>
+  </div>
+</div>
+<div class="footer wow fadeInUp animated">
+  <p class="wths">Copyright © 20017-2019 苏州安迈医疗器械有限公司 <a href="#">苏ICP备09002915号</a></p>
+</div>
+<!--miaov_float_layer-->
+<div class="float_layer" id="miaov_float_layer" style="z-index:10001;">
+  <h2> <b>最新公告</b> <a id="btn_min" href="javascript:;" class="min"></a> <a id="btn_close" href="javascript:;" class="close"></a> </h2>
+  <div class="content2">
+    <div class="wrap2">
+      <ul>
+        <li><a class="nl" href="#">最新公告最新公告最新公告最新公告最新公告最新公告最新公告最新公告最新公告最新公告1 </a></li>
+        <li><a class="nl" href="#">最新公告1</a></li>
+        <li><a class="nl" href="#">最新公告2 </a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+$(function (){
+     if($.cookie("isClose") != 'yes')
+     {
+      TanChuang();
+      setTimeout("minTanChuang()",5000); //测试5秒自动关闭
+     }
+});   
+
+function minTanChuang()
+{
+  $("#btn_min").click();
+}
+
+function TanChuang() {
+    var oDiv = document.getElementById('miaov_float_layer');
+    var oBtnMin = document.getElementById('btn_min');
+    var oBtnClose = document.getElementById('btn_close');
+    var oDivContent = oDiv.getElementsByTagName('div')[0];
+
+    var iMaxHeight = 0;
+
+    var isIE6 = window.navigator.userAgent.match(/MSIE 6/ig) && !window.navigator.userAgent.match(/MSIE 7|8/ig);
+
+    oDiv.style.display = 'block';
+    iMaxHeight = oDivContent.offsetHeight;
+
+    if (isIE6) {
+        oDiv.style.position = 'absolute';
+        repositionAbsolute();
+        miaovAddEvent(window, 'scroll', repositionAbsolute);
+        miaovAddEvent(window, 'resize', repositionAbsolute);
+    }
+    else {
+        oDiv.style.position = 'fixed';
+        repositionFixed();
+        miaovAddEvent(window, 'resize', repositionFixed);
+    }
+
+    oBtnMin.timer = null;
+    oBtnMin.isMax = true;
+    oBtnMin.onclick = function() {
+        startMove
+    (
+      oDivContent, (this.isMax = !this.isMax) ? iMaxHeight : 0,
+      function() {
+          oBtnMin.className = oBtnMin.className == 'min' ? 'max' : 'min';
+      }
+    );
+    };
+
+    oBtnClose.onclick = function() {
+        oDiv.style.display = 'none';
+        oDiv.innerHTML = "";
+     $.cookie("isClose",'yes',{ expires:1/8640});  //测试关闭十秒后才能再次弹出
+    };
+  
+};
+</script>
+<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>

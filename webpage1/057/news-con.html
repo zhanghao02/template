@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<!-- 优先使用 IE 最新版本和 Chrome -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<!-- 为移动设备添加 viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<!--忽略页面中的数字识别为电话，忽略email识别-->
+		<meta name="format-detection" content="telphone=no, email=no" />
+		<title>新闻内容页面</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="js/html5shiv.min.js"></script>
+			<script type="text/javascript" src="js/respond.min.js"></script>
+	    <![endif]-->
+	    <style type="text/css">
+		.news-detail{ padding-bottom:30px; }
+        .news-detail img{ text-align: center; max-width: 100%;  display: block; margin:0px auto;}
+        .page-box{border-top: 1px solid #f0f2f5; padding-top: 30px;}
+        .page-box p{ display: inline-block; font-size: 16px; overflow: hidden;text-overflow:ellipsis; white-space:nowrap; }
+        .page-box p:first-child{float: left;}
+		.page-box p:last-child{float: right;}
+	    </style>
+
+		<link rel="stylesheet" type="text/css" href="css/media.css" />
+	   
+
+	</head>
+
+	<body>
+		<!--导航-->
+		<nav class="navbar navbar-default navbar-fixed-top top-box">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" >
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				    </button>
+					<h1><a class="navbar-brand" href="#">
+						医疗保健预防疗养
+					</a></h1>
+				</div>
+			
+				<div class="collapse navbar-collapse" >
+					<ul class="nav navbar-nav navbar-right top-nav">
+						<li class="active">
+							<a href="index.html">
+								首页
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li>
+							<a href="page.html">关于我们</a>
+						</li>
+				
+						  <li class="dropdown">
+			                <a href="news.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">公司新闻 <span class="caret"></span></a>
+			                <ul class="dropdown-menu">
+			                  <li><a href="#">Action</a></li>
+			                  <li><a href="#">Another action</a></li>
+			                  <li><a href="#">Something else here</a></li>
+			                  
+			                  <li><a href="#">Separated link</a></li>
+			                  <li><a href="#">One more </a></li>
+			                </ul>
+			              </li>
+						<li>
+							<a href="news.html">新闻中心</a>
+						</li>
+						<li>
+							<a href="img-news.html">图文新闻</a>
+						</li>
+						<li>
+							<a href="news-con.html">文章内容</a>
+						</li>
+						<li>
+							<a href="search.html">搜索页面</a>
+						</li>
+						<li class="search_c"><a href="#">搜索 <i class="glyphicon glyphicon-search"></i></a></li>
+						<form>
+							<input type="text"  value=""  class="form-control search" placeholder="请输入文章关键字或标题" >
+						</form>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse 导航结束 -->
+			</div>
+			<!-- /.container -->
+		</nav>
+		<!--/ 导航-->
+
+		<!--广告图-->
+		<div class="container-fluid page-banner">
+			<div class="row">
+				<img src="img/4.jpg" alt="" class="img-responsive" />
+			</div>
+		</div>
+
+		<!--文章列表 -->
+		<div class="news">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-3 hidden-xs sidebar">
+					   <span class="open">展开栏目列表</span>
+						<!--电脑端页面导航-->
+						<ul>
+						<span title="关闭栏目列表" class="colse"></span>
+							<li class="sidebar-title">
+								<h3>公司新闻</h3>
+								<p>COMPANY NEWS</p>
+							</li>
+							<li class="sidebar-item">
+								<a href=""><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;公司新闻</a>
+							</li>
+							<li class="sidebar-item">
+								<a href=""><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;行业新闻</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 right-content">
+						<!--手机端页面导航-->
+						<div class="mobile-nav hidden-md hidden-sm hidden-lg">
+							<div class="mobile-nav-title">
+								<h3>公司新闻</h3>
+								<p>COMPANY NEWS</p>
+							</div>
+							<div class="mobile-nav-item clearfix">
+								<a href=""><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;公司新闻</a>
+								<a href=""><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;行业新闻</a>
+							</div>
+						</div>
+						<!--面包屑导航-->
+					
+						<ol class="breadcrumb bread">
+							<li>
+								<a href="index.html">首页</a>
+							</li>
+							<li>
+								<a href="index.html">公司新闻</a>
+							</li>
+							<li class="active">多肉脸盲是这样搞出来的！</li>
+						</ol>
+					
+						<div class="news-detail">
+							<div class="news-detail-title">
+								<h2>多肉脸盲是这样搞出来的！</h2>
+								<span><i class="glyphicon glyphicon-time"></i>&nbsp;&nbsp;2017-04-30</span>
+								<span><i class="glyphicon glyphicon-eye-open"></i>&nbsp;&nbsp;5321</span>
+								<span class=""><i class="glyphicon glyphicon-heart"></i>&nbsp;&nbsp;53</span>		
+							</div>
+							<div class="news-detail-content">
+								<p>有些多肉品种的名字你根本叫不出来，因为它们是杂出来的，你可能没想到有多少多肉爱好者在多肉杂交这件事上的兴趣有多浓厚，譬如下文的肉山丨大魔王，杂交了许多多肉，回首移苗，不堪痛苦，尤爱拿月影杂交，因为杂出后的后代往往可以靠颜值取胜。多肉植物的杂交，并不是说A和B杂交出了性状不大一样的多肉就叫新品种，新品种还需要几代考验性状的稳定性和可遗传性，新品种名的确定和普及过程也是缓慢的，所以现在市面上许多新的多肉的名字，有些不仅没有拉丁文学名，甚至有了拉丁文名，网上还未必能搜到。多肉的“新品种”有多少，看看下文的多肉图片就可窥一斑了。</p>
+								<p>本文多肉杂的名字只是代号，是为了方便自己的记忆和交流，不是严谨的成熟的新品种，之前天真的用了新品种这种词，被大神科普了一个月，所以先说一句防喷。</p>
+								<p>“即使2个人用同样的品种在不同的地点杂交出来的后代，都不能算作一个东西”大神如是说，所以公布父母本的图片仅作参看，不能作为完全依据，大家看看就行。</p>
+								<p>关于杂交，一代选育，二代定纯，三代验证，每年你都能赶上有开花株也需要寒暑三载，所以要科学的定一个品种，是需要时间了，经济社会，都是赚快钱的，也包括我在内，少了以前爱花的那种心态，看到的都是利润，希望有更多的花友能真的用时间来熬出好的品种和优选出更漂亮的多肉。这个也许是多肉未来的趋势之一吧。</p>
+								<p>1.白月影x雪莲，1/10能带上红色叶尖。</p>
+								<img src="img/news-detail-pic1.jpg" alt="" style="margin-bottom: 10px;"/>
+								<p>2.玉杯x月影，冰边更大更明显，叶尖拉长，叶子更薄。</p>
+								<img src="img/news-detail-pic2.jpg" alt=""/>
+							</div>
+						</div>	
+							<!--分页-->
+						<div class="page-box row">
+							<p class="prev col-sm-6 col-xs-12"><a href="#">←人工智能在医疗影像诊断领域全面爆发</a></p>
+							<p class="next col-sm-6 col-xs-12"><a href="#">人工智能在医疗影像诊断领域全面爆发→</a></p>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="xg">
+			<div class="container">
+					<div class="common-title">
+						<h2>相关阅读</h2>
+					<!-- 	<span>最新优惠的检查治疗项目</span>	 -->					
+					</div>
+					<div class="row">
+						<div class="col-sm-6" >
+							 <h4><a href="#">英特尔发精准医疗解决方案 推进24小时精准医疗1</a></h4>
+							 <p>英特尔在上海发布其在中国精准医疗领域的解决方案建议书，内容涉及创新解决方案、合作案例、参考架构推荐等，并提出“24小时精准医疗” 愿景...</p>
+						</div>
+						<div class="col-sm-6" >
+							 <h4><a href="#">英特尔发精准医疗解决方案 推进24小时精准医疗2</a></h4>
+							 <p>英特尔在上海发布其在中国精准医疗领域的解决方案建议书，内容涉及创新解决方案、合作案例、参考架构推荐等，并提出“24小时精准医疗” 愿景...</p>
+						</div>
+					</div>
+				
+			</div>
+		</div>
+		<div class="footer">
+		    <a href="#">点击咨询 <i class="glyphicon glyphicon-user"></i></a> 
+		    <a> &nbsp; </a>
+		    咨询热线：<a href="tel:0123456789">0123456789</a> <br/>
+			医院地址：中国全量镜像地址https://pkg.phpcomposer.com/<br/>
+			Copyright © 2017, Composer 中文网 / Packagist 中国全量镜像 | 冀ICP备14002930号		
+		</div>
+	
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/nav.js"></script>
+
+	</body>
+
+</html>

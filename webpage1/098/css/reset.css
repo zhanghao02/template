@@ -1,0 +1,20 @@
+@charset "utf-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, dl, dt, dd, ul, ol, th, td, pre, blockquote, fieldset, lengend, input, button, textarea, form{margin: 0; padding: 0;}
+body, input, button, textarea, select{font-size:14px; font-family: "Microsoft YaHei", Helvetica, Tahoma, Arial, sans-serif;}
+
+h1, h2, h3, em, i, th, caption, cite, code, address{font-style: normal; font-weight: normal;}
+ul, ol{list-style: none;}
+img, fieldset{border: 0 none;}
+img{ display: block;}
+input, textarea{ outline: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+button, input, select, label{vertical-align:middle;}
+/*textarea,select,input{-webkit-appearance: none; -moz-appearance: none; -o-appearance: none; appearance: none;}*/
+
+a{color: #333; outline: none; text-decoration: none;}
+a:focus{outline: none;}
+a:hover{text-decoration: none;}
+a:active{star:expression(this.onfocus=this.blur());}
+
+/*HTML5新标签兼容*/
+header, hgroup, nav, menu, main, section, article, summary, details, aside, figure, figcaption, footer{display: block;}

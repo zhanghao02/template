@@ -1,0 +1,25 @@
+﻿*,body{
+	PADDING: 0px;margin:0px;
+}
+IMG {
+	BORDER:0px
+}
+
+.blk_29 {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; PADDING-TOP: 10px; HEIGHT: 120px
+}
+.LeftBotton {
+	BACKGROUND: url(../images/LeftBotton.gif) no-repeat center center; FLOAT: left; WIDTH: 25px; CURSOR: pointer; HEIGHT: 120px
+}
+.Cont {
+	PADDING-LEFT: 1px; FLOAT: left; OVERFLOW: hidden; WIDTH: 930px; HEIGHT: 120px
+}
+.blk_29 .Cont .box {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 160px; PADDING-TOP: 0px; HEIGHT: 120px; width:178px;
+}
+.blk_29 .Cont .box IMG {
+	OVERFLOW: hidden; WIDTH: 178px; HEIGHT: 120px;
+}
+.RightBotton {
+	BACKGROUND: url(../images/RightBotton.gif) no-repeat center center; FLOAT: left; WIDTH: 25px; CURSOR: pointer; HEIGHT: 120px
+}

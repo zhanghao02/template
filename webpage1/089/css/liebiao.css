@@ -1,0 +1,140 @@
+﻿.projects{
+			position: relative;
+			top:40px;
+			width: 1300px;
+			margin:auto;
+			margin-bottom:60px;
+			background:#fff
+			
+		}
+		.projectss{
+			position: relative;
+			top:90px;
+			width: 1300px;
+			margin:auto;
+			margin-bottom:100px;
+		}
+		.projects p{
+			font-size: 16px;
+			color: #271c1c;
+			margin:10px 0;
+		}
+		.projects table{
+			width: 1298px;
+			margin-bottom:20px;
+			border-left:1px solid #466ea1;
+			border-top:3px solid #466ea1;
+			background:#fbfdff
+		}
+		.projects table td{
+			font-size: 16px;
+			color: #333;
+			text-align: center;
+			height:100px;
+			border-right:1px solid #466ea1;
+			border-bottom:1px solid #466ea1;
+		}
+		.projects a{
+			color:#666;
+			font-size: 14px;
+		}
+		.projects td li{
+			margin-left:50px;
+			text-align: left;
+			line-height: 50px;
+			width: 200px;
+			float: left;
+		}
+		.projects td li a:hover{
+			color: #d60000; text-decoration:underline;
+		}
+		.pro_bg{
+			margin:auto;
+			width:74px;
+			height:47px;
+			background:url(http://www.globevisa.com.cn/statics/images/flagbg.jpg) no-repeat;
+		}
+		.pro_bg img{
+			margin:4px;
+			display:inline;
+		}
+
+
+
+	#gold_pro{
+		position: relative;
+		width:1000px;
+		margin:0 auto;
+		margin-top:-20px;
+	}
+	.gold_top{
+		width: 100%;
+		position: absolute;
+		height: 40px;
+		margin-top: 20px;
+		border-bottom: 1px solid #b1a338;
+	}
+	.gold_top p{
+		float: left;
+		width:100px;
+		line-height: 30px;
+		font-size: 20px;
+		font-weight: bold;
+		font-family: "Microsoft YaHei";
+		padding-left: 16px;
+		border-left: 4px solid #b1a338;
+		color: #271c1c;
+		clear: both;
+	}
+	.gold_top img{
+		margin-top: 8px;
+	}
+	.Continent{
+		width: 100%;
+		height: 60px;
+		position: relative;
+		top:70px;
+		border-bottom:1px solid #b1a338;
+		margin-top: 10px;
+	}
+	.Continent img{
+		position: absolute;
+		top: 14px;
+	}
+	.Continent p{
+		position: absolute;
+		left: 40px;
+		font-size: 16px;
+		line-height: 28px;
+		color: #271c1c;
+		top:16px;
+	}
+	.Continent ul{
+		line-height: 60px;
+		left:130px;
+		position: absolute;
+	}
+	.Continent ul li{
+		width:100px;
+		float: left;
+		text-align: left;
+	}
+	.Continent ul li a{
+		font-size: 16px;
+		color: #271c1c;
+	}
+	.Continent ul li a:hover{
+		color:#b1a338;
+	}
+	#pro_new{
+		float: left;
+		width:100px;
+		line-height: 30px;
+		font-size: 20px;
+		font-weight: bold;
+		font-family: "Microsoft YaHei";
+		padding-left: 16px;
+		border-left: 4px solid #b1a338;
+		color: #271c1c;
+		clear: both;
+	}

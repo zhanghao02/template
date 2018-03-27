@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>银丰典当行首页</title>
+<script src="jquery.js"></script>
+<script>
+$(document).ready(function(e) {
+    $(".sub_nav").hide()
+	$(".nav li").mouseenter(function(){
+		$(this).children(".sub_nav").slideDown().stop(false,true)
+		}).mouseleave(function(){
+			$(this).children(".sub_nav").slideUp()
+			})
+		$(".news_tip li").click(function(){
+			$(this).toggleClass("current")
+			$(this).siblings().removeClass("current")
+			})
+	
+});
+</script>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<style>
+.title_business{ width:171px; margin:0 auto; margin-top:60px; margin-bottom:30px;}
+.icon_box{ width:1000px; margin:0 auto;}
+.icon_box dl{ float:left; padding:0 25px;}
+.icon_box a{ font-size:18px; color:#828282; height:58px; line-height:58px; text-align:center;}
+.icon_box dd{ -webkit-transition:2s;}
+.icon_box dd:hover{-webkit-transform:scale(1.2,1.2) rotate(360deg);}
+
+.sales_bg{ background-color:#dd251d; margin-top:55px;}
+.sales_bg > p{ font-size:12px; color:white; height:55px; line-height:55px; width:300px; margin:0 auto;}
+.title_sales{ width:189px; margin:0 auto; padding-top:30px;}
+.sales_bg ul{ width:928px; margin:0 auto; margin-top:30px;}
+.sales_bg ul li{ float:left;}
+
+.move_box{ width:1000px; margin:0 auto; position:relative;}
+.sales_bg li .pro_box{ padding:0 10px;}
+.pro_box{ position:relative;}
+.pro_box > img{ border:solid 1px #b3b3b3; box-sizing:border-box;}
+.pro_box div{ background-color:#a0a0a0; position:absolute; left:50%; margin-left:-50px; bottom:30px;padding:0 18px; cursor:pointer;}
+.pro_box div:hover{ background-color:#cc0000;}
+.pro_box p{ float:left; height:30px; line-height:30px; font-size:14px; color:white;}
+.pro_box div img{float:left; padding-left:10px; margin-top:10px;}
+.news_box{ width:1000px; margin:0 auto;}
+.title_news{ width:202px; margin:0 auto; margin-top:60px; margin-bottom:30px;}
+.news_tip{width:438px; margin:0 auto; margin-bottom:30px;}
+.news_tip li{ float:left; margin:0 10px; height:50px; line-height:50px; padding:0 15px; background-color:#aaa;}
+.news_tip .current{background-color:#dd251d; background-image:url(img/news_tip.png); background-repeat:no-repeat; background-position:0 0;}
+.news_tip a{ color:white; font-size:24px;}
+.news{ width:1000px; background:url(img/lines.png) no-repeat 25px 60px; margin-bottom:10px;}
+.numb{ border:2px solid #bbb; height:50px; line-height:50px; width:50px; text-align:center; float:left;}
+.news_date{ font-size:12px;}
+.content h1{ font-size:14px; color:#2f2f2f; margin-bottom:40px;}
+.content p{ font-size:12px; color:#7c7c7c; width:620px; line-height:18px;}
+.content{float:left; padding-left:50px;}
+.news img{ float:right;}
+.content h1:hover{ color:#FF2226}
+.content p:hover{ color:#151515; font-weight:bolder;}
+
+.title_honour{ width:171px; margin:0 auto; padding:40px 0;}
+.show_box{ width:1000px; margin:0 auto;}
+.video{ float:left; width:50%;}
+.certif{float:right; margin-bottom:50px;}
+.certif_01{ margin-bottom:45px;}
+.certif img{ float:left;}
+.certif p{ float:right; width:275px;background-color:#FFFFFF; height:140px; text-align:center; line-height:22px; padding:45px 30px;}
+
+.link{ width:1000px; margin:0 auto;}
+.title_link{ width:171px; margin:0 auto; padding:50px 0;}
+.link ul li{ float:left; padding:0 18px;}
+</style>
+</head>
+
+<body>
+<div class="header">
+<div class="header_bg"></div>
+<div class="top_box">    	
+        <div>
+        	<ul class="top_tip">
+        		<li><a href=""><span>设为首页</span> |&nbsp;</a></li>
+        		<li><a href=""><span>招贤纳士 </span>|&nbsp;</a></li>
+        		<li><a href=""><span>在线留言</span></a></li>
+        	</ul>
+            
+            <div class="contact">
+            <p>联系方式 : <span>67269860 67269890</span></p>
+            
+            </div>
+            <div class="clearfix"></div>
+            <img class="logo" src="img/logo01.png">
+            
+            
+            <div class="nav">
+            	<ul>                        
+            		<li><a href="index.html">首页</a></li>
+            		<li><a href="yftoday.html" target="_blank" >今日银丰</a>
+                    	<dl class="sub_nav">
+                    		<dd><a href="">员工风采</a></dd>
+                    		<dd><a href="">公司简介</a></dd>
+                    		<dd><a href="">发展历程</a></dd>
+                    		<dd><a href="">资质荣誉</a></dd>
+                    		<dd><a href="">领导风采</a></dd>
+                    	</dl>
+                    </li>
+            		<li><a href="yfbusiness.html" target="_blank">融资业务</a>
+                    <dl class="sub_nav">
+                    	<dd><a href="">房地产典当</a></dd>
+                    	<dd><a href="">机动车典当</a></dd>
+                    	<dd><a href="">民品典当</a></dd>
+                    	<dd><a href="">票据典当</a></dd>
+                    	<dd><a href="">其他典当</a></dd>
+                    </dl>
+                    </li>
+            		<li><a href="yfmarket.html" target="_blank">银丰商城</a>
+                    <dl class="sub_nav">
+                    	<dd><a href="">珠宝翡翠</a></dd>
+                    	<dd><a href="">黄金铂金</a></dd>
+                    	<dd><a href="">数码产品</a></dd>
+                    	<dd><a href="">高档钟表</a></dd>
+                    	<dd><a href="">其他产品</a></dd>
+                    </dl>
+                    </li>
+            		<li><a href="yfnews.html" target="_blank">银丰资讯</a>
+                    <dl class="sub_nav">
+                    	<dd><a href="">公司新闻</a></dd>
+                    	<dd><a href="">行业新闻</a></dd>
+                    	<dd><a href="">协会活动</a></dd>
+                    	<dd><a href="">财经报道</a></dd>
+                    </dl>
+                    </li>
+            		<li><a href="yfchain.html" target="_blank">连锁机构</a></li>
+            		<li><a href="yfcollefe.html" target="_blank">银丰学院</a>
+                    <dl class="sub_nav">
+                    	<dd><a href="">政策法规</a></dd>
+                    	<dd><a href="">典当知识</a></dd>
+                    	<dd><a href="">学习园地</a></dd>
+                    </dl>
+                    </li>
+            	
+                	<li><a href="yfserve.html" target="_blank">专家服务</a></li>
+            		<li style="background:none;"><a href="yfcontact.html" target="_blank">联系我们</a></li>
+                    <div class="clearfix"></div>
+            	</ul>           
+      
+        	</div>
+    </div>
+    </div>
+ </div>   
+<div class="banner_box">
+    <img class="banner" src="img/banner01.png">
+    </div>
+<div class="business">
+	<div class="title_business">
+	    <img src="img/title_business.png" alt="银丰典当行融资业务">
+    </div>
+    <div class="icon_box">
+    <dl>
+    	<dd><img src="img/icon_home.png" alt="员工风采"></dd>
+    	<dd><a href="">房地产典当</a></dd>
+    </dl>
+    <dl>
+    	<dd><img src="img/icon_car.png" alt="公司简介"></dd>
+    	<dd><a href="">机动车典当</a></dd>
+    </dl>
+    <dl>
+    	<dd><img src="img/icon_goods.png" alt="发展历程"></dd>
+    	<dd><a href="">民品典当</a></dd>
+    </dl>
+    <dl>
+    	<dd><img src="img/icon_note.png" alt="资质荣誉"></dd>
+    	<dd><a href="">票据典当</a></dd>
+    </dl>
+    <dl>
+    	<dd><img src="img/icon_else.png" alt="领导风采"></dd>
+    	<dd><a href="">其他典当</a></dd>
+    </dl>
+    <div class="clearfix"></div>
+    </div> 
+    
+</div>
+<div class="sales_bg">
+	<div class="title_sales">
+	    <img src="img/titlie_sales.png" alt="银丰典当行融资业务">
+    </div>
+    <div class="move_box">
+    
+	<ul>    	
+		<li><div class="pro_box">
+        		<img src="img/pro_watch.png">
+        		<div class="current_more">
+                <p>了解详细</p>
+                <img src="img/icon_arrow.png">
+                </div>
+                
+        	</div>
+         </li>
+		<li><div class="pro_box">
+        		<img src="img/pro_necklace.png">
+        		<div>
+                <p>了解详细</p>
+                <img src="img/icon_arrow.png">
+                </div>
+        	</div>
+</li>
+		<li><div class="pro_box">
+        		<img src="img/pro_necklace02.png">
+        		<div>
+                <p>了解详细</p>
+                <img src="img/icon_arrow.png">
+                </div>
+        	</div>
+</li>
+		<li><div class="pro_box">
+        		<img src="img/pro_earbob.png">
+        		<div>
+                <p>了解详细</p>
+                <img src="img/icon_arrow.png">
+                </div>
+        	</div>
+</li>        
+        <div class="clearfix"></div>
+	</ul>
+   
+    </div>
+    <p>珠宝翡翠|黄金铂金|数码产品|高档钟表|其他产品</p>
+</div>
+<div class="news_box">
+	<div class="title_news">
+	    <img src="img/title_news.png" alt="银丰典当行融资业务">
+    </div>
+	<ul class="news_tip">
+		<li class="current"><a href="">公司新闻</a></li>
+		<li><a href="">行业新闻</a></li>
+		<li><a href="">媒体报道</a></li>
+        <div class="clearfix"></div>
+	</ul>
+    <div>
+    	<div class="news">
+    	<div class="numb">01</div>
+        <div class="content">
+    		<p class="news_date">2016-09-28</p>
+        	<h1>新疆典当行同仁莅临我公司考察</h1>
+        	<p>银丰典当行（郑州市银丰典当有限责任公司）的使命是：急客户所急，想客户所想。郑州市银丰典当行的企业文化是“服务、诚信、学习、细节、追求、创新”。银丰典当行（河南银丰投资集团有限公司）的品牌是：态度要精心，程序要精细，结果要精品。</p>        	
+            
+        </div>
+        <img src="img/picture01.png">
+        <div class="clearfix"></div>
+    	</div>
+        <div class="news">
+    	<div class="numb">02</div>
+        <div class="content">
+    		<p class="news_date">2016-09-28</p>
+        	<h1>新疆典当行同仁莅临我公司考察</h1>
+        	<p>银丰典当行（郑州市银丰典当有限责任公司）的使命是：急客户所急，想客户所想。郑州市银丰典当行的企业文化是“服务、诚信、学习、细节、追求、创新”。银丰典当行（河南银丰投资集团有限公司）的品牌是：态度要精心，程序要精细，结果要精品。</p>        	
+            
+        </div>
+        <img src="img/picture01.png">
+        <div class="clearfix"></div>
+    	</div>
+        <div class="news">
+    	<div class="numb">03</div>
+        <div class="content">
+    		<p class="news_date">2016-09-28</p>
+        	<h1>新疆典当行同仁莅临我公司考察</h1>
+        	<p>银丰典当行（郑州市银丰典当有限责任公司）的使命是：急客户所急，想客户所想。郑州市银丰典当行的企业文化是“服务、诚信、学习、细节、追求、创新”。银丰典当行（河南银丰投资集团有限公司）的品牌是：态度要精心，程序要精细，结果要精品。</p>        	
+            
+        </div>
+        <img src="img/picture01.png">
+        <div class="clearfix"></div>
+    	</div>
+    </div>
+    
+    
+    
+    
+</div>
+<div class="sales_bg">
+	<div class="title_honour">
+	    <img src="img/title_honour.png" alt="银丰典当行资质荣誉">
+    </div>
+    <div class="show_box">
+    	<img src="img/video.png" class="video">
+        <div class="certif">
+        <div class="certif_01">
+        	<img src="img/certificate01.png" alt="证书"><p><b>2001</b>年<b>银丰典当行</b>正式成立获取国家认可</p>
+            <div class="clearfix"></div>
+        </div>
+        
+       <div>
+       <img src="img/certificate02.png" alt="证书"><p><b>2016</b>年<b>银丰典当行</b>在同行业中遥遥领先</p><div class="clearfix"></div>
+        </div>
+       </div>
+        <div class="clearfix"></div>
+    </div>   
+    </div>
+<div class="link">
+	<div class="title_link">
+	    <img src="img/title_link.png" alt="银丰典当行相关链接">
+    </div>
+	<ul>
+		<li><a href=""><img src="img/link01.png" alt="商务部"></a></li>
+		<li><a href=""><img src="img/link02.png" alt="河南省商务厅"></a></li>
+		<li><a href=""><img src="img/link03.png" alt="失信人员"></a></li>
+		<li><a href=""><img src="img/link04.png" alt="网上车管所"></a></li>
+		<li><a href=""><img src="img/link05.png" alt="公安部"></a></li>
+        <div class="clearfix"></div>
+	</ul>
+</div>  
+<div class="footer_box">
+	<div class="footer_bg">
+    	<ul>
+    		<li><a href="" style="border:none;">关于我们</a></li>
+    		<li><a href="">联系我们</a></li>
+    		<li><a href="">专家服务</a></li>
+    		<li><a href="">在线商城</a></li>
+            <div class="clearfix"></div>
+    	</ul>
+    </div>
+    <div class="address">
+    <p>公司地址 : 河南省郑州市金水区85号大石桥西200米路南</p>
+    <p>电话 : 0371-66250876&nbsp;E-mail : zzyfdd@126.com</p>
+    <p>技术支持 : 中企动力</p>
+    </div>
+</div>
+<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>

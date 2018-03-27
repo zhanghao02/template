@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="gb2312">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>时装_搭配_YOKA时尚网-态度创造时尚</title>
+  <meta name="keywords" content="YOKA时尚网,优卡时尚网,时尚,流行,时尚杂志,明星,时尚网站,奢侈品,时装,服饰,化妆,美容,男人,健康,优卡网" />
+  <meta name="description" content="YOKA时尚网是服务于高收入群体的时尚生活门户,时尚网站.专注提供时尚奢侈品资讯报道,品牌动态,购物交流等服务；同时也是时尚人士,明星生活交流的主题社区。优卡网,全方位诠释时尚奢华生活。" />
+  <meta name="msapplication-task" content="name=化妆品权威评测; action-uri=http://hzp.yoka.com/pingce/index.shtml; icon-uri=http://www.yoka.com/favicon.ico" />
+  <meta name="msapplication-task" content="name=化妆品免费试用; action-uri=http://try.yoka.com/; icon-uri=http://www.yoka.com/favicon.ico" />
+  <meta name="msapplication-task" content="name=网友晒大牌; action-uri=http://www.yoka.com/shopping/; icon-uri=http://www.yoka.com/favicon.ico" />
+  <meta name="msapplication-task" content="name=优享团; action-uri=http://tuan.yoka.com/; icon-uri=http://www.yoka.com/favicon.ico" />
+  <meta name="msapplication-task" content="name=Ymall商城; action-uri=http://www.ymall.com/; icon-uri=http://www.yoka.com/favicon.ico" />
+  <meta name="apple-itunes-app" content="app-id=430755988"/>
+  <link rel="shortcut icon" href="http://www.yoka.com/favicon.ico" >  
+  <link rel="stylesheet" href="http://p5.yokacdn.com/pic/div/2015/products/yoka/css/public.css">
+  <link rel="stylesheet" href="http://p5.yokacdn.com/pic/div/2015/products/yoka/css/list.css">
+
+  <script src="http://p1.yokacdn.com/pic/div/2012/products/public/js/tools.js"></script>
+  <script>
+    Y.add('yokaPublic',{path:'http://p5.yokacdn.com/pic/div/2015/products/yoka/js/yokaPublic.js'});
+    Y.add('index',{path:'http://p5.yokacdn.com/pic/div/2015/products/yoka/js/index.js',requires:['yokaPublic']});
+
+  </script>
+  <base target="_blank"/>
+</head>
+<body >
+
+  <!-- globalNav begin -->
+  <script src="http://ss1.yokacdn.com/www/public/j/yo_topNav.js" charset="utf-8"></script> 
+  <script>
+    yo_topNav.init('black');
+    initNavigation();
+  </script>
+  <!-- globalNav end -->
+
+  <!-- g-ad begin -->
+  <!-- AdSame ShowCode: YOKA-女网 / yoka女网-时装 / 时装内容页顶部通栏 Begin --><script type="text/javascript" src="http://dolphin.yoka.com/s?z=yoka&c=238"  charset="gbk" ></script><!-- AdSame ShowCode: YOKA-女网 / yoka女网-时装 / 时装内容页顶部通栏 End -->
+
+
+  <!-- g-ad end -->
+
+  <!-- logo begin -->
+  <div class="g-box g-logo">
+    <a class="logo" href="http://www.yoka.com/">YOKA时尚网</a>
+  </div>
+  <!-- logo end -->
+    <!-- nav begin -->
+  <div class="g-nav">
+    <div class="m-nav">
+      <div class="navs">
+        <a href="http://www.yoka.com/" target="_blank" class="f20" onclick="_hmt.push(['_trackEvent','Nav_home','click']);">时尚</a>
+        <a href="http://www.yoka.com/fashion/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_fashion','click']);">时装</a>
+        <a href="http://www.yoka.com/luxury/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_luxury','click']);">奢华</a>
+        <a href="http://www.yoka.com/star/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_star','click']);">明星</a>
+        <a href="http://street.yoka.com/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_street','click']);">街拍</a>
+        <a href="http://www.yoka.com/life/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_life','click']);">乐活</a>
+        <a href="http://www.yoka.com/club/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_people','click']);">时尚圈</a>
+        <a class="hots" href="http://www.yoka.com/video/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_video','click']);">视频</a>
+        <span></span>
+        <a href="http://www.yoka.com/beauty/" target="_blank" class="f20" onclick="_hmt.push(['_trackEvent','Nav_beauty','click']);">美容</a>
+        <a href="http://www.yoka.com/beauty/face/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_face','click']);">护肤</a>
+        <a href="http://www.yoka.com/beauty/class/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_cz','click']);">彩妆</a>
+        <a href="http://www.yoka.com/shoushen/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_ss','click']);">健身</a>
+        <a href="http://hzp.yoka.com/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_hzp','click']);">化妆品</a>
+        <a href="http://hzp.yoka.com/pingce/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_pc','click']);">评测</a>
+        <span></span>
+        <a href="http://www.yokamen.cn/" target="_blank" class="f20" onclick="_hmt.push(['_trackEvent','Nav_men','click']);">男士</a>
+        <a href="http://www.yokamen.cn/style/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_yz','click']);">衣装</a>
+        <a href="http://www.yokamen.cn/face/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_lr','click']);">理容</a>
+        <a href="http://www.yokamen.cn/luxury/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_watch','click']);">腕表</a>
+        <a href="http://www.yokamen.cn/auto/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_auto','click']);">汽车</a>
+        <span></span>
+        <a href="http://bbs.yoka.com/" target="_blank" class="f20" onclick="_hmt.push(['_trackEvent','Nav_hd','click']);">互动</a>
+        <a href="http://bbs.yoka.com/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_bbs','click']);">论坛</a>
+        <a href="http://space.yoka.com/space.php?do=bjc_index" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_space','click']);">空间</a>
+        <a href="http://try.yoka.com/" target="_blank" onclick="_hmt.push(['_trackEvent','Nav_try','click']);">试用</a>
+        <span></span>
+        <a href="http://brand.yoka.com/" target="_blank" class="f20" onclick="_hmt.push(['_trackEvent','Nav_brand','click']);">品牌库</a>
+        <span></span>
+        <div class="hotIcon"></div>
+      </div>
+
+      <div class="search" id="search">
+        <span class="icon_search"></span>
+        <div class="content">
+          <form action="http://search.yoka.com/cgi-bin/atc" target="_blank" method="get">
+            <dl class="type">
+              <dt><i></i><span>搜索全站</span></dt>
+              <dd>
+                <ul>
+                  <li>搜索全站</li>
+                  <li>搜索全站</li>
+                  <li>搜索全站</li>
+                  <li>搜索全站</li>
+                </ul>
+              </dd>
+            </dl>
+            <div class="text"><input name="query" type="text" placeholder="输入您要搜索的内容" value="输入您要搜索的内容" ></div>
+            <div class="btn">搜索</div>
+            <div class="close"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-menu">
+    <div class="m-menu">
+      <div class="hot">
+        <div class="hotnews" id="hotnews">
+          <span>热点：</span>
+          <div>
+            <ul>
+	<li><a href="http://www.yoka.com/fashion/model/2017/0308/50268201072111.shtml">MiuMiu梦幻毛茸茸</a></li>
+	<li><a href="http://www.yoka.com/fashion/model/2017/0308/50268001072106.shtml">夏姿陈浪漫华贵</a></li>
+</ul>
+<!-- updateTime 2017-03-09 10:40:19-->
+          </div>
+        </div>
+      </div>
+      <dl class="menu clearfix">
+        <dt><a href="http://www.yoka.com/fashion/" class="f20"><span class="fashion"></span>时装</a></dt>
+        <dd>
+          <a href="http://www.yoka.com/fashion/edittj/">搭配</a><a href="http://www.yoka.com/fashion/windows/">新品</a><a href="http://www.yoka.com/fashion/roadshow/">街拍</a><a href="http://www.yoka.com/fashion/popinfo/">潮流</a><a href="http://www.yoka.com/fashion/shopmap/">探店</a><a href="http://brand.yoka.com/bag/">手袋库</a><a href="http://www.yoka.com/fashion/baijian-cover/index.shtml">百件单品</a><a class="hots" href="http://www.yoka.com/show/?source_fashion" onclick="_hmt.push(['_trackEvent','show_button','click']);">秀场<span></span></a>
+        </dd>
+      </dl>
+    </div>
+  </div>
+  <div class="breadCrumbs">
+    <a href="http://www.yoka.com/">YOKA时尚网</a><span>&gt;</span><a href="http://www.yoka.com/fashion/index.shtml">时装</a><span>&gt;</span>搭配列表
+  </div>
+  <script>
+    Y('yokaPublic',function(){ 
+      yo.search('search','输入您要搜索的内容');
+      yo.scroll({
+        id:'hotnews',
+        boxTag : 'div',
+        singleTag:'ul',
+        path : 'top',
+        auto : true
+      }) 
+    })
+  </script>
+  <!-- nav end -->
+
+  <!-- global box begin -->
+  <div class="g-box  clearfix">
+    <!-- 第一栏 begin -->
+    <div class="g-content clearfix m-first">
+      <div class="first clearfix">
+        <div class="g-main fleft" id="gotolist">
+          <h2 class="listTit"><b class="listIco">搭配列表</b><span><a href="http://www.yoka.com/z/">查看所有专题&gt;</a></span></h2>
+                  <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0310/50285601072293.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p1.yokacdn.com/pic/YOKA/2017-03-10/U10011P1TS1489133014_97007.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0310/50285601072293.shtml">垫肩外套2017年强势回归 入手一件来增加时髦气场吧</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0310/50285601072293.shtml">不知道是复古潮流，还是最近大家一直在强调的女权主义。垫肩外套不可阻挡的又开始流行起来～这“家伙”我们对它印象最深刻的要数小时候在爸妈衣橱经常见。那个年</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/85/392/index.html?scr=relatedread" target="_blank">复古</a>
+<a href="http://www.yoka.com/dna/118/177/index.html?scr=relatedread" target="_blank">强势</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/145/812/index.html?scr=relatedread" target="_blank">牛仔</a></div>
+              <div class="info-r"><span class="ico-read"><b>1017</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0310/50285401072288.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p3.yokacdn.com/pic/YOKA/2017-03-10/U10011P1TS1489128648_31878.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0310/50285401072288.shtml">早春想时髦就得好色！快来认领让你一穿就美的流行色吧</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0310/50285401072288.shtml">天气渐渐暖起来，春天的味道也越来越浓了！小伙伴们准备好要在2017年的伊始来个时髦大改造了吗？不过在改造前，你得先来认领一下编辑推荐的五种完美流行色，选择</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/37/52/index.html?scr=relatedread" target="_blank">流行色</a>
+<a href="http://www.yoka.com/dna/69/344/index.html?scr=relatedread" target="_blank">钴蓝色</a>
+<a href="http://www.yoka.com/dna/102/540/index.html?scr=relatedread" target="_blank">春天</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/232/736/index.html?scr=relatedread" target="_blank">中性色</a></div>
+              <div class="info-r"><span class="ico-read"><b>1173</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0309/50275101072186.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p7.yokacdn.com/pic/YOKA/2017-03-09/U10011P1TS1489046495_62915.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0309/50275101072186.shtml">看完刘雯用白衬衫搭印花半身裙，我也想马上来三条！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0309/50275101072186.shtml">春暖花开，穿花裙子的季节又来了～尤其是印花半身裙，搭配不同的上衣就能穿出不一样的感觉，每次穿出门都是惊喜满满呢～今天让我们一起来看下印花半身裙都有哪些</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/20/118/index.html?scr=relatedread" target="_blank">印花</a>
+<a href="http://www.yoka.com/dna/195/425/index.html?scr=relatedread" target="_blank">白衬衫</a>
+<a href="http://www.yoka.com/dna/195/814/index.html?scr=relatedread" target="_blank">花裙子</a>
+<a href="http://www.yoka.com/dna/196/221/index.html?scr=relatedread" target="_blank">衬衫</a></div>
+              <div class="info-r"><span class="ico-read"><b>1929</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0309/50273901072169.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-03-09/U10011P1TS1489030491_14959.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0309/50273901072169.shtml">2017秋冬时装周趋势报告 为你严选8个时髦必get关键词</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0309/50273901072169.shtml">热热闹闹轰轰烈烈的2017秋冬四大时装周刚刚划下了圆满的句号，回顾过去的这一个月，是不是感觉真正留存在脑海里的流行趋势和T台款式真的是寥寥无几？不用着急，编</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/20/118/index.html?scr=relatedread" target="_blank">印花</a>
+<a href="http://www.yoka.com/dna/33/102/index.html?scr=relatedread" target="_blank">卡其色</a>
+<a href="http://www.yoka.com/dna/69/601/index.html?scr=relatedread" target="_blank">关键词</a>
+<a href="http://www.yoka.com/dna/92/971/index.html?scr=relatedread" target="_blank">趋势</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a></div>
+              <div class="info-r"><span class="ico-read"><b>1969</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0306/pic50246901199799.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-03-06/U10011P1TS1488792516_80509.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0306/pic50246901199799.shtml">hold住鲜嫩又性感的桃色才是春天的打开方式！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0306/pic50246901199799.shtml">管它几世桃花开，hold住性感桃色才是春天的打开方式！四大时装周火热进行，明星潮人也纷纷穿上时髦单品出街，桃粉色单品也成了潮人扮嫩吸睛必备，无论是粉色风衣</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/84/598/index.html?scr=relatedread" target="_blank">粉色</a>
+<a href="http://www.yoka.com/dna/102/540/index.html?scr=relatedread" target="_blank">春天</a>
+<a href="http://www.yoka.com/dna/115/572/index.html?scr=relatedread" target="_blank">明星</a>
+<a href="http://www.yoka.com/dna/132/64/index.html?scr=relatedread" target="_blank">桃色</a>
+<a href="http://www.yoka.com/dna/195/5/index.html?scr=relatedread" target="_blank">外套</a></div>
+              <div class="info-r"><span class="ico-read"><b>1561</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0303/50226201071652.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p4.yokacdn.com/pic/YOKA/2017-03-03/U10011P1TS1488509448_53846.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0303/50226201071652.shtml">都说春捂秋冻，要捂就学江疏影关晓彤用帅气皮夹克吧</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0303/50226201071652.shtml">素的！一眨眼春天就来了。千万别说春姑娘会照顾你搭配这句话，想要春天穿的美还是要靠自己呀&#128513; 这时候岛屿又爱又恨的皮衣也登场了。说真的特别佩服把皮衣</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/194/989/index.html?scr=relatedread" target="_blank">运动裤</a>
+<a href="http://www.yoka.com/dna/195/365/index.html?scr=relatedread" target="_blank">运动风</a>
+<a href="http://www.yoka.com/dna/196/123/index.html?scr=relatedread" target="_blank">棒球帽</a>
+<a href="http://www.yoka.com/dna/196/617/index.html?scr=relatedread" target="_blank">皮夹克</a></div>
+              <div class="info-r"><span class="ico-read"><b>1063</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0301/pic50204701196040.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-03-01/U10011P1TS1488337820_36373.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0301/pic50204701196040.shtml">杨幂唐嫣范冰冰女神标配，衬衫+半裙好搭又时髦</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0301/pic50204701196040.shtml">明媚盎然的季节，自然要换上美美的春装方不辜负这大好时光。而要说春天最应景的搭配，自然非浪漫貌美的裙子+经典百搭的衬衫莫属，时髦又不失女人味，尽显优雅迷人</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/196/221/index.html?scr=relatedread" target="_blank">衬衫</a>
+<a href="http://www.yoka.com/dna/196/608/index.html?scr=relatedread" target="_blank">裙子</a>
+<a href="http://www.yoka.com/dna/200/776/index.html?scr=relatedread" target="_blank">范冰冰</a></div>
+              <div class="info-r"><span class="ico-read"><b>1876</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0301/pic50203601195720.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-03-01/U10011P1TS1488335514_31475.gif"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0301/pic50203601195720.shtml">教你换季不吃土，最省钱的换季技巧全在这了！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0301/pic50203601195720.shtml">哈喽~小仙女们最近是不是被各路大神种草太多新衣了呢？替Susan向你们的钱包君问声好哦！知道一定有妹子已经深深地感受到吃土不易，今天就分享给大家几个穿搭小技</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/53/637/index.html?scr=relatedread" target="_blank">换季</a>
+<a href="http://www.yoka.com/dna/55/284/index.html?scr=relatedread" target="_blank">技巧</a>
+<a href="http://www.yoka.com/dna/116/595/index.html?scr=relatedread" target="_blank">倒春寒</a>
+<a href="http://www.yoka.com/dna/231/908/index.html?scr=relatedread" target="_blank">单品</a>
+<a href="http://www.yoka.com/dna/326/380/index.html?scr=relatedread" target="_blank">穿搭</a></div>
+              <div class="info-r"><span class="ico-read"><b>1398</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0228/pic50194601195312.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-28/U10011P1TS1488247697_14742.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0228/pic50194601195312.shtml">2017开春最百搭单品！卫衣承包你的所有时髦搭配</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0228/pic50194601195312.shtml">卫衣素来是衣橱的基础款单品之一，但在以往大多人还只是在休闲运动时穿上它。而随着运动风风靡时尚圈，如今卫衣竟成功逆袭，摇身一变成为了街头潮人最爱的时髦单</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/75/273/index.html?scr=relatedread" target="_blank">开春</a>
+<a href="http://www.yoka.com/dna/195/365/index.html?scr=relatedread" target="_blank">运动风</a>
+<a href="http://www.yoka.com/dna/196/214/index.html?scr=relatedread" target="_blank">卫衣</a>
+<a href="http://www.yoka.com/dna/214/810/index.html?scr=relatedread" target="_blank">运动</a></div>
+              <div class="info-r"><span class="ico-read"><b>1182</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0228/pic50193801195301.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-28/U10011P1TS1488246309_26439.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0228/pic50193801195301.shtml">长外套＋平底鞋，打造最简约高级的时髦混搭风！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0228/pic50193801195301.shtml">近年来时尚圈刮起了一股“穿大不穿小”的风潮，其中就包括了当下最热门的各款长款外套，已然成为了各路明星潮人的出街标配，但相信有不少人仍对长款外套有着误解</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/56/165/index.html?scr=relatedread" target="_blank">简约</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/195/5/index.html?scr=relatedread" target="_blank">外套</a>
+<a href="http://www.yoka.com/dna/196/441/index.html?scr=relatedread" target="_blank">长外套</a></div>
+              <div class="info-r"><span class="ico-read"><b>1865</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0228/pic50193201195271.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-28/U10011P1TS1488245810_99556.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0228/pic50193201195271.shtml">春天来了，终于可以脱掉秋裤穿我爱的花裙子喽</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0228/pic50193201195271.shtml">天气真的暖和起来了，终于可以脱去秋裤和保暖内衣了，可以穿要风度不要温度的衣服咯~牛仔款风衣是不是看起来很新颖，酷帅中少不了中性的感觉。</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/135/290/index.html?scr=relatedread" target="_blank">温度</a>
+<a href="http://www.yoka.com/dna/196/636/index.html?scr=relatedread" target="_blank">风衣</a>
+<a href="http://www.yoka.com/dna/217/152/index.html?scr=relatedread" target="_blank">衣服</a>
+<a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/20/118/index.html?scr=relatedread" target="_blank">印花</a></div>
+              <div class="info-r"><span class="ico-read"><b>1450</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0225/pic50176601192957.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-25/U10011P1TS1487993509_28197.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0225/pic50176601192957.shtml">2017秋冬米兰时装周Versace秀场</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0225/pic50176601192957.shtml">Versace 2017秋冬系列以"爱"、“勇气”与“团结”为主题，歌颂女性力量与积极向上的正能量。以经典的黑色作为基调，将宝蓝、荧光黄与橘红等饱和度高的色彩相结</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/196/796/index.html?scr=relatedread" target="_blank">秀场</a>
+<a href="http://www.yoka.com/dna/455/449/index.html?scr=relatedread" target="_blank">秋冬米兰时装周</a>
+<a href="http://www.yoka.com/dna/141/476/index.html?scr=relatedread" target="_blank">Versace</a></div>
+              <div class="info-r"><span class="ico-read"><b>1912</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0222/pic50152301190456.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-22/U10011P1TS1487749329_58203.gif"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0222/pic50152301190456.shtml">2017依然火炸天 让百变GIGI教你初春这样搭</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0222/pic50152301190456.shtml">每次我的美吉一出门都会被无数镜头跟着，不仅仅是年度最火热的模特，GIGI的穿搭也成为无数STYLELIST效仿的对象。</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/230/840/index.html?scr=relatedread" target="_blank">gigi</a>
+<a href="http://www.yoka.com/dna/326/380/index.html?scr=relatedread" target="_blank">穿搭</a>
+<a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/22/688/index.html?scr=relatedread" target="_blank">早春</a>
+<a href="http://www.yoka.com/dna/102/540/index.html?scr=relatedread" target="_blank">春天</a></div>
+              <div class="info-r"><span class="ico-read"><b>1616</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0222/pic50152101190445.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-22/U10011P1TS1487748887_64510.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0222/pic50152101190445.shtml">早春升温寒意未退，外套里搭件Slogan Tee最潮</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0222/pic50152101190445.shtml">T恤绝对是每个人衣柜必备的单品，会穿的人一年四季都可能在穿。素色T大多靠颜值or出色的下半身单品来来支撑，要想轻易就将T恤穿出潮味，若不喜夸张繁复的印花，那</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/20/118/index.html?scr=relatedread" target="_blank">印花</a>
+<a href="http://www.yoka.com/dna/22/688/index.html?scr=relatedread" target="_blank">早春</a>
+<a href="http://www.yoka.com/dna/195/5/index.html?scr=relatedread" target="_blank">外套</a>
+<a href="http://www.yoka.com/dna/231/908/index.html?scr=relatedread" target="_blank">单品</a>
+<a href="http://www.yoka.com/dna/326/361/index.html?scr=relatedread" target="_blank">tee</a></div>
+              <div class="info-r"><span class="ico-read"><b>1953</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0220/pic50127601187992.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-20/U10011P1TS1487558485_78190.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0220/pic50127601187992.shtml">没有翘臀美胸怎么了？会搭配照样穿出凹凸有致！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0220/pic50127601187992.shtml">对于女人的穿搭简直就是一门学问！或许，你很执拗的认为，只有凹凸有致的完美身材，才敢大胆的随意穿搭。其实不然，即便你没有非常完美的翘臀以及性感的胸部，同</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/90/195/index.html?scr=relatedread" target="_blank">身材</a>
+<a href="http://www.yoka.com/dna/140/346/index.html?scr=relatedread" target="_blank">美胸</a>
+<a href="http://www.yoka.com/dna/195/184/index.html?scr=relatedread" target="_blank">高腰</a>
+<a href="http://www.yoka.com/dna/229/182/index.html?scr=relatedread" target="_blank">性感</a></div>
+              <div class="info-r"><span class="ico-read"><b>1722</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0220/pic50126601187947.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-20/U10011P1TS1487557389_57609.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0220/pic50126601187947.shtml">牛仔外套内搭长裙，穿出早春时尚甜美范儿！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0220/pic50126601187947.shtml">牛仔是永远不会过时的时尚元素，春光明媚的季节，牛仔外套要怎么搭配才时尚又靓丽呢？作为一名合格的时尚达人，牛仔外套在春季的搭配一定不能错过~温暖的春季，正</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/22/688/index.html?scr=relatedread" target="_blank">早春</a>
+<a href="http://www.yoka.com/dna/132/682/index.html?scr=relatedread" target="_blank">甜美</a>
+<a href="http://www.yoka.com/dna/135/309/index.html?scr=relatedread" target="_blank">温暖</a>
+<a href="http://www.yoka.com/dna/145/812/index.html?scr=relatedread" target="_blank">牛仔</a></div>
+              <div class="info-r"><span class="ico-read"><b>1075</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0217/pic50119201187602.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-17/U10011P1TS1487320725_85595.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0217/pic50119201187602.shtml">腿粗怎么穿最显瘦？快学高圆圆的心机遮肉准则！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0217/pic50119201187602.shtml">最近高圆圆和赵又廷牵手逛街的图又一次虐到了网友，但是女神的腿也成功引起了网友的注意，其实。。。女神的腿也不细嘛！But,穿衣有道的女神很会隐藏起自己的“缺</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/119/99/index.html?scr=relatedread" target="_blank">女神</a>
+<a href="http://www.yoka.com/dna/194/936/index.html?scr=relatedread" target="_blank">阔腿裤</a>
+<a href="http://www.yoka.com/dna/194/989/index.html?scr=relatedread" target="_blank">运动裤</a>
+<a href="http://www.yoka.com/dna/232/523/index.html?scr=relatedread" target="_blank">小粗腿</a>
+<a href="http://www.yoka.com/dna/239/594/index.html?scr=relatedread" target="_blank">显瘦</a></div>
+              <div class="info-r"><span class="ico-read"><b>1363</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0217/pic50118301187580.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-17/U10011P1TS1487319288_99211.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0217/pic50118301187580.shtml">早春换季不愁，用一件毛衣就可以搞定所有搭配！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0217/pic50118301187580.shtml">一到换季时节，总有很多人就开始为穿衣搭配犯愁，其实在早春，你只需用一件温暖柔软又百搭时髦的毛衣，就完全可以搞定所有搭配了，有时候越是精简的搭配越是高级</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/22/688/index.html?scr=relatedread" target="_blank">早春</a>
+<a href="http://www.yoka.com/dna/53/637/index.html?scr=relatedread" target="_blank">换季</a>
+<a href="http://www.yoka.com/dna/56/165/index.html?scr=relatedread" target="_blank">简约</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a></div>
+              <div class="info-r"><span class="ico-read"><b>1855</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0214/pic50088501185384.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-14/U10011P1TS1487051191_29871.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0214/pic50088501185384.shtml">时髦精的终极套路！教你假随性真心机的早春穿搭</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0214/pic50088501185384.shtml">出门前想好好打扮一番，又怕太正式用力过猛？试试街拍达人们看似随意实际精心的搭配，走在街上洒脱又大气。</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/22/688/index.html?scr=relatedread" target="_blank">早春</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/125/525/index.html?scr=relatedread" target="_blank">心机</a>
+<a href="http://www.yoka.com/dna/233/360/index.html?scr=relatedread" target="_blank">街拍达人</a></div>
+              <div class="info-r"><span class="ico-read"><b>1643</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0214/pic50088401185356.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-14/U10011P1TS1487049769_62091.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0214/pic50088401185356.shtml">17早春最时髦色彩搭配方案 寒冷也挡不住你的美</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0214/pic50088401185356.shtml">斑斓绚丽绝不低调的色彩，时尚的裁剪，即使寒冷，也挡不住出门要美美的心。</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/22/688/index.html?scr=relatedread" target="_blank">早春</a>
+<a href="http://www.yoka.com/dna/91/192/index.html?scr=relatedread" target="_blank">色彩</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/229/178/index.html?scr=relatedread" target="_blank">时尚</a>
+<a href="http://www.yoka.com/dna/235/553/index.html?scr=relatedread" target="_blank">色彩搭配</a></div>
+              <div class="info-r"><span class="ico-read"><b>1688</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0214/50085801070052.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p6.yokacdn.com/pic/YOKA/2017-02-14/U10011P1TS1487037794_42321.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0214/50085801070052.shtml">情人节和全智贤学穿搭，男票立马发誓爱我一万年！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0214/50085801070052.shtml">情人节来啦！好吧，这个桃心满天飞的日子终于还是来了！暂且不管单身狗们的心情，岛屿今天还是要和姑娘们说说情人节穿搭的重点。怎么穿才能轻松俘获他的心，但又</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/75/768/index.html?scr=relatedread" target="_blank">可爱</a>
+<a href="http://www.yoka.com/dna/196/216/index.html?scr=relatedread" target="_blank">连衣裙</a>
+<a href="http://www.yoka.com/dna/200/776/index.html?scr=relatedread" target="_blank">范冰冰</a>
+<a href="http://www.yoka.com/dna/211/183/index.html?scr=relatedread" target="_blank">荷叶边</a>
+<a href="http://www.yoka.com/dna/222/117/index.html?scr=relatedread" target="_blank">杨幂</a></div>
+              <div class="info-r"><span class="ico-read"><b>1731</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0213/pic50074301183347.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-13/U10011P1TS1486954450_18386.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0213/pic50074301183347.shtml">20组纽约时装周街拍 告诉你2017早春咋穿最流行</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0213/pic50074301183347.shtml">2017年秋冬四大时装周的第一站---纽约已经举行过半，虽然今年的时装周因为品牌变动、观秀明星不多等客观原因变得不如往年那般热闹，但这并不能阻挡T台外面时尚潮</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/22/688/index.html?scr=relatedread" target="_blank">早春</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/195/983/index.html?scr=relatedread" target="_blank">纽约</a>
+<a href="http://www.yoka.com/dna/195/997/index.html?scr=relatedread" target="_blank">纽约时装周</a>
+<a href="http://www.yoka.com/dna/196/633/index.html?scr=relatedread" target="_blank">时装周</a></div>
+              <div class="info-r"><span class="ico-read"><b>1782</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0212/50071501069887.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p7.yokacdn.com/pic/YOKA/2017-02-12/U10011P1TS1486867540_26732.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0212/50071501069887.shtml">向伟大的太空梦致敬，Lacoste 17秋冬带你时髦到上天</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0212/50071501069887.shtml">纽约当地时间2月11日上午十点，经典时尚运动品牌LACOSTE 2017秋冬大秀盛大举行。承袭于品牌创始人René LACOSTE先生的远见卓识以及飞行员父亲的航空之梦，现任设</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/93/205/index.html?scr=relatedread" target="_blank">秋冬</a>
+<a href="http://www.yoka.com/dna/112/625/index.html?scr=relatedread" target="_blank">灵感</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/131/648/index.html?scr=relatedread" target="_blank">太空</a>
+<a href="http://www.yoka.com/dna/136/585/index.html?scr=relatedread" target="_blank">细节</a></div>
+              <div class="info-r"><span class="ico-read"><b>1500</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0209/50058401069743.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p2.yokacdn.com/pic/YOKA/2017-02-09/U10011P1TS1486634022_46917.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0209/50058401069743.shtml">情人节浪漫来袭，教你打造一年之中最闪耀的约会造型</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0209/50058401069743.shtml">过了春节，一年一度的情人节又接踵而至。相信在这样一个专属于浪漫的日子里，每个女生都想变身为那个他眼中最完美的存在，所以今天编辑就为大家推荐几款超闪耀的</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/77/161/index.html?scr=relatedread" target="_blank">浪漫</a>
+<a href="http://www.yoka.com/dna/77/869/index.html?scr=relatedread" target="_blank">情人节</a>
+<a href="http://www.yoka.com/dna/195/5/index.html?scr=relatedread" target="_blank">外套</a>
+<a href="http://www.yoka.com/dna/196/216/index.html?scr=relatedread" target="_blank">连衣裙</a></div>
+              <div class="info-r"><span class="ico-read"><b>1688</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0209/pic50057201181986.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-09/U10011P1TS1486631638_17066.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0209/pic50057201181986.shtml">Edition10 2017春季新品 东方慢生活</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0209/pic50057201181986.shtml">2017春季，Edition 10从水墨画作中获得灵感，将自身对生命的体悟倾注在不事张扬的一笔一划之中。我们把这种“慢”的哲思倾注到2017春季衣作里。Edition 10让西方</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/100/963/index.html?scr=relatedread" target="_blank">衬衣</a>
+<a href="http://www.yoka.com/dna/102/519/index.html?scr=relatedread" target="_blank">春季</a>
+<a href="http://www.yoka.com/dna/121/361/index.html?scr=relatedread" target="_blank">气质</a>
+<a href="http://www.yoka.com/dna/125/479/index.html?scr=relatedread" target="_blank">邂逅</a>
+<a href="http://www.yoka.com/dna/145/787/index.html?scr=relatedread" target="_blank">摩登</a></div>
+              <div class="info-r"><span class="ico-read"><b>1279</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0209/pic50054001181838.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-09/U10011P1TS1486624005_36928.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0209/pic50054001181838.shtml">毛衣外套与裙装做混搭，让你从冬天美到春天！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0209/pic50054001181838.shtml">又仙又美的裙子素来是女人的挚爱，最能穿出独属女人的迷人韵味。被誉为时尚风向标的四大时装周上，各家大牌都向我们示范了裙装的正确打开方式，引领了新的潮流趋</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/102/540/index.html?scr=relatedread" target="_blank">春天</a>
+<a href="http://www.yoka.com/dna/195/781/index.html?scr=relatedread" target="_blank">毛衣外套</a>
+<a href="http://www.yoka.com/dna/196/608/index.html?scr=relatedread" target="_blank">裙子</a>
+<a href="http://www.yoka.com/dna/232/166/index.html?scr=relatedread" target="_blank">混搭</a>
+<a href="http://www.yoka.com/dna/354/253/index.html?scr=relatedread" target="_blank">潮流趋势</a></div>
+              <div class="info-r"><span class="ico-read"><b>1696</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0209/50053001069696.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p2.yokacdn.com/pic/YOKA/2017-02-09/U10011P1TS1486621770_14559.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0209/50053001069696.shtml">羡慕法国女生的性感与优雅？跟这位巴黎博主学就对了</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0209/50053001069696.shtml">说起法国女人，似乎很多人都会想到用“完美”来形容，她们给人的感觉总是浪漫多情，从容优雅，又自由洒脱，好像全世界的人都会为她们着迷，穿出法式风情，也曾一</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/84/667/index.html?scr=relatedread" target="_blank">风情</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/195/184/index.html?scr=relatedread" target="_blank">高腰</a>
+<a href="http://www.yoka.com/dna/195/874/index.html?scr=relatedread" target="_blank">短靴</a></div>
+              <div class="info-r"><span class="ico-read"><b>1264</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0209/pic50052801181803.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-09/U10011P1TS1486620191_14189.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0209/pic50052801181803.shtml">打造好比例的关键单品！腰带系得好胸以下全是腿</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0209/pic50052801181803.shtml">想必宝宝们已经听过很多遍了，打造好比例的关键就在“高腰”。但是，在寒冷天气里，衣服层层叠叠，不仅腰线没了，也肿成了胖子，这时候一条腰带就可以帮你实现保</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/195/184/index.html?scr=relatedread" target="_blank">高腰</a>
+<a href="http://www.yoka.com/dna/196/201/index.html?scr=relatedread" target="_blank">腰带</a>
+<a href="http://www.yoka.com/dna/231/908/index.html?scr=relatedread" target="_blank">单品</a>
+<a href="http://www.yoka.com/dna/239/594/index.html?scr=relatedread" target="_blank">显瘦</a>
+<a href="http://www.yoka.com/dna/394/438/index.html?scr=relatedread" target="_blank">显高</a></div>
+              <div class="info-r"><span class="ico-read"><b>1362</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0208/50042101069536.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p3.yokacdn.com/pic/YOKA/2017-02-08/U10011P1TS1486524760_87909.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0208/50042101069536.shtml">情人节这么搭男票送卡随意刷！完美制胜约会LOOK</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0208/50042101069536.shtml">我们不爱天真灿烂，只爱天生浪漫。情人节快到了，姑娘们，你的约会装备都备好了嘛？尽管你一年365天晚晚有人约，但我敢打赌你最重视的必定是2月14晚的一身搭配。</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/58/248/index.html?scr=relatedread" target="_blank">精致</a>
+<a href="http://www.yoka.com/dna/77/161/index.html?scr=relatedread" target="_blank">浪漫</a>
+<a href="http://www.yoka.com/dna/77/869/index.html?scr=relatedread" target="_blank">情人节</a>
+<a href="http://www.yoka.com/dna/140/239/index.html?scr=relatedread" target="_blank">造型</a></div>
+              <div class="info-r"><span class="ico-read"><b>1433</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0208/pic50040301181420.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-08/U10011P1TS1486521011_96054.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0208/pic50040301181420.shtml">早春就要文艺清新范儿 衬衫打底配针织衫穿起来</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0208/pic50040301181420.shtml">年过好春来到，“贝嫂”维多利亚·贝克汉姆也刷起街拍美照来，近日她穿上最喜爱的毛衣连衣裙出街，有心机的是内搭了一件衬衫当打底，紧跟潮流。还没脱掉打底衫的</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/20/678/index.html?scr=relatedread" target="_blank">优雅</a>
+<a href="http://www.yoka.com/dna/22/688/index.html?scr=relatedread" target="_blank">早春</a>
+<a href="http://www.yoka.com/dna/135/426/index.html?scr=relatedread" target="_blank">文艺</a>
+<a href="http://www.yoka.com/dna/195/684/index.html?scr=relatedread" target="_blank">打底衫</a></div>
+              <div class="info-r"><span class="ico-read"><b>1401</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0207/50036401069484.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p8.yokacdn.com/pic/YOKA/2017-02-07/U10011P1TS1486459980_18867.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0207/50036401069484.shtml">内搭颜色选得好，穿大衣也会更好看哦！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0207/50036401069484.shtml">大衣的颜色有很多种，内搭的颜色也有很多种，并不是每个美眉都喜欢最百搭的黑白灰，有些喜欢颜色亮丽的、有些喜欢颜色深沉的，各有所好，选好了中意的大衣，那大</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/53/883/index.html?scr=relatedread" target="_blank">灰色</a>
+<a href="http://www.yoka.com/dna/56/131/index.html?scr=relatedread" target="_blank">简单</a>
+<a href="http://www.yoka.com/dna/121/361/index.html?scr=relatedread" target="_blank">气质</a>
+<a href="http://www.yoka.com/dna/129/171/index.html?scr=relatedread" target="_blank">黑白</a></div>
+              <div class="info-r"><span class="ico-read"><b>1325</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0207/50035601069469.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p3.yokacdn.com/pic/YOKA/2017-02-07/U10011P1TS1486459506_15669.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0207/50035601069469.shtml">时髦精们才懂的搭配小心机 学起来你也能分分钟变icon</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0207/50035601069469.shtml">入冬后潮流单品介绍了不少，不知道美女们是否都下手了~有时是否很纳闷，同样类型的单品，为什么时髦精们就可以穿出很特别的feel？啊哈，时髦精们的小心机，你还没</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/142/699/index.html?scr=relatedread" target="_blank">icon</a>
+<a href="http://www.yoka.com/dna/195/5/index.html?scr=relatedread" target="_blank">外套</a>
+<a href="http://www.yoka.com/dna/195/874/index.html?scr=relatedread" target="_blank">短靴</a>
+<a href="http://www.yoka.com/dna/196/24/index.html?scr=relatedread" target="_blank">长袖</a></div>
+              <div class="info-r"><span class="ico-read"><b>1316</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0205/50019301069222.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p7.yokacdn.com/pic/YOKA/2017-02-05/U10011P1TS1486278744_75624.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0205/50019301069222.shtml">#ootw！节后综合征爆发 get这些美搭穿出一周好心情吧</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0205/50019301069222.shtml">热热闹闹的春节过去了，但相信大家和编辑一样都要面临接下来的一大难关----节后综合征！无论是每逢过节胖5斤还是从床上爬不起来，总之没个一周左右肯定换不过来，</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/57/219/index.html?scr=relatedread" target="_blank">节后</a>
+<a href="http://www.yoka.com/dna/102/521/index.html?scr=relatedread" target="_blank">春节</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/196/217/index.html?scr=relatedread" target="_blank">牛仔裤</a></div>
+              <div class="info-r"><span class="ico-read"><b>1293</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0205/pic50016501180581.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-02-05/U10011P1TS1486278435_33468.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0205/pic50016501180581.shtml">过年胖三斤腿粗到想哭？icon说锁腿运动裤最藏肉</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0205/pic50016501180581.shtml">每逢佳节胖三斤，大腿胖了的妹纸不想被看出腿粗，来一条锁腿运动裤准没错，还能塞进短靴里，这么新潮的“秋裤外穿”藏肉法宝，赶紧学起来吧！</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/93/214/index.html?scr=relatedread" target="_blank">秋裤</a>
+<a href="http://www.yoka.com/dna/142/699/index.html?scr=relatedread" target="_blank">icon</a>
+<a href="http://www.yoka.com/dna/194/989/index.html?scr=relatedread" target="_blank">运动裤</a>
+<a href="http://www.yoka.com/dna/404/110/index.html?scr=relatedread" target="_blank">藏肉</a>
+<a href="http://www.yoka.com/dna/196/203/index.html?scr=relatedread" target="_blank">长裤</a></div>
+              <div class="info-r"><span class="ico-read"><b>1391</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0205/50014301069116.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p9.yokacdn.com/pic/YOKA/2017-02-05/U10011P1TS1486260543_65209.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0205/50014301069116.shtml">2017早春最时髦最有品的配色，让你高贵优雅全都有！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0205/50014301069116.shtml">驼色也是非常神奇的颜色，明明含蓄却又能很时髦；明明是最接近大自然的颜色却总能散发出都市感，它总能将时髦和高贵化于一身，而且驼色几乎百搭，无论是黑白灰还</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/17/948/index.html?scr=relatedread" target="_blank">颜色</a>
+<a href="http://www.yoka.com/dna/22/688/index.html?scr=relatedread" target="_blank">早春</a>
+<a href="http://www.yoka.com/dna/37/52/index.html?scr=relatedread" target="_blank">流行色</a>
+<a href="http://www.yoka.com/dna/46/598/index.html?scr=relatedread" target="_blank">自然</a>
+<a href="http://www.yoka.com/dna/87/991/index.html?scr=relatedread" target="_blank">高贵</a></div>
+              <div class="info-r"><span class="ico-read"><b>1567</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0205/50013901069111.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p8.yokacdn.com/pic/YOKA/2017-02-05/U10011P1TS1486258784_71942.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0205/50013901069111.shtml">小个子从此不背锅 蔡依林胖迪教你大衣如何穿出超模感</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0205/50013901069111.shtml">对于个子小巧的女生来说，一到冬天穿搭就变得特别重要，厚重的各种外套和棉裤简直就是把小个子小马达们逼到墙角，有些美眉说好想穿长大衣，走路带风的感觉一定很</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/126/354/index.html?scr=relatedread" target="_blank">修身</a>
+<a href="http://www.yoka.com/dna/195/5/index.html?scr=relatedread" target="_blank">外套</a>
+<a href="http://www.yoka.com/dna/195/859/index.html?scr=relatedread" target="_blank">长靴</a>
+<a href="http://www.yoka.com/dna/196/637/index.html?scr=relatedread" target="_blank">大衣</a></div>
+              <div class="info-r"><span class="ico-read"><b>1806</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0118/49939201068097.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p9.yokacdn.com/pic/YOKA/2017-01-18/U10011P1TS1484722410_44375.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0118/49939201068097.shtml">同样的单品为什么她穿就美？杨幂搭配套路大揭秘！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0118/49939201068097.shtml">很多人说，杨幂不是穿什么火什么，而是什么火穿什么，其实她没否认，只是我们都不能否认的是，她穿之后确实会扇起一把更大的火，对于会穿衣服这事，杂志没少访问</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/57/173/index.html?scr=relatedread" target="_blank">揭秘</a>
+<a href="http://www.yoka.com/dna/194/936/index.html?scr=relatedread" target="_blank">阔腿裤</a>
+<a href="http://www.yoka.com/dna/195/184/index.html?scr=relatedread" target="_blank">高腰</a>
+<a href="http://www.yoka.com/dna/196/16/index.html?scr=relatedread" target="_blank">靴子</a></div>
+              <div class="info-r"><span class="ico-read"><b>1761</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0118/pic49934901176462.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-01-18/U10011P1TS1484712399_47837.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0118/pic49934901176462.shtml">用连帽衫搭各种外套，原来可以这么好看！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0118/pic49934901176462.shtml">这一季运动风盛行，想要穿出活力十足又不失时髦感的运动混搭风，连帽衫搭配你一定要会，卫衣当属今年秋冬最火的单品，而连帽卫衣自带帅气与街头气息，搭配能力超</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/130/107/index.html?scr=relatedread" target="_blank">帅气</a>
+<a href="http://www.yoka.com/dna/195/5/index.html?scr=relatedread" target="_blank">外套</a>
+<a href="http://www.yoka.com/dna/195/365/index.html?scr=relatedread" target="_blank">运动风</a></div>
+              <div class="info-r"><span class="ico-read"><b>1508</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0118/pic49934401176453.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-01-18/U10011P1TS1484711402_45983.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0118/pic49934401176453.shtml">不用露脚踝！时髦温暖才是冬天最正确的打开方式</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0118/pic49934401176453.shtml">适度露肤向来是时髦人深谙的搭配黄金法则，无论穿什么，将最纤细的脚踝部分露出来，效果都会翻倍，但是天气这么冷，露出脚踝固然时髦，身体却hold不住啊，并且脚</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/15/388/index.html?scr=relatedread" target="_blank">冬天</a>
+<a href="http://www.yoka.com/dna/56/880/index.html?scr=relatedread" target="_blank">脚踝</a>
+<a href="http://www.yoka.com/dna/112/923/index.html?scr=relatedread" target="_blank">流行</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a></div>
+              <div class="info-r"><span class="ico-read"><b>1171</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0113/49919801067843.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p9.yokacdn.com/pic/YOKA/2017-01-13/U10011P1TS1484282628_55731.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0113/49919801067843.shtml">#ootw!本周时髦年货备起！用最美的穿搭来迎接春节</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0113/49919801067843.shtml">过完本周就是欢乐的春节啦~~大家是不是都已经开始启程回家和置办年货了呢？当然忙着准备过节也不能对穿衣服掉以轻心，本周的北上广穿搭就是来为大家提供迎接春节</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/6/185/index.html?scr=relatedread" target="_blank">星期三</a>
+<a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/118/592/index.html?scr=relatedread" target="_blank">年货</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/195/184/index.html?scr=relatedread" target="_blank">高腰</a></div>
+              <div class="info-r"><span class="ico-read"><b>1643</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0112/49905301067699.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p10.yokacdn.com/pic/YOKA/2017-01-12/U10011P1TS1484219070_32977.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0112/49905301067699.shtml">美成这样还怕没今年好事儿？人见人爱的新春红运美搭</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0112/49905301067699.shtml">2017农历新年离我们也是越来越近啦~中国人过春节的传统其中有很重要的一项，就是新春一定要穿新衣，无论是回家与家人团聚，还是串门走亲戚，春节一定要穿出红彤彤</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/125/675/index.html?scr=relatedread" target="_blank">新春</a>
+<a href="http://www.yoka.com/dna/128/181/index.html?scr=relatedread" target="_blank">过年</a>
+<a href="http://www.yoka.com/dna/129/473/index.html?scr=relatedread" target="_blank">红色</a>
+<a href="http://www.yoka.com/dna/195/5/index.html?scr=relatedread" target="_blank">外套</a></div>
+              <div class="info-r"><span class="ico-read"><b>1814</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0112/49895301067542.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p2.yokacdn.com/pic/YOKA/2017-01-12/U10011P1TS1484188343_32344.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0112/49895301067542.shtml">新年换新衣，过年就用这些时髦单品来让你人见人爱吧</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0112/49895301067542.shtml">春节还不到一个月就要到了，姑娘们，你们的过年新装买好了么？新的一年一定要改头换面焕然一新的感觉才行，下面编辑就为你推荐几款时髦单品，让你在新年继续时髦</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/125/731/index.html?scr=relatedread" target="_blank">新年</a>
+<a href="http://www.yoka.com/dna/128/181/index.html?scr=relatedread" target="_blank">过年</a>
+<a href="http://www.yoka.com/dna/133/836/index.html?scr=relatedread" target="_blank">推荐</a></div>
+              <div class="info-r"><span class="ico-read"><b>1359</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0112/49893801067531.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p3.yokacdn.com/pic/YOKA/2017-01-12/U10011P1TS1484186306_80405.gif"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0112/49893801067531.shtml">开年就要喜气又时髦！教你红色这样穿从此拒绝俗气感</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0112/49893801067531.shtml">各位姑娘们，想好过年假期要穿什么了吗？新的一年，当然不免俗的还是要用“大红色”来度过！不然穿得太暗黑、黯淡，又要被长辈教训一轮了！常听到不少姑娘抱怨“</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/121/361/index.html?scr=relatedread" target="_blank">气质</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/128/181/index.html?scr=relatedread" target="_blank">过年</a>
+<a href="http://www.yoka.com/dna/194/989/index.html?scr=relatedread" target="_blank">运动裤</a>
+<a href="http://www.yoka.com/dna/195/365/index.html?scr=relatedread" target="_blank">运动风</a></div>
+              <div class="info-r"><span class="ico-read"><b>1597</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0111/pic49886101174153.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-01-11/U10011P1TS1484114888_25075.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0111/pic49886101174153.shtml">聪明的穿衣技巧！秋冬多层叠穿再给夏装一次机会</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0111/pic49886101174153.shtml">叠穿，我们可以叫它“洋葱”穿法，通俗的讲就是里三层外三层，只是在这“里外”之间也有许多门道，细心搭配，让基本款的衣服找到最佳用处，叠穿出专属自己的味道</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/93/205/index.html?scr=relatedread" target="_blank">秋冬</a>
+<a href="http://www.yoka.com/dna/136/908/index.html?scr=relatedread" target="_blank">夏装</a>
+<a href="http://www.yoka.com/dna/232/203/index.html?scr=relatedread" target="_blank">基本款</a>
+<a href="http://www.yoka.com/dna/235/944/index.html?scr=relatedread" target="_blank">穿衣技巧</a></div>
+              <div class="info-r"><span class="ico-read"><b>1819</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0110/pic49879201173941.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-01-10/U10011P1TS1484035384_44580.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0110/pic49879201173941.shtml">经典黑白搭永远不过时 让你的冬天时髦又简单！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0110/pic49879201173941.shtml">冬天我们的衣服穿的多了起来，那么穿搭就变得更加重要了，不仅是要选对一件外套，搭配更是不能忽视，不知道怎么穿搭的你，不妨就试试经典的黑白配吧。</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/15/388/index.html?scr=relatedread" target="_blank">冬天</a>
+<a href="http://www.yoka.com/dna/58/57/index.html?scr=relatedread" target="_blank">经典</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/195/5/index.html?scr=relatedread" target="_blank">外套</a></div>
+              <div class="info-r"><span class="ico-read"><b>1736</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0110/49877501067299.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p9.yokacdn.com/pic/YOKA/2017-01-10/U10011P1TS1484031451_29910.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0110/49877501067299.shtml">这些好搭又好看的配色组合，让你像时髦精一样显高级</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0110/49877501067299.shtml">色彩搭配向来是日常穿搭的重要一环，而到了本就有些寡淡的秋冬季，毫无疑问你更需要多增添一些缤纷色彩，但是色彩的搭配也是很有讲究的，乱搭一通当然是不行的，</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/18/380/index.html?scr=relatedread" target="_blank">养眼</a>
+<a href="http://www.yoka.com/dna/53/883/index.html?scr=relatedread" target="_blank">灰色</a>
+<a href="http://www.yoka.com/dna/91/192/index.html?scr=relatedread" target="_blank">色彩</a>
+<a href="http://www.yoka.com/dna/119/745/index.html?scr=relatedread" target="_blank">配色</a></div>
+              <div class="info-r"><span class="ico-read"><b>1045</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0110/pic49877001173887.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p5.yokacdn.com/pic/YOKA/2017-01-10/U10011P1TS1484031025_46593.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0110/pic49877001173887.shtml">鬼怪金福珠热播ing 女主惹人怜的穿衣秘诀在这里</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0110/pic49877001173887.shtml">最近大热的《孤单又灿烂的神—鬼怪》、《举重妖精金福珠》等韩剧又掀起了一股穿衣热，剧中的女主角一言不合就走甜美休闲风，清新又减龄的装扮很是吸睛，把帅帅的</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/93/513/index.html?scr=relatedread" target="_blank">清新</a>
+<a href="http://www.yoka.com/dna/102/195/index.html?scr=relatedread" target="_blank">穿衣</a>
+<a href="http://www.yoka.com/dna/127/861/index.html?scr=relatedread" target="_blank">鬼怪</a>
+<a href="http://www.yoka.com/dna/132/682/index.html?scr=relatedread" target="_blank">甜美</a>
+<a href="http://www.yoka.com/dna/216/319/index.html?scr=relatedread" target="_blank">休闲</a></div>
+              <div class="info-r"><span class="ico-read"><b>1210</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0109/49859001067063.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p6.yokacdn.com/pic/YOKA/2017-01-09/U10011P1TS1483926608_78578.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0109/49859001067063.shtml">超级百搭不挑人，拯救所有不完美腿形就靠一条直筒裤</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0109/49859001067063.shtml">腿有点小粗？腿型不够完美羡慕别人的筷子腿？一条直筒裤满足你的小心愿！宽松的版型，适合所有腿形拯救所有不完美，不管是正式场合穿还是休闲运动或是潮流穿搭，</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/194/966/index.html?scr=relatedread" target="_blank">针织衫</a>
+<a href="http://www.yoka.com/dna/195/701/index.html?scr=relatedread" target="_blank">直筒牛仔裤</a>
+<a href="http://www.yoka.com/dna/196/133/index.html?scr=relatedread" target="_blank">直筒裤</a>
+<a href="http://www.yoka.com/dna/196/217/index.html?scr=relatedread" target="_blank">牛仔裤</a></div>
+              <div class="info-r"><span class="ico-read"><b>1093</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0106/49853001066954.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p8.yokacdn.com/pic/YOKA/2017-01-06/U10011P1TS1483674918_70216.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0106/49853001066954.shtml">#ootw!新年时髦新气象 快把本周这些新鲜穿搭get起来</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0106/49853001066954.shtml">2017伊始，大家都要用新面貌来迎接新的一年！本周的北上广三地穿搭指南，赶紧get起来吧。</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/5/857/index.html?scr=relatedread" target="_blank">新气象</a>
+<a href="http://www.yoka.com/dna/75/768/index.html?scr=relatedread" target="_blank">可爱</a>
+<a href="http://www.yoka.com/dna/85/392/index.html?scr=relatedread" target="_blank">复古</a>
+<a href="http://www.yoka.com/dna/125/103/index.html?scr=relatedread" target="_blank">时髦</a>
+<a href="http://www.yoka.com/dna/125/731/index.html?scr=relatedread" target="_blank">新年</a></div>
+              <div class="info-r"><span class="ico-read"><b>1301</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+        <dl class="listInfo">
+          <dt><a href="http://www.yoka.com/fashion/edittj/2017/0106/49848501066898.shtml"><img src="http://thumb1.yokacdn.com/p?w=300&h=auto&wt=0&f=http://p1.yokacdn.com/pic/YOKA/2017-01-06/U10011P1TS1483669767_77461.jpg"></a></dt>
+          <dd>
+            <h3><a href="http://www.yoka.com/fashion/edittj/2017/0106/49848501066898.shtml">针织衫这么穿，才能摆脱老土又路人的宿命！</a></h3>
+            <p><a href="http://www.yoka.com/fashion/edittj/2017/0106/49848501066898.shtml">“服装和举止不能造就一个人，但人被造就成人时，服装和举止就会极大地改善他的外貌”，这句话说明了服装对于一个人的重要性，一个人不够高、不够瘦、没气质或者</a></p>
+            <div class="info">
+              <div class="info-l"><a href="http://www.yoka.com/dna/12/537/index.html?scr=relatedread" target="_blank">搭配</a>
+<a href="http://www.yoka.com/dna/121/361/index.html?scr=relatedread" target="_blank">气质</a>
+<a href="http://www.yoka.com/dna/194/966/index.html?scr=relatedread" target="_blank">针织衫</a>
+<a href="http://www.yoka.com/dna/195/184/index.html?scr=relatedread" target="_blank">高腰</a>
+<a href="http://www.yoka.com/dna/196/755/index.html?scr=relatedread" target="_blank">圆领</a></div>
+              <div class="info-r"><span class="ico-read"><b>1326</b>人阅读</span></div>
+            </div>
+          </dd>
+        </dl>
+
+          <div class="pages">
+            <span class="prev"><i>上一页</i></span>
+<span>1</span><a href="http://www.yoka.com/fashion/edittj/list_197.shtml" target="_self">2</a><a href="http://www.yoka.com/fashion/edittj/list_196.shtml" target="_self">3</a><a href="http://www.yoka.com/fashion/edittj/list_195.shtml" target="_self">4</a><a href="http://www.yoka.com/fashion/edittj/list_194.shtml" target="_self">5</a><a href="http://www.yoka.com/fashion/edittj/list_193.shtml" target="_self">6</a><a href="http://www.yoka.com/fashion/edittj/list_192.shtml" target="_self">7</a><i>...</i><a href="http://www.yoka.com/fashion/edittj/list_1.shtml" target="_self">198</a>
+<a class="next" href="http://www.yoka.com/fashion/edittj/list_197.shtml" target="_self"><i>下一页</i></a>
+          </div>
+        </div>
+        <div class="g-side fright">
+          <div class="ad_first">
+            <div class="ad_switch">
+<div style="position: relative;">
+<!-- AdSame ShowCode: YOKA-女网 / yoka女网-时装 / 时装内容页右侧焦点图 Begin --><script type="text/javascript" src="http://dolphin.yoka.com/s?z=yoka&c=239"  charset="gbk" ></script><!-- AdSame ShowCode: YOKA-女网 / yoka女网-时装 / 时装内容页右侧焦点图 End -->
+</div>
+</div>
+<style>.fmt { display:none; }</style>
+
+
+          </div>
+          <dl class="new_tops">
+            <dt>最新排行</dt>
+            <dd>
+              <ul>
+                
+  <li><a href="http://www.yoka.com/fashion/roadshow/2016/1024/pic49230201151567.shtml" target="_blank" title="20张街拍告诉你秋冬穿驼色有多美！">20张街拍告诉你秋冬穿驼色有多美！</a></li>
+
+  <li><a href="http://www.yoka.com/fashion/popinfo/2016/1024/pic49236201151733.shtml" target="_blank" title="粗跟鞋之后猫跟鞋又火了  尖头细跟让你更女人！">粗跟鞋之后猫跟鞋又火了  尖头细跟让你更女人！</a></li>
+
+  <li><a href="http://www.yoka.com/fashion/roadshow/2016/1021/pic49224401151420.shtml" target="_blank" title="打开名媛OP的私人衣橱，找到秋冬变美穿衣灵感">打开名媛OP的私人衣橱，找到秋冬变美穿衣灵感</a></li>
+
+  <li><a href="http://www.yoka.com/fashion/roadshow/2016/1024/49228401058663.shtml" target="_blank" title="看了首尔时装周才知道 时髦的亚洲姑娘爱穿这些">看了首尔时装周才知道 时髦的亚洲姑娘爱穿这些</a></li>
+
+  <li><a href="http://www.yoka.com/fashion/popinfo/2016/1024/49233601058710.shtml" target="_blank" title="今冬最值得投资的小外套 男朋友风西装让你帅一脸">今冬最值得投资的小外套 男朋友风西装让你帅一脸</a></li>
+
+  <li><a href="http://www.yoka.com/fashion/windows/2016/1021/pic49221801151341.shtml" target="_blank" title="SANDRO  2017春夏系列服装">SANDRO  2017春夏系列服装</a></li>
+
+  <li><a href="http://www.yoka.com/fashion/roadshow/2016/1024/49230801058677.shtml" target="_blank" title="超可爱又保暖 女孩们今年秋冬要有一双毛毛鞋">超可爱又保暖 女孩们今年秋冬要有一双毛毛鞋</a></li>
+
+  <li><a href="http://www.yoka.com/fashion/roadshow/2016/1019/pic49197301150572.shtml" target="_blank" title="能露腿又抗冻？新晋利器裤靴和袜靴值得拥有">能露腿又抗冻？新晋利器裤靴和袜靴值得拥有</a></li>
+
+  <li><a href="http://www.yoka.com/fashion/roadshow/2016/1018/pic49183401150183.shtml" target="_blank" title="最美街拍|时装周精华 50套潮人穿搭真心值得学">最美街拍|时装周精华 50套潮人穿搭真心值得学</a></li>
+
+  <li><a href="http://www.yoka.com/fashion/popinfo/2016/1024/pic49228801151537.shtml" target="_blank" title="MARELLA 2016年秋冬系列广告大片">MARELLA 2016年秋冬系列广告大片</a></li>
+
+
+              </ul>
+            </dd>
+          </dl>
+
+          <div class="searchKey" id="right_fixed">
+            <h3>大家都在搜</h3>
+            <div class="list">
+                      <a href="http://www.yoka.com/dna/12/537/index.html">搭配</a><span>/</span>
+        <a href="http://www.yoka.com/dna/125/103/index.html">时髦</a><span>/</span>
+        <a href="http://www.yoka.com/dna/196/796/index.html">秀场</a><span>/</span>
+        <a href="http://www.yoka.com/dna/231/908/index.html">单品</a><span>/</span>
+        <a href="http://www.yoka.com/dna/93/205/index.html">秋冬</a><span>/</span>
+        <a href="http://www.yoka.com/dna/196/637/index.html">大衣</a><span>/</span>
+        <a href="http://www.yoka.com/dna/195/5/index.html">外套</a><span>/</span>
+        <a href="http://www.yoka.com/dna/455/141/index.html">大秀</a><span>/</span>
+        <a href="http://www.yoka.com/dna/239/400/index.html">春夏</a><span>/</span>
+        <a href="http://www.yoka.com/dna/196/217/index.html">牛仔裤</a><span>/</span>
+        <a href="http://www.yoka.com/dna/232/748/index.html">广告大片</a><span>/</span>
+        <a href="http://www.yoka.com/dna/196/633/index.html">时装周</a><span>/</span>
+        <a href="http://www.yoka.com/dna/22/688/index.html">早春</a><span>/</span>
+        <a href="http://www.yoka.com/dna/231/883/index.html">街拍</a><span>/</span>
+        <a href="http://www.yoka.com/dna/231/985/index.html">春夏系列</a><span>/</span>
+        <a href="http://www.yoka.com/dna/326/380/index.html">穿搭</a><span>/</span>
+        <a href="http://www.yoka.com/dna/196/692/index.html">成衣</a><span>/</span>
+        <a href="http://www.yoka.com/dna/196/144/index.html">时装</a><span>/</span>
+        <a href="http://www.yoka.com/dna/203/616/index.html">手袋</a><span>/</span>
+        <a href="http://www.yoka.com/dna/82/10/index.html">设计师</a><span>/</span>
+        <a href="http://www.yoka.com/dna/17/948/index.html">颜色</a><span>/</span>
+        <a href="http://www.yoka.com/dna/58/57/index.html">经典</a><span>/</span>
+        <a href="http://www.yoka.com/dna/125/731/index.html">新年</a><span>/</span>
+        <a href="http://www.yoka.com/dna/77/869/index.html">情人节</a><span>/</span>
+        <a href="http://www.yoka.com/dna/112/923/index.html">流行</a><span>/</span>
+        <a href="http://www.yoka.com/dna/19/507/index.html">艺术</a><span>/</span>
+        <a href="http://www.yoka.com/dna/196/634/index.html">毛衣</a><span>/</span>
+        <a href="http://www.yoka.com/dna/196/214/index.html">卫衣</a><span>/</span>
+        <a href="http://www.yoka.com/dna/455/441/index.html">秋冬巴黎时装周</a><span>/</span>
+        <a href="http://www.yoka.com/dna/20/678/index.html">优雅</a><span>/</span>
+        <a href="http://www.yoka.com/dna/145/812/index.html">牛仔</a><span>/</span>
+        <a href="http://www.yoka.com/dna/102/540/index.html">春天</a><span>/</span>
+        <a href="http://www.yoka.com/dna/77/161/index.html">浪漫</a><span>/</span>
+        <a href="http://www.yoka.com/dna/324/284/index.html">collection</a><span>/</span>
+        <a href="http://www.yoka.com/dna/102/519/index.html">春季</a><span>/</span>
+        <a href="http://www.yoka.com/dna/239/608/index.html">廓形</a><span>/</span>
+        <a href="http://www.yoka.com/dna/196/221/index.html">衬衫</a><span>/</span>
+        <a href="http://www.yoka.com/dna/195/984/index.html">巴黎</a><span>/</span>
+        <a href="http://www.yoka.com/dna/92/923/index.html">全新</a><span>/</span>
+        <a href="http://www.yoka.com/dna/85/392/index.html">复古</a><span>/</span>
+        <a href="http://www.yoka.com/dna/20/118/index.html">印花</a><span>/</span>
+        <a href="http://www.yoka.com/dna/75/273/index.html">开春</a><span>/</span>
+        <a href="http://www.yoka.com/dna/129/473/index.html">红色</a><span>/</span>
+        <a href="http://www.yoka.com/dna/327/547/index.html">秋冬系列</a><span>/</span>
+        <a href="http://www.yoka.com/dna/140/239/index.html">造型</a><span>/</span>
+        <a href="http://www.yoka.com/dna/125/717/index.html">新款</a><span>/</span>
+        <a href="http://www.yoka.com/dna/195/983/index.html">纽约</a><span>/</span>
+        <a href="http://www.yoka.com/dna/196/640/index.html">针织</a><span>/</span>
+        <a href="http://www.yoka.com/dna/224/842/index.html">潮人</a><span>/</span>
+        <a href="http://www.yoka.com/dna/196/715/index.html">眼镜</a><span>/</span>
+
+<a target="_blank" href="http://www.yoka.com/dna/d/393/260.html">倩碧维C精华</a><span>/</span>
+<a target="_blank" href="http://www.yoka.com/dna/141/269/index.html">Fresh</a><span>/</span>
+<a target="_blank" href="http://try.yoka.com/3825/">倩碧维C修复精华</a><span>/</span>
+<a target="_blank" href="http://www.yoka.com/brand/news/2017/0303/50229701071689.shtml">维C修复精华</a><span>/</span>
+<a target="_blank" href="http://brand.yoka.com/cosmetics/fresh/detail62157.htm">Fresh面膜</a><span>/</span>
+<a target="_blank" href="http://try.yoka.com/3825/">鲜活维C修复精华</a><span>/</span>
+<a target="_blank" href="http://try.yoka.com/3831/">Fresh 玫瑰保湿</a><span>/</span>
+<a target="_blank" href="http://www.yoka.com/brand/news/2017/0303/50229701071689.shtml">鲜活维C瓶</a><span>/</span>
+<a target="_blank" href="http://bbs.yoka.com/thread-7498164-1-1.html">10%活的维C</a><span>/</span>
+<a target="_blank" href="http://www.yoka.com/brand/news/2017/0303/50229701071689.shtml">鲜活维C洁面粉</a><span>/</span>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 第一栏 end -->
+
+  </div>
+  <!-- global box end -->
+  <div class="public_footer">
+          <!-- 
+          <div class="ft">
+            <div class="main" id="footer_code">
+              <a href="http://m.yoka.com/" class="m" target="_blank">m.yoka.com</a>
+              <a href="javascript:;" class="wx l">微信</a>
+              <a href="http://weibo.com/yoka" class="wb" target="_blank">微博</a>
+              <div class="code"></div>
+            </div>
+            <script>
+            Y('index',function(){
+              publicAccountShow('footer_code');
+            })
+            </script>
+          </div>
+          -->
+    <div class="codeT">
+      <div class="main" id="public_footer_code">
+        <div class="ab hot">
+          <div class="tit">HOT男人</div>
+          <div class="phone">
+            <a href="http://www.yoka.com/mobile/hotmen.shtml" onclick="_hmt.push(['_trackEvent','foot_hot','click']);">
+              <div class="box">
+                <dl>
+                  <dt><img src="http://p5.yokacdn.com/pic/div/2015/products/yoka/img/app_hot.jpg?20160803" alt=""></dt>
+                  <dd>
+                    <strong>HOT男人·精选</strong>
+                    <p>男人的私藏好刊</p>
+                    <p>扫描下载</p>
+                  </dd>
+                </dl>
+              </div>
+            </a>
+          </div>
+
+        </div>
+        <div class="ab fj">
+          <div class="tit">肤君</div>
+          <div class="phone">
+            <a href="http://hzp.yoka.com/fujun/web/download/app" onclick="_hmt.push(['_trackEvent','foot_fj','click']);">
+              <div class="box">
+                <dl>
+                  <dt><img src="http://p5.yokacdn.com/pic/div/2015/products/yoka/img/app_fj.jpg" alt=""></dt>
+                  <dd>
+                    <strong>肤君</strong>
+                    <p>每一天，美一点</p>
+                    <p>扫描下载</p>
+                  </dd>
+                </dl>
+              </div>
+            </a>
+          </div>
+
+        </div>
+        <div class="ab fm">
+          <div class="tit">服饰美容</div>
+          <div class="phone">
+            <a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.yoka.android.portal" onclick="_hmt.push(['_trackEvent','foot_fashion','click']);">
+              <div class="box">
+                <dl>
+                  <dt><img src="http://p5.yokacdn.com/pic/div/2015/products/yoka/img/app_fm.jpg" alt=""></dt>
+                  <dd>
+                    <strong>服饰美容</strong>
+                    <p>独特视角，解析时尚潮流！</p>
+                    <p>扫描下载</p>
+                  </dd>
+                </dl>
+              </div>
+            </a>
+          </div>
+
+        </div>
+        <div class="ab yk">
+          <div class="tit">YOKA移动版</div>
+          <div class="phone">
+            <a href="http://www.yoka.com/dna/m" onclick="_hmt.push(['_trackEvent','foot_m','click']);">
+              <div class="box">
+                <dl>
+                  <dt><img src="http://p5.yokacdn.com/pic/div/2015/products/yoka/img/app_yk.jpg" alt=""></dt>
+                  <dd>
+                    <p>扫描查看</p>
+                  </dd>
+                </dl>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <div class="repeat"></div>
+      <div class="iconBox">
+        <a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.yoka.hotman" onclick="_hmt.push(['_trackEvent','foot_hot','click']);"><div class="icon hot"></div></a>
+        <a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.yoka.android.portal" onclick="_hmt.push(['_trackEvent','foot_fashion','click']);"><div class="icon fm"></div></a>
+        <a href="http://hzp.yoka.com/fujun/web/download/app" onclick="_hmt.push(['_trackEvent','foot_fj','click']);"><div class="icon fj"></div></a>
+      </div>
+      <div class="top"></div>
+    </div>
+    <div class="codeB">
+      <div class="main">
+        <dl>
+          <dt>
+            <strong>YOKA时尚网官方微信</strong>
+            <p>99%的时髦星人都在关注这个号,你的同类都在,你来吗?</p>
+          </dt>
+          <dd><img src="http://p5.yokacdn.com/pic/div/2015/products/yoka/img/code_yk.jpg" alt=""></dd>
+        </dl>
+        <dl class="last">
+          <dt>
+            <strong>YOKA男士网官方微信</strong>
+            <p>来这里,跟我们一起探讨如何拯救直男癌</p>
+          </dt>
+          <dd><img src="http://p5.yokacdn.com/pic/div/2015/products/yoka/img/code_man.jpg" alt=""></dd>
+        </dl>
+      </div>
+    </div>
+    <script>
+    Y('yokaPublic',function(){
+      addClassName('public_footer_code')
+    })
+    </script>
+    <div class="fb">
+      <div class="main">
+        <dl class="menu">
+          <dt><a href="http://www.yoka.com/"><img src="http://p5.yokacdn.com/pic/div/2015/products/yoka/img/footer_logo.png" alt=""></a></dt>
+          <dd>
+            <a href="http://www.yoka.com/about/">关于我们</a><a href="http://www.yoka.com/about/contact.shtml">联系我们</a><a href="http://www.yoka.com/about/friend.shtml">合作伙伴</a><a href="http://www.yoka.com/about/job.shtml">招聘信息</a><a href="http://www.yoka.com/about/maps.shtml">网站地图</a><a href="http://www.yoka.com/about/copyright.shtml">法律声明</a><a href="http://comment.yoka.com/guest/?m=guest">意见反馈</a>
+
+          </dd>
+        </dl>
+        <div class="address">
+              <p>
+                地址：北京市朝阳区光华路9号3号楼时尚大厦9层<br>
+                邮编：100020<br>
+                总机：(8610)65873333<br>
+              </p>
+              <p class="p2">
+                <a href="http://www.miibeian.gov.cn/">京ICP证070512号</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.miibeian.gov.cn/">京ICP备09064614号</a><br>
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502002098" target="_blank">北京市公安局朝阳分局备案编号：11010502002098</a><br>
+                <a href="http://www.yoka.com/licence/video.html">信息网络传播视听节目许可证0110426号</a><br>
+                <a href="http://www.yoka.com/license/rtppl2009.html">广播电视节目制作经营许可证（京）字第1017号</a>
+              </p>
+              <p>Copyright &#169; 2006-2017 Yoka.com, All rights reserved.<br><span></span>北京凯铭风尚网络技术有限公司 版权所有</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!--iut code begin-->
+<script>
+(function (G,D,s,c,p) {
+c={
+UA:"UA-yoka-000001",
+NO_FLS:0,
+WITH_REF:1,
+URL:'http://www.yoka.com/js/iwt-min.js'
+};
+G._iwt?G._iwt.track(c,p):(G._iwtTQ=G._iwtTQ || []).push([c,p]),!G._iwtLoading && lo();
+function lo(t) {
+G._iwtLoading=1;s=D.createElement("script");s.src=c.URL;
+t=D.getElementsByTagName("script");t=t[t.length-1];
+t.parentNode.insertBefore(s,t);
+}
+})(this,document);
+</script>
+
+<!--iut code end-->
+<script src="http://www.yoka.com/js/statis1.js"></script>
+<script src="http://www.yoka.com/js/statis2.js"></script>
+<script src="http://www.yoka.com/js/statis3.js"></script>
+
+  <script>
+   Y('index',function(){
+      rightFixed('right_fixed');
+    })
+  </script>
+</body>
+</html>

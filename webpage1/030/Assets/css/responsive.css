@@ -1,0 +1,81 @@
+@media screen and (max-width:1130px){
+.head,.i_about,.i_new,.i_brand,.foot_bg .foot,.scd{width:960px;}
+.head .head_r{ width:650px;}
+.i_about{ margin-top:30px;}
+.i_about dd{ width:600px; margin-right:20px;}
+.i_newm dl{ width:471px; height:auto;}
+.i_newm dl dt , .i_newm dl dt img{ width:223px; height:217px;}
+.i_newm dl dd{ width:196px; height:202px; padding:5px 26px 10px;}
+.i_newm dl dd .more{ margin-top:20px;}
+.i_brd_m li{ width:308px; margin-right:17px;}
+.i_brd_m li img{ width:308px; height:197px;}
+.scd .scd_l{ width:230px;}
+.scd .scd_r{ width:700px;}
+.news dl dd{ width:465px;}
+.news dl dd .more{ margin-top:10px;}
+.pro .pro_l li{ width:228px;}
+.pro .pro_l li img{ width:228px; height:159px;}
+.pro_d dl{ border-bottom:1px solid #ddd; padding-bottom:20px;}
+.pro_d dl dt, .pro_d dl dt img{ width:323px; height:248px;}
+.pro_d dl dd{ width:360px;}
+}
+@media screen and (max-width:980px){
+.head,.i_about,.i_new,.i_brand,.foot_bg .foot,.scd{width:740px;}
+.head .head_r{ width:100%; margin-bottom:25px; position:relative;}
+.head_r .lang{ margin-top:0px;}
+.head_r .nav li{ margin-left:32px;}
+.i_about dd{ width:480px; margin-right:10px;}
+.i_about dt, .i_about dt img{ width:240px; height:243px;}
+.i_about dd .ctn{ padding-top:5px; height:auto; line-height:148%;}
+.i_about dd .ctn p{ margin-bottom:5px;}
+.i_about{ height:auto;}
+.i_title{ font-size:22px; font-weight:normal;}
+.i_newm dl{ width:100%; margin-bottom:15px;}
+.i_newm dl dd{ width:465px;}
+.i_brd_m li h6{ font-size:16px;}
+.i_brd_m li{ margin-right:12px; width:238px;}
+.i_brd_m li img{ width:238px; height:152px;}
+.scd .scd_r{ width:490px;}
+.news dl dd{ margin-left:16px; width:290px; float:right;}
+.news dl dt, .news dl dt img{ width:183px; height:118px;}
+.news dl dd .des{ height:62px; overflow:hidden; margin-bottom:0px;}
+.pro .pro_l li{ margin:8px !important;}
+.pro_d dl dd{ width:100%; margin-top:10px;}
+}
+@media screen and (max-width:770px) {
+.head,.i_about,.i_new,.i_brand,.foot_bg .foot,.scd{width:480px;}
+.head_r .nav{ display:none;}
+.head_r .nav_m{ display:block;}
+.head_r .lang{ position:absolute; right:0px; top:-60px;}
+.head .head_r{ margin-bottom:0px;}
+.i_about dt, .i_about dt img{ width:100%; height:auto;}
+.i_about dd{ width:96%; float:none; margin:0px auto !important; padding:0px; clear:both; padding-bottom:10px;}
+.i_newm dl dd{ width:205px;}
+.i_brd_m li{ width:100%; float:none; margin:0px;}
+.i_brd_m li img{ width:100%; height:auto;}
+.scd .scd_l ,.scd .scd_r{ width:100%;}
+.news dl dd{ width:285px; margin-left:10px;}
+.news dl dd .more{ margin-top:5px;}
+.pro .pro_l li{ margin:6px !important;}
+.foot .f_m p{ width:100%;}
+.foot .f_m .code{ position:static; margin-top:20px;}
+.foot .f_m .code li{ margin-left:0px; margin-right:10px;}
+}
+@media screen and (max-width:500px) {
+.head,.i_about,.i_new,.i_brand,.foot_bg .foot,.scd{width:320px;}
+.head .logo , .head .logo img{ width:192px; height:62px;}
+.head_r .lang{ top:-50px;}
+.nav_m .n_icon{ top:-45px;}
+.i_title{ font-size:18px;}
+.i_title .more{ font-size:14px;}
+.i_about dd .ctn{ line-height:160%;}
+.i_newm dl dt, .i_newm dl dt img{ width:320px; height:311px;}
+.i_newm dl dd{ width:268px;}
+.flex-control-paging li a{ width:10px; height:10px;}
+.scd_r .s_title .pst{ width:100%; position:static; text-align:left;}
+.scd_r .s_title{ height:auto;}
+.news dl dd{ width:100%; margin:0px; margin-top:15px;}
+.news dl dt, .news dl dt img{ width:100%; height:auto;}
+.pro .pro_l li{ width:100%; margin:0px !important; margin-bottom:15px !important;}
+.pro .pro_l li img{ width:100%; height:auto;}
+}

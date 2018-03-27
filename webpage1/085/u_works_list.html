@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>u作品列表</title>
+<meta content="美城街具" name="keywords">
+<meta content="美城街具" name="description">
+<meta http-equiv="Cache-Control" content="max-age=180">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link href="css/basestyle.css" rel="stylesheet" type="text/css" />
+<link href="css/mc.css" rel="stylesheet" type="text/css" />
+<link href="css/user_center.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.8.3.min.js"></script>
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="topper">
+  <div class="wrap cl">
+    <div class="t-left">您好，欢迎来到美城街具官方网站</div>
+    <div class="t-right">
+      <ul class="cl">
+        <li class="user-list">
+          <div class="top-user"><a href="desHome.html"><img src="upload/userhd.jpg"><span>飞翔的土豆</span><i class="fa fa-caret-down"></i></a></div>
+          <div class="pop-dwon">
+            <a href="#"><i class="fa fa-user-o"></i>个人主页</a>
+            <a href="#"><i class="fa fa-commenting-o"></i>我的消息</a>
+            <a href="#"><i class="fa fa-heart-o"></i>我的关注</a>
+            <a href="#"><i class="fa fa-image"></i>我的作品</a>
+            <a href="#" class="last"><i class="fa fa-power-off"></i>退出登录</a>
+          </div>
+        </li>
+        <li><a href="#">帮助中心</a></li>
+        <li><a href="#">联系我们</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        var setTime;
+        $(".user-list").hover(function () {
+			var _this = $(this); 
+            setTime = setTimeout(function () {
+				_this.addClass("hover");
+				$(".top-user i").removeClass("fa-caret-down").addClass("fa-caret-up");
+                $(".user-list .pop-dwon").slideDown(300);
+            }, 300);
+        }, function () {
+			var _this = $(this);
+            if (setTime) {
+                clearTimeout(setTime);
+            }
+            $(".user-list .pop-dwon").hide();
+			_this.removeClass("hover");
+			$(".top-user i").removeClass("fa-caret-up").addClass("fa-caret-down");
+        });
+    });
+</script>
+<div class="user-header">
+  <div class="u-main">
+    <div class="u-logo"><a href="index.html"></a></div>
+    <div class="menu">
+      <a href="u_index.html" class="active">首页</a>
+      <a href="upload_works.html" class="upld upzp" target="_blank">上传作品</a>
+      <a href="upload_needs.html" class="upld upxq" target="_blank">发布需求</a>
+    </div>
+    <div class="xx-count">
+      <a href="u_works_list.html"><i class="fa fa-tags"></i>我的原创<em>12</em></a>
+      <a href="u_works_list.html"><i class="fa fa-share"></i>我的转载<em>12</em></a>
+      <a href="u_user_list.html"><i class="fa fa-user"></i>我的粉丝<em>12</em></a>
+      <a href="u_xiaoxi_list.html"><i class="fa fa-commenting"></i>我的消息<em>12</em></a>
+    </div>
+  </div>
+</div>
+
+<div class="centers_m">
+  <!--left-->
+  <div class="centers_ml">
+    <!--头像-->
+    <div class="center_header">
+      <a href="u_ziliao.html"><img src="images/66f625e1ecfd7ad8244efabaa744aa73.png"/></a>
+      <div class="u-name">您好，<span>飞翔的土豆</span></div>
+      <div class="u-qianming"><input type="text" placeholder="这个用户很懒，什么都没有写" /></span></div>
+      <div class="u-area"><span>江苏</span>，<span>宿迁</span></div>
+    </div>
+    <div class="u-safe-btn">
+      <a href="u_ziliao.html"><i class="fa fa-vcard"></i>个人资料</a>
+      <a href="u_safe.html"><i class="fa fa-get-pocket"></i>账户安全</a>
+    </div>
+    <div class="centers_listm">
+      <!--分类开始-->
+      <div class="listbox">
+        <div class="centers_listm_one_in"><i class="fa fa-photo"></i><span>我的作品</span><b></b></div>
+        <div class="gjszmdm">
+          <a href="u_works_list.html" class="center_in_self"><span>原创街具</span></a>
+          <a href="u_works_list.html" class="center_in_self"><span>转载作品</span></a>
+          <a href="u_works_list.html" class="center_in_self"><span>审核中</span></a>
+        </div >
+      </div>
+      <div class="listbox">
+        <div class="centers_listm_one_in"><i class="fa fa-paper-plane"></i><span>我的需求</span><b></b></div>
+        <div class="gjszmdm">
+          <a href="u_needs_list.html" class="center_in_self"><span>进行中</span></a>
+          <a href="u_needs_list.html" class="center_in_self"><span>已完成</span></a>
+          <a href="u_needs_list.html" class="center_in_self"><span>审核中</span></a>
+        </div >
+      </div>
+      <div class="listbox">
+        <div class="centers_listm_one_in"><i class="fa fa-commenting"></i><span>我的消息</span><b></b></div>
+        <div class="gjszmdm">
+          <a href="u_xiaoxi_list.html" class="center_in_self"><span>系统消息</span></a>
+          <a href="u_xiaoxi_list.html" class="center_in_self"><span>用户留言</span></a>
+        </div >
+      </div>
+      <div class="listbox">
+        <div class="centers_listm_one_in"><i class="fa fa-puzzle-piece"></i><span>关注收藏</span><b></b></div>
+        <div class="gjszmdm">
+          <a href="u_user_list.html" class="center_in_self"><span>我的关注</span></a>
+          <a href="u_works_list.html" class="center_in_self"><span>收藏的作品</span></a>
+          <a href="u_works_list.html" class="center_in_self"><span>收藏的需求</span></a>
+        </div >
+      </div>
+    </div>
+  </div>
+<script type="text/javascript">
+	$(function(){
+		$(".centers_listm_one_in").click(function(){
+			$(this).next(".gjszmdm").slideToggle().siblings("gjszmdm").slideUp()
+			$(this).children("b").toggleClass("active")
+			});
+	})
+</script>
+  <!--right-->
+  <div class="centers_mr">
+    <div class="centers_r_items">
+      <div class="items-tit">
+        <a class="tit-name active">全部作品</a>
+        <a href="u_works_list.html" class="tit-name">原创街具</a>
+        <a href="u_works_list.html" class="tit-name">转载作品</a>
+      </div>
+      <div class="items-con"><!--如果没有数据<div class="items-con none-date">--->
+        <div class="ind-tuku u-c">
+          <ul>
+            <li>
+              <div class="img"><a href="workInfo.html"><img src="upload/tuku1.jpg"></a></div>
+              <div class="info">
+                <div class="name">最多15个字程序限制<span>阅读<em>13</em>次</span></div>
+                <div class="sort"><span>原创街具</span><i>-</i><s>路灯</s><a href="upload_works.html" class="u-editworks-btn"><i class="fa fa-edit"></i>编辑</a></div>
+              </div>
+            </li>
+            <li>
+              <div class="img"><a href="workInfo.html"><img src="upload/tuku1.jpg"></a></div>
+              <div class="info">
+                <div class="name">最多15个字程序限制<span>阅读<em>13</em>次</span></div>
+                <div class="sort"><span>转载作品</span><i>-</i><s>路灯</s><a href="upload_works.html" class="u-editworks-btn"><i class="fa fa-edit"></i>编辑</a></div>
+              </div>
+            </li>
+            <li>
+              <div class="img"><a href="workInfo.html"><img src="upload/tuku1.jpg"></a></div>
+              <div class="info">
+                <div class="name">最多15个字程序限制<span>阅读<em>13</em>次</span></div>
+                <div class="sort"><span>审核中..</span><i>-</i><s>路灯</s><a href="upload_works.html" class="u-editworks-btn"><i class="fa fa-edit"></i>编辑</a></div>
+              </div>
+            </li><li>
+              <div class="img"><a href="workInfo.html"><img src="upload/tuku1.jpg"></a></div>
+              <div class="info">
+                <div class="name">最多15个字程序限制<span>阅读<em>13</em>次</span></div>
+                <div class="sort"><span>原创街具</span><i>-</i><s>路灯</s><a href="upload_works.html" class="u-editworks-btn"><i class="fa fa-edit"></i>编辑</a></div>
+              </div>
+            </li>
+            <li>
+              <div class="img"><a href="workInfo.html"><img src="upload/tuku1.jpg"></a></div>
+              <div class="info">
+                <div class="name">最多15个字程序限制<span>阅读<em>13</em>次</span></div>
+                <div class="sort"><span>转载作品</span><i>-</i><s>路灯</s><a href="upload_works.html" class="u-editworks-btn"><i class="fa fa-edit"></i>编辑</a></div>
+              </div>
+            </li>
+            <li>
+              <div class="img"><a href="workInfo.html"><img src="upload/tuku1.jpg"></a></div>
+              <div class="info">
+                <div class="name">最多15个字程序限制<span>阅读<em>13</em>次</span></div>
+                <div class="sort"><span>审核中..</span><i>-</i><s>路灯</s><a href="upload_works.html" class="u-editworks-btn"><i class="fa fa-edit"></i>编辑</a></div>
+              </div>
+            </li>
+          </ul>
+          <div class="listPage">
+          <div class="pageBtn">
+            <span class="disabled"><i class="fa fa-caret-left"></i>上一页</span><span class="current">1</span><a href="#">2</a><a href="#">3</a><a href="#">4</a><span>...</span><a href="#">32</a><a href="#">下一页<i class="fa fa-caret-right"></i></a>
+          </div>                    
+        </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="clearfiexd"></div>
+</div>
+<div class="footer">
+  <div class="ft-menu">
+    <div class="wrap hide">
+      <dl>
+        <dt><i class="fa fa-compass"></i>新手指南</dt>
+        <dd>
+          <a href="#">注册新用户</a>
+          <a href="#">设计入门</a>
+          <a href="#">设计机构入门</a>
+          <a href="#">规则中心</a>
+          <a href="#">会员须知</a>
+        </dd>
+      </dl>
+      <dl>
+        <dt><i class="fa fa-mortar-board"></i>设计师</dt>
+        <dd>
+          <a href="#">上传作品</a>
+          <a href="#">查看需求</a>
+          <a href="#">购买设计作品</a>
+          <a href="#">案例作品</a>
+          <a href="#">我的故事</a>
+        </dd>
+      </dl>
+      <dl>
+        <dt><i class="fa fa-institution"></i>设计机构</dt>
+        <dd>
+          <a href="#">投标赚钱</a>
+          <a href="#">发布作品</a>
+          <a href="#">赚钱利器</a>
+          <a href="#">大咖分享</a>
+          <a href="#">设计机构联盟</a>
+          <a href="#">美城商学院</a>
+          <a href="#">机构等级</a>
+        </dd>
+      </dl>
+      <dl>
+        <dt><i class="fa fa-get-pocket"></i>交易保障</dt>
+        <dd>
+          <a href="#">双倍赔付</a>
+          <a href="#">美城担保交易</a>
+          <a href="#">诚信管理中心</a>
+          <a href="#">曝光台</a>
+          <a href="#">信用查询</a>
+        </dd>
+      </dl>
+    </div>
+  </div>
+  <div class="ft-cop">
+    <p>Copyright 2005-2016 meicheng.com 版权所有 <a href="#">苏ICP备102002274-4号</a> 苏B2-200080005 不良信息举报电话：0527-88390110  邮箱：110@meicheng.com</p>
+    <p><a href="#"><img src="images/ft0.jpg"></a><a href="#"><img src="images/ft1.jpg"></a><a href="#"><img src="images/ft2.jpg"></a><a href="#"><img src="images/ft3.jpg"></a><a href="#"><img src="images/ft4.jpg"></a></p>
+  </div>
+</div>
+<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>    
+            
+                    
+          
+	   	
+                
+            
+            
+            			  
+    
+           
+       	
+				     
+             		
+            
+           
+        
+    			 
+        	
+       
+            
+            
+            
+            
+    	
+                         
+       
+                                                     
+                            
+					      
+                
+        
+       	
+					     
+           
+            
+             
+        	
+					
+            
+            
+                
+                           
+                
+
+        
+                
+                        
+                
+                
+                    	
+               
+             
+                 
+                
+                
+                
+                
+                
+            
+                  
+        
+    	
+    
+			
+
+                
+    

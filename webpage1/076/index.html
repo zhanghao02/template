@@ -1,0 +1,551 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/drawer.min.css" >
+    <script src="js/jquery.min.js" ></script>
+    <script src="js/iscroll.js" ></script>
+    <script src="js/jquery.drawer.min.js" ></script>
+    <link rel="stylesheet" href="css/animate.min.css" >
+    <link href="css/style.css"  rel="stylesheet" />
+    
+    <title></title>
+    
+    <script type="text/javascript">
+        $(function () {
+            $(".nav_m li:eq(7)").addClass("cur");
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() == 0) {
+                    $("header").removeClass("scroll-header");
+                } else {
+                    $("header").addClass("scroll-header");
+                }
+            });
+        });
+        function ReturnTop() {
+            $("body,html").animate({ scrollTop: 0 }, 500);
+            return false;
+        }
+        document.oncontextmenu = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽右键菜单
+        document.onpaste = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽粘贴
+        document.oncopy = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽复制
+        document.oncut = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽剪切
+        document.onselectstart = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽选择
+    </script>
+</head>
+<body>
+    <header>
+    <div class="wrap">
+        <div class="logo">
+            <a href="index.html" >
+                <img src="images/logo.png" ></a></div>
+        <nav class="nav_m">
+            <ul>
+			    <li><a href="Contact.html" >联系我们</a></li>
+			    <li><a href="About.html" >关于我们</a></li>
+			    <li><a href="News.html" >新闻聚焦</a></li>
+			    <li><a href="Customer.html" >服务客户</a></li>    
+			    <li><a href="Overseas.html" >海外推广</a></li>
+			    <li><a href="index.html" >网站首页</a></li>
+            </ul>
+		</nav>
+        <div class="nav_1">
+            <div class="drawer drawer-right">
+                <div class="drawer-toggle drawer-hamberger">
+                    <span></span>
+                </div>
+                <div class="drawer-main drawer-default">
+                    <nav class="drawer-nav" role="navigation">
+                        <ul class="drawer-nav-list">
+                            <li><a href="index.html" >网站首页</a></li>
+                            <li><a href="Overseas.html" >海外推广</a></li>
+                            <li><a href="Customer.html" >服务客户</a></li>
+                            <li><a href="News.html" >新闻聚焦</a></li>
+                            <li><a href="About.html" >关于我们</a></li>
+                            <li><a href="Contact.html" >联系我们</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <script>
+                    $(document).ready(function () {
+                        $('.drawer').drawer();
+                        $('.js-trigger').click(function () {
+                            $('.drawer').drawer("open");
+                        });
+                    });
+                </script>
+            </div>
+            <div class="clearfix">
+            </div>
+        </div>
+    </header>
+    
+    <div class="banner">
+        
+        <div class="index_banner" id="banner_tabs">
+            <ul>
+                <li><a>
+                    <img src="images/banner01.jpg"  width="100%"></a></li>
+                <li><a>
+                    <img src="images/banner04.jpg"  width="100%"></a></li>
+            </ul>
+            <!--此处的img是用来占位的，在实际使用中，可以另外制作一张全空的图片-->
+            <img style="visibility: hidden;" src="images/banner01.jpg"  width="100%">
+            <cite><span class="cur">1</span> <span>2</span> </cite>
+            <div class=" clear ">
+            </div>
+        </div>
+    </div>
+    <div class="content_1">
+        <div class="bt_1 bounceInDown wow">
+            <p class="txt_7">提供一站式、全方位整合海外精准营销服务</p> 
+			<p class="txt_2">专注于对海外营销、网络策划、网站制作等方面的探索和研究，为企业提供周到、放心的一站式服务。</p>
+			</div>
+        <div class="content_x service1 wow ">
+            <section class="business active">
+	            <div class="box">
+		            <ul class="items list-inline">
+                        
+                          <li>
+                            <img alt="品牌型网站建设" src="images/20161019024531_2514.jpg" /><strong><a href="Service_Show_1.html" >品牌型网站建设</a></strong>
+			            	<p>是以企业品牌形象展示及创意为主，网站通过对企业品牌的塑造、信息的介绍，让浏览者熟悉企业的情况、了解企业所提供的产品和服务，并通过有效的在线沟通、交流方式搭建起潜在客户与企业之间的桥梁。</p>
+			            </li>
+                         
+                          <li>
+                            <img alt="营销型网站建设" src="images/20161019025656_2174.jpg" /><strong><a href="Service_Show_2.html" >营销型网站建设</a></strong>
+			            	<p>营销型企业网站是指以现代网络营销理念为核心，以搜索引擎良好表现、用户良好体验为标准；具备理解力、信任力和行动力；能够更好地将访客转化为顾客的企业网站.</p>
+			            </li>
+                         
+                          <li>
+                            <img alt="APP开发" src="images/20161019025830_8940.jpg" /><strong><a href="Service_Show_7.html" >APP开发</a></strong>
+			            	<p>根据企业的需求制定个性化方案，找出APP的卖点与需求差异,从移动营销、精准营销、客户依赖、产品延伸四大方面来进行战略规划。将APP的可用性、实效性完全表现出来。</p>
+			            </li>
+                         
+                          <li>
+                            <img alt="SEO优化" src="images/20161019030138_4063.jpg" /><strong><a href="Service_Show_10.html" >SEO优化</a></strong>
+			            	<p>GoogleSEO整站优化是搜索引擎优化公司在正确理解SEO、理解搜索引擎的前提下，提供的有别于单纯关键词排名服务的另外一种SEO服务。</p>
+			            </li>
+                         	            
+		            </ul>
+	            </div>
+            </section>
+        </div>
+        
+    </div>
+    <div class="formto">
+        <a href="Service.html" >
+            <img src="images/icon_1.png" ></a></div>
+    <div class="content_2 solution00 wow bounceInDown">
+        <div class="content_2m">
+			<div class="solution_1 txt_7">
+                企业运营管理，真正实现企业线上线下一体化</span>
+               
+            </div>
+			<img src="images/bg.png" >
+            
+        </div>
+    </div>
+    <div class="content_2 solution01">
+        <img src="images/bg_3.jpg" >
+    </div>
+    <div class="formto">
+        <img src="images/icon_1.png" ></div>
+    <div class="content_1">
+        <div class="bt_2">
+            <span class="txt_7">怎样让您的网站利用起来</span><br />
+            <span class="txt_8">We can help you</span></div>
+        <div class="content_x bak_2">
+            <div class="advantage_1 f_l wow bounceInLeft">
+                <dl>
+                    
+                    <dd>
+                        <h2>
+                            多年行业经验</h2>
+                        <h3>
+                            十年网络行业经验，成熟策划团队</h3>
+                        <p>
+                            <img src="images/icon_3.png" >
+                            多年沉淀汇聚行业设计精英团队，十年坚持始终追球细节完美品质，技术团队经手网站超过300家，具有专业水准、充满创意、视觉冲击力、吸引力、诱惑力的网页。</p>
+                        <p>
+                            <img src="images/icon_3.png" >
+                            300多个不同行业，2000家不同企业，精通各类营销方式，"量身定制"属于您的解决方案；我们知道针对您的行业做"合适"您企业的网站。</p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="advantage_2 f_r wow bounceInRight">
+            </div>
+        </div>
+        <div class="content_x bak_2">
+            <div class="advantage_3 f_l wow bounceInLeft">
+            </div>
+            <div class="advantage_1 f_r wow bounceInRight">
+                <dl>
+                    
+                    <dd>
+                        <h2>
+                            专业高素质团队</h2>
+                        <h3>
+                            资深技术团队完美配合，精准策划</h3>
+                        <p>
+                            <img src="images/icon_3.png" >
+                            汇聚行业网络营销专家人才，网络营销行业顶级技术团队。公司核心团队均从事网络营销实战操盘5年以上的丰富经验，自主研发的营销型网站系统具备多项智能技术。</p>
+                        <p>
+                            <img src="images/icon_3.png" >
+                            团队成员操盘过营销型网站，B2C商城，团购网，商城，B2B行业门户等大型平台，10年运营推广经验，对于付费竞价推广，免费SEO关键词排名推广，站群推广，运营策略等有独特的见解及实操的手法。</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="content_x bak_2">
+            <div class="advantage_1 f_l wow bounceInLeft">
+                <dl>
+                    
+                    <dd>
+                        <h2>
+                            售后服务</h2>
+                        <h3>
+                            对客户热诚，用心、真诚的服务是我们的宗旨</h3>
+                        <p>
+                            <img src="images/icon_3.png" >
+                            承诺每一个网站都是基于客户的情况，量身定做，为客户提供明确、长久、全面的网站运维服务(日常维护服务支持、页面, 功能及内容维护、网站安全维护)。</p>
+                        <p>
+                            <img src="images/icon_3.png" >
+                            本着"人尽其才，才尽其用"的用人原则，最大限度的激发员工的积极性和创造性；始终以"人"为本，最大限度的追求公司与员工的双赢。</p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="advantage_4 f_r wow bounceInRight">
+            </div>
+        </div>
+    </div>
+    <div class="formto">
+        <a href="About.html" >
+            <img src="images/icon_1.png" ></a></div>
+    <div class="content_3">
+        <div class="bt_3">
+            <span class="txt_10">-已亥优秀应用案例-</span><br>
+            <span class="txt_9">一个好的网站不仅能<span class="txt_11">盈利</span>，更是<span class="txt_11">行业的标杆</span></span></div>
+        
+        <div class="content_1 style3">
+            <ul>
+                
+                <li>
+                    <a target="_blank" href=""><img src="images/ww (1).jpg" ><span>夏威夷饰品商城</span></a>
+                </li>
+                
+                <li>
+                    <a target="_blank" href=""><img src="images/ww (2).jpg" ><span>MAXORS</span></a>
+                </li>
+				<li>
+                    <a target="_blank" href=""><img src="images/ww (3).jpg" ><span>T000综合型模板</span></a>
+                </li>
+				<li>
+                    <a target="_blank" href=""><img src="images/ww (4).jpg" ><span>T001综合型商城</span></a>
+                </li>
+				<li>
+                    <a target="_blank" href=""><img src="images/ww (5).jpg" ><span>JOHN BAGLEY</span></a>
+                </li>
+				<li>
+                    <a target="_blank" href=""><img src="images/ww (6).jpg" ><span>T010综合型模板</span></a>
+                </li>
+				<li>
+                    <a target="_blank" href=""><img src="images/ww (7).jpg" ><span>1BYONE</span></a>
+                </li>
+                <li>
+                    <a target="_blank" href=""><img src="images/ww (8).jpg" ><span>浩谷家私</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="formto">
+        <a href="News.html" >
+            <img src="images/icon_1.png" ></a></div>
+    <div class="content_1 contact_fa">
+        <div class="bt_4">
+            <p class="txt_7">新闻中心</p>
+            <p class="txt_2">全面了解互联网技术动态，网络营销知识</p></div>
+        <div class="content_x bak_4">
+            
+            <div class="news_1 f_l wow ">
+                <img alt="商城网站，可以咨询济南搜索联盟！！！" src="images/ww (2).jpg" ><br />
+                <div>
+                    <a href="News_Show_252.html" >
+                        商城网站，可以咨询济南搜索联盟！...</a><br />
+                    <p>
+                        中国的淘宝在中国创造了神话，同样，在俄罗斯，迅速崛起的互联网带动了网上购物平台如...</p>
+                </div>
+            </div>
+            
+            <div class="news_1 f_l wow ">
+                <img alt="Bing Ads，让你的海外营销有不一样的效果" src="images/ww (1).jpg" ><br />
+                <div>
+                    <a href="News_Show_251.html" >
+                        BingAds，让你的海外营销有...</a><br />
+                    <p>
+                        主要服务是帮助中国企业在bing搜索引擎的搜索结果中能够展现自己的广告，广告形式...</p>
+                </div>
+            </div>
+            
+            <div class="news_2 f_r bounceInRight">
+                <div class="news_3">
+                    <div class="bt_5 txt_13">
+                        <img src="images/icon_4.png" >
+                        公司新闻</div>
+                    <div class="content_x news_list">
+                        
+                        <dl>
+                            <dt>
+                                <img src="images/icon_5.png" >&nbsp; <a href="News_Show_250.html" >
+                                    海外市场，社交媒体不可或缺！</a></dt><dd>[2016-11-09]</dd></dl>
+                        
+                        <dl>
+                            <dt>
+                                <img src="images/icon_5.png" >&nbsp; <a href="News_Show_248.html" >
+                                    开拓俄罗斯市场，搜索联盟帮你做最好的准备工作</a></dt><dd>[2016-11-03]</dd></dl>
+                        
+                        <dl>
+                            <dt>
+                                <img src="images/icon_5.png" >&nbsp; <a href="News_Show_191.html" >
+                                    小语种网站建设，搜索联盟帮你搞定！</a></dt><dd>[2016-06-15]</dd></dl>
+                        
+                        <dl>
+                            <dt>
+                                <img src="images/icon_5.png" >&nbsp; <a href="News_Show_187.html" >
+                                    搜索联盟专业的手工建站！</a></dt><dd>[2016-05-09]</dd></dl>
+                        
+                        <dl>
+                            <dt>
+                                <img src="images/icon_5.png" >&nbsp; <a href="News_Show_186.html" >
+                                    网站不收录怎么办？搜索联盟有办法！</a></dt><dd>[2016-04-28]</dd></dl>
+                        
+                        <dl>
+                            <dt>
+                                <img src="images/icon_5.png" >&nbsp; <a href="News_Show_180.html" >
+                                    什么样的网站才是最好的！</a></dt><dd>[2016-03-29]</dd></dl>
+                        
+                        <dl>
+                            <dt>
+                                <img src="images/icon_5.png" >&nbsp; <a href="News_Show_177.html" >
+                                    网站排名上不去，怎么回事？</a></dt><dd>[2016-03-18]</dd></dl>
+                        
+                        <dl>
+                            <dt>
+                                <img src="images/icon_5.png" >&nbsp; <a href="News_Show_176.html" >
+                                    网站是否符合标准，该如何检测？</a></dt><dd>[2016-03-10]</dd></dl>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        (function () {
+            if (!Function.prototype.bind) {
+                Function.prototype.bind = function (obj) {
+                    var owner = this, args = Array.prototype.slice.call(arguments), callobj = Array.prototype.shift.call(args);
+                    return function (e) { e = e || top.window.event || window.event; owner.apply(callobj, args.concat([e])); };
+                };
+            }
+        })();
+        var banner_tabs = function (id) {
+            this.ctn = document.getElementById(id);
+            this.adLis = null;
+            this.btns = null;
+            this.animStep = 0.2; //动画速度0.1～0.9
+            this.switchSpeed = 6; //自动播放间隔(s)
+            this.defOpacity = 1;
+            this.tmpOpacity = 1;
+            this.crtIndex = 0;
+            this.crtLi = null;
+            this.adLength = 0;
+            this.timerAnim = null;
+            this.timerSwitch = null;
+            this.init();
+        };
+        banner_tabs.prototype = {
+            fnAnim: function (toIndex) {
+                if (this.timerAnim) { window.clearTimeout(this.timerAnim); }
+                if (this.tmpOpacity <= 0) {
+                    this.crtLi.style.opacity = this.tmpOpacity = this.defOpacity;
+                    this.crtLi.style.filter = 'Alpha(Opacity=' + this.defOpacity * 100 + ')';
+                    this.crtLi.style.zIndex = 0;
+                    this.crtIndex = toIndex;
+                    return;
+                }
+                this.crtLi.style.opacity = this.tmpOpacity = this.tmpOpacity - this.animStep;
+                this.crtLi.style.filter = 'Alpha(Opacity=' + this.tmpOpacity * 100 + ')';
+                this.timerAnim = window.setTimeout(this.fnAnim.bind(this, toIndex), 50);
+            },
+            fnNextIndex: function () {
+                return (this.crtIndex >= this.adLength - 1) ? 0 : this.crtIndex + 1;
+            },
+            fnSwitch: function (toIndex) {
+                if (this.crtIndex == toIndex) { return; }
+                this.crtLi = this.adLis[this.crtIndex];
+                for (var i = 0; i < this.adLength; i++) {
+                    this.adLis[i].style.zIndex = 0;
+                }
+                this.crtLi.style.zIndex = 2;
+                this.adLis[toIndex].style.zIndex = 1;
+                for (var i = 0; i < this.adLength; i++) {
+                    this.btns[i].className = '';
+                }
+                this.btns[toIndex].className = 'cur'
+                this.fnAnim(toIndex);
+            },
+            fnAutoPlay: function () {
+                this.fnSwitch(this.fnNextIndex());
+            },
+            fnPlay: function () {
+                this.timerSwitch = window.setInterval(this.fnAutoPlay.bind(this), this.switchSpeed * 1000);
+            },
+            fnStopPlay: function () {
+                window.clearTimeout(this.timerSwitch);
+            },
+            init: function () {
+                this.adLis = this.ctn.getElementsByTagName('li');
+                this.btns = this.ctn.getElementsByTagName('cite')[0].getElementsByTagName('span');
+                this.adLength = this.adLis.length;
+                for (var i = 0, l = this.btns.length; i < l; i++) {
+                    with ({ i: i }) {
+                        this.btns[i].index = i;
+                        this.btns[i].onclick = this.fnSwitch.bind(this, i);
+                        this.btns[i].onclick = this.fnSwitch.bind(this, i);
+                    }
+                }
+                this.adLis[this.crtIndex].style.zIndex = 2;
+                this.fnPlay();
+                this.ctn.onmouseover = this.fnStopPlay.bind(this);
+                this.ctn.onmouseout = this.fnPlay.bind(this);
+            }
+        };
+        var player1 = new banner_tabs('banner_tabs');
+    </script>
+
+    <div class="foot">
+        <div class="foot_m">
+            
+            <div class="foot-list foot-list-01">
+                <h2>
+                    关于我们</h2>
+                <p>
+                    乙亥科技有限公司成立于2007年，是中国领先的海外精准营销服务商，俄罗斯Yandex授权代理商，微软bing搜索授权代理商，韩国Naver授...
+                </p>
+                <a class="about-button" href="About.html" >查看更多 >></a>
+            </div>
+            <div class="foot-list foot-list-02">
+                <h2>
+                    最新案例</h2>
+                <div class="foot-caselist">
+                    
+                    <div class="foot-case-list">
+                        <dl>
+                            <dt>
+                                <img src="images/ww (2).jpg" 
+                                    width="76" height="51" /></dt>
+                            <dd>
+                                <span>
+                                    T010综合型模板</span><a target="_blank" href=""></a>
+							</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="foot-case-list">
+                        <dl>
+                            <dt>
+                                <img src="images/ww (4).jpg" 
+                                    width="76" height="51" /></dt>
+                            <dd>
+                                <span>
+                                    T000综合型模板</span><a target="_blank" href=""></a>
+							</dd>
+                        </dl>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="foot-list foot-list-03">
+                <h2>
+                    快捷链接</h2>
+                <a class="foot-list-nav" href="Service.html" >服务客户</a> <a class="foot-list-nav"
+                    href="News.html" >新闻聚焦</a> <a class="foot-list-nav" href="Overseas.html" >
+                        海外推广</a> <a class="foot-list-nav" href="Solutions.html" >首页</a> <a class="foot-list-nav"
+                            href="Contact.html" >联系我们</a><a class="foot-list-nav" href="About.html" >关于我们</a>
+            </div>
+            <div class="foot-list foot-list-04">
+                <h2 style="">
+                    400-995-5758</h2>
+                周一至周五 8:30-17:30
+                <br />
+                微信扫一扫 搜索联盟为您服务
+                <br />
+                <img alt="weixin" src="images/code1.png"  width="90" height="90" />
+            </div>
+        </div>
+        <div class="foot-o">
+            <div class="foot-o-nav">
+                <p>版权所有@乙亥科技有限公司 鲁ICP备07012119号&nbsp;<span style="white-space: normal;">山东省济南市历城区华能路38号汇能大厦5楼</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="contact_f">
+        <table width="94%" border="0" cellspacing="0" cellpadding="0" style="margin: auto;">
+            <tr>
+                <td>
+                    <img src="images/icon_14.png"  /><br />
+                    <a href="index.htm" >返回首页</a>
+                </td>
+                <td>
+                    <img src="images/icon_11.png"  /><br />
+                    <a href="Contact.html" >联系我们</a>
+                </td>
+                <td>
+                    <img src="images/icon_12.png"  /><br />
+                    <a href="tel:18660103869">拨打电话</a>
+                </td>
+                <td>
+                    <img src="images/icon_13.png"  /><br />
+                    <a href="sms:18660103869">发送短信</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="left-toolbar">
+        <ul>
+            <li><a href="">
+                <span class="bar01"></span>
+                <label>
+                    在线咨询</label></a> </li>
+            <li><a href="javascript:void(0)"><span class="bar02"></span>
+                <label>
+                    400-995-5758</label></a> </li>
+            <li><a href="javascript:void(0)" onClick="ReturnTop();"><span class="bar03"></span>
+                <label>
+                    返回顶部</label></a> </li>
+        </ul>
+    </div>
+    <script src="js/wow.min.js" ></script>
+    <script>
+        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+            new WOW().init();
+        };
+    </script>
+	<div class="xs-message">
+		<script language="javascript" src="../dkb.duokebo.com/js/detector.aspx-siteid=837766" ></script>
+	</div>
+	
+    <!-- JiaThis Button BEGIN -->
+    <script type="text/javascript" src="../v3.jiathis.com/code/jiathis_r.js-type=left&move=0" 
+        charset="utf-8"></script>
+    <!-- JiaThis Button END -->
+<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>

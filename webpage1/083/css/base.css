@@ -1,0 +1,67 @@
+html{color:#333;line-height:1.5}
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+body,button,input,select,textarea a{font:12px/1.5 "Microsoft Yahei",arial,"宋体",tahoma,sans-serif}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,iframe,button,textarea,p,blockquote,th,td,img{margin:0;padding:0}
+fieldset,img,iframe,button,a{border:0;text-decoration:none}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
+table{border-collapse:collapse;border-spacing:0}
+caption,th{text-align:left}
+input,select,img{vertical-align:middle}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+textarea{outline:none;resize:none}
+ol,ul{list-style:none}
+del{text-decoration:line-through}
+em{font-style:normal}
+i{font-style:normal}
+sup,sub{font-size:100%;vertical-align:baseline}
+input[type=submit],input[type=button],[class^=btn-],button{cursor:pointer}
+input::-moz-focus-inner{border:0;padding:0}
+
+
+.clear{clear:both;width:0;height:0px;margin:0;padding:0;border:none;overflow:hidden;font-size:0px}
+.clearfix{zoom:1}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;line-height:0}
+
+.bk, .bk3, .bk5, .bk8, .bk10, .bk20,.bk25, .bk30, .bk40 ,bk60{clear: both;font-size: 0;height: 0;overflow: hidden;}
+.bk5{height: 5px;}
+.bk8{height: 8px;}
+.bk10{height: 10px;}
+.bk20{height: 20px;}
+.bk25{height:25px;}
+.bk30{height: 30px;}
+.bk40{height: 40px;}
+.bk60{height:60px;}
+
+.fr{float:right;_display:inline}
+.fl{float:left;_display:inline}
+
+.tar{text-align:right}
+.tal{text-align:left}
+.tac{text-align:center}
+
+.fntb{font-weight:700}
+
+.mc{margin:0 auto}
+.m5{margin:5px}
+.m10{margin:10px}
+.m15{margin:15px}
+
+.mt5{margin-top:5px}
+.mt10{margin-top:10px}
+.mt15{margin-top:15px}
+.mt20{margin-top:20px}
+
+.p5{padding:5px}
+.p10{padding:10px}
+.p15{padding:15px}
+
+.bdrno{border:none}
+.bdrnol{border-left-style:none}
+.bdrnor{border-right-style:none}
+
+.bgno{background:none}
+.bgtr{background:transparent}
+
+.iedi{display:inline}
+.iedib{display:inline-block;*display:inline;*zoom:1;}
+

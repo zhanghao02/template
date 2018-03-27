@@ -1,0 +1,66 @@
+﻿/*手机*/
+@media screen and (max-width: 760px) 
+{
+.phone_none{display:none;}
+.pc_none{display:block;}
+.pb70{padding: 0 0 0px 0 !important;}
+/*header*/
+.header {height:100px !important; position: relative; width:100%;}
+.header .logo {background:#fff !important; float:none; height:50px !important; display: table !important; width:20%; }
+.header .logo span {display: table-cell; vertical-align: middle;}
+.header .guide {float:none; margin-top:10px; position: relative; font-size:12px; display:none;}
+.header .guide a {color:#808080; margin: 0 0 0 20px; font-size:12px;}
+.header .guide a img{display:inline-block; margin-right:10px; vertical-align:-1px;  }
+.header .guide span {font-size: 12px; color: #999; vertical-align: 1px;}
+.header .guide .show-code {position: absolute; top: 24px; right: 81px; z-index: 9999; display: none;}
+.header .nav {position: absolute;; right: 0; bottom: 0 !important; height:30px !important;width:100%;}
+.header .nav li {float:left; margin-left:5px; height:28px; background:none !important; }
+.header .nav li a {color:#1a1a1a; font-size: 16px; text-decoration:none; background:none !important; }
+.header .nav li a img {display:inline-block; }
+.header .nav li.active ,.header .nav li:hover {border-bottom:2px solid #75be14; }
+.header .nav li:hover .bg {color:#75be14; }
+.header .nav li.active a ,.header .nav li:hover a {color:#75be14;}
+
+/* flexslider */
+.flexslider{position:relative;height:200px;overflow:hidden;}
+.slides{position:relative;z-index:1;}
+.slides li{height:200px;background-position:100% 100% no-repeat;}
+.flex-control-nav{position:absolute;bottom:30px;z-index:2;width:100%;text-align:center;}
+.flex-control-nav li{display:inline-block;width:16px;height:16px;margin:0 5px;*display:inline;zoom:1;}
+.flex-control-nav a{display:inline-block;width:16px;height:16px;line-height:80px;overflow:hidden;background:url(../images/dot.png) right 0 no-repeat;cursor:pointer;}
+.flex-control-nav .flex-active{background-position:0 0;}
+/*project*/
+.icontent .project{width: 100%; height: 500px; }
+.icontent .project h1 {font-size: 24px; color: #75be14; font-weight: 500; text-align: center; padding: 49px 0 20px 0;}
+.icontent .project h2 {font-size: 20px; color: #333; font-weight: 500; text-align: center; padding: 0 0 40px 0;}
+.icontent .project .list {width: 33%; padding: 26px 0 0 0; border-right: 1px solid #e0e0e0; height: 310px; float: left; }
+.icontent .project .list p {line-height: 25px; color: #666; font-size: 14px; padding: 0 5px;}
+.icontent .project .list h3 {text-align: center; color: #333; font-size: 16px; padding: 20px 0 30px 0; font-weight: 500;}
+.icontent .project .list h3 span{display:none;}
+.icontent .process {background-color:#fff; height: 550px; text-align: center;}
+.icontent .process h1 {font-size: 24px; color: #75be14; font-weight: 500; text-align: center; padding: 49px 0 20px 0;}
+.icontent .process h2 {font-size: 20px; color: #333; font-weight: 200; text-align: center; padding: 0 0 40px 0;}
+.icontent .process h2 span {font-size: 20px;}
+.icontent .process img { width:100%;}
+.icontent .case {padding:0 0 0px 0;}
+.icontent .case h1 {font-size: 24px; color: #75be14; font-weight: 500; text-align: center; padding: 49px 0 20px 0;}
+.icontent .case h2 {font-size: 20px; color: #333; font-weight: 500; text-align: center; padding: 0 0 51px 0;}
+.icontent .case .case-list {text-align: center; width: 100%; }
+.icontent .case .case-list ul {overflow: hidden; padding: 0px;width: 98%; margin:0 auto;}
+.icontent .case .case-list ul li {float:left; width: 50%; height: 178px; border: 0px solid #e6e6e6; background: #fff; margin:0; display: table; overflow: hidden;}
+.icontent .case .case-list ul li span {display: table-cell; vertical-align: middle;}
+
+.footer {padding: 20px 0 0 0;}
+.footer .advan {display:none;}
+.footer .fnav-box {display:none; }
+.footer .link {border-top: 1px solid #cfcfcf; width: 100%; padding: 17px 0 27px 0; text-align: center; }
+.footer .link .on ul { display:none;}
+.footer .link .on ul li {float: left; margin-right: 24px; font-size: 12px;}
+.footer .link .on ul li a {color: #666666; font-size: 12px;}
+.footer .link .on .copyright {font-size: 12px; color: #666666; display: inline-block; *display: inline; zoom:1; vertical-align: 1px; }
+.footer .link .on .copyright a {font-size: 12px; color: #666666;display: inline-block; *display: inline; zoom:1;}
+.footer .friendship {text-align: center; margin: 16px auto 0 auto; display: none; }
+.footer .friendship li {display: inline-block; *display: inline; zoom:1; font-size: 12px; padding:0 12px 0 5px; background: url(../images/yqlkjg.jpg) no-repeat right;}
+.footer .friendship li a {color: #999999; font-size: 12px;}
+
+}

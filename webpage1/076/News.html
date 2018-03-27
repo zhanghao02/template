@@ -1,0 +1,324 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/drawer.min.css" >
+    <script src="js/jquery.min.js" ></script>
+    <script src="js/iscroll.js" ></script>
+    <script src="js/jquery.drawer.min.js" ></script>
+    <link rel="stylesheet" href="css/animate.min.css" >
+    <link href="css/style.css"  rel="stylesheet" />
+    
+    <title></title>
+    
+    <script type="text/javascript">
+        $(function () {
+            $(".nav_m li:eq(7)").addClass("cur");
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() == 0) {
+                    $("header").removeClass("scroll-header");
+                } else {
+                    $("header").addClass("scroll-header");
+                }
+            });
+        });
+        function ReturnTop() {
+            $("body,html").animate({ scrollTop: 0 }, 500);
+            return false;
+        }
+        document.oncontextmenu = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽右键菜单
+        document.onpaste = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽粘贴
+        document.oncopy = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽复制
+        document.oncut = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽剪切
+        document.onselectstart = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽选择
+    </script>
+</head>
+<body>
+    <header>
+    <div class="wrap">
+        <div class="logo">
+            <a href="index.html" >
+                <img src="images/logo.png" ></a></div>
+        <nav class="nav_m">
+            <ul>
+			    <li><a href="Contact.html" >联系我们</a></li>
+			    <li><a href="About.html" >关于我们</a></li>
+			    <li><a href="News.html" >新闻聚焦</a></li>
+			    <li><a href="Customer.html" >服务客户</a></li>    
+			    <li><a href="Overseas.html" >海外推广</a></li>
+			    <li><a href="index.html" >网站首页</a></li>
+            </ul>
+		</nav>
+        <div class="nav_1">
+            <div class="drawer drawer-right">
+                <div class="drawer-toggle drawer-hamberger">
+                    <span></span>
+                </div>
+                <div class="drawer-main drawer-default">
+                    <nav class="drawer-nav" role="navigation">
+                        <ul class="drawer-nav-list">
+                            <li><a href="index.html" >网站首页</a></li>
+                            <li><a href="Overseas.html" >海外推广</a></li>
+                            <li><a href="Customer.html" >服务客户</a></li>
+                            <li><a href="News.html" >新闻聚焦</a></li>
+                            <li><a href="About.html" >关于我们</a></li>
+                            <li><a href="Contact.html" >联系我们</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <script>
+                    $(document).ready(function () {
+                        $('.drawer').drawer();
+                        $('.js-trigger').click(function () {
+                            $('.drawer').drawer("open");
+                        });
+                    });
+                </script>
+            </div>
+            <div class="clearfix">
+            </div>
+        </div>
+    </header>
+    
+    <div class="banner">
+        
+        <div class="index_banner" id="banner_tabs">
+            <ul>
+                <li><a>
+                    <img src="images/banner01.jpg"  width="100%"></a></li>
+                <li><a>
+                    <img src="images/banner04.jpg"  width="100%"></a></li>
+            </ul>
+            <!--此处的img是用来占位的，在实际使用中，可以另外制作一张全空的图片-->
+            <img style="visibility: hidden;" src="images/banner01.jpg"  width="100%">
+            <cite><span class="cur">1</span> <span>2</span> </cite>
+            <div class=" clear ">
+            </div>
+        </div>
+    </div>
+    
+    <div class="bt_3">
+        <span class="txt_1">新闻聚焦</span> &nbsp; <span class="txt_22"><span class="txt_23">NEWS</span>
+            CENTER</span></div>
+    <div class="content_1 news_in1">
+        <ul>
+            
+            <li class="id1"><a href="News_1.html" >
+                网站建设</a></li>
+            
+            <li class="id6"><a href="News_6.html" >
+                公司新闻</a></li>
+            
+            <li class="id7"><a href="News_7.html" >
+                常见问题</a></li>
+            
+            <li class="id8"><a href="News_8.html" >
+                行业资讯</a></li>
+            
+        </ul>
+    </div>
+    <div class="content_1 news_in2">
+        
+        <dl class="wow">
+            <dt><span class="txt_25">
+                26</span><br />
+                <span class="txt_26">
+                    2016-12</span></dt>
+            <dd>
+                <a href="News_Show.html" ><b>
+                    俄罗斯2016年时装市场概况！！！</b></a><p>
+                        据亿邦动力网刊载：据DataInsight分析调查公司数据显示，服装与鞋类产品是俄罗斯消费者在跨境网店最热卖的产品种类（占总交易额的35.6%）。俄罗斯电商数据Yandex搜索统计数据也证明俄罗斯用户对中国时装产品的兴趣增长。俄罗斯电商数据...</p>
+            </dd>
+        </dl>
+        
+        <dl class="wow">
+            <dt><span class="txt_25">
+                19</span><br />
+                <span class="txt_26">
+                    2016-12</span></dt>
+            <dd>
+                <a href="News_Show.html" ><b>
+                    俄网民购中国货热情高涨 购物量较去年高78%</b></a><p>
+                        据亿邦动力网刊称日前，俄罗斯最大的电子支付服务供应商Yandex支付发布了中俄两国网民2016年支付的调查数据。数据显示，2016年俄罗斯网民从中国订购的商品数量较2015年高出78%，中国网上零售商通过Yandex支付实现的营收增加了73...</p>
+            </dd>
+        </dl>
+        
+        <dl class="wow">
+            <dt><span class="txt_25">
+                12</span><br />
+                <span class="txt_26">
+                    2016-12</span></dt>
+            <dd>
+                <a href="News_Show.html" ><b>
+                    你的网站符合这几点要求吗？</b></a><p>
+                        网站是一个企业的门面，是形象的塑造，网站有很多类型，品牌型网站，营销型网站，响应式网站等等，那么什么样的网站才是最适合自己的呢，搜索联盟的小编给大家分析一下:1观察度网站要想唯一，大气，显得与众不同。就要有不一样的风格，不一样的设计风格，这...</p>
+            </dd>
+        </dl>
+        
+        <dl class="wow">
+            <dt><span class="txt_25">
+                06</span><br />
+                <span class="txt_26">
+                    2016-12</span></dt>
+            <dd>
+                <a href="News_Show.html" ><b>
+                    Facebook做营销，搜索联盟给你介绍几个skill</b></a><p>
+                        Facebook营销推广技巧一：开账户技巧1：为了更好的做Facebook推广，你需要建立2个账户，一个做权威发布，一个做转发2：帐号的封面的设置Facebook营销推广技巧二：品牌细节品牌推广1：懂得吸引你潜在的客户2：选择和你品牌或网站...</p>
+            </dd>
+        </dl>
+        
+        <dl class="wow">
+            <dt><span class="txt_25">
+                23</span><br />
+                <span class="txt_26">
+                    2016-11</span></dt>
+            <dd>
+                <a href="News_Show.html" ><b>
+                    商城网站，可以咨询济南搜索联盟！！！</b></a><p>
+                        中国的淘宝在中国创造了神话，同样，在俄罗斯，迅速崛起的互联网带动了网上购物平台如雨后春笋般的速度发展和壮大，包括ebuy、emostmall在内的众多购物商城在俄罗斯获得了广泛的市场。发展中的俄罗斯电子商务市场充满了挑战和无限的财富诱惑。是...</p>
+            </dd>
+        </dl>
+        
+        <dl class="wow">
+            <dt><span class="txt_25">
+                16</span><br />
+                <span class="txt_26">
+                    2016-11</span></dt>
+            <dd>
+                <a href="News_Show.html" ><b>
+                    Bing Ads，让你的海外营销有不一样的效果</b></a><p>
+                        主要服务是帮助中国企业在bing搜索引擎的搜索结果中能够展现自己的广告，广告形式是在搜索结果的右侧的关键字广告。Bing是微软旗下的一款战略性产品，拥有最先进的技术和最人性化的搜索体验。bing市场份额已增至全球市场份额的30%以上。bin...</p>
+            </dd>
+        </dl>
+        
+    </div>
+    <div class="page contact_fa">
+        <a href='javascript:void(0)'>首页</a><a class='jbtn' href='javascript:void(0)'>1</a><a href="News_Show.html" >2</a><a href="News_Show.html" >5</a>...<a href="News_Show.html" >尾页</a><span>共136条数据</span>
+    </div>
+
+    <div class="foot">
+        <div class="foot_m">
+            
+            <div class="foot-list foot-list-01">
+                <h2>
+                    关于我们</h2>
+                <p>
+                    乙亥科技有限公司成立于2007年，是中国领先的海外精准营销服务商，俄罗斯Yandex授权代理商，微软bing搜索授权代理商，韩国Naver授...
+                </p>
+                <a class="about-button" href="About.html" >查看更多 >></a>
+            </div>
+            <div class="foot-list foot-list-02">
+                <h2>
+                    最新案例</h2>
+                <div class="foot-caselist">
+                    
+                    <div class="foot-case-list">
+                        <dl>
+                            <dt>
+                                <img src="images/ww (2).jpg" 
+                                    width="76" height="51" /></dt>
+                            <dd>
+                                <span>
+                                    T010综合型模板</span><a target="_blank" href=""></a>
+							</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="foot-case-list">
+                        <dl>
+                            <dt>
+                                <img src="images/ww (4).jpg" 
+                                    width="76" height="51" /></dt>
+                            <dd>
+                                <span>
+                                    T000综合型模板</span><a target="_blank" href=""></a>
+							</dd>
+                        </dl>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="foot-list foot-list-03">
+                <h2>
+                    快捷链接</h2>
+                <a class="foot-list-nav" href="Service.html" >服务客户</a> <a class="foot-list-nav"
+                    href="News.html" >新闻聚焦</a> <a class="foot-list-nav" href="Overseas.html" >
+                        海外推广</a> <a class="foot-list-nav" href="Solutions.html" >首页</a> <a class="foot-list-nav"
+                            href="Contact.html" >联系我们</a><a class="foot-list-nav" href="About.html" >关于我们</a>
+            </div>
+            <div class="foot-list foot-list-04">
+                <h2 style="">
+                    400-995-5758</h2>
+                周一至周五 8:30-17:30
+                <br />
+                微信扫一扫 搜索联盟为您服务
+                <br />
+                <img alt="weixin" src="images/code1.png"  width="90" height="90" />
+            </div>
+        </div>
+        <div class="foot-o">
+            <div class="foot-o-nav">
+                <p>版权所有@乙亥科技有限公司 鲁ICP备07012119号&nbsp;<span style="white-space: normal;">山东省济南市历城区华能路38号汇能大厦5楼</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="contact_f">
+        <table width="94%" border="0" cellspacing="0" cellpadding="0" style="margin: auto;">
+            <tr>
+                <td>
+                    <img src="images/icon_14.png"  /><br />
+                    <a href="index.htm" >返回首页</a>
+                </td>
+                <td>
+                    <img src="images/icon_11.png"  /><br />
+                    <a href="Contact.html" >联系我们</a>
+                </td>
+                <td>
+                    <img src="images/icon_12.png"  /><br />
+                    <a href="tel:18660103869">拨打电话</a>
+                </td>
+                <td>
+                    <img src="images/icon_13.png"  /><br />
+                    <a href="sms:18660103869">发送短信</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="left-toolbar">
+        <ul>
+            <li><a href="">
+                <span class="bar01"></span>
+                <label>
+                    在线咨询</label></a> </li>
+            <li><a href="javascript:void(0)"><span class="bar02"></span>
+                <label>
+                    400-995-5758</label></a> </li>
+            <li><a href="javascript:void(0)" onClick="ReturnTop();"><span class="bar03"></span>
+                <label>
+                    返回顶部</label></a> </li>
+        </ul>
+    </div>
+    <script src="js/wow.min.js" ></script>
+    <script>
+        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+            new WOW().init();
+        };
+    </script>
+	<div class="xs-message">
+		<script language="javascript" src="../dkb.duokebo.com/js/detector.aspx-siteid=837766" ></script>
+	</div>
+	
+    <!-- JiaThis Button BEGIN -->
+    <script type="text/javascript" src="../v3.jiathis.com/code/jiathis_r.js-type=left&move=0" 
+        charset="utf-8"></script>
+    <!-- JiaThis Button END -->
+<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>银丰资讯</title>
+<script src="jquery.js"></script>
+<script>
+$(document).ready(function(e) {
+    $(".sub_nav").hide()
+	$(".nav li").mouseenter(function(){
+		$(this).children(".sub_nav").slideDown().stop(false,true)
+		}).mouseleave(function(){
+			$(this).children(".sub_nav").slideUp()
+			})
+		
+	$(".button_box li").click(function(){
+		$(".button_box li").removeClass()
+		$(this).addClass("current_but")
+		})
+});
+</script>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<style>
+.infor{ width:980px; margin:0 auto; padding:0 40px;}
+.title_infor{ width:168px; margin:0 auto;}
+.infor dl{ float:left; margin-right:100px; margin-top:30px;}
+.infor dd a{ font-size:16px; height:70px; line-height:70px; text-align:center; color:#dd251d;}
+.icon_box dd{ -webkit-transition:2s;}
+.icon_box dd:hover{-webkit-transform:scale(1.2,1.2) rotate(360deg);}
+.content_bg{ background-color:#dd251d;}
+.content_box{ width:980px; margin:0 auto;}
+.title_news005{ width:150px; margin:0 auto; padding-top:30px;}
+.title_news005 p{ height:76px; line-height:76px; font-size:14px; text-align:center; color:#fff;}
+.news_box{ width:100px; margin:0 auto;}
+.news_box li{ width:100px; height:100px; background-color:#fff; border-radius:50%; position:relative;}
+.news_box p{ position:absolute; top:50%; left:50%; margin-top:-21px; margin-left:-20px; font-size:12px; text-align:center; color:#B5B5B5;}
+.news_box span{ font-size:14px; font-weight:bold; color:#838383;}
+.news_box > img{ width:1px; margin:0 auto; margin-top:10px; margin-bottom:20px;}
+.news_01{ position:absolute; left:-420px;}
+.icon_arrowr{ position:absolute; top:31px; left:10px;}
+.title_news{ line-height:68px; padding-left:30px; padding-right:120px; font-size:12px; color:#fff; background-image:url(img/lines02.png); background-repeat:no-repeat;
+background-position:0 50px;}
+.news_02{ position:absolute; right:-420px;}
+.button_box{ width:200px; margin:0 auto; margin-top:100px; padding-bottom:30px;}
+.button_box li{ float:left; height:40px; line-height:40px; width:40px; text-align:center; background-color:#F3F3F3; border-radius:50%; margin:0 5px; color:#838383;}
+.button_box .current_but{ color:#F1272B;}
+.current_but{ color:#F1272B;}
+</style>
+</head>
+
+<body>
+<div class="header">
+<div class="header_bg"></div>
+<div class="top_box">    	
+        <div>
+        	<ul class="top_tip">
+        		<li><a href=""><span>设为首页</span> |&nbsp;</a></li>
+        		<li><a href=""><span>招贤纳士 </span>|&nbsp;</a></li>
+        		<li><a href=""><span>在线留言</span></a></li>
+        	</ul>
+            
+            <div class="contact">
+            <p>联系方式 : <span>67269860 67269890</span></p>
+            
+            </div>
+            <div class="clearfix"></div>
+            <img class="logo" src="img/logo01.png">
+            
+            
+            <div class="nav">
+            	<ul>                        
+            		<li><a href="index.html">首页</a></li>
+            		<li><a href="yftoday.html" target="_blank" >今日银丰</a>
+                    	<dl class="sub_nav">
+                    		<dd><a href="">员工风采</a></dd>
+                    		<dd><a href="">公司简介</a></dd>
+                    		<dd><a href="">发展历程</a></dd>
+                    		<dd><a href="">资质荣誉</a></dd>
+                    		<dd><a href="">领导风采</a></dd>
+                    	</dl>
+                    </li>
+            		<li><a href="yfbusiness.html" target="_blank">融资业务</a>
+                    <dl class="sub_nav">
+                    	<dd><a href="">房地产典当</a></dd>
+                    	<dd><a href="">机动车典当</a></dd>
+                    	<dd><a href="">民品典当</a></dd>
+                    	<dd><a href="">票据典当</a></dd>
+                    	<dd><a href="">其他典当</a></dd>
+                    </dl>
+                    </li>
+            		<li><a href="yfmarket.html" target="_blank">银丰商城</a>
+                    <dl class="sub_nav">
+                    	<dd><a href="">珠宝翡翠</a></dd>
+                    	<dd><a href="">黄金铂金</a></dd>
+                    	<dd><a href="">数码产品</a></dd>
+                    	<dd><a href="">高档钟表</a></dd>
+                    	<dd><a href="">其他产品</a></dd>
+                    </dl>
+                    </li>
+            		<li><a href="yfnews.html" target="_blank">银丰资讯</a>
+                    <dl class="sub_nav">
+                    	<dd><a href="">公司新闻</a></dd>
+                    	<dd><a href="">行业新闻</a></dd>
+                    	<dd><a href="">协会活动</a></dd>
+                    	<dd><a href="">财经报道</a></dd>
+                    </dl>
+                    </li>
+            		<li><a href="yfchain.html" target="_blank">连锁机构</a></li>
+            		<li><a href="yfcollefe.html" target="_blank">银丰学院</a>
+                    <dl class="sub_nav">
+                    	<dd><a href="">政策法规</a></dd>
+                    	<dd><a href="">典当知识</a></dd>
+                    	<dd><a href="">学习园地</a></dd>
+                    </dl>
+                    </li>
+            	
+                	<li><a href="yfserve.html" target="_blank">专家服务</a></li>
+            		<li style="background:none;"><a href="yfcontact.html" target="_blank">联系我们</a></li>
+                    <div class="clearfix"></div>
+            	</ul>           
+      
+        	</div>
+    </div>
+    </div>
+ </div>   
+<div class="banner_box">
+  <img class="banner" src="img/banner04.png">
+    <div class="chain">
+    	<p>连锁机构 :&nbsp;◆ 郑州银丰典当农业路分公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ◆ 郑州市银丰典当有限责任公司</p>
+    </div>
+</div>
+<div class="infor">
+	<div class="title_infor">
+    	<img src="img/title_news01.png">
+    </div>
+    <div class="icon_box">
+    <dl>
+    	<dd><img src="img/icon_news001.png" alt="公司新闻"></dd>
+    	<dd><a href="">公司新闻</a></dd>
+    </dl>
+    <dl>
+    	<dd><img src="img/icon_news002.png" alt="行业新闻"></dd>
+    	<dd><a href="">行业新闻</a></dd>
+    </dl>
+    <dl>
+    	<dd><img src="img/icon_news003.png" alt="协会活动"></dd>
+    	<dd><a href="">协会活动</a></dd>
+    </dl>
+    <dl style="margin-right:0;">
+    	<dd><img src="img/icon_news004.png" alt="财经报道"></dd>
+    	<dd><a href="">财经报道</a></dd>
+    </dl>
+    <div class="clearfix"></div>
+    </div>
+</div>
+<div class="content_bg">
+	<div class="content_box">
+    	<div class="title_news005">
+        	<dl>
+    			<dd><img src="img/icon_news005.png" alt="公司新闻"></dd>
+    			<dd><p>公司新闻</p></dd>
+    		</dl>
+        </div>
+        <ul class="news_box">
+        	<li><p class="year"><span>2016</span><br>05-31</p>
+            <div class="news_01">
+            	<img src="img/icon_arrowr.png" class="icon_arrowr">
+            	<h3 class="title_news">热烈欢迎新疆典当行业同仁莅临我公司考察交流</h3>
+                <img src="img/picture_01.png" class="picture">               
+            </div>
+            </li>
+            <img src="img/dot_line.png">
+        	<li><p class="year"><span>2016</span><br>04-25</p>
+            <div class="news_02">
+            	<img src="img/icon_arrowr.png" class="icon_arrowr">
+            	<h3 class="title_news">热烈欢迎广东省典当行业莅临我公司考察交流</h3>
+                <img src="img/picture_02.png" class="picture">               
+            </div>
+            </li> 
+        	<img src="img/dot_line.png">                
+            <li><p class="year"><span>2016</span><br>04-18</p>
+            <div class="news_01">
+            	<img src="img/icon_arrowr.png" class="icon_arrowr">
+            	<h3 class="title_news">热烈欢迎合肥市典当行业来我公司参观考察交流 </h3>
+                <img src="img/picture_03.png" class="picture">               
+            </div>
+            </li>
+        	<img src="img/dot_line.png">
+            <li><p class="year"><span>2016</span><br>04-01</p>
+            <div class="news_02">
+            	<img src="img/icon_arrowr.png" class="icon_arrowr">
+            	<h3 class="title_news">热烈欢迎广东省典当行业莅临我公司考察交流</h3>
+                <img src="img/picture_04.png" class="picture">               
+            </div>
+            </li>
+            <img src="img/dot_line.png">
+        </ul>
+        <div class="button_box">
+        	<ul>
+        		<li class="current_but">1</li>
+        		<li>2</li>
+        		<li>3</li>
+        		<li>4</li>
+                <div class="clearfix"></div>
+        	</ul>
+        </div>
+    </div>
+</div>
+<div class="footer_box">
+	<div class="footer_bg">
+    	<ul>
+    		<li><a href="" style="border:none;">关于我们</a></li>
+    		<li><a href="">联系我们</a></li>
+    		<li><a href="">专家服务</a></li>
+    		<li><a href="">在线商城</a></li>
+            <div class="clearfix"></div>
+    	</ul>
+    </div>
+    <div class="address">
+    <p>公司地址 : 河南省郑州市金水区85号大石桥西200米路南</p>
+    <p>电话 : 0371-66250876&nbsp;E-mail : zzyfdd@126.com</p>
+    <p>技术支持 : 中企动力</p>
+    </div>
+</div>
+<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>

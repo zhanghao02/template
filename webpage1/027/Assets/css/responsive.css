@@ -1,0 +1,88 @@
+@media screen and (max-width:1130px){
+.head,.nav_m,.i_ma,.i_h,.i_mc,.i_frd,.f_m,.bq,.pst,.scd{width:740px; margin:0px auto;}
+.head .logo h1{ font-size:22px;}
+.head .logo{ width:505px;}
+.nav_m .nav li a{ padding:0 32px;}
+.i_ma li{ width:236px; margin-right:16px;}
+.i_ma li img{ width:222px; height:134px;}
+.i_mc dl{ width:348px;}
+.i_mc dl dd p{ height:auto;}
+.f_m .f_mr{ width:100%; float:none; margin-top:35px; clear:both;}
+.f_m .f_mr dl dd{ width:560px;}
+.f_m .f_mz{ float:right;}
+.f_m .f_ml{ width:435px;}
+.scd .scd_r{ width:515px;}
+.about,.news,.scd_r .r_name,.scd_r .r_ctn,.skill .skill_lb,.contact{ width:94%;}
+.news ul li p{ max-width:70%;}
+.scd_r .r_ctn dl dd{ width:280px;}
+.scd_r .r_ctn .pro_d dl dd{ width:100%; margin-top:25px;}
+.skill_l li{ width:237px;}
+.skill_l li img{ width:220px; height:138px;}
+.skill_la li img{ width:220px; height:306px;}
+.skill_lb li{ width:100% !important;}
+.skill_lb li p{ width:340px;}
+.contact dl dt{ width:30%;}
+.contact dl dd{ width:70%;}
+}
+@media screen and (max-width:770px) {
+.head,.nav_m,.i_ma,.i_h,.i_mc,.i_frd,.f_m,.bq,.pst,.scd{width:480px; margin:0px auto;}
+.head{ height:115px;}
+.nav_m .nav{ display:none; background:#1372D6; position:absolute; left:0px; top:40px; z-index:99999;}
+.nav_m .n_icon{ display:block;}
+.head .head_r{ width:100%; text-align:right; position:relative;}
+.head_r .h_ra{ display:inline-block; *display:inline; zoom:1; width:auto;}
+.head_r .h_tel{ position:absolute; left:0px;}
+.nav_m{ background:none;}
+.nav_m .nav li{ width:100%; height:40px;}
+.nav_m .nav li a{ width:90%; padding:0 5%;}
+.nav_m .nav li a:hover{ background:#045AC0;}
+.i_ma li{ width:100%; margin-right:0px; margin-bottom:20px;}
+.i_ma li img{ width:466px; height:281px;}
+.i_mc dl,.i_mc dl dt,.i_mc dl dd{ width:100%;}
+.i_mc dl dt img,.i_mc dl dt,.i_mc .i_contact{ width:480px; height:284px;}
+.i_mc .i_contact{ margin-top:20px;}
+.f_m .f_ml,.f_m .f_mz{ width:100%; margin-left:0px;}
+.f_mz ul li p{ width:90%;}
+.f_m .f_mr dl dd{ width:310px;}
+.bq .bq_r{ position:static;}
+.bq,.bq .bq_r{ width:100%; text-align:center;}
+.scd .scd_l,.scd .scd_r{ width:99%; margin:0px auto; float:none;}
+.scd .scd_l{ margin-bottom:25px;}
+.scd_l .name{ width:100%; background-size:100%;}
+.s_nav{ width:100%;}
+.s_nav li .li_m a{ width:430px;}
+.ads, .ads img{ width:480px; height:384px;}
+.scd_r .r_ctn dl dd{ width:250px;}
+.pro ul li{ margin:10px 16px;}
+.skill_l li{ width:224px; margin:0 3px 25px 8px;}
+.skill_l li img{ width:214px; height:134px;}
+.skill_la li img{ width:214px; height:297px;}
+.skill_lb li{ margin:0px auto;}
+.skill_lb li p{ width:300px;}
+}
+@media screen and (max-width:510px) {
+.head,.nav_m,.i_ma,.i_h,.i_mc,.i_frd,.f_m,.bq,.pst,.scd{width:320px; margin:0px auto;}
+.head .logo{ width:320px;}
+.head .logo h1{ margin-top:0px;}
+.head{ height:150px;}
+.head_r .h_tel{ font-size:16px;}
+.i_ma li img{ width:304px; height:183px;}
+.i_mc dl dt img, .i_mc dl dt, .i_mc .i_contact{ width:320px; height:189px;}
+.i_mc .i_contact ul li p{ width:255px;}
+.f_m .f_mr dl dd{ width:155px;}
+.head_r .h_ra i{ display:none;}
+.s_nav li .li_m a{ width:270px;}
+.ads, .ads img{ width:320px; height:256px;}
+.news ul li a{ font-size:13px;}
+.news ul li p{ width:61%;}
+.scd_r .r_ctn dl dt img,.scd_r .r_ctn dl dt{ width:297px; height:213px; margin-top:0px; margin-bottom:10px;}
+.scd_r .r_ctn dl dd{ width:100%;}
+.pro ul li{ width:276px; margin:10 12px;}
+.pro ul li img{ width:260px; height:191px;}
+.scd_r .r_ctn .pro_d dl dt img{ width:297px; height:278px;}
+.skill_l li img{ width:289px; height:180px;}
+.skill_la li img{ width:289px; height:401px;}
+.skill_lb li p{ padding-left:25px; background-position:5px center; width:190px; font-size:12px;}
+.skill_lb li .btn{ right:5px;}
+.contact dl dt,.contact dl dd{ width:100%;}
+}

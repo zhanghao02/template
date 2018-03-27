@@ -1,0 +1,24 @@
+@charset "utf-8";
+*{margin:0;padding:0;list-style-type:none;list-style:none;}
+a,img{border:0;text-decoration:none;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+/* slider_box */
+.slider_box{width:100%;height:560px;overflow:hidden;position:relative;}
+.silder_con{height:560px;overflow:hidden;position:absolute;}
+.silder_panel{width:1920px;height:560px;text-align:center; overflow:hidden; position:relative;display:inline-block;float:left;}
+.silder_panel a{height:560px;left:0;position: absolute;display:block;overflow:hidden;}
+
+.silder_nav{width:100%;height:50px;margin:0px auto;bottom:0px;position:absolute;overflow:hidden;}
+.silder_nav li{float:left;height:50px;font-size:14px;text-align:center;padding:0px;margin-right:0.1%;background:url(../images/homeBannerDdBgThis.png);line-height:50px;font-family:'微软雅黑';}
+.silder_nav li:last-child{margin-right:0;}
+.silder_nav li a{ color:#fff;}
+.silder_nav li.current{ background:url(../images/homeBannerDdBg.png);}
+
+.slider_box a.prev,.slider_box a.next{display:block;width:45px;height:100px;overflow:hidden;text-indent:-999px;position:absolute;cursor:pointer;margin:205px 0 0 0;background:url(../images/silder_btn.gif) no-repeat;}	
+.slider_box a.prev{left:0;background-position:left 0;}
+.slider_box a.next{right:0;background-position:right 0;}
+
+
+/*内页banner*/
+.NYBanner{ width:100%; height:360px; background:#eee; position:relative; overflow:hidden}
+.NYBanner_xs{ width:1920px; position:absolute; left:50%; margin-left:-960px}

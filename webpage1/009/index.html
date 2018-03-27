@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head> 
+        <meta property="qc:admins" content="542536566763012535145636" /> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <title>享笑网首页</title> 
+        <meta name="keywords" content="征文,有奖征文,征文比赛,征文比赛网,有奖征文网,征文大赛,小清新图片,每日一笑,把耳朵叫醒,享笑网" /> 
+        <meta name="description" content="享笑网是紧贴生活的小清新网站，近期上线的有奖征文比赛更是受到了大家的热捧，给一些热爱写作的网友提供了一个很好的平台。享笑网的宗旨是分享笑，分享爱，让更多的人在欢声笑语下得到爱的滋润为其永恒不变的主题。网站提供时下每周一期的有奖征文，小清新图片、原创文章，搞笑段子。致力打造一片供人们心灵交流的绿洲。" /> 
+        <meta name="viewport" content="width=1050" /> 
+        <link rel="stylesheet" type="text/css" href="css/common.css?v7.2" /> 
+        <link rel="stylesheet" type="text/css" href="css/public.css?v1" /> 
+        <link href="images/favicon.ico?v=0.1" mce_href="http://www.sharesmile.cn/favicon.ico" rel="icon" type="image/x-icon" /> 
+        <link href="images/favicon.ico?v=0.1" mce_href="http://www.sharesmile.cn/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
+        <script type="text/javascript" src="js/jq.js?v4.1"></script> 
+        <script type="text/javascript" src="js/ss.js?v4.8"></script> 
+        <script type="text/javascript">
+            function getBrowser()
+            {
+                var OsObject = "";
+                if (navigator.userAgent.indexOf("MSIE") > 0) {
+                    var browser = navigator.appName;
+                    var b_version = navigator.appVersion;
+                    var version = b_version.split(";");
+                    var trim_Version = version[1].replace(/[ ]/g, "");
+                    if (browser == "Microsoft Internet Explorer" && trim_Version == "MSIE6.0")
+                    {
+                        return("IE6");
+                    }
+                    else if (browser == "Microsoft Internet Explorer" && trim_Version == "MSIE7.0")
+                    {
+                        return("IE7");
+                    }
+                    else if (browser == "Microsoft Internet Explorer" && trim_Version == "MSIE8.0")
+                    {
+                        return("IE8");
+                    }
+                    else if (browser == "Microsoft Internet Explorer" && trim_Version == "MSIE9.0")
+                    {
+                        return("IE9");
+                    }
+                    else if (browser == "Microsoft Internet Explorer" && trim_Version == "MSIE10.0")
+                    {
+                        return("IE10");
+                    }
+                }
+                if (navigator.userAgent.indexOf("Firefox") > 0) {
+                    return "Firefox";
+                }
+                if (navigator.userAgent.indexOf("Chrome") > 0) {
+                    return "Chrome";
+                }
+                if (navigator.userAgent.indexOf("Opera") > 0) {
+                    return "Opera";
+                }
+                if (navigator.userAgent.indexOf("Safari") > 0) {
+                    return "Safari";
+                }
+                return 'Others';
+            }
+            (function() {
+                vars = {};
+                vars.browser = getBrowser();
+                vars.hello_ketty = "heimao";
+                vars.jsUrl = "http://www.sharesmile.cn/js/";
+                vars.homeUrl = 'http://www.sharesmile.cn/';
+                vars.siteName = '享笑网 - www.ShareSmile.cn - 享你所想,享你所笑';
+                vars.publicUrl = "/public/";
+                vars.showgirlUrl = "/user#showgirl";
+                vars.userid = '10460';
+                vars.username = '416148489@qq.com';
+                vars.nickname = '阿斗';
+                vars.gender = 0;
+                vars.PHPSESSID = "krach1sltrpu5pa9ldu9jen4k2";
+                vars.ajaxSubmiting = false;
+                vars.sysImageUrl = '/public/system/';
+                vars.qingImageUrl = '/public/qing/';
+                vars.headImageUrl = '/public/userhead/';
+                vars.postImageUrl = '/public/post/';
+                vars.essayImageUrl = '/public/essay/';
+                vars.jokesImageUrl = '/public/jokes/';
+                vars.showgirlImageUrl = '/public/showgirl/';
+                vars.photoImageUrl = '/public/photo/';
+                vars.commStatUrl = '/Stat/stat';
+                vars.cookieUMessage = 'HASMESSAGE' + vars.userid;
+                vars.voteBlankColor = new Array('#5DBBEF', '#95E62A', '#CC1CD9', '#FFCD10', '#F79395');
+                var d = new Date();
+                vars.todayTimeString = 20160122;
+            })();
+        </script> 
+    </head> 
+    <body> 
+        <div class="pb-container"> 
+            <div class="pb-container-main pb-after-clear"> 
+                <!-- 公共头部 --> 
+                <div class="pb-main pb-navwrap pb-after-clear"> 
+                    <div class="pb-iblock pb-fl pb-logo"> 
+                        <a href="index.html"><img src="images/logo.jpg" alt="享笑网LOGO 征文比赛 有奖征文" /></a> 
+                    </div> 
+                    <div class="pb-iblock pb-fl pb-nav"> 
+                        <ul> 
+                            <li><a href="index.html">首页</a></li> 
+                            <li><a href="news.html">征文比赛</a></li> 
+                            <li><a href="pic.html">倾听世界</a></li> 
+                            <li><a href="ear.html">叫醒耳朵</a></li> 
+                            <li class="pb-nav-li-last"><a href="laugh.html">每日一笑</a></li> 
+                        </ul> 
+                    </div> 
+                    <div class="pb-iblock pb-fr pb-oths"> 
+                        <a class="nmt" href="javascript:void(0);" onclick="Sys.commStat(2);
+              commonLib.SetHome(this);">设为首页</a> 
+                        <a class="nmt" href="index.html" rel="sidebar" onclick="Sys.commStat(1);
+              commonLib.addFavorite();">收藏我们</a> 
+                        <a class="nmt" href="suggest.html">投诉建议</a> &nbsp; 
+                        <span class="nmt"> | </span> 
+                        <div class="pb-ucenter pb-after-clear"> 
+                            <div id="uMessageCenter"> 
+                                <i class="pb-icons triangle"></i> 
+                                <a href="/user" id="uSetEntry-head"><img src="images/default.gif" alt="阿斗" /></a> 
+                                <i class="pb-icons notice pb-hide"></i> 
+                            </div> 
+                            <br /> 
+                            <ul> 
+                                <li><a href="/user" id="uSetEntry"><i class="pb-icons my"></i> 个人中心</a></li> 
+                                <li><a href="/site/logout"><i class="pb-icons logout"></i> 退出登录</a></li> 
+                            </ul> 
+                        </div> 
+                        <br /> 
+                        <form action="" onsubmit="W.tips('暂未开放搜索功能，敬请期待!');
+              Sys.commStat(6);
+              return false;"> 
+                            <input class="pb-search-btn" type="submit" value="" /> 
+                            <input class="pb-search" type="text" /> 
+                        </form> 
+                    </div> 
+                </div> 
+                <!-- 公共头部 --> 
+                <!-- 当前页面内容 --> 
+                <link rel="stylesheet" type="text/css" href="css/jquery.slideBox.css" /> 
+                <link rel="stylesheet" type="text/css" href="css/index.css?v2" /> 
+                <div class="pb-main pb-mt10"> 
+                    <div id="bSlideBox" class="pb-main slideBox"> 
+                        <ul class="items"> 
+                            <li><a target="_blank" onclick="Sys.commStat(46);" href="http://www.sharesmile.cn/essay-9"><img src="images/banner_10001_3f4dac09bb.jpg" alt="开学季 开学梦想 开学展望 开学励志 九月开学 青春梦想" /></a></li> 
+                            <li><a target="_blank" onclick="Sys.commStat(47);" href="http://www.sharesmile.cn/qing"><img src="images/banner_10001_300a22a90b.jpg" alt="倾听世界,世界这么大,我想去走走" /></a></li> 
+                        </ul> 
+                    </div> 
+                </div> 
+                <script>
+                    $(document).ready(function() {
+                        $('#bSlideBox').slideBox({
+                            duration: 0.7,
+                            //direction : 'top',
+                            easing: 'linear',
+                            delay: 5,
+                            hideClickBar: true,
+                            clickBarRadius: 10
+                        });
+                    });
+                </script> 
+                <div style="clear:both;"></div> 
+                <div class="pb-main pb-mt20"> 
+                    <h3 class="idx-t1"> <a href="news.html" class="pb-clr1">征文比赛</a> </h3> 
+                    <div class="idx-line1"> 
+                    </div> 
+                    <div class="idx-ycwz-1 pb-mt20 pb-after-clear"> 
+                        <a href="news_detail.html?-10" class="pb-iblock pb-fl"> <img src="images/essay_10001_f6d8065f91.jpg" class="pb-block" alt="本期征文比赛,你如何看待高中生恋爱" /> </a> 
+                        <div class="pb-iblock pb-fl d1"> 
+                            <h6><a href="news_detail.html?-10" class="pb-clr1 pb-size-big">本期征文比赛 | <span>你如何看待高中生恋爱</span></a></h6> 
+                            <div class="pb-line2 pb-mt5" style="border:0;"> 
+                            </div> 
+                            <ul> 
+                                <li class="pb-mt20"> <a href="news_detail.html?-10-72"><img src="images/essay_10001_8dd1e515f2.jpg" class="pb-fl" alt="本期征文比赛文章,一种不成熟的爱" /></a> <a href="news_detail.html?-10-72" class="pb-fl rt">一种不成熟的爱 / 木目心</a> <p class="pb-iblock">高中，对于很多人来说，是一段带着自己的大学梦储备能量的征途吧，为的只是在最后一场战—</p> </li> 
+                                <li class="pb-mt20"> <a href="news_detail.html?-10-73"><img src="images/essay_10001_bf886ee0c8.jpg" class="pb-fl" alt="本期征文比赛文章,高中.成长" /></a> <a href="news_detail.html?-10-73" class="pb-fl rt">高中.成长 / 小小一轮弯</a> <p class="pb-iblock">高中时期学业繁重，前途迷茫，空虚与不被理解成了早恋原因。当我们无法从长辈那得到理解与</p> </li> 
+                                <li class="pb-mt20"> <a href="news_detail.html?-10-74"><img src="images/essay_10001_6e99eb35e6.jpg" class="pb-fl" alt="本期征文比赛文章,多感激，那是你" /></a> <a href="news_detail.html?-10-74" class="pb-fl rt">多感激，那是你 / Someone.</a> <p class="pb-iblock">“看着今天的朝阳又是金碧辉煌一大片，我突然很想吃姥姥家的炸鸡排，外焦里嫩，老大一个，</p> </li> 
+                            </ul> 
+                        </div> 
+                        <!--右侧我要投稿公共部分--> 
+                        <div class="pb-iblock pb-fr pb-after-clear pb-main-side"> 
+                            <img src="images/icon_tougaoyouqian.jpg" class="pb-block" alt="征文比赛 有奖征文" /> 
+                            <h6 class="pb-mt15 pb-clr1 pb-size-big">下期专题</h6> 
+                            <div class="pb-line2 pb-mt5"> 
+                            </div> 
+                            <a class="tle pb-mt5" href="news_detail.html?/add">年味为什么越来越淡了</a> 
+                            <div class="pb-line2 pb-mt5"> 
+                            </div> 
+                            <h6 class="pb-mt15"> <span class="pb-clr1 pb-size-normal">已投稿 <i class="tougao">2</i></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="javascript:Sys.showRuleDiv();" class="pb-clr1 pb-size-small pb-underline">获奖规则</a> </h6> 
+                            <a class="but pb-clr1 pb-size-normal pb-mt15" href="news_detail.html?/add">有奖征文</a> 
+                        </div> 
+                        <!--右侧我要投稿公共部分--> 
+                    </div> 
+                    <div class="idx-ycwz-1 pb-mt50 pb-after-clear"> 
+                        <div class="idx-last-board pb-fl"> 
+                            <a href="news_detail.html?-9"><img src="images/essay_10001_2c1098e1a2.jpg" class="pb-block" alt="上期征文比赛,上期有奖征文, 开学与青春或梦想" /></a> 
+                            <span class="pb-size-normal pb-block pb-mt15">上期专题</span> 
+                            <a class="pb-size-normal pb-mt5 pb-block" href="news_detail.html?-9">开学与青春或梦想</a> 
+                        </div> 
+                        <div class="pb-iblock pb-fl d1"> 
+                            <h6><a href="news_detail.html?-9" class="pb-clr1 pb-size-big">上期获奖作品 | <span>完整榜单</span></a></h6> 
+                            <div class="pb-line2 pb-mt5"> 
+                            </div> 
+                            <ul class="pb-mt15 rank"> 
+                                <li class="pb-iblock pb-mt8"> <span class="pb-fl pb-mt10 no">1</span> <a href="/user-10348"> 
+                                        <dl class="pb-fl"> 
+                                            <dt>
+                                                <img src="images/head_10348_57fbdd4d36.jpg" class="pb-block" alt="参加征文比赛作者,小红楼" />
+                                            </dt> 
+                                            <dd>
+                                                小红楼
+                                            </dd> 
+                                        </dl> </a> <a href="news_detail.html?-9-58" class="pb-fl pb-block pb-size-normal title">开学，路过了我整个青春</a> <span class="pb-fr dollar">$30</span> </li> 
+                                <li class="pb-iblock pb-mt8"> <span class="pb-fl pb-mt10 no">2</span> <a href="/user-10393"> 
+                                        <dl class="pb-fl"> 
+                                            <dt>
+                                                <img src="images/default.gif" class="pb-block" alt="参加征文比赛作者,橙子" />
+                                            </dt> 
+                                            <dd>
+                                                橙子
+                                            </dd> 
+                                        </dl> </a> <a href="news_detail.html?-9-62" class="pb-fl pb-block pb-size-normal title">那一年的散伙饭 是我们无</a> <span class="pb-fr dollar">$20</span> </li> 
+                                <li class="pb-iblock pb-mt8"> <span class="pb-fl pb-mt10 no">3</span> <a href="/user-10394"> 
+                                        <dl class="pb-fl"> 
+                                            <dt>
+                                                <img src="images/head_10394_2448d2c4b3.jpg" class="pb-block" alt="参加征文比赛作者,马琳娜55" />
+                                            </dt> 
+                                            <dd>
+                                                马琳娜55
+                                            </dd> 
+                                        </dl> </a> <a href="news_detail.html?-9-63" class="pb-fl pb-block pb-size-normal title">寻常过往，转瞬成殇</a> <span class="pb-fr dollar">$10</span> </li> 
+                            </ul> 
+                        </div> 
+                        <div class="pb-main-side pb-iblock pb-after-clear pb-fr"> 
+                            <h6 class="pb-clr1 pb-size-big">征文排行</h6> 
+                            <div class="pb-line2 pb-mt5"> 
+                            </div> 
+                            <ul class="pb-mt10 previous-term pb-size-normal"> 
+                                <li> <span>.</span> <a href="news_detail.html?-8-55">有一种毕业，叫先走一步</a> 
+                                    <div class="pb-line2"> 
+                                    </div> </li> 
+                                <li> <span>.</span> <a href="news_detail.html?-4-27">用今生的修行 为你们的来生祈福</a> 
+                                    <div class="pb-line2"> 
+                                    </div> </li> 
+                                <li> <span>.</span> <a href="news_detail.html?-3-16">我的初恋</a> 
+                                    <div class="pb-line2"> 
+                                    </div> </li> 
+                                <li> <span>.</span> <a href="news_detail.html?-6-45">当你老了</a> 
+                                    <div class="pb-line2"> 
+                                    </div> </li> 
+                                <li> <span>.</span> <a href="news_detail.html?-7-50">我就在这里旅行，给你讲沿途的风景</a> 
+                                    <div class="pb-line2"> 
+                                    </div> </li> 
+                                <li> <span>.</span> <a href="news_detail.html?-6-43">有多少爱可以重来</a> 
+                                    <div class="pb-line2"> 
+                                    </div> </li> 
+                                <li> <span>.</span> <a href="news_detail.html?-4-28">我的“天空之城”</a> 
+                                    <div class="pb-line2"> 
+                                    </div> </li> 
+                            </ul> 
+                        </div> 
+                    </div> 
+                    <h3 class="idx-t2 pb-mt50 pb-clr1">往期征文</h3> 
+                    <div class="pb-line2 pb-mt5"> 
+                    </div> 
+                    <div class="idx-wqzt pb-mt15 pb-after-clear"> 
+                        <ul class="idx-wqzt pb-mt10"> 
+                            <li> 
+                                <dl> 
+                                    <dt> 
+                                        <a href="news_detail.html?-8"><img alt="毕业季 校园时代 七月校园 离别气息" src="images/essay_10001_b959107f8b.jpg" /></a> 
+                                    </dt> 
+                                    <dd>
+                                        <a href="news_detail.html?-8">游走在毕业的季节</a>
+                                    </dd> 
+                                </dl> </li> 
+                            <li> 
+                                <dl> 
+                                    <dt> 
+                                        <a href="news_detail.html?-7"><img alt="去旅行，装满爱，夏天旅行，夏天旅游" src="images/essay_10001_ed83e14b8a.png" /></a> 
+                                    </dt> 
+                                    <dd>
+                                        <a href="news_detail.html?-7">装满爱，去旅行</a>
+                                    </dd> 
+                                </dl> </li> 
+                            <li> 
+                                <dl> 
+                                    <dt> 
+                                        <a href="news_detail.html?-6"><img alt="有奖征文，征文比赛，享笑网有奖征文比赛，第六期有奖征文，有奖征文之飘着淡淡粽香的父亲节，征文专题之飘着淡淡粽香的父亲节，端午节和父亲节感想，端午节感想，父亲节感想" src="images/essay_10001_183a4e95ad.jpg" /></a> 
+                                    </dt> 
+                                    <dd>
+                                        <a href="news_detail.html?-6">飘着淡淡粽香的父亲节</a>
+                                    </dd> 
+                                </dl> </li> 
+                            <li> 
+                                <dl> 
+                                    <dt> 
+                                        <a href="news_detail.html?-5"><img alt="有奖征文，征文比赛，享笑网有奖征文比赛，第五期有奖征文，有奖征文之东方之星之痛，征文专题之东方之星之痛，东方之星沉船之痛，东方之星沉船" src="images/essay_10001_8d58c19a60.jpg" /></a> 
+                                    </dt> 
+                                    <dd>
+                                        <a href="news_detail.html?-5">东方之星之痛</a>
+                                    </dd> 
+                                </dl> </li> 
+                            <li style="margin-right:0;"> 
+                                <dl> 
+                                    <dt> 
+                                        <a href="news_detail.html?-4"><img alt="有奖征文，征文比赛，享笑网有奖征文比赛，第四期有奖征文，有奖征文之你和你的城，征文专题之你和你的城" src="images/essay_10001_0ba5781188.jpg" /></a> 
+                                    </dt> 
+                                    <dd>
+                                        <a href="news_detail.html?-4">你和你的城</a>
+                                    </dd> 
+                                </dl> </li> 
+                        </ul> 
+                    </div> 
+                    <h3 class="idx-qtsj-t pb-mt50"> 
+                        <div class="inx-qtsj-line pb-fr"></div> 
+                        <div class="inx-qtsj-line pb-fl"></div> <a href="pic.html"> <span class="chn">倾听世界</span> <br /> <span class="eng">LISTEN TO THE WORLD</span> </a> </h3> 
+                    <div class="idx-qtsj pb-mt20 pb-after-clear"> 
+                        <ul> 
+                            <li> <a href="pic_detail.html?1"> <img src="images/qing_10001_7b053ee001_310.jpg" class="pb-block" style="width:200px;" alt="美女,清纯唯美写真合集" /> </a> 
+                                <table class="pb-opac70"> 
+                                    <tbody>
+                                        <tr> 
+                                            <td class="tle">美女</td> 
+                                            <td class="num">+35</td> 
+                                        </tr> 
+                                    </tbody>
+                                </table> </li> 
+                            <li> <a href="pic_detail.html?3"> <img src="images/qing_10001_2278c48f96_310.jpg" class="pb-block" style="width:200px;" alt="旅行,也许我就是一块老墨" /> </a> 
+                                <table class="pb-opac70"> 
+                                    <tbody>
+                                        <tr> 
+                                            <td class="tle">旅行</td> 
+                                            <td class="num">+54</td> 
+                                        </tr> 
+                                    </tbody>
+                                </table> </li> 
+                            <li> <a href="pic_detail.html?4"> <img src="images/qing_9999_6963913fb8_310.jpg" class="pb-block" style="width:200px;" alt="搞笑,证件照" /> </a> 
+                                <table class="pb-opac70"> 
+                                    <tbody>
+                                        <tr> 
+                                            <td class="tle">搞笑</td> 
+                                            <td class="num">+74</td> 
+                                        </tr> 
+                                    </tbody>
+                                </table> </li> 
+                            <li> <a href="pic_detail.html?6"> <img src="images/qing_10001_3f5af7636f_310.jpg" class="pb-block" style="width:200px;" alt="性感,享笑网2015-5-30#325806#" /> </a> 
+                                <table class="pb-opac70"> 
+                                    <tbody>
+                                        <tr> 
+                                            <td class="tle">性感</td> 
+                                            <td class="num">+33</td> 
+                                        </tr> 
+                                    </tbody>
+                                </table> </li> 
+                            <li style="margin-right:0;"> <a href="pic_detail.html?7"> <img src="images/qing_10001_5502d62ca8_310.jpg" class="pb-block" style="width:200px;" alt="情感,爱情就是一百多年的孤寂" /> </a> 
+                                <table class="pb-opac70"> 
+                                    <tbody>
+                                        <tr> 
+                                            <td class="tle">情感</td> 
+                                            <td class="num">+36</td> 
+                                        </tr> 
+                                    </tbody>
+                                </table> </li> 
+                            <li> <a href="pic_detail.html?10"> <img src="images/qing_10001_bcf83a76ac_310.jpg" class="pb-block" style="width:200px;" alt="艺术,中国书法家【郝天明】书法新作(妙笔生辉" /> </a> 
+                                <table class="pb-opac70"> 
+                                    <tbody>
+                                        <tr> 
+                                            <td class="tle">艺术</td> 
+                                            <td class="num">+25</td> 
+                                        </tr> 
+                                    </tbody>
+                                </table> </li> 
+                            <li> <a href="pic_detail.html?13"> <img src="images/qing_10001_8b07d372b1_310.jpg" class="pb-block" style="width:200px;" alt="漫画,享笑网2015-6-8#529409#" /> </a> 
+                                <table class="pb-opac70"> 
+                                    <tbody>
+                                        <tr> 
+                                            <td class="tle">漫画</td> 
+                                            <td class="num">+26</td> 
+                                        </tr> 
+                                    </tbody>
+                                </table> </li> 
+                            <li> <a href="pic_detail.html?15"> <img src="images/qing_10001_7610be26ad_310.jpg" class="pb-block" style="width:200px;" alt="超萌,步调一致" /> </a> 
+                                <table class="pb-opac70"> 
+                                    <tbody>
+                                        <tr> 
+                                            <td class="tle">超萌</td> 
+                                            <td class="num">+41</td> 
+                                        </tr> 
+                                    </tbody>
+                                </table> </li> 
+                            <li> <a href="pic_detail.html?22"> <img src="images/qing_9999_578544d87f_310.jpg" class="pb-block" style="width:200px;" alt="回忆,如果你喜欢的人不喜欢你,那么就算全世界的人都喜欢你 也还是会觉得很孤单吧。" /> </a> 
+                                <table class="pb-opac70"> 
+                                    <tbody>
+                                        <tr> 
+                                            <td class="tle">回忆</td> 
+                                            <td class="num">+33</td> 
+                                        </tr> 
+                                    </tbody>
+                                </table> </li> 
+                            <li style="margin-right:0;"> <a href="pic_detail.html?24"> <img src="images/qing_10001_4f8ce7bfa4_310.jpg" class="pb-block" style="width:200px;" alt="清新,最大的遗憾" /> </a> 
+                                <table class="pb-opac70"> 
+                                    <tbody>
+                                        <tr> 
+                                            <td class="tle">清新</td> 
+                                            <td class="num">+75</td> 
+                                        </tr> 
+                                    </tbody>
+                                </table> </li> 
+                        </ul> 
+                    </div> 
+                    <div style="clear:both;"></div> 
+                    <h3 class="idx-t1 pb-mt50"> <a href="laugh.html" class="pb-clr1">每日一笑</a> </h3> 
+                    <div class="idx-line1"> 
+                    </div> 
+                    <div class="idx-mryx pb-mt20 pb-after-clear"> 
+                        <div class="d1 pb-fl"> 
+                            <img src="images/b_smile_left.jpg" class="pb-fl" alt="最新搞笑段子,每日一笑" /> 
+                            <a href="laugh.html" class="tle pb-fl pb-clr1">搞笑段子&nbsp;&nbsp;|&nbsp;&nbsp; <span class="pb-clr2">更多</span></a> 
+                            <ul class="pb-mt15 pb-fl pb-size-normal"> 
+                                <li> <span>.</span> <a href="/jokes-5-4758">家里的电要交电费</a> </li> 
+                                <li> <span>.</span> <a href="/jokes-5-4757">要把学校当成自己家</a> </li> 
+                                <li> <span>.</span> <a href="/jokes-5-4756">别耽误老娘我做生意</a> </li> 
+                                <li> <span>.</span> <a href="/jokes-5-4755">那是我妈</a> </li> 
+                                <li> <span>.</span> <a href="/jokes-5-4754">东邪西毒</a> </li> 
+                                <li> <span>.</span> <a href="/jokes-5-4753">马上过年了</a> </li> 
+                            </ul> 
+                        </div> 
+                        <div class="d1 pb-fl d1-2"> 
+                            <img src="images/b_smile_left1.jpg" class="pb-fl" alt="本周搞笑段子排行榜,笑话排,每日一笑" /> 
+                            <a href="/jokes?priority=pop" class="tle pb-fl pb-clr1">笑话排行&nbsp;&nbsp;|&nbsp;&nbsp; <span class="pb-clr2">更多</span></a> 
+                            <ul class="pb-mt15 pb-fl pb-size-normal"> 
+                                <li> <span>.</span> <a href="/jokes-5-4749">看朋友们晒从小到大的照片，</a> </li> 
+                                <li> <span>.</span> <a href="/jokes-5-4754">东邪西毒</a> </li> 
+                                <li> <span>.</span> <a href="/jokes-5-4750">昨天晚上</a> </li> 
+                                <li> <span>.</span> <a href="/jokes-5-4751">什么是尴尬</a> </li> 
+                                <li> <span>.</span> <a href="/jokes-5-4752">前几天我在火车站等车</a> </li> 
+                                <li> <span>.</span> <a href="/jokes-5-4753">马上过年了</a> </li> 
+                            </ul> 
+                        </div> 
+                        <div class="d2 pb-fr"> 
+                            <img class="pb-block" src="images/b_smile_right.jpg" alt="少儿不宜搞笑段子,超级内涵搞笑段子，校园搞笑段子,生活中的搞笑段子" /> 
+                            <table class="pb-mt10"> 
+                                <tbody>
+                                    <tr> 
+                                        <td><a href="laugh.html">各种口味</a></td> 
+                                        <td><a href="/jokes-2">少儿不宜</a></td> 
+                                        <td><a href="/jokes-4">超级内涵</a></td> 
+                                    </tr> 
+                                    <tr> 
+                                        <td><a href="/jokes-1">图片笑话</a></td> 
+                                        <td><a href="/jokes-5">贴近生活</a></td> 
+                                        <td><a href="/jokes-3">校园趣闻</a></td> 
+                                    </tr> 
+                                </tbody>
+                            </table> 
+                        </div> 
+                    </div> 
+                    <div style="clear:both;"></div> 
+                    <h3 class="idx-t1 pb-mt50"> <a href="http://www.lanrenzhijia.com/"" class="pb-clr1">叫醒耳朵</a> </h3> 
+                    <div class="idx-line1"> 
+                    </div> 
+                    <div class="idx-jxed pb-mt20 pb-after-clear"> 
+                        <div class="pb-fl d1"> 
+                            <ul> 
+                                <li> <img class="pb-fl" src="images/b_jxed_l1.jpg" alt="把耳朵叫醒,爱他们的时候我们像条狗,扣子" /> 
+                                    <dl class="pb-fl"> 
+                                        <dt>
+                                            <a href="pic_detail.html?show/241">爱他们的时候我们像条狗</a>
+                                        </dt> 
+                                        <dd class="author">
+                                            主播：扣子
+                                        </dd> 
+                                        <dd class="cnt">
+                                            所有的女朋友里，我最喜欢老夏。因为她和我像，高贵冷艳俗气，俗到骨子里。我们总是在夏天刚开始的那几天去富民路和巨鹿路路口的酒吧。那有一棵著名大 ... 
+                                        </dd> 
+                                        <dd class="ap"> 
+                                            <span class="auplayer" id="auplayer_241" f="L3B1YmxpYy9wbGF5ZXIvMjAxNTA1L2F0ZHNod214dGcubXAz&gt;" a="扣子" t="爱他们的时候我们像条狗"></span> 
+                                        </dd> 
+                                    </dl> </li> 
+                                <li class="pb-mt40"> <img class="pb-fl" src="images/b_jxed_l2.jpg" alt="把耳朵叫醒,爱你的第九年,这是你不必详知的事情,NJ楚璇" /> 
+                                    <dl class="pb-fl"> 
+                                        <dt>
+                                            <a href="pic_detail.html?show/240">爱你的第九年,这是你不必详知的事情</a>
+                                        </dt> 
+                                        <dd class="author">
+                                            主播：NJ楚璇
+                                        </dd> 
+                                        <dd class="cnt">
+                                            爱你的第九年,这是你不必详知的事情人生是一场旅行，你路过我，我路过你，若有缘可结伴一生；无缘，只能各自修行，各自向前，然后在错过的时光年轮里 ... 
+                                        </dd> 
+                                        <dd class="ap"> 
+                                            <span class="auplayer" id="auplayer_240" f="L3B1YmxpYy9wbGF5ZXIvMjAxNTA1L2FpbmlkZWRpaml1bmlhbi5tcDM=&gt;" a="NJ楚璇" t="爱你的第九年,这是你不必详知的事情"></span> 
+                                        </dd> 
+                                    </dl> </li> 
+                            </ul> 
+                        </div> 
+                        <div class="d2 pb-fr"> 
+                            <dl> 
+                                <dt> 
+                                    <a href="/weekly-1-2"> <img src="images/post_10001_c1be1e419b.jpg" alt="征文比赛,有奖征文,第二期：回首这匆匆十年" /> </a> 
+                                </dt> 
+                                <dd class="term pb-size-big">
+                                    第二期
+                                </dd> 
+                                <dd class="tle">
+                                    <a href="/weekly-1-2">第二期：回首这匆匆十年</a>
+                                </dd> 
+                            </dl> 
+                        </div> 
+                    </div> 
+                    <script>
+                        $(document).ready(function() {
+                            AudioPlayer.setup("js/player.swf", {
+                                width: 300,
+                                initialvolume: 100
+                            });
+                            $(".auplayer").each(function() {
+                                AudioPlayer.embed($(this).attr('id'), {
+                                    soundFile: $(this).attr('f'),
+                                    titles: $(this).attr('t'),
+                                    artists: $(this).attr('a'),
+                                    autostart: "no",
+                                    loop: "no"
+                                });
+                            });
+                        });
+                    </script> 
+                </div> 
+                <script type="text/javascript" src="js/jquery.slideBox.js"></script> 
+                <script type="text/javascript" src="js/ap.js"></script> 
+                <script>
+                     $(document).ready(function() {
+                         $(".idx-qtsj li").hover(function() {
+                             $(this).find('table').stop().animate({'bottom': '-40px'}, 500);
+                         }, function() {
+                             $(this).find('table').stop().animate({'bottom': '0px'}, 500);
+                         });
+                     });
+                </script> 
+                <!-- 当前页面内容结束 --> 
+            </div> 
+            <!-- 公共尾部 --> 
+            <div style="clear:both;"></div> 
+            <div class="pb-footer"> 
+                <div class="pb-footer-wp"> 
+                    <div class="pb-main pb-footer-cnt pb-size-small"> 
+                        <span class="pb-fl">&copy; 2012 - 2015 深圳市享笑网科技有限公司版权所有 粤 icp 备 13011067 号</span> 
+                        <ul class="pb-fr"> 
+                            <li><a href="http://www.whzcwl.com.cn" target="_blank">志诚网络</a></li> 
+                            <li><a href="http://wpa.qq.com/msgrd?v=1&amp;uin=2338601847&amp;site=www.sharesmile.cn&amp;menu=yes">版权声明</a></li> 
+                            <li><a href="http://wpa.qq.com/msgrd?v=1&amp;uin=2338601847&amp;site=www.sharesmile.cn&amp;menu=yes">客服中心</a></li> 
+                            <li><a href="http://wpa.qq.com/msgrd?v=1&amp;uin=2338601847&amp;site=www.sharesmile.cn&amp;menu=yes">联系我们</a></li> 
+                        </ul> 
+                    </div> 
+                </div> 
+            </div> 
+            <!-- 公共尾部 --> 
+            <div class="ssretotop" id="goTopButton"> 
+                <div class="SG-sidecont"> 
+                    <a style="visibility: visible;" href="javascript:;" id="gotonext"></a> 
+                    <a id="retotop" class="pb-icons" href="javascript:void(0)" style="visibility: visible;" title="点击我 坐飞机到顶部"></a> 
+                    <a href="javascript:;" id="gotopre"></a> 
+                </div> 
+            </div> 
+        </div> 
+        <script id="tpl-pb-rule" type="text/x-jsmart-tmpl">
+            <img src="images/rule.gif" alt="获奖规则"/>
+            <a href="javascript:top.window.location.href='/user#go=cash';" style="position: absolute; cursor:pointer;height: 24px; width: 72px; left: 730px; top: 494px; display:inline-block;background:#fff;opacity:0; filter:alpha(opacity=0);"></a>
+        </script> 
+        <script language="javascript" type="text/javascript" src="js/15502332.js"></script> 
+        <noscript>
+            <a href="http://www.51.la/?15502332" target="_blank"><img alt="我要啦免费统计" src="images/15502332.asp" style="border:none" /></a>
+        </noscript> 
+        <script type="text/javascript" language="javascript">
+               $(document).ready(function() {
+                   $(".pb-ucenter").bind('mouseenter', function() {
+                       $(this).find('ul').stop().slideDown('fast');
+                       Sys.clearFlicker('uMessageCenter');
+                   }).bind('mouseleave', function() {
+                       $(this).find('ul').stop().slideUp('fast');
+                   });
+
+                   $("#goTopButton").click(function() {
+                       Sys.scrollTo($('body'));
+                       Sys.commStat(33);
+                   });
+                   if (vars.browser != 'IE6') {
+                       var w_w = parseInt($("body").width());
+                       var obj = $("#goTopButton");
+                       $(window).scroll(function() {
+                           if ($(this).scrollTop() > 500) {
+                               if (!isNaN(w_w) && w_w > 0) {
+                                   obj.css('left', (Math.ceil((w_w - 1050) / 2) + 1050 + 10) + "px");
+                               }
+                               obj.fadeIn();
+                           } else {
+                               obj.fadeOut();
+                           }
+                       });
+                   }
+                   Sys.hide51();
+               });
+        </script>  
+    <div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>

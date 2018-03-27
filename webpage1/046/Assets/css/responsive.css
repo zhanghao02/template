@@ -1,0 +1,103 @@
+@media screen and (max-width:1230px){
+.h_top,.head,.wrap,.mainPhoto{width:960px;}
+.head .nav li{ margin-left:23px;}
+.wrap_a .i_news{ width:350px;}
+.wrap_a .i_about{ width:590px;}
+.i_about dl dd{ width:415px;}
+.mainPhoto .go{ left:50px; width:860px;}
+.mainPhoto .go li{ margin-right:15px; width:203px;}
+.mainPhoto .go li img{ width:203px; height:250px;}
+.f_nav .f_navl dt{ width:220px; height:275px; margin-top:40px;}
+.f_nav .tt{ font-size:15px;}
+.f_navl .f_name{ font-size:30px;}
+.f_navl dd p{ font-size:12px;}
+.f_nav .f_navl{ width:470px;}
+.f_nav .f_navl dd{ width:245px;}
+.f_nav .line{ width:5px;}
+.f_nav .f_navr{ width:460px;}
+.f_navr .f_name{ font-size:40px; padding-top:10px;}
+.f_navr{ background-size:400px; height:290px;}
+.scd .scd_l{ width:225px;}
+.scd .scd_r{ width:710px;}
+.news dl dd{ width:430px;}
+.contact .ct_m dl dt div{ margin:10px 20px 0;}
+}
+@media screen and (max-width:990px){
+.h_top,.head,.wrap,.mainPhoto{width:740px;}
+.nav_m .n_icon{ display:block;}
+.head .nav_m{ position:absolute; width:100%;}
+.head .nav{ width:100%; position:absolute; background:#FFF; top:70px; left:0; z-index:99; padding-right:10px; display:none;}
+.head .nav li a{ margin-top:0;}
+.head .logo{ width:407px; padding-top:3px;}
+.wrap_a .i_news{ width:300px;}
+.wrap_a .i_about{ width:425px;}
+.i_about dl dd{ width:255px;}
+.mainPhoto .go{ width:650px;}
+.f_nav .f_navl{ width:400px;}
+.f_nav .f_navr{ width:320px; background-size:320px;}
+.f_navr .f_name{ font-size:32px;}
+.f_navr .f_search{ width:205px; top:40px;}
+.f_nav .f_navl dt{ width:190px; padding-top:38px;}
+.f_nav .f_navl dd{ width:205px;}
+.f_navr .f_search{ width:320px; top:80px;}
+.scd .scd_r{ width:490px;}
+.scd_r .r_top span{ font-size:22px;}
+.scd_r .r_top{ padding-left:230px;}
+.news dl dt, .news dl dt img{ width:100%; height:auto;}
+.news dl dd{ width:100%; margin-top:15px;}
+.scd_r .r_top span em{ font-size:14px;}
+.contact .ct_m dl dt,.contact .ct_m dl dd{ width:100%; text-align:left;}
+.contact .ct_m dl dt div{ margin-left:0; margin-right:40px;}
+.contact .ct_m ul li{ width:100%;}
+}
+@media screen and (max-width:770px) {
+.h_top,.head,.wrap,.mainPhoto,.wrap_a .i_news{width:480px;}
+.head .logo{ width:300px; padding-top:12px;}
+.head .logo .h_code{ right:10px;}
+.wrap_a .i_about,.f_nav .f_navl{ width:100%; margin-bottom:20px;}
+.i_about dl dd{ width:305px;}
+.mainPhoto span.goleft, .mainPhoto span.goright{ width:18px;}
+.mainPhoto span.goleft img, .mainPhoto span.goright img{ width:100%;}
+.mainPhoto .go{ left:30px; width:430px;}
+.f_nav .f_navr{ width:100%; background-size:400px;}
+.f_nav .line{ display:none;}
+.f_navr .f_search{ top:40px;}
+.f_nav .f_navl dt{ width:220px; padding-top:0; margin-top:20px;}
+.f_nav .f_navl dd{ width:245px;}
+.head .nav li{ margin-left:18px;}
+.head .logo .h_code img{ width:15px; height:15px;}
+.scd .scd_l,.scd .scd_r{ width:100%;}
+.pro .pro_a{ width:100%; padding-left:0; padding-top:40px;}
+.pro .pro_a a{ width:120px; font-size:13px;}
+.pro .pro_b .pro_l{ display:block;}
+.pro .pro_b table{ display:none;}
+.pro .pro_b .pro_l li{ border:0; float:left; width:232px; margin-right:16px; margin-bottom:15px;}
+.pro .pro_b .pro_l li:nth-child(2n){ margin-right:0;}
+.pro .pro_b .pro_l li p{ width:100%; height:30px; line-height:30px; text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-top:5px;}
+.pro .pro_b .pro_l li img{ width:232px; height:285px; vertical-align:top;}
+}
+@media screen and (max-width:510px) {
+.h_top,.head,.wrap,.mainPhoto,.wrap_a .i_news{width:320px;}
+.head .logo img{ width:300px; height:auto;}
+.head .logo{ width:190px; overflow:hidden;}
+.head .logo .h_code{ display:none;}
+.head .nav li{ width:100%; margin-left:0;}
+.wrap_a .i_about h1 a{ width:20px;}
+.i_about dl dt, .i_about dl dt img{ display:none;}
+.i_about dl dd{ width:100%;}
+.mainPhoto .go li{ width:215px;}
+.mainPhoto .go li img{ width:215px; height:250px;}
+.mainPhoto .go{ width:215px; left:52px;}
+.f_nav .f_navl dt{ display:none;}
+.f_nav .f_navl dd{ width:100%;}
+.f_navr .f_search{ width:180px;}
+.f_nav .f_navr{ background-size:320px; background-position:left 80px;}
+.foot a{ padding:0;}
+.scd_r .r_top{ padding-left:0; padding-top:40px; text-align:left; height:80px;}
+.scd_r .r_top .pst{ text-align:left;}
+.contact .ct_m dl dt div{ margin-right:60px;}
+.contact .ct_m dl dt div:last-child{ margin-right:0;}
+.pro .pro_a a{ width:50%;}
+.pro .pro_b .pro_l li{ width:153px; margin-right:14px;}
+.pro .pro_b .pro_l li img{ width:153px; height:188px;}
+}

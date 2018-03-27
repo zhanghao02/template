@@ -1,0 +1,394 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/drawer.min.css" >
+    <script src="js/jquery.min.js" ></script>
+    <script src="js/iscroll.js" ></script>
+    <script src="js/jquery.drawer.min.js" ></script>
+    <link rel="stylesheet" href="css/animate.min.css" >
+    <link href="css/style.css"  rel="stylesheet" />
+    
+    <title></title>
+    
+    <script type="text/javascript">
+        $(function () {
+            $(".nav_m li:eq(7)").addClass("cur");
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() == 0) {
+                    $("header").removeClass("scroll-header");
+                } else {
+                    $("header").addClass("scroll-header");
+                }
+            });
+        });
+        function ReturnTop() {
+            $("body,html").animate({ scrollTop: 0 }, 500);
+            return false;
+        }
+        document.oncontextmenu = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽右键菜单
+        document.onpaste = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽粘贴
+        document.oncopy = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽复制
+        document.oncut = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽剪切
+        document.onselectstart = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽选择
+    </script>
+</head>
+<body>
+    <header>
+    <div class="wrap">
+        <div class="logo">
+            <a href="index.html" >
+                <img src="images/logo.png" ></a></div>
+        <nav class="nav_m">
+            <ul>
+			    <li><a href="Contact.html" >联系我们</a></li>
+			    <li><a href="About.html" >关于我们</a></li>
+			    <li><a href="News.html" >新闻聚焦</a></li>
+			    <li><a href="Customer.html" >服务客户</a></li>    
+			    <li><a href="Overseas.html" >海外推广</a></li>
+			    <li><a href="index.html" >网站首页</a></li>
+            </ul>
+		</nav>
+        <div class="nav_1">
+            <div class="drawer drawer-right">
+                <div class="drawer-toggle drawer-hamberger">
+                    <span></span>
+                </div>
+                <div class="drawer-main drawer-default">
+                    <nav class="drawer-nav" role="navigation">
+                        <ul class="drawer-nav-list">
+                            <li><a href="index.html" >网站首页</a></li>
+                            <li><a href="Overseas.html" >海外推广</a></li>
+                            <li><a href="Customer.html" >服务客户</a></li>
+                            <li><a href="News.html" >新闻聚焦</a></li>
+                            <li><a href="About.html" >关于我们</a></li>
+                            <li><a href="Contact.html" >联系我们</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <script>
+                    $(document).ready(function () {
+                        $('.drawer').drawer();
+                        $('.js-trigger').click(function () {
+                            $('.drawer').drawer("open");
+                        });
+                    });
+                </script>
+            </div>
+            <div class="clearfix">
+            </div>
+        </div>
+    </header>
+    
+    <div class="banner">
+        
+        <div class="index_banner" id="banner_tabs">
+            <ul>
+                <li><a>
+                    <img src="images/banner01.jpg"  width="100%"></a></li>
+                <li><a>
+                    <img src="images/banner04.jpg"  width="100%"></a></li>
+            </ul>
+            <!--此处的img是用来占位的，在实际使用中，可以另外制作一张全空的图片-->
+            <img style="visibility: hidden;" src="images/banner01.jpg"  width="100%">
+            <cite><span class="cur">1</span> <span>2</span> </cite>
+            <div class=" clear ">
+            </div>
+        </div>
+    </div>
+    <div class="bt_3">
+        <span class="txt_1">海外推广</span> &nbsp; <span class="txt_22">OVERSEAS <span class="txt_23">
+            PROMOTION</span></span></div>
+    <script src="js/echarts-all.js"  type="text/javascript"></script>
+    <div class="content_1">
+        <div class="over_1">
+			<img src="images/qqqq.png" class="pp " />
+           
+        </div>
+        <div class="over_2 bounceInDown">
+            <p><span style="white-space: nowrap;"><strong><span style="font-size:24px;font-family:微软雅黑, Microsoft YaHei">中国领先的海外精准营销服务商</span></strong></span></p><p><span style="white-space: nowrap;"><strong><span style="font-size:24px;font-family:微软雅黑, Microsoft YaHei"><br/></span></strong></span></p><p><span style="white-space: nowrap; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;font-size:18px">市场分布：俄罗斯、中东、东南亚、韩国及欧美市场</span></p><p><span style="white-space: nowrap;"><br/></span></p><p><span style="white-space: nowrap;"><strong><span style="font-family:微软雅黑, Microsoft YaHei;font-size:24px">我们的海外营销推广</span></strong></span></p><p><span style="white-space: nowrap;"><strong><span style="font-family:微软雅黑, Microsoft YaHei;font-size:24px"><br/></span></strong></span></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;font-size:18px">Google<span style="white-space: normal;">、</span>Facebook<span style="white-space: normal;">、</span>Yandex<span style="white-space: normal;">、</span>Naver<span style="white-space: normal;">、</span>Bing<span style="white-space: normal;"></span><span style="white-space: normal;">、</span>Mail.ru<span style="white-space: normal;"></span><span style="white-space: normal;">、</span>VK<span style="white-space: normal;">、</span>&nbsp;OK<span style="white-space: normal;"></span><span style="white-space: normal;">、</span>MM<span style="white-space: normal;"></span><span style="white-space: normal;">、</span>中东Sptechs……全球搜索引擎、社交平台、移动广告平台、B2B等</span></p><p><br/></p><p><span style="white-space: nowrap;"><strong><span style="font-size:24px;font-family:微软雅黑, Microsoft YaHei">我们的合作模式</span></strong></span></p><p><span style="white-space: nowrap;"><strong><span style="font-size:24px;font-family:微软雅黑, Microsoft YaHei"><br/></span></strong></span></p><p><span style="white-space: nowrap; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;font-size:18px">佣金模式、CPC、CPM、CPI、CPA等</span></p>
+        </div>
+    </div>
+    <div class="content_1">
+        <div class="over_3">
+            <div class="bak_7">
+                
+                <div class="over_3a f_l  bounceInLeft">
+                    <dl>
+                        <dt>
+                            <img alt="俄罗斯Yandex推广" alt="俄罗斯Yandex推广" src="images/20161009011111_2534.png" ></dt>
+                        <dd>
+                            <a href="Overseas_Populaize.html" ><b>
+                                俄罗斯Yandex推广</b></a><p>
+                                    <p>Yandex作为东欧、中亚排名第一的信息搜索网站，Yandex已经发展为俄罗斯使用率最高、最流行并且广告服务最专业的搜索引擎。</p></p>
+                        </dd>
+                    </dl>
+                </div>
+                
+                <div class="over_3a f_r bounceInRight">
+                    <dl>
+                        <dt>
+                            <img alt="韩国Naver推广" src="images/20161009011149_7886.png" ></dt>
+                        <dd>
+                            <a href="Overseas_Populaize.html" ><b>
+                                韩国Naver推广</b></a><p>
+                                    <p>NAVER 是韩国的最大的搜索引擎和门户网站，世界第五大搜索引擎网站，也是韩国股票市场上市值最大的互联网公司。</p></p>
+                        </dd>
+                    </dl>
+                </div>
+                
+                <div class="over_3a f_l  bounceInLeft">
+                    <dl>
+                        <dt>
+                            <img alt="俄罗斯社交VK推广" alt="俄罗斯社交VK推广" src="images/20161009011202_4433.png" ></dt>
+                        <dd>
+                            <a href="Overseas_Populaize.html" ><b>
+                                俄罗斯社交VK推广</b></a><p>
+                                    <p>VK是欧洲最大的社交网站，Alexa的全球排名第20位，仅次于搜索引擎Yandex的俄罗斯第二大网站。</p></p>
+                        </dd>
+                    </dl>
+                </div>
+              
+                <div class="over_3a f_r  bounceInRight">
+                    <dl>
+                        <dt>
+                            <img alt="Google全球推广" src="images/20161009011215_4191.png" ></dt>
+                        <dd>
+                            <a href="Overseas_Populaize.html" ><b>
+                                Google全球推广</b></a><p>
+                                    <p>Google是互联网上5大最受欢迎的网站之一，在全球范围内拥有无数的用户。Google允许以多种语言进行搜索，在操作界面中提供多达30余种语言选择。</p></p>
+                        </dd>
+                    </dl>
+                </div>
+                
+                <div class="over_3a f_l  bounceInLeft">
+                    <dl>
+                        <dt>
+                            <img alt="Bing全球推广" alt="Bing全球推广" src="images/20161009011228_4678.png" ></dt>
+                        <dd>
+                            <a href="Overseas_Populaize.html" ><b>
+                                Bing全球推广</b></a><p>
+                                    <p>微软必应搜索是国际领先的搜索引擎,为中国用户提供网页、图片、视频、词典、翻译、资讯、地图等全球信息搜索服务。</p></p>
+                        </dd>
+                    </dl>
+                </div>
+                
+                <div class="over_3a f_r  bounceInRight">
+                    <dl>
+                        <dt>
+                            <img alt="Facebook社交推广" src="images/20161017014247_2542.png" ></dt>
+                        <dd>
+                            <a href="Overseas_Populaize.html" ><b>
+                                Facebook社交推广</b></a><p>
+                                    <p>Facebook是全球最大的社交网络服务网站，目前已发展成为拥有15.9亿月活跃用户的全球最大社交平台， 全球最佳精准的营销平台。</p></p>
+                        </dd>
+                    </dl>
+                </div>
+                
+            </div>
+        </div>
+        <div class="over_4 contact_fa">
+            <a href="Contact.html" >立即咨询</a></div>
+    </div>
+    <script type="text/javascript">
+//饼形图
+// 基于准备好的dom，初始化echarts图表
+var myChart = echarts.init(document.getElementById('echart'));
+option = {
+    legend: {
+        orient : 'vertical',
+        x : 'left',
+        data:[]
+    }, 
+  	color:['#4A5873','#255a6a','#41833e','#119FD9','#0bb975','#0b9db7', '#666666'],
+    
+    calculable : false,
+    series : [
+        {
+            name:'',
+            type:'pie',
+            selectedMode: 'single',
+            radius : [0, 90],
+            // for funnel
+            x: '20%',
+            width: '40%',
+			y: '90%',
+            funnelAlign: 'right',
+            max: 1000,
+            
+            itemStyle : {
+                normal : {
+                    label : {
+                        position : 'inner',
+                    },
+                    labelLine : {
+                        show : false
+                    }
+                }
+            },
+            data:[
+                {value:335, name:'海外推广\n\n\n'}
+            ]
+        },
+        {
+            name:'',
+            type:'pie',
+            radius : [100, 200],
+            
+            // for funnel
+            x: '80%', 
+            width: '70%',
+            funnelAlign: 'left',
+            max: 1000,
+            itemStyle : {
+                normal : {
+                    label : {
+                        position : 'inner'
+                    },
+                    labelLine : {
+                        show : false
+                    }
+                }
+            },
+            data:[
+                { value:500, name:'NAVER'},
+				{ value:500,name:'Google'},
+				{ value:500, name:'Yandex'},
+				{ value:500, name:'Facebook'},
+				{ value:500,name:'Bing'},
+				{ value:500,name:'Yahoo'},
+            ]
+        }
+    ]
+};
+
+// 为echarts对象加载数据 
+myChart.setOption(option);
+    </script>
+
+     <div class="foot">
+        <div class="foot_m">
+            
+            <div class="foot-list foot-list-01">
+                <h2>
+                    关于我们</h2>
+                <p>
+                    乙亥科技有限公司成立于2007年，是中国领先的海外精准营销服务商，俄罗斯Yandex授权代理商，微软bing搜索授权代理商，韩国Naver授...
+                </p>
+                <a class="about-button" href="About.html" >查看更多 >></a>
+            </div>
+            <div class="foot-list foot-list-02">
+                <h2>
+                    最新案例</h2>
+                <div class="foot-caselist">
+                    
+                    <div class="foot-case-list">
+                        <dl>
+                            <dt>
+                                <img src="images/ww (2).jpg" 
+                                    width="76" height="51" /></dt>
+                            <dd>
+                                <span>
+                                    T010综合型模板</span><a target="_blank" href=""></a>
+							</dd>
+                        </dl>
+                    </div>
+                    
+                    <div class="foot-case-list">
+                        <dl>
+                            <dt>
+                                <img src="images/ww (4).jpg" 
+                                    width="76" height="51" /></dt>
+                            <dd>
+                                <span>
+                                    T000综合型模板</span><a target="_blank" href=""></a>
+							</dd>
+                        </dl>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="foot-list foot-list-03">
+                <h2>
+                    快捷链接</h2>
+                <a class="foot-list-nav" href="Service.html" >服务客户</a> <a class="foot-list-nav"
+                    href="News.html" >新闻聚焦</a> <a class="foot-list-nav" href="Overseas.html" >
+                        海外推广</a> <a class="foot-list-nav" href="Solutions.html" >首页</a> <a class="foot-list-nav"
+                            href="Contact.html" >联系我们</a><a class="foot-list-nav" href="About.html" >关于我们</a>
+            </div>
+            <div class="foot-list foot-list-04">
+                <h2 style="">
+                    400-995-5758</h2>
+                周一至周五 8:30-17:30
+                <br />
+                微信扫一扫 搜索联盟为您服务
+                <br />
+                <img alt="weixin" src="images/code1.png"  width="90" height="90" />
+            </div>
+        </div>
+        <div class="foot-o">
+            <div class="foot-o-nav">
+                <p>版权所有@乙亥科技有限公司 鲁ICP备07012119号&nbsp;<span style="white-space: normal;">山东省济南市历城区华能路38号汇能大厦5楼</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="contact_f">
+        <table width="94%" border="0" cellspacing="0" cellpadding="0" style="margin: auto;">
+            <tr>
+                <td>
+                    <img src="images/icon_14.png"  /><br />
+                    <a href="index.htm" >返回首页</a>
+                </td>
+                <td>
+                    <img src="images/icon_11.png"  /><br />
+                    <a href="Contact.html" >联系我们</a>
+                </td>
+                <td>
+                    <img src="images/icon_12.png"  /><br />
+                    <a href="tel:18660103869">拨打电话</a>
+                </td>
+                <td>
+                    <img src="images/icon_13.png"  /><br />
+                    <a href="sms:18660103869">发送短信</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="left-toolbar">
+        <ul>
+            <li><a href="">
+                <span class="bar01"></span>
+                <label>
+                    在线咨询</label></a> </li>
+            <li><a href="javascript:void(0)"><span class="bar02"></span>
+                <label>
+                    400-995-5758</label></a> </li>
+            <li><a href="javascript:void(0)" onClick="ReturnTop();"><span class="bar03"></span>
+                <label>
+                    返回顶部</label></a> </li>
+        </ul>
+    </div>
+    <script src="js/wow.min.js" ></script>
+    <script>
+        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+            new WOW().init();
+        };
+    </script>
+	<div class="xs-message">
+		<script language="javascript" src="../dkb.duokebo.com/js/detector.aspx-siteid=837766" ></script>
+	</div>
+	
+    <!-- JiaThis Button BEGIN -->
+    <script type="text/javascript" src="../v3.jiathis.com/code/jiathis_r.js-type=left&move=0" 
+        charset="utf-8"></script>
+    <!-- JiaThis Button END -->
+<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>

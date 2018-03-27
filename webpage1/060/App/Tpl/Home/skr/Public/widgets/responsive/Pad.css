@@ -1,0 +1,55 @@
+/* ---------------------------------------------------------- */
+/*                                                            */
+/* PAD                                                        */
+/*                                                            */
+/*                                                            */
+/* ---------------------------------------------------------- */
+
+.index_{padding:2em 0}
+
+/* header */
+.header{height: auto}
+.logo{width: 90%;height: 60px;display: none;}
+.logo:after{width: 1px;height: auto;position: absolute;right: 0;top: 10px;bottom: 10px;margin-top: 0;}
+.bar{display: none;}
+
+/* 导航-2 */
+.child .childContent{display: none!important}
+button.nav-trigger{display: block;}
+.nav_transform1{position:fixed;top:0;bottom:0;left:0;z-index:20;overflow-y:scroll;box-sizing:border-box;padding:44px;width:84vw;border:0;background:#262526;text-align:left;text-transform:none;-webkit-transform:translateX(-100%);transform:translateX(-100%);-webkit-overflow-scrolling:touch;}
+.nav_transform1{transition:-webkit-transform .3s cubic-bezier(.86,0,.07,1);transition:transform .3s cubic-bezier(.86,0,.07,1);}
+.navigation-is-visible .nav_transform1{-webkit-transform:none;transform:none;}
+.nav-overlay{position:fixed;top:0;left:0;z-index:10;width:100vw;height:100vh;background:rgba(0,0,0,.6);opacity:0;transition:opacity .3s linear;pointer-events:none;}
+.navigation-is-visible .nav-overlay{opacity:1;pointer-events:auto;}
+.nav_transform1 ul.navCont li.child{float:none;margin:0 auto;width:100px;}
+.nav_transform1 ul.navCont li.child a{padding:1rem 0;}
+.nav_transform1 ul.navCont li.child.last{margin-right:auto;}
+
+
+
+/* ==========================================================================
+   Common module
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   Index Page
+   ========================================================================== */
+   
+
+
+/* ==========================================================================
+   Inner Page
+   ========================================================================== */
+/*二级栏目*/
+.submenu{top: -49px}
+/*图册*/
+.limiSlide{width:100%;height:400px}
+.lpart,.rpart{width:5%;background:url(../img/layer.png) repeat}
+.lpart{bottom:0;left:0;margin-left:0}
+.rpart{right:0;bottom:0;margin-right:0}
+.limiSlide .next,.limiSlide .prev{padding-right:0;bottom: 0;margin-bottom: 0}
+.limiSlide .next{padding-left:0}
+.limiSlide .tempWrap{overflow:visible!important;height:100%}
+

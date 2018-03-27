@@ -1,0 +1,389 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>我要定制</title>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<link rel="stylesheet" type="text/css" href="css/home.css"/>
+<link rel="stylesheet" type="text/css" href="css/case.css"/>
+<link rel="stylesheet" type="text/css" href="css/beishu.css"/>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/selectlist.js"></script>
+<script type="text/javascript" src="js/eg_top_search.js"></script>
+<!--导航登陆网页版下拉-->
+<script type="text/javascript">
+$(function () {
+	var setTime;
+	$(".egc-top .nav-cent .operate").hover(function () {
+		var _this = $(this);
+		setTime = setTimeout(function () {
+			_this.find(".sec-version").slideDown(200);
+			_this.find("i").removeClass("icon-angle-down").addClass("icon-angle-up");
+		}, 200);
+	}, function () {
+		if (setTime) {
+			clearTimeout(setTime);
+		}
+		$(".egc-top .nav-cent .sec-version").slideUp(200);
+		$(".egc-top .nav-cent .operate i").removeClass("icon-angle-up").addClass("icon-angle-down");
+	});
+});
+</script>
+<!--底部信息下拉-->
+<script type="text/javascript">
+$(function () {
+	var wind_wd = $(window).width();
+	if(wind_wd<=735){
+		/* $submenu.first().delay(400).slideDown(700);*/
+			$('.relate .tit').on('click', function() {
+			$(this).next('.con').slideToggle()
+			$(this).parent().siblings('.items').find('.con').slideUp();
+			});
+		}else{
+			 $('.relate .tit').unbind("click");
+			 $('.relate .con').show();
+			}
+	$(window).resize(function(){
+ 		var wind_wd = $(window).width();
+		if(wind_wd<=735){
+		/* $submenu.first().delay(400).slideDown(700);*/
+			$('.relate .tit').on('click', function() {
+			$(this).next('.con').slideToggle()
+			$(this).parent().siblings('.items').find('.con').slideUp();
+			});
+		}else{
+			 $('.relate .tit').unbind("click");
+			 $('.relate .con').show();
+			}
+	});
+});
+</script>
+<!--搜搜框获取焦点-->
+<script type="text/javascript">
+$(function () {
+$('.sea-ipt-txt').focus(function() { 
+$(this).addClass("on");
+$('.search-btn').addClass("on"); 
+}); 
+$('.sea-ipt-txt').blur(function() { 
+$(this).removeClass("on");
+$('.search-btn').removeClass("on");
+}); 
+});
+</script>
+<!--下拉导航关闭-->
+<script type="text/javascript">
+$(function () {
+ $('.menu-mb i').click(function() { 
+   $(".navigation-mb-list").slideDown(300);
+ }); 
+ $('.navigation-mb-list .list-close-btn').click(function() { 
+   $(".navigation-mb-list").slideUp(300);
+ });
+});
+</script>
+<!--关闭快速注册-->
+<script type="text/javascript">
+$(function () {
+  $(".quickRegBox").slideDown(300);
+  $('.quickRegister a.reg-close').click(function() { 
+   $(".quickRegBox").slideUp(300);
+ }); 
+});
+</script>
+<!--案例行业分类收缩-->
+<script type="text/javascript">
+$(function () {
+ $('.industry-sort dl dt').on('click', function() {
+	 $(this).addClass("on");
+	 $(this).next('dd').slideToggle(300);
+	 $(this).parent().siblings('dl').find('dd').slideUp();
+	 $(this).parent().siblings('dl').find('dt').removeClass("on")
+  });
+});
+</script>
+<!--发展历程-->
+<script type="text/javascript">
+$(function(){
+	systole();
+});
+function systole(){
+	if(!$(".history").length){
+		return;
+	}
+	var $warpEle = $(".history-date"),
+		$targetA = $warpEle.find("h2 a,ul li dl dt a"),
+		parentH,
+		eleTop = [];
+	
+	parentH = $warpEle.parent().height();
+	$warpEle.parent().css({"height":59});
+	
+	setTimeout(function(){
+		
+		$warpEle.find("ul").children(":not('h2:first')").each(function(idx){
+			eleTop.push($(this).position().top);
+			$(this).css({"margin-top":-eleTop[idx]}).children().hide();
+		}).animate({"margin-top":0}, 1600).children().fadeIn();
+
+		$warpEle.parent().animate({"height":parentH+200+"px"}, 2600);
+
+		$warpEle.find("ul").children(":not('h2:first')").addClass("bounceInDown").css({"-webkit-animation-duration":"2s","-webkit-animation-delay":"0","-webkit-animation-timing-function":"ease","-webkit-animation-fill-mode":"both"}).end().children("h2").css({"position":"relative"});
+		
+	}, 600);
+
+	$targetA.click(function(){
+		$(this).parent().css({"position":"relative"});
+		$(this).parent().siblings().slideToggle();
+		$warpEle.parent().removeAttr("style");
+		return false;
+	});
+};
+</script>
+<!--我要定制锚点跳转-->
+<script type="text/javascript">
+$(function () {
+	$("#syss").click(function(){
+	   $("html,body").animate({scrollTop:$("#list01").offset().top},600);
+	});
+	$("#lxkf").click(function(){
+	   $("html,body").animate({scrollTop:$("#list03").offset().top},600);
+	});
+	 $("#syek").click(function(){
+	  $("html,body").animate({scrollTop:$("#syek-con").offset().top},600);   
+	});
+    $("#fbxq").click(function(){
+	  $("html,body").animate({scrollTop:$("#list04").offset().top},600);   
+	});
+});
+</script>
+</head>
+<body>
+<div class="egc-top">
+  <div class="nav-cent">
+    <div class="top-r">
+      <div class="operate reg">注册<i class="icon-angle-down icon-large"></i>
+        <div class="sec-version">
+          <div class="items"><a href="#">用户版</a></div>
+          <div class="items"><a href="#">商家版</a></div>
+        </div>
+      </div>
+      <div class="operate">登陆网页版<i class="icon-angle-down icon-large"></i>
+        <div class="sec-version">
+          <div class="items"><a href="#">用户版</a></div>
+          <div class="items"><a href="#">商家版</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="top-l">您好，欢迎来到易工场</div>
+    <div class="clear_fix"></div>
+  </div>
+</div>
+<div class="navigation">
+  <div class="nav-cent">
+    <ul>
+      <li class="logo"><a href="index.html">logo</a></li>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="我要定制.html">我要定制</a></li>
+      <li><a href="case_案例列表.html">行业案例</a></li>
+      <li><a href="app工具.html">APP工具</a></li>
+      <li class="sea">
+        <div class="egc-sea-box">
+          <input type="text" class="sea-ipt-txt" placeholder="想要定制什么？来搜搜看..." />
+          <a href="#" class="search-btn"><i class="sousuo"></i></a> </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="navigation-mb-list"> <a href="#" class="list-close-btn"><img src="images/icon-close.png" /></a>
+  <div class="listcon">
+    <ul>
+      <li><a href="#">首页</a></li>
+      <li><a href="#">我要定制</a></li>
+      <li><a href="#">行业案例</a></li>
+      <li><a href="#">APP工具</a></li>
+    </ul>
+  </div>
+</div>
+<div class="navigation-mb" id="egc-head">
+  <div class="egc-search">
+    <div class="search-box">
+      <input type="text" placeholder="搜索模板" >
+      <button>搜索</button>
+      <div class="sea-close"><a class="close"><img src="images/icon-close.png" /></a></div>
+    </div>
+  </div>
+  <div class="search-mb"> <a href="javascript:;" class="search-mb-btn"><i class="icon-search icon-2x"></i></a> </div>
+  <div class="menu-mb"><a href="javascript:;"><i class="icon-reorder icon-2x"></i></a></div>
+  <div class="logo"><a href="#"></a></div>
+  <div class="clear_fix"></div>
+</div>
+
+<div class="wydz-maodian">
+  <h1>怎么定制？请您选择</h1>
+  <a href="#" class="radius-md" id="syss">使用搜索</a>
+  <a href="#" class="radius-md" id="lxkf">联系客服</a>
+  <a href="#" class="radius-md" id="syek">使用e库</a>
+  <a href="#" class="radius-md" id="fbxq">发布需求</a>
+</div>
+<div class="my-dz-con list01 row" id="list01">
+  <div class="img"><img src="images/sousuo-pc.jpg" /></div>
+  <div class="txt">
+    <h1>使用搜索</h1>
+    <h2>更便捷　更迅速　更贴切</h2>
+    <p>这不是一个简单的搜索 她可以根据您公司的名称来判断您所在行业 并会给予您最精确的匹配</p>
+    <a href="#">现在去搜索看看 ></a>
+  </div>
+  <div class="clear_fix"></div>
+</div>
+
+<div class="my-dz-con list02 row">
+  <div class="img"><img src="images/my-dz-02.jpg" /></div>
+  <div class="txt">
+    <h1>通过搜索您可以获得</h1>
+    <h2>我们给您的结果 就是您想要的结果</h2>
+    <h3 class="mg-top">产品搜索</h3>
+    <p>您可以直接输入产品名称，我们为您带来最新的产品结果</p>
+    <a href="#">搜产品看看 ></a>
+    <h3 class="mg-top">搜索自己的公司</h3>
+    <p>或者您不清楚自己要的是什么，那么就直接输入您的公司名称，我们根据您公司属性给您最合适的产品推荐</p>
+    <a href="#">搜公司看看 ></a>
+    <h3 class="mg-top">行业专属</h3>
+    <p>我们将行业进行了细分，针对每个行业，我们都给出了详细的搭配，我们有专门的行业管理小组在为您提供服务</p>
+    <a href="#">看看我的行业 ></a>
+  </div>
+  <div class="clear_fix"></div>
+</div>
+
+<div class="my-dz-con list03 row" id="list03">
+    <h1>联系客服</h1>
+    <h2>更专业　更细腻　更懂您</h2>
+    <p>300多位专业客服竭诚为您服务，我们会了解与分析您的每一个要求，然后给您最佳的设计方案</p>
+    <a href="#">马上联系客服 ></a>
+    <div class="img"><img src="images/my-dz-03.jpg" /></div>
+    <div class="liucheng row">
+      <ul>
+        <li class="lc01">
+          <div class="img-liucheng"></div>
+          <span>说出您的需求</span>
+        </li>
+        <li class="lc02">
+          <div class="img-liucheng"></div>
+          <span>免费为您设计</span>
+        </li>
+        <li class="lc03">
+          <div class="img-liucheng"></div>
+          <span>传至您的专属E库</span>
+        </li>
+        <li class="lc04">
+          <div class="img-liucheng"></div>
+          <span>匹配供应商</span>
+        </li>
+        <li class="lc05">
+          <div class="img-liucheng"></div>
+          <span>下单成交跟踪</span>
+        </li>
+      </ul>
+      <div class="clear_fix"></div>
+    </div>
+</div>
+
+<div class="my-dz-con list03 row" id="syek-con">
+    <h1>你的专属存储定制品存放平台</h1>
+    <h2>让定制变成一种常态</h2>
+    <p>你的每一次定制需求，你的每一次定制记录我们都帮你永久存在e库中，<br />真正的解决定制繁乱麻烦的状态，从此 让定制变成一种常态。</p>
+    <a href="#">进一步了解 ></a>
+    <div class="img"><img src="images/dingzhi-pc-yd.png" /></div>
+</div>
+
+<div class="my-dz-con list04 row" id="list04">
+  <div class="txt">
+    <h1>发布定制需求</h1>
+    <h2>更直接　更具体　更精确</h2>
+    <p>当然，我们知道您可能很清晰自己要定制的产品，所以
+我们为您提供了<br />专门的发布需求频道，您可以快速找到适合您的供应商……</p>
+    <a href="#">我要发布需求 ></a>
+  </div>
+</div>
+
+<div class="my-dz-con list05 row">
+  <div class="txt">
+    <h1>丰富的分类 精准的匹配</h1>
+    <p>您可以在任何时候，通过我们的“用户端”工具来发布您的详细需求
+我们会在第一时间为您处理与匹配供应商，这是一种微招标的模式…</p>
+    <a href="#">试一试 ></a>
+  </div>
+  <div class="img"><img src="images/my-dz-05.jpg" /></div>
+</div>
+<div class="my-dz-con list06 row">
+  <div class="txt">
+    <h1>我们，提供APP工具</h1>
+    <h2>移动定制 让定制在指尖飞舞</h2>
+    <p>APP工具的上架，让我们的定制服务变得更加常态化，从此定制不再繁琐
+不再烦乱，不再让您东奔西跑……</p>
+    <a href="#">下载APP工具 ></a>
+  </div>
+  <div class="img">
+    <div class="app-down">
+      <div class="tit">APP下载</div>
+      <div class="links row"><a href="#" class="adr"><i></i></a><a href="#" class="iph"><i></i></a></div>
+      <div class="links"><img src="images/appdownewm.jpg" width="130" /></div>
+    </div>
+  </div>
+</div>
+
+<div class="ftWrap">
+  <div class="foot">
+    <div class="cent">
+      <div class="relate">
+        <div class="items">
+          <div class="tit"><i class="icon-angle-right"></i>关于我们</div>
+          <div class="con"> <a href="about-公司简介.html">了解我们</a> <a href="about-团队管理.html">管理团队</a> <a href="about-联系我们.html">联系我们</a> </div>
+        </div>
+        <div class="items">
+          <div class="tit"><i class="icon-angle-right"></i>价值观</div>
+          <div class="con"> <a href="服务理念.html">服务理念</a> <a href="用户权益.html">用户权益</a> <a href="供应商职责.html">供应商职责</a> </div>
+        </div>
+        <div class="items">
+          <div class="tit"><i class="icon-angle-right"></i>资讯</div>
+          <div class="con"> <a href="活动与公告.html">活动与公告</a> <a href="活动与公告.html">媒体报道</a> <a href="活动与公告.html">社会关注</a> </div>
+        </div>
+        <div class="items">
+          <div class="tit"><i class="icon-angle-right"></i>服务</div>
+          <div class="con"> <a href="免费设计.html">免费设计</a> <a href="供需匹配.html">供应匹配</a> <a href="交易保障.html">交易保障</a> </div>
+        </div>
+        <div class="items">
+          <div class="tit"><i class="icon-angle-right"></i>合作伙伴</div>
+          <div class="con"> <a href="工作机会.html">工作机会</a> <a href="第三方合作.html">第三方合作</a> <a href="商家入驻.html">商家入驻</a> </div>
+        </div>
+        <div class="items last">
+          <div class="tel">
+            <h1>400-710-8886</h1>
+            <p>周一至周日 8:00-18:00</p>
+            <p>(仅收市话费)</p>
+            <a href="#" class="kf"><i class="kf-icon"></i>在线客服</a> </div>
+          <div class="tel-mb">
+            <p><span>400-710-8886</span>周一至周日 8:00-18:00(仅收市话费)</p>
+            <a href="#" class="kf"><i class="kf-icon"></i>在线客服</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <div class="cent">
+      <div class="copy-txt">
+        <div class="copy-menu"><a href="问题反馈.html">问题反馈</a><a href="帮助中心.html">帮助中心</a><a href="网站地图.html">网站地图</a><a href="官方微信.html">官方微信</a></div>
+        <p>Copyright © 2015 - 2016 EGC. All Rights Reserved</p>
+      </div>
+      <div class="copy-img"><a href="#"><img src="images/copy-lg-1.png" /></a><a href="#"><img src="images/copy-lg-2.png" /></a></div>
+      <div class="clear_fix"></div>
+    </div>
+  </div>
+</div>
+<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>

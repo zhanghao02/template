@@ -1,0 +1,72 @@
+/**
+  * Color
+  * Background Color  
+  * Border Color
+*/
+
+/* Color
+-------------------------------------------------------------- */
+a:hover, a:focus, .widget.widget_search .search-form .search-submit:hover, .imgbox .box-title a:hover, .imgbox.style2.flat-boxlist .box-content p a, .title-section.style2 .sub-title span, .wrap-portfolio-item .portfolio-thumbnail a::before, .flat-counter .content-number span, .widget.widget-footer ul li a:hover, .copy-right p a:hover, .header .logo a:hover, .logo-footer .logo a:hover, .flat-counter .content-number span.plus::before,
+.testimonials .name, .iconbox:hover .box-header .box-icon i, article.post .content-post .title-post a:hover, article.post ul.meta-post li a:hover, .portfolio-wrap .item .title-post a:hover, .portfolio-wrap .item .category-post a:hover, .portfolio-wrap .item.v3 .title-post a:hover, .portfolio-wrap .item.v3 .category-post a:hover, .imgbox.style2.inner .box-content .content-right a::before,
+.message-text p span, .iconbox.style2 .readmore a, .widget-header .wrap-widget-header.style2 .widget.widget_text .text a:hover, .wrap-gallery .gallery-item a::before, .breadcrumbs ul li a:hover, .sidebar .widget ul li a:hover, .footer-post .tags-links a:hover, .comments-area ol.comment-list article .comment-metadata .comment-reply a, .comments-area ol.comment-list article .comment-text h5 a:hover,
+.header.style2 #mainnav > ul > li > a:hover, .header.style2 #mainnav > ul > li.active > a, .nav.header-style1.nav2 .menu.menu-extra li a:hover, .wrapper .logo a:hover,
+#nav_menu-2 #mainnav2 > ul > li > a:hover, #nav_menu-2 #mainnav2 > ul > li.home > a, #nav_menu-2 #mainnav2 ul.submenu > li > a:hover, #site-off-canvas .wrapper .social-links.style4 li a:hover, #site-off-canvas .wrapper .copy-right p a,
+ #mainnav ul.submenu > li > a:hover, .flat-accordion .toggle-content ul.list li a, .flat-accordion .flat-toggle .toggle-title.active, .testimonials.style3 .position, .imgbox.style2.position-title .box-header .box-title a:hover, .imgbox.style2 .box-content .read-more, .item.style2 .portfolio-content .category-post a, .item.style2 .portfolio-content .title-post a:hover, .item.style2.position .portfolio-content .category-post a:hover, .imgbox.style3 a.view-more, .title-section .title .color-theme, .flat-top .flat-information li a:hover, .social-links.style4 a:hover, .upscrolled #mainnav > ul > li:hover > a, .upscrolled #mainnav > ul > li.active > a, .header.style3 #mainnav > ul > li.active > a, .header.style3 #mainnav > ul > li > a:hover {
+	color: #1eaf13;
+}
+
+.imgbox.style2.inner .box-content .content-right a:hover:before, .iconbox.style2:hover .box-header .box-icon i {
+	color: #fff;
+}
+
+.tp-caption.sub-title span.style-color {
+	color: #1eaf13!important;
+}
+
+.nav.header-style1, .tparrows:hover {
+	background-color: #1eaf13!important;
+}
+
+.tp-caption.flat-button-slider {
+	background-color: #fe5722!important;
+}
+
+.testimonials.style3 .testimonial-author-thumbnail i.icon_quotations {
+	background-color: #fe5722;
+}
+
+/* Background Color
+-------------------------------------------------------------- */
+button, .header .logo a::after, .logo-footer .logo a::after, .wrap-video .flat-control a:hover, .wrap-portfolio-item .item .portfolio-thumbnail a, .social-links a:hover, .social-links.style2 a:hover, .social-links.style2 a.facebook:hover, .social-links.style2 a.google:hover, .social-links.style2 a.rss:hover, .social-links.style3 a:hover, .social-links.style3 a.twitter:hover, .social-links.style3 a.google:hover, .social-links.style3 a.rss:hover,
+.go-top, .flat-customers::after, .flat-customers::before, .iconbox .box-content .box-title::before, .portfolio-wrap .item .line, .imgbox.style2.inner .box-content .content-right a:hover,
+.flat-accordion .flat-toggle .toggle-title.active::after, .widget.widget_download a:hover, .flat-accordion .toggle-content ul.list li::before, .flat-btn-filter button.btn-filter:hover:before, .flat-btn-filter button.btn-filter.btn-active:before, .iconbox.style2 .box-header .box-icon, .flat-top .box-text li a, ul.portfolio-filter > li a:hover:before, ul.portfolio-filter > li.active a:before, .wrap-gallery .gallery-item a, .quick-form .form-contact .flat-button, .blog-pagination .flat-pagination li a:hover, .blog-pagination .flat-pagination li.active a, .wrapper .logo a::after {
+	background-color: #1eaf13;
+}
+
+.imgbox.style2.position-title:hover .box-header .box-img a:before {
+    background-color: rgba(30,175,19,0.6);
+}
+
+/* Border Color
+-------------------------------------------------------------- */
+.wrap-video .flat-control a:hover, .imgbox.style2.inner .box-content .content-right a, .widget.widget_search .search-form input[type="search"]:focus, .blog-pagination .flat-pagination li a:hover, .blog-pagination .flat-pagination li.active a {
+	border-color: #1eaf13;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus {
+	border-color: #1eaf13;
+}

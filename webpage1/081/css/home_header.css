@@ -1,0 +1,382 @@
+﻿/*
+本代码由js代码网网友上传，js代码网收集并编辑整理;
+尊重他人劳动成果;
+转载请保留js代码链接 - www.jsdaima.com
+*/
+@charset "utf-8";
+.box {
+	width: 100%;
+}
+/*首页头部*/
+.header {
+	width: 100%;
+	min-width: 1190px;
+	background: #fff;
+	overflow: hidden;
+}
+.head {
+	width: 1190px;
+	height: 125px;
+	margin: 0 auto;
+}
+.head-top {
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	margin-top: 0px;
+	background: #f8f8f8;
+	border-bottom: solid 1px #ddd;
+}
+.head-top.welcome_bg {
+	position: relative;
+}
+.head-top-con {
+	width: 1190px;
+	margin: 0 auto;
+	color: #111;
+}
+.head-top-con .hi {
+	background: url(../images/hi.png) no-repeat left center;
+	font-size: 12px;
+	padding-left: 20px;
+	color: #666;
+}
+.head-top-con .yidong i {
+	display: block;
+	width: 14px;
+	height: 16px;
+	margin-right: 2px;
+	float: left;
+	background: url(../images/topbotbg.png) no-repeat;
+	margin-top: 8px;
+}
+.head-top-con .weixin i {
+	display: block;
+	width: 14px;
+	height: 16px;
+	margin-right: 5px;
+	float: left;
+	background: url(../images/topbotbg.png) no-repeat -17px top;
+	margin-top: 8px;
+}
+.head-top-con .lianxi i {
+	display: block;
+	width: 14px;
+	height: 16px;
+	margin-right: 5px;
+	float: left;
+	background: url(../images/topbotbg.png) no-repeat -43px top;
+	margin-top: 8px;
+}
+.head-top-con .kefu i {
+	display: block;
+	width: 14px;
+	height: 16px;
+	margin-right: 5px;
+	float: left;
+	background: url(../images/topbotbg.png) no-repeat -63px top;
+	margin-top: 8px;
+}
+.head-top-con .fr span {
+	display: block;
+	float: left;
+	margin-left: 25px;
+}
+.head-top-con .fr span a {
+	margin-left: 0px;
+	font-size: 12px;
+	color: #666;
+}
+/*logo*/
+.head {
+	height: 90px;
+}
+.head .logo {
+	float: left;
+	margin-top: 20px;
+}
+.head .tel {
+	float: right;
+	margin-top: 20px;
+}
+/*nav*/
+.nav {
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+}
+.nav_main {
+	width: 100%;
+}
+.nav_main ul {
+	width: 1190px;
+	margin: 0 auto;
+}
+.nav_main ul li {
+	width: 110px;
+	float: left;
+	text-align: center;
+}
+.nav_main ul li a {
+	font-size: 16px;
+	color: #333;
+	display: block;
+}
+.nav_main ul li a:hover {
+	color: #f00;
+}
+.nav_main ul li.active {
+	width: 240px;
+	background: #FF7F00;
+	margin-right: 50px;
+}
+.nav_main ul li.active a {
+	color: #fff;
+	font-size: 18px;
+}
+/*轮播*/
+.fullSlide {
+	position: relative;
+	z-index: 999;
+	width: 100%;
+	height: 450px;
+	min-width: 1190px;
+}
+.fullSlide .bd {
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+	margin: 0 auto
+}
+.fullSlide .bd ul {
+	width: 100%!important
+}
+.fullSlide .bd ul a {
+	width: 100% !important;
+}
+.fullSlide .bd li {
+	overflow: hidden;
+	width: 100%!important;
+	height: 450px;
+	text-align: center
+}
+.fullSlide .bd li a {
+	display: block;
+	height: 450px
+}
+.fullSlide .hd {
+	position: absolute;
+	bottom: 0;
+	left: 56%;
+	z-index: 100;
+	width: 156px;
+	height: 16px;
+	margin-left: -78px;
+	padding-bottom: 20px;
+	background: none;
+	text-align: center;
+	line-height: 16px
+}
+.fullSlide .hd ul {
+	text-align: center
+}
+.fullSlide .hd ul li {
+	display: inline-block;
+	overflow: hidden;
+	margin-right: 10px;
+	width: 16px;
+	height: 16px;
+	float: left;
+	background: url(../images/banner-ico.png) no-repeat;
+	line-height: 9999px;
+	cursor: pointer;
+*zoom:1
+}
+.fullSlide .hd ul .on {
+	background: url(../images/banner-ico-hover.png) no-repeat;
+}
+.slider {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 450px;
+	min-width: 1190px;
+}
+.slider_main {
+	margin: 0 auto;
+	width: 890px;
+	z-index: 1000;
+}
+.slider_list {
+	position: absolute;
+	height: 450px;
+	top: 0px;
+	left: 0px;
+}
+.slider_main {
+	position: absolute;
+	height: 450px;
+	top: 0px;
+	left: 50%;
+	margin-left: -595px;
+}
+/*左边*/
+.slider_list {
+	width: 240px;
+	z-index: 9999;
+}
+.slider_list ul {
+	overflow: hidden;
+	width: 240px;
+	height: 450px;
+	background: url(../images/nav-list-bg.png); /*filter:alpha(opacity:60); opacity:0.6;  -moz-opacity:0.6;-khtml-opacity: 0.6;*/
+}
+.slider_list ul li {
+	float: left;
+	width: 240px;
+	height: 75px;
+	padding-top: 15px;
+	background: url(../images/line.png) repeat-x left bottom;
+}
+.slider_list ul li:hover {
+	background: #f90;
+	cursor: pointer;
+}
+.slider_list ul li p {
+	position: absolute;
+	padding-left: 60px;
+	width: 180px;
+	height: 38px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 38px;
+}
+.slider_list ul li p a {
+	display: inline-block;
+	height: 38px;
+	color: #fff;
+	line-height: 38px
+}
+.slider_list ul li p a:hover {
+	color: #fff
+}
+.slider_list ul li em {
+	position: absolute;
+	left: 22px;
+	margin-top: 35px;
+}
+.slider_list ul li em i {
+	color: #FFF;
+	padding: 0 8px;
+	font-size: 12px;
+filter:alpha(opacity:80);
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+}
+.slider_list ul li b {
+	position: absolute;
+	right: 25px;
+	display: block;
+	width: 10px;
+	height: 38px;
+	background: url(../images/navjt.png) no-repeat right
+}
+.slider_list ul li p.sub_1 {
+	background: url(../images/sub_1.png) no-repeat 30px center;
+}
+.slider_list ul li p.sub_2 {
+	background: url(../images/sub_2.png) no-repeat 30px center;
+}
+.slider_list ul li p.sub_3 {
+	background: url(../images/sub_3.png) no-repeat 30px center;
+}
+.slider_list ul li p.sub_4 {
+	background: url(../images/sub_4.png) no-repeat 30px center;
+}
+.slider_list ul li p.sub_5 {
+	background: url(../images/sub_5.png) no-repeat 30px center;
+}
+/*右边*/
+.classify {
+	top: 2px;
+	left: 240px;
+	z-index: 9999;
+	width: 700px;
+	height: 448px;
+}
+.classify, .classify div.div-con {
+	position: absolute;
+	visibility: hidden;
+	height: 448px
+}
+.classify div.div-con {
+	z-index: 101;
+	width: 700px;
+	background: url(../images/navbg1.jpg) no-repeat left bottom #fff;
+}
+.classify div.div-con dl {
+	clear: both;
+	padding-top: 25px;
+}
+.classify div.div-con dl dt {
+	line-height: 20px;
+	font-weight: bold;
+}
+.classify div.div-con dl dt i {
+	margin-left: 10px;
+}
+.classify div.div-con dl dd {
+	height: 24px;
+	line-height: 22px;
+	padding-top: 5px;
+}
+.classify div.div-con dl dd a {
+	display: block;
+}
+.classify div.div-con dl dd a:hover span {
+	color: #f00;
+}
+.classify div.div-con dl dd a i {
+	float: left;
+	padding: 0 30px;
+	color: #ddd;
+}
+.classify div.div-con dl dd a span {
+	color: #555;
+}
+.classify div.div-con dl dd a span.pa-l-n {
+	padding-left: 0px;
+}
+.classify div.div-con dl dd span {
+	float: left;
+	padding-right: 12px;
+	margin-right: 12px;
+	font-size: 12px;
+	background: url(../images/nav-list-bor-bg.jpg) no-repeat right center;
+	display: inline-block;
+	white-space: nowrap;
+	color: #555;
+}
+.classify div.div-con .fl {
+	width: 360px;
+	padding: 0 30px;
+}
+.classify div.div-con .fr {
+	width: 260px;
+	padding-right: 10px;
+	color: #666;
+	line-height: 22px;
+	font-size: 12px;
+}
+.classify div.div-con .fr img {
+	margin-top: 10px;
+	width: 100%;
+}
+.classify div.div-con .fr b {
+	display: block;
+	line-height: 46px;
+	text-align: center;
+	font-size: 18px;
+	color: #F30;
+}

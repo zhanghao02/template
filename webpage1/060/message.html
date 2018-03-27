@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="ie9"> <![endif]-->
+<!--[if gt IE 9]><!--><html lang="ch"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="no-transform " />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+<meta name="author" content="养元素" />
+<meta name="keywords" content="养元素" />
+<meta name="description" content="" />
+<title>养元素</title>
+<link rel="icon" type="image/png" href="/favicon.ico">
+<!-- core CSS -->
+<link href="App/Tpl/Home/skr/Public/web/css/normalize.css" rel="stylesheet" />
+<link href="App/Tpl/Home/skr/Public/web/css/base.css" rel="stylesheet" />
+<link href="App/Tpl/Home/skr/Public/web/css/font.css" rel="stylesheet" />
+<!-- page CSS -->
+<link href="App/Tpl/Home/skr/Public/web/css/style.css" rel="stylesheet" />
+<link href="App/Tpl/Home/skr/Public/web/css/other.css" rel="stylesheet" />
+<link href="App/Tpl/Home/skr/Public/widgets/responsive/responsive.css" rel="stylesheet" />
+<!-- widgets CSS -->
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="widgets/html5shiv/html5shiv.js"></script>
+  <script src="widgets/respond/respond.min.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+  <script src="widgets/pngfix/pngfix.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<!-- Page -->
+<div class="page">
+  <!-- header -->
+  <header class="header">
+    <div class="navBox">
+      <div class="wrap">
+				<nav class="nav_transform1">
+          <ul class="navCont f-cb">
+            <li class="child on">
+              <a href="index.html"><p class="title">网站首页</p><span>HOME</span></a>
+            </li>
+            <li class="child ">
+              <a href="company.html"><p class="title">关于我们</p><span>ABOUT US</span></a>
+            </li>
+            <li class="child">
+              <a href="news.html"><p class="title">新闻中心</p><span>NEWS</span></a>
+            </li>
+            <li class="child">
+              <a href="product.html"><p class="title">产品中心</p><span>PRODUCTS</span></a>
+            </li>
+            <li class="child logo">
+              <a href="index.html"><img src="App/Tpl/Home/skr/Public/web/img/logo.png"></a>
+            </li>
+            <li class="child">
+              <a href="team.html"><p class="title">团队展示</p><span>TEAM</span></a>
+            </li>
+            <li class="child">
+              <a href="news.html"><p class="title">养生知识</p><span>THINGS</span></a>
+            </li>
+            <li class="child">
+              <a href="message.html"><p class="title">在线留言</p><span>MESSAGE</span></a>
+            </li>
+            <li class="child last">
+              <a href="contact.html"><p class="title">联系我们</p><span>CONTACT US</span></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <img src="App/Tpl/Home/skr/Public/web/img/logo.png" class="mlogo">
+    <div class="nav-overlay"></div>
+    <button class="nav-trigger js-nav-trigger"><span class="nav-icon icon--lines"></span></button>
+  </header>
+  <!-- banner -->
+  <div class="nbanner"><div class="ghost-center"><p><span class="size1">在线留言</span><span class="size2">MESSAGE</span></p></div></div>
+  <!-- 页面 -->
+  <section class="sect_inner">
+    <!-- 正文 -->
+    <div class="wrap index_">
+      <div class="box">
+						<form action="/message/add_message" method="POST" id="form1">
+                            <span>姓名：</span><input name="name" type="text" id="name" class="ly-k-k" placeholder="您的姓名" >
+						<span>电话：</span><input name="tel" type="text" id="tel" class="ly-k-k" placeholder="您的电话" >
+						<span>地址：</span><input name="add" type="text" id="add" class="ly-k-k" placeholder="您的地址" >
+						<span>邮箱：</span><input name="email" type="text" id="email" class="ly-k-k" placeholder="您的邮箱" >
+						<span>留言：</span><textarea name="content" id="content" cols="70" rows="10" class="ly-k-k1" placeholder="您的留言" ></textarea>
+                         <span>验证码：</span>   
+						<input type="text" id="captcha" name="captcha" maxlength="4" autocomplete="off" class="ly-k-k2" placeholder="验证码"><img src="/Base/verify" alt="" title="点击更换验证码" onClick="this.src='/Base/verify?t='+Math.random();" style="float:left; padding-top:5px; margin-right:450px; margin-bottom:16px;">
+            <div class="clear2"></div>
+
+						<input id="submit" type="submit" value="提交留言" style="float:left;  width:50%; height:32px; border:none; border-radius:0px; font-family:'微软雅黑'; font-size:14px; background:#f39d77; color:#000;">
+            <div class="clear2"></div>
+						</form>    
+          			<script>
+				$(document).ready(function (){
+					$("#form1").submit(function (){
+						if($("#name").val() == ''){
+							alert('请添加姓名');
+							$("#name").focus();
+							return false;	
+						}
+						if($("#tel").val() == ''){
+							alert('请添加电话');
+							$("#tel").focus();
+							return false;	
+						}
+						if($("#add").val() == ''){
+							alert('请添加地址');
+							$("#add").focus();
+							return false;	
+						}
+						if($("#email").val() == ''){
+						 alert("请添加邮箱！");
+						 return false;
+						}
+						if(!$("#email").val().match(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/))
+						{
+						 alert("邮箱格式错误！");
+						 return false;
+						}
+						if($("#content").val() == ''){
+							alert('请添加内容');
+							$("#content").focus();
+							return false;	
+						}
+						if($("#captcha").val() == ''){
+							alert('请添加验证码');
+							$("#captcha").focus();
+							return false;	
+						}
+
+					})	
+				})
+			</script>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer_link">
+      <div class="wrap">
+       友情链接：
+	         </div>
+    </div>
+    <div class="footer_info">
+      <div class="wrap index_">
+        <div class="row">
+          <div class="span-9 midd-10 smal-12">
+            <div class="footer_nav smal-hide">
+              联系我们
+            </div>
+            <div class="footer_detail">
+                <p><span>养元素</span></p>
+              <p><span>联系人： 13388667666</span><br>
+            　　　　程先生 13605720622
+              </p>
+              <p><span>联系电话：0579-85360078</span></p>
+              <p><span>地址：浙江省义乌市工人北路788号山西东湖醋馆</span></p>
+			  
+            </div>
+          </div>
+          <div class="span-3 midd-hide">
+            <img src="App/Tpl/Home/skr/Public/web/img/qrcode.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a class="plugin-fly_bottom_show_left smal-hide" href="javascript:void(0)"></a>
+  <!-- plugs top -->
+  <div class="top"><i class="iconfont icon-fanhuidingbu"></i></div>
+  <!-- plugs mobile ring -->
+  <div id="plugin-contact-ring" class="hide smal-show">
+    <a href="javascript: void(0)" id="ring-toggle-button"></a>
+    <ul id="ring-list" class="r3">
+      <li class="item item-phone"><a href="tel:13388667666"><i class="icon"></i><span class="">电话</span></a></li>
+      <li class="item item-sms"><a href="sms:tel:13388667666"><i class="icon"></i><span class="">短信</span></a></li>
+      <li class="item item-map"><a href="http://j.map.baidu.com/smd9I"><i class="icon"></i><span class="">地图</span></a></li>
+    </ul>
+  </div>
+
+  <div class="top"><i class="iconfont icon-fanhuidingbu"></i></div>
+</div>
+<!--includes javascript at the bottom so the page loads faster-->
+<script src="App/Tpl/Home/skr/Public/seajs/sea.js" id="seajs-browser"></script>
+<script src="App/Tpl/Home/skr/Public/seajs/seajs.config.js"></script>
+<script>seajs.use('app/index.js')</script>
+<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>

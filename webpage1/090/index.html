@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>易工场</title>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<link rel="stylesheet" type="text/css" href="css/home.css"/>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/home_ban.js"></script>
+<script type="text/javascript" src="js/eg_top_search.js"></script>
+<!--导航登陆网页版下拉-->
+<script type="text/javascript">
+$(function () {
+	var setTime;
+	$(".egc-top .nav-cent .operate").hover(function () {
+		var _this = $(this);
+		setTime = setTimeout(function () {
+			_this.find(".sec-version").slideDown(200);
+			_this.find("i").removeClass("icon-angle-down").addClass("icon-angle-up");
+		}, 200);
+	}, function () {
+		if (setTime) {
+			clearTimeout(setTime);
+		}
+		$(".egc-top .nav-cent .sec-version").slideUp(200);
+		$(".egc-top .nav-cent .operate i").removeClass("icon-angle-up").addClass("icon-angle-down");
+	});
+});
+</script>
+<!--底部信息下拉-->
+<script type="text/javascript">
+$(function () {
+	var wind_wd = $(window).width();
+	if(wind_wd<=735){
+		/* $submenu.first().delay(400).slideDown(700);*/
+			$('.relate .tit').on('click', function() {
+			$(this).next('.con').slideToggle()
+			$(this).parent().siblings('.items').find('.con').slideUp();
+			});
+		}else{
+			 $('.relate .tit').unbind("click");
+			 $('.relate .con').show();
+			}
+	$(window).resize(function(){
+ 		var wind_wd = $(window).width();
+		if(wind_wd<=735){
+		/* $submenu.first().delay(400).slideDown(700);*/
+			$('.relate .tit').on('click', function() {
+			$(this).next('.con').slideToggle()
+			$(this).parent().siblings('.items').find('.con').slideUp();
+			});
+		}else{
+			 $('.relate .tit').unbind("click");
+			 $('.relate .con').show();
+			}
+	});
+});
+</script>
+<!--搜搜框获取焦点-->
+<script type="text/javascript">
+$(function () {
+$('.sea-ipt-txt').focus(function() { 
+$(this).addClass("on");
+$('.search-btn').addClass("on"); 
+}); 
+$('.sea-ipt-txt').blur(function() { 
+$(this).removeClass("on");
+$('.search-btn').removeClass("on");
+}); 
+});
+</script>
+<!--下拉导航关闭-->
+<script type="text/javascript">
+$(function () {
+ $('.menu-mb i').click(function() { 
+   $(".navigation-mb-list").slideDown(300);
+ }); 
+ $('.navigation-mb-list .list-close-btn').click(function() { 
+   $(".navigation-mb-list").slideUp(300);
+ });
+});
+</script>
+<!--stress搜索关闭-->
+<script type="text/javascript">
+$(function () {
+	var setTime;
+	$(".sercat .weixin").hover(function () {
+		setTime = setTimeout(function () {
+			$(".sercat .wxewm").show();
+		}, 300);
+	}, function () {
+		if (setTime) {
+			clearTimeout(setTime);
+		}
+		$(".sercat .wxewm").hide();
+	});
+});
+</script>
+<script type="text/javascript">
+$(function () {
+	var scroll_heitht = $('.flexslider').offset().top;
+	var isShow = true;
+	$(window).scroll(function () {
+       if ($(window).scrollTop() > scroll_heitht && isShow) {
+			 $('.stress-search-box').slideDown(200);
+       }else{
+		   $('.stress-search-box').slideUp(200);
+		   }
+       });
+   $('.stress-close a').click(function(){
+	   isShow=false;
+	   $('.stress-search-box').slideUp(200).unbind(window,aa);
+	   });
+});
+</script>
+</head>
+<body>
+<div class="egc-top">
+  <div class="nav-cent">
+    <div class="top-r">
+      <div class="operate reg">注册<i class="icon-angle-down icon-large"></i>
+        <div class="sec-version">
+          <div class="items"><a href="#">用户版</a></div>
+          <div class="items"><a href="#">商家版</a></div>
+        </div>
+      </div>
+      <div class="operate">登陆网页版<i class="icon-angle-down icon-large"></i>
+        <div class="sec-version">
+          <div class="items"><a href="#">用户版</a></div>
+          <div class="items"><a href="#">商家版</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="top-l">您好，欢迎来到易工场</div>
+    <div class="clear_fix"></div>
+  </div>
+</div>
+<div class="navigation">
+  <div class="nav-cent">
+    <ul>
+      <li class="logo"><a href="index.html">logo</a></li>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="我要定制.html">我要定制</a></li>
+      <li><a href="case_案例列表.html">行业案例</a></li>
+      <li><a href="app工具.html">APP工具</a></li>
+      <li class="sea">
+        <div class="egc-sea-box">
+          <input type="text" class="sea-ipt-txt" placeholder="想要定制什么？来搜搜看..." />
+          <a href="#" class="search-btn"><i class="sousuo"></i></a> </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="navigation-mb-list"> <a href="#" class="list-close-btn"><img src="images/icon-close.png" /></a>
+  <div class="listcon">
+    <ul>
+      <li><a href="#">首页</a></li>
+      <li><a href="#">我要定制</a></li>
+      <li><a href="#">行业案例</a></li>
+      <li><a href="#">APP工具</a></li>
+    </ul>
+  </div>
+</div>
+<div class="navigation-mb" id="egc-head">
+  <div class="egc-search">
+    <div class="search-box">
+      <input type="text" placeholder="搜索模板" >
+      <button>搜索</button>
+      <div class="sea-close"><a class="close"><img src="images/icon-close.png" /></a></div>
+    </div>
+  </div>
+  <div class="search-mb"> <a href="javascript:;" class="search-mb-btn"><i class="icon-search icon-2x"></i></a> </div>
+  <div class="menu-mb"><a href="javascript:;"><i class="icon-reorder icon-2x"></i></a></div>
+  <div class="logo"><a href="#"></a></div>
+  <div class="clear_fix"></div>
+</div>
+<div class="stress-search-box row">
+  <div class="stress-close"><a href="javascript:;"></a></div>
+  <div class="stress-search">
+    <div class="stress-search-con">
+      <input type="txt" class="sea-ipt-txt-stress" placeholder="输入您的单位或公司全称，试试看.." />
+      <input type="button" class="sea-ipt-btn-stress" value="搜索" />
+    </div>
+  </div>
+</div>
+<div class="flexslider">
+	<ul class="slides">
+      <li style="background-image:url(images/1.jpg);">
+        <div class="index_focus_info c-white">
+          <div class="txt-larger mg-bot">已有<span class="font-num c-org">3000+</span>家企业选择易工场</div>
+          <p class="txt-small mg-bot">定制就到易工场<br />基于互联网的定制品交易平台</p>
+          <a href="#" class="a-links-blue">进一步了解 ></a>
+        </div>
+      </li>
+      <li style="background-image:url(images/2.jpg);">
+        <div class="index_focus_info c-white">
+          <div class="txt-larger mg-bot"><span class="font-num c-org">300</span>位专属客服一对一服务</div>
+          <p class="txt-small  mg-bot">复杂留给我，易用带给你，每天，都在设计生产标准，<br />并匹配订单给商家报价;只为让你有更好的定制体验，<br />你只要提出问题，我负责解决问题，<br />想要优质的定制品，找我就够了！</p>
+          <a href="#" class="a-links-blue">马上联系我的定制小秘书 ></a>
+        </div>
+      </li>
+      <li style="background-image:url(images/3.jpg);">
+        <div class="index_focus_info c-black">
+          <div class="txt-larger mg-bot">免费设计  货比三家</div>
+          <p class="txt-small  mg-bot">公司定制需求各不相同，选品、设计、<br />比价各种沟通；将采购工作放在这里，直连源头厂家，<br />告别定制繁琐，绩效快人一步。</p>
+          <a href="#" class="a-links-blue">我要定制 ></a>
+        </div>
+      </li>
+      <li style="background-image:url(images/4.jpg);">
+        <div class="index_focus_info c-white">
+          <div class="txt-larger mg-bot">三重保障　一个承诺</div>
+          <p class="txt-small  mg-bot">交易过程严格把关，对商家实名认证<br />您的订单我们购买了财产保险，<br />我们承诺为您服务到底，您的满意是我们追求的目标！</p>
+          <a href="#" class="a-links-blue">进一步了解 ></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.flexslider').flexslider({
+		directionNav: true,
+		pauseOnAction: false
+	});
+	$('.flexslider').hover(function(){
+		$('.flex-direction-nav').fadeIn();
+		},function(){
+		$('.flex-direction-nav').fadeOut();
+		})
+});
+</script>
+<div class="present">
+  <ul>
+    <li><a href="#" class="pre pre-img1"><h1>易工场模式</h1><p>引起广泛关注</p></a></li>
+    <li><a href="#" class="pre pre-img2"><h1>精挑细选</h1><p>热门定制大盘点</p></a></li>
+    <li><a href="#" class="pre pre-img3"><h1>行业定制</h1><p>这些你知道吗？</p></a></li>
+    <li><a href="#" class="pre pre-img4"><h1>赚钱</h1><p>机会在这里</p></a></li>
+  </ul>
+</div>
+<div class="ftWrap">
+  <div class="foot">
+    <div class="cent">
+      <div class="relate">
+        <div class="items">
+          <div class="tit"><i class="icon-angle-right"></i>关于我们</div>
+          <div class="con"> <a href="about-公司简介.html">了解我们</a> <a href="about-团队管理.html">管理团队</a> <a href="about-联系我们.html">联系我们</a> </div>
+        </div>
+        <div class="items">
+          <div class="tit"><i class="icon-angle-right"></i>价值观</div>
+          <div class="con"> <a href="服务理念.html">服务理念</a> <a href="用户权益.html">用户权益</a> <a href="供应商职责.html">供应商职责</a> </div>
+        </div>
+        <div class="items">
+          <div class="tit"><i class="icon-angle-right"></i>资讯</div>
+          <div class="con"> <a href="活动与公告.html">活动与公告</a> <a href="活动与公告.html">媒体报道</a> <a href="活动与公告.html">社会关注</a> </div>
+        </div>
+        <div class="items">
+          <div class="tit"><i class="icon-angle-right"></i>服务</div>
+          <div class="con"> <a href="免费设计.html">免费设计</a> <a href="供需匹配.html">供应匹配</a> <a href="交易保障.html">交易保障</a> </div>
+        </div>
+        <div class="items">
+          <div class="tit"><i class="icon-angle-right"></i>合作伙伴</div>
+          <div class="con"> <a href="工作机会.html">工作机会</a> <a href="第三方合作.html">第三方合作</a> <a href="商家入驻.html">商家入驻</a> </div>
+        </div>
+        <div class="items last">
+          <div class="tel">
+            <h1>400-710-8886</h1>
+            <p>周一至周日 8:00-18:00</p>
+            <p>(仅收市话费)</p>
+            <a href="#" class="kf"><i class="kf-icon"></i>在线客服</a> </div>
+          <div class="tel-mb">
+            <p><span>400-710-8886</span>周一至周日 8:00-18:00(仅收市话费)</p>
+            <a href="#" class="kf"><i class="kf-icon"></i>在线客服</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <div class="cent">
+      <div class="copy-txt">
+        <div class="copy-menu"><a href="问题反馈.html">问题反馈</a><a href="帮助中心.html">帮助中心</a><a href="网站地图.html">网站地图</a><a href="官方微信.html">官方微信</a></div>
+        <p>Copyright © 2015 - 2016 EGC. All Rights Reserved</p>
+      </div>
+      <div class="copy-img"><a href="#"><img src="images/copy-lg-1.png" /></a><a href="#"><img src="images/copy-lg-2.png" /></a></div>
+      <div class="clear_fix"></div>
+    </div>
+  </div>
+</div>
+<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>

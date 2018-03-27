@@ -1,0 +1,119 @@
+@media screen and (max-width:1130px){
+.header .head,.i_m,.f_nav,.bq,.pst,.scd{width:960px;}
+.head .nav_m{ width:590px;}
+.head .nav li{ width:74px;}
+.i_ma dl{ width:447px; margin-right:25px;}
+.i_ma dl dd{ width:225px;}
+.i_mb dl dd{ width:525px;}
+.i_mc dl{ width:320px; height:183px;}
+.i_mc dl dt, .i_mc dl dt img,.i_mc dl dd{ width:160px; height:183px;}
+.i_mc dl dd .more{ margin-top:5px;}
+.i_md ul li,.i_md ul li img{ width:178px; height:89px;}
+.i_md ul li{ margin-right:12px; margin-bottom:15px;}
+.i_more a{ font-size:16px;}
+.f_nav .f_nl{ width:760px;}
+.scd .scd_r{ width:750px;}
+.service ul li{ width:243px; margin-right:10px;}
+.service ul li img{ width:243px; height:139px;}
+.sv_da dt, .sv_da dt img{ width:353px; height:309px;}
+.sv_da dd{ width:380px;}
+.sv_da dd .des{ height:auto;}
+.duty dd{ width:495px;}
+.news dl dd{ width:505px;}
+}
+@media screen and (max-width:990px){
+.header .head,.i_m,.f_nav,.bq,.pst,.scd{width:740px;}
+.header,.i_ma dl{ height:auto;background: -moz-linear-gradient(top, #000000 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#EEEEEE));
+    background: -webkit-linear-gradient(top, #FFFFFF 0%,#EEEEEE 100%);
+    background: -o-linear-gradient(top, #FFFFFF 0%,#EEEEEE 100%);
+    background: -ms-linear-gradient(top, #FFFFFF 0%,#EEEEEE 100%);
+    background: linear-gradient(to bottom, #FFFFFF 0%,#EEEEEE 100%);}
+.header .head{ height:auto;}
+.head .nav_m{ float:none; width:100%; margin-top:0; margin-bottom:10px;}
+.head .nav li{ width:80px; margin-left:47px;}
+.head .head_t{ width:60%; margin-left:40%;}
+.head .head_t .tel{ width:100%; margin-left:0; padding-top:15px;}
+.i_ma dl{ width:340px; margin-right:15px;}
+.i_ma dl dd{ width:100%; margin-bottom:10px;}
+.i_mb dl dt, .i_mb dl dt img{ width:367px; height:199px;}
+.i_mb dl dd{ width:360px; height:255px;}
+.i_mb dl dd p{ line-height:185%;}
+.i_mc dl{ width:370px; height:210px; margin-bottom:10px;}
+.i_mc dl dt, .i_mc dl dt img,.i_mc dl dd{ width:183px; height:210px;}
+.i_mc dl.n_2 dt{ float:left;}
+.i_mc dl.n_2 dd{ float:right;}
+.i_mc dl.n_2 dd i {left:-21px;background: url(../images/icon5.png) no-repeat;}
+.i_md ul li, .i_md ul li img{ width:169px; height:84px;}
+.i_md ul li{ margin-right:12px !important;}
+.f_nav .f_nl{ width:600px;}
+.scd .scd_r{ width:530px;}
+.service ul li{ margin-right:20px !important;}
+.sv_da dt, .sv_da dt img{ width:530px; height:463px;}
+.sv_da dd{ width:100%; margin-top:20px;}
+.duty dd{ width:295px;}
+.news dl dd{ width:285px;}
+}
+@media screen and (max-width:770px) {
+.header .head,.i_m,.f_nav,.bq,.pst,.scd{width:480px;}
+.head .head_t{ width:100%; margin:0;}
+.head .head_t .tel{ width:auto; padding:0;}
+.head .logo{ margin-top:0;}
+.head .head_t div{ margin-left:1px;}
+.head .head_t .search{ width:150px;}
+.head .search input[type="submit"]{ left:115px;}
+.head .head_t .lang a{ width:60px;}
+.head .nav li{ width:70px; margin-left:7px;}
+.i_ma dl{ width:210px; margin-right:18px; margin-bottom:18px;}
+.i_mb dl dt{ width:100%; text-align:center;}
+.i_mb dl dt img{ float:none; margin:0px auto;}
+.i_mb dl dd{ width:100%; height:auto; margin-top:20px;}
+.i_mc dl{ width:100%;}
+.i_mc dl dd{ width:290px;}
+.i_md ul li, .i_md ul li img{ width:192px; height:96px;}
+.i_md ul{ text-align:center;}
+.i_md ul li{ display:inline-block; *display:inline; zoom:1; margin:0 10px 15px !important; float:none;}
+.f_nav .f_nl{ width:340px;}
+.f_nav .f_nr{ margin-top:45px;}
+.scd .scd_l{ width:100%; margin-top:10px;}
+.scd_l .n_name{ width:460px;}
+.scd_l .s_nav li .li_m{ width:450px;}
+.scd .scd_r{ width:100%;}
+.scd_r .about img{ margin:0 !important;}
+.service ul li{ width:230px; margin-right:10px !important;}
+.service ul li img{ width:230px; height:131px;}
+.scd_l .s_nav li .er{ width:478px;}
+.scd_l .s_nav li .er li{ width:438px;}
+.sv_da dt, .sv_da dt img{ width:100%; height:auto;}
+.duty dd,.news dl dd{ width:235px;}
+}
+@media screen and (max-width:510px) {
+.header .head,.i_m,.f_nav,.bq,.pst,.scd{width:320px;}
+.head .head_t{ height:auto; margin-bottom:10px;}
+.head .logo{ width:230px; height:auto;}
+.head .logo img{ width:100%; height:auto;}
+.head .nav_m{ margin-top:-40px;}
+.nav_m .n_icon{ display:block;}
+.nav_m .nav{ width:100%; background:#FFF; position:absolute; right:0; top:45px; z-index:9999; display:none;}
+.nav_m .nav li{ width:100%; text-align:right; margin:0;}
+.nav_m .nav li a{ text-align:right; width:90%; padding:0 5%;}
+.i_ma dl{ width:300px; margin-right:0;}
+.i_ma dl dt img,.i_ma dl dt{ width:300px; height:214px;}
+.i_mb dl dt img,.i_mb dl dt{ width:100%; height:auto;}
+.i_mc dl dt, .i_mc dl dt img, .i_mc dl dd{ width:160px; height:183px;}
+.i_mc dl{ height:183px;}
+.i_md ul li, .i_md ul li img{ width:144px; height:72px;}
+.i_md ul li{ margin:0 4px 15px !important;}
+.f_nav .f_nl{ width:180px;}
+.bq{ text-align:left;}
+.bq span{ margin:0;}
+.scd_l .n_name{ width:300px;}
+.scd_l .s_nav li .li_m{ width:290px;}
+.scd_l .s_nav li .er{ width:318px;}
+.scd_l .s_nav li .er li{ width:278px;}
+.service ul li{ width:320px; margin-right:0;}
+.service ul li img{ width:320px; height:182px;}
+.duty dt, .duty dt img{ width:320px; height:292px;}
+.duty dd,.news dl dd{ width:100%; margin-top:10px;}
+.news dl dt, .news dl dt img{ width:320px; height:183px;}
+}

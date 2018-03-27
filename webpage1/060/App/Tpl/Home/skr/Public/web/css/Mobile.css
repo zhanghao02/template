@@ -1,0 +1,150 @@
+/* ---------------------------------------------------------- */
+/*                                                            */
+/* MOBILE                                                     */
+/*                                                            */
+/*                                                            */
+/* ---------------------------------------------------------- */
+
+.index_ {padding-top: 2em!important;padding-bottom: 2em!important;}
+
+/* header */
+.header{height: 50px}
+.logo{display: none;}
+.mlogo{display:block;position: absolute;right: 1.2vw;height: 50px}
+
+/* 导航-2 */
+.child .childContent{display: none!important}
+button.nav-trigger{display: block;}
+.nav_transform1{position:fixed;top:0;bottom:0;left:0;z-index:20;overflow-y:scroll;box-sizing:border-box;padding:44px;width:84vw;border:0;background:#262526;text-align:left;text-transform:none;-webkit-transform:translateX(-100%);transform:translateX(-100%);-webkit-overflow-scrolling:touch;}
+.nav_transform1{transition:-webkit-transform .3s cubic-bezier(.86,0,.07,1);transition:transform .3s cubic-bezier(.86,0,.07,1);}
+.navigation-is-visible .nav_transform1{-webkit-transform:none;transform:none;}
+.nav-overlay{position:fixed;top:0;left:0;z-index:10;width:100vw;height:100vh;background:rgba(0,0,0,.6);opacity:0;transition:opacity .3s linear;pointer-events:none;}
+.navigation-is-visible .nav-overlay{opacity:1;pointer-events:auto;}
+.nav_transform1 ul.navCont li.child{float:none;margin:0 auto;width:100px;}
+.nav_transform1 ul.navCont li.child a{padding:1rem 0;}
+.nav_transform1 ul.navCont li.child.last{margin-right:auto;}
+
+/*footer*/
+.footer{font-size:12px;line-height:inherit}
+.footer span{display:block;text-align:center}
+.footer .footer_link{display:none}
+.footer_info{text-align: center;padding: 15px 0}
+.footer_info .usinfo{padding: 0;margin:0;}
+.footer_info .usinfo h5{font-size: 14px}
+.footer_info .usinfo p{font-size: 12px}
+.top{border-radius:100%}
+
+/*block*/
+.index_{padding-top: 1em;padding-bottom: 1em}
+.index_ .T {padding-bottom: 18px}
+.index_ .T h1{font-size: 50px}
+.index_ .T h2{font-size: 18px}
+.index_ .T h2 strong{width: 100%;background-size: contain}
+.index_ .T h2.border strong:before,.index_ .T h2.border strong:after{width: 60%}
+.index_ .T h3{font-size: 16px}
+.index_ .T h4{font-size: 12px}
+.article .C{font-size: 12px}
+
+
+/* ==========================================================================
+   Common module
+   ========================================================================== */
+
+/*图片+遮罩模型*/
+.port-box .portinfo{display: none;}
+.port-box .portinfo h3{margin-top:20%;font-size:14px}
+.port-box .portinfo p{display:none}
+
+/* ==========================================================================
+   Index Page
+   ========================================================================== */
+
+.module_cate {
+    width: 95%;
+    padding-bottom: 0; 
+}
+.module_prod{
+	padding: 3rem 0;
+	margin-top: 0
+}
+.module_cate .swiper-slide a.cateMore {
+    display: none;
+}
+.module_cate .swiper-slide .js_cate {
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid #fff;
+}
+.module_cate .swiper-slide:hover .js_cate {
+    border-color: #2b2a2a
+}
+
+.services-box{
+	text-align: center;
+	padding-bottom: 1rem
+}
+
+
+
+/* ==========================================================================
+   Inner Page
+   ========================================================================== */
+.box{padding: 2%}
+
+/*nbanner*/
+.nbanner{height: 150px}
+.nbanner img{margin-top:-182px;margin-left:-500px;width:1000px;height:260px}
+
+/*手机二级*/
+.m-ins-navbox{position:relative;display:none;width:100%;height:38px;background-color:#f9f9f9}
+.m-ins-navbox .left{float:left;width:15%;cursor:pointer}
+.m-ins-navbox .left .ico{display:block;width:100%;height:38px;background:url(../img/base/ico_2.png) no-repeat center #0c4da2;background-size:auto 50%}
+.m-ins-navbox .right{position:relative;float:right;width:85%}
+.m-ins-navbox .right .tit{display:block;padding-left:5%;width:95%;background:url(../img/base/ico_1.png) no-repeat 93% center;background-size:auto 50%;color:#035cac;font-size:14px;line-height:38px;cursor:pointer}
+.m-ins-navbox .right .subbox{position:absolute;top:38px;left:0;z-index:2;display:none;width:100%;background-color:#fff}
+.m-ins-navbox .right .subbox a{display:block;padding-left:5%;width:95%;height:38px;border-top:1px solid #e5e5e5;background:url(../img/base/ico_3.png) no-repeat 92% center;background-size:auto 35%;color:#666;line-height:38px}
+.m-ins-navbox .ret-subbox{position:absolute;top:38px;left:0;z-index:2;display:none;width:100%;background-color:#0c4da2}
+.m-ins-navbox .ret-subbox a{display:block;padding-left:5%;width:95%;height:38px;border-bottom:1px solid #4882b6;background:url(../img/base/ico_3.png) no-repeat 92% center;background-size:auto 35%;color:#fff;font-size:14px;line-height:38px}
+.m-ins-blackbg{position:absolute;top:38px;left:0;display:none;width:100%;height:100%;background-color:#000;opacity:.5;z-index: 1}
+
+/*简介*/
+.aboutBox{padding-left: 0}
+
+/*新闻*/
+.news-box{margin-bottom: 1rem}
+.news-box .news_cont p{height: 3.15rem}
+.news-box .news_time .date{line-height: 22px;text-align: left;padding: 0;margin:0;}
+.news-box .news_time .date:before{display: none;}
+.news-box .news_time .date i{font-size: inherit;font-weight: normal;display: inline;}
+
+/*新闻详细 */
+.newsTit h1{padding:25px 0 25px;font-size:22px}
+.newsTit p span{display:inline-block}
+.content_bak{padding:20px 0!important;border:0;background-color:#fff}
+.content_bak h2{font-size:15px;font-weight:400;margin:0 0}
+.content_bak p{font-size:13px;margin:0;line-height:22px}
+.newsDetailCur li,.newsDetailCur li.r{float:left;padding-bottom:10px;width:100%;text-align:left;white-space:nowrap;font-size: 13px}
+
+/*产品*/
+/*图册*/
+.limiSlide{width:100%;}
+.limiSlide .bd{width: 90%;height:200px}
+.lpart,.rpart{width:10%}
+.limiSlide .tempWrap{overflow:visible!important;height:100%}
+
+/*招聘 */
+.jobapply{padding:10px}
+.jobchild{margin-bottom:20px;padding-bottom:20px;border-right:0;border-bottom:1px solid #ccc}
+.section_njob a.back{display:none}
+.navContent,.subNav,.sub_top p{padding-left:4%}
+.section_njob .services-box .icon{float:left;width:60px;font-size:26px;line-height:2}
+.section_njob .services-box h3,.section_njob .services-box p{text-align:left}
+.section_njob .services-box h3{padding:0;font-weight:400;font-size:18px}
+.subNav{line-height:44px}
+.subNav i{font-size:18px;line-height:44px}
+.sect_job .m-table{width: auto}
+.sect_job .m-table thead{font-size: 14px;font-weight: normal;}
+.sect_job .m-table td a{padding: 0;background:none;color: inherit;}
+
+

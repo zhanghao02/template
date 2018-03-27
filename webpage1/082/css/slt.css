@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.slt-banner{
+    width: 100%;
+    /*子绝父相*/
+    position: relative;
+    /*超出部分全部隐藏，解决横向滚动条*/
+    overflow: hidden;
+}
+.slt-banner ul{
+    position: absolute;
+}
+.slt-banner ul li{
+    /*这个100%是相对于父盒子的（会把父盒子的宽度继承过来,如父盒子300%,这这里的100%就会相当于300%）*/
+    width: 100%;
+    height: 615px;
+    float: left;
+    background:  no-repeat center center;
+}
+.slt-banner ol{
+    height: 20px;
+    position: absolute;
+    left:50%;
+    bottom: 30px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.slt-banner ol li{
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 5px 5px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slt-banner ol .current{
+    background: rgba(255,255,255,1);
+}
+.slt-banner i{
+    width: 29px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    margin-top: -60px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+}
+.slt-banner .left{
+    left: 30px;
+    background: url('../img/left_right.png') no-repeat 0 0px;
+    background-size:100%;
+}
+.slt-banner .right{
+    right: 30px;
+    background: url('../img/left_right.png') no-repeat 0px -60px;
+    background-size:100%;
+}
+.slt-banner .left:hover , .slt-banner .right:hover{
+    background-color: rgba(0, 0, 0, 0.31);
+}

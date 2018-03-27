@@ -1,0 +1,182 @@
+@media screen and (max-width:1130px){
+.header .head,.i_ma,.i_mb,.i_mc,.i_md,.i_me,.i_mf,.foot,.scd{width:960px;}
+.head .nav_m{ width:680px;}
+.head .nav li{ margin-left:75px;}
+.i_ma li{ width:303px; margin-right:25px; margin-bottom:25px; height:225px;}
+.i_ma li .tu .bg_a,.i_ma li .tu ,.i_ma li .tu img{ width:303px; height:160px;}
+.i_ma li .wen{ width:283px;}
+.i_mb li,.i_mb li img,.i_mb li .ms{ width:319px; height:212px;}
+.i_mc ul li .name{ font-size:20px; top:125px;}
+.i_mc ul li.odd .name{ top:170px;}
+.i_mf .tu,.i_mf .tu img{ width:488px; height:320px;}
+.i_mf .wen{ width:460px;}
+.i_mf .wen li .des{ padding-top:3px;}
+.i_mf .wen li{ margin-bottom:3px;}
+.foot ul li.sq input{ width:190px;}
+.foot ul li.sq .duan{ width:145px;}
+.foot ul li.sq .ch{ width:220px;}
+.foot ul li.sq input[type="submit"]{ width:267px;}
+.foot ul li.chang .f1{ width:180px;}
+.foot ul li.chang .f2{ width:276px;}
+.foot ul li.chang .f3{ width:205px;}
+.foot ul li.chang .f4{ width:185px;}
+.foot ul li.chang .f5{ width:230px;}
+.foot ul li.chang .xz input[type="submit"]{ width:100%; margin-left:0; margin-top:5px; height:40px; line-height:40px;}
+.s_banner dl dd{ width:87%;}
+.service .sv_b dl dt img,.service .sv_b dl dt{ width:178px; height:144px;}
+.service .sv_b dl dd{ width:270px;}
+.s_nav a{ height:45px; line-height:45px; font-size:16px; padding:0 15px;}
+.service .sv .title span{ font-size:16px;}
+.news ul li dl{ width:860px;}
+.news ul li dl dd{ width:555px; padding-left:25px;}
+.abt_a dl dd{ width:505px; line-height:195%;}
+.ct_m .ct_ml{ width:385px;}
+}
+@media screen and (max-width:990px){
+.header .head,.i_ma,.i_mb,.i_mc,.i_md,.i_me,.i_mf,.foot,.scd{width:740px;}
+.head .nav_m{ width:500px;}
+.head .nav li{ margin-left:45px;}
+.i_ma li{ width:240px; height:200px; margin-right:10px; margin-bottom:15px;}
+.i_ma li .tu .bg_a, .i_ma li .tu, .i_ma li .tu img{ width:240px; height:126px;}
+.i_ma li .wen{ width:220px;}
+.i_ma li .tu .bg_a span{ margin-top:20%; width:45px; height:45px; background-size:45px 45px;}
+.i_mb li, .i_mb li img, .i_mb li .ms{ width:245px; height:163px;}
+.i_mb li .ms .title{ padding-top:0;}
+.i_mb li .ms .des{ height:55px;}
+.i_mc ul li .name{ font-size:18px; top:95px;}
+.i_mc ul li.odd .name{ top:130px;}
+.i_mc ul li .des{ margin-top:155px;}
+.i_mc ul li.odd .des{ margin-top:0; height:80px;}
+.i_md li .sj{ width:135px; height:135px;}
+.i_md li .sj span{ width:135px; font-size:28px;}
+.i_md li .sj span em{ font-size:20px;}
+.i_mf .wen{ width:350px;}
+.i_mf .wen li{ margin-bottom:8px;}
+.i_mf .wen li .title p{ font-size:14px; left:50px;}
+.i_mf .wen li .title i{ width:45px; background-size:18px 18px;}
+.i_mf .tu, .i_mf .tu img{ width:388px; height:255px;}
+.i_mf .wen li.active .des{ display:none !important;}
+.i_mf .tu .des{ height:45px; line-height:45px;}
+.foot ul li input,.foot ul li.chang .xz input[type="submit"]{ width:90% !important;}
+.foot ul li.chang .xz input{ width:20px !important;}
+.service .sv_b dl dt img,.service .sv_b dl dt{ width:150px; height:121px;}
+.service .sv_b dl dd{ width:190px;}
+.service .sv_b dl dd .name{ height:35px; line-height:35px; font-size:18px;}
+.service .sv_b dl dd .des{ height:85px; font-size:13px;}
+.s_banner dl dd{ width:80%;}
+.news ul li .time{ width:65px; height:65px;}
+.news ul li .time b{ height:35px; line-height:35px;}
+.news ul li dl{ margin-left:85px; width:650px;}
+.news ul li dl dt, .news ul li dl dt img{ width:216px; height:156px;}
+.news ul li dl dd{ width:405px; padding-left:15px; height:165px;}
+.news ul li dl dd .title{ height:40px; line-height:40px;}
+.news ul li dl dd .title a{ font-size:16px;}
+.abt_a dl dd{ width:385px; line-height:185%; font-size:13px;}
+.abt_a dl dt, .abt_a dl dt img{ width:343px; height:212px;}
+.marqueeleft li img,.marqueeleft li .pic{ width:234px; height:175px;}
+.marqueeleft li{ width:234px;}
+.team li .pic,.team li .pic img{ width:130px; height:130px;}
+.ct_m .ct_mr{ width:400px;}
+.ct_m .ct_ml{ width:325px; line-height:200%;}
+}
+@media screen and (max-width:770px) {
+.header .head,.i_ma,.i_mb,.i_mc,.i_md,.i_me,.i_mf,.foot,.scd{width:480px; margin:0px auto;}
+.head{ position:relative;}
+.head .logo{ position:absolute; left:0; top:0;}
+.head .nav_m{ width:100%; min-height:22px; position:relative;}
+.nav_m .n_icon{ display:block;}
+.head .nav{ position:absolute; left:0; top:100px; background:#FFF; z-index:99999999; display:none; text-align:center;}
+.head .nav li{text-align:center; height:35px; margin:0 20px;}
+.head .nav li a{height:35px; line-height:35px;}
+.i_ma ul li{ width:155px;}
+.i_ma li{ margin:0 5px 10px !important; width:230px; height:185px;}
+.i_ma li .tu .bg_a, .i_ma li .tu, .i_ma li .tu img{ width:230px; height:120px;}
+.i_ma li .wen{ width:210px;}
+.i_name .des{ font-size:16px;}
+.i_name .tu img{ max-width:90%; height:auto;}
+.i_name .en{ font-size:14px;}
+.i_mb li, .i_mb li img, .i_mb li .ms{ width:239px; height:158px;}
+.i_mc ul li .name{ font-size:14px; top:50px;}
+.i_mc ul li.odd .name{ top:73px;}
+.i_mc ul li.odd .des{ margin-top:-30px;}
+.i_mc ul li .des{ margin-top:95px;}
+.i_md li .sj{ width:85px; height:85px;}
+.i_md li .sj span{ width:85px; font-size:18px; padding-top:30px;}
+.i_md li .sj span em{ font-size:14px;}
+.i_md li .name{ height:70px; font-size:15px;}
+.i_me li{ height:75px;}
+.i_mf .tu, .i_mf .tu img{ width:480px; height:315px;}
+.i_mf .wen{ width:100%; margin-top:15px;}
+.foot ul li{ width:48%;}
+.foot ul li.chang{ width:100%;}
+.foot ul li.chang .f1{ width:283px !important;}
+.foot ul li.chang .f2{ width:379px !important;}
+.foot ul li.chang .f3{ width:308px !important;}
+.foot ul li.chang .f4{ width:288px !important;}
+.foot ul li.chang .f5{ width:333px !important;}
+.s_banner dl dd{ width:75%;}
+.service .sv_b dl{ width:100%; margin-right:0;}
+.service .sv_b dl dd{ width:310px;}
+.service .btn dl{ margin-right:30px;}
+.solution h1{ font-size:24px;}
+.s_lc .lc_m ul li .des{ font-size:13px;}
+.news ul li .time{ display:none;}
+.news ul li dl{ width:460px; margin:0px auto;}
+.news ul li dl dd{ border:0; padding-left:10px;}
+.news ul li dl dd{ width:233px;}
+.news ul li dl dd .more{ height:25px; line-height:25px;}
+.abt_a dl dt, .abt_a dl dt img{ width:480px; height:296px;}
+.abt_a dl dd{ width:100%; margin-top:20px;}
+.team li{ width:33.3%;}
+.join table{ display:none;}
+.join .join_sj{ display:block;}
+.ct_m .ct_mr,.ct_m .ct_ml{ width:100%;}
+.ct_m .ct_ml{ background:none; padding-bottom:0; margin-top:20px;}
+.ct{ padding-bottom:0;}
+}
+@media screen and (max-width:500px) {
+.header .head,.i_ma,.i_mb,.i_mc,.i_md,.i_me,.i_mf,.foot,.scd{width:320px; margin:0px auto;}
+.head .logo img,.head .logo{ width:189px; height:54px;}
+.header .head{ height:80px;}
+.head .logo{ margin-top:13px;}
+.nav_m .n_icon{ top:30px;}
+.head .nav{ top:80px;}
+.head .nav li{ margin:0 8px;}
+.i_name .tu .line{ width:60px;}
+.i_name .tu .line_l{ left:-70px;}
+.i_name .tu .line_r{ right:-70px;}
+.i_name .tu img{ max-width:80%;}
+.i_name .des{ max-width:310px; margin:0px auto; line-height:150%;}
+.i_ma li{ width:310px; height:225px; margin-bottom:15px !important;}
+.i_ma li .tu .bg_a, .i_ma li .tu, .i_ma li .tu img{ width:310px; height:162px;}
+.i_ma li .wen{ width:290px;}
+.i_mb li, .i_mb li img, .i_mb li .ms{ width:309px; height:204px;}
+.i_mb li .ms .title{ padding-top:20px;}
+.i_mc ul li .des{ visibility:hidden;}
+.i_mc ul li .name{ color:#333; font-size:14px;}
+.i_mc ul li .name{ top:57px;}
+.i_mc ul li.odd .name{ top:3px;}
+.i_md li{ width:33.3%; margin-bottom:30px;}
+.i_md li .name{ height:45px;}
+.i_me li{ width:33.3%;}
+.i_mf .tu, .i_mf .tu img{ width:320px; height:209px;}
+.foot ul li{ width:100%; margin-right:0;}
+.foot ul li.chang .f1,.foot ul li.chang .f2,.foot ul li.chang .f3,.foot ul li.chang .f4,.foot ul li.chang .f5,.foot ul li input, .foot ul li.chang .xz input[type="submit"]{ width:100% !important;}
+.s_banner .name{ font-size:60px; height:70px; line-height:70px;}
+.scd{ padding:40px 0;}
+.s_banner dl dt, .s_banner dl dt img{ width:71px; height:32px; margin-top:0;}
+.s_banner dl dd{ width:100%; margin-left:0; margin-top:10px;}
+.service .sv_b dl dd{ width:160px;}
+.service .btn dl{ margin-bottom:15px;}
+.s_lc .lc_m ul li{ width:100%; margin-bottom:15px;}
+.s_lc .lc_m .line,.s_lc .lc_m ul li .dian{ display:none;}
+.s_lc .lc_m ul li .tu{ float:left;}
+.s_lc .lc_m ul li .des{ width:235px; float:right; text-align:left;}
+.news ul li dl{ width:290px; margin:0px auto;}
+.news ul li dl dt, .news ul li dl dt img{ width:290px; height:209px;}
+.news ul li dl dd{ width:100%; padding:0;}
+.news_d{ width:310px; margin:0px auto;}
+.news_d .ms span{ margin-bottom:8px;}
+.abt_a dl dt, .abt_a dl dt img{ width:320px; height:197px;}
+.team li{ width:50%;}
+}

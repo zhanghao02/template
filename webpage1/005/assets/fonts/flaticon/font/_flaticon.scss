@@ -1,0 +1,113 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 25/08/2017 10:38
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-steering-wheel-1:before { content: "\f100"; }
+.flaticon-doors:before { content: "\f101"; }
+.flaticon-transport-1:before { content: "\f102"; }
+.flaticon-suitcase-with-white-details:before { content: "\f103"; }
+.flaticon-technology:before { content: "\f104"; }
+.flaticon-transport:before { content: "\f105"; }
+.flaticon-handshake:before { content: "\f106"; }
+.flaticon-travel:before { content: "\f107"; }
+.flaticon-sedan-car-model:before { content: "\f108"; }
+.flaticon-car-black-side-view-pointing-left:before { content: "\f109"; }
+.flaticon-car-of-hatchback-model:before { content: "\f10a"; }
+.flaticon-coupe-car:before { content: "\f10b"; }
+.flaticon-car-1:before { content: "\f10c"; }
+.flaticon-cabrio-car:before { content: "\f10d"; }
+.flaticon-sportive-car:before { content: "\f10e"; }
+.flaticon-pick-up:before { content: "\f10f"; }
+.flaticon-ac:before { content: "\f110"; }
+.flaticon-oil:before { content: "\f111"; }
+.flaticon-transmision:before { content: "\f112"; }
+.flaticon-screwdriver-and-wrench:before { content: "\f113"; }
+.flaticon-gears:before { content: "\f114"; }
+.flaticon-voltage:before { content: "\f115"; }
+.flaticon-wheel-and-manometer:before { content: "\f116"; }
+.flaticon-car-driver:before { content: "\f117"; }
+.flaticon-auto-repair-service:before { content: "\f118"; }
+.flaticon-car-dashboard:before { content: "\f119"; }
+.flaticon-calculator:before { content: "\f11a"; }
+.flaticon-smartphone:before { content: "\f11b"; }
+.flaticon-car:before { content: "\f11c"; }
+.flaticon-fuel:before { content: "\f11d"; }
+.flaticon-wrench:before { content: "\f11e"; }
+.flaticon-gearbox:before { content: "\f11f"; }
+.flaticon-steering-wheel:before { content: "\f120"; }
+.flaticon-inspection:before { content: "\f121"; }
+.flaticon-painting:before { content: "\f122"; }
+.flaticon-gearstick:before { content: "\f123"; }
+.flaticon-wheel-alignment:before { content: "\f124"; }
+    
+    $font-Flaticon-steering-wheel-1: "\f100";
+    $font-Flaticon-doors: "\f101";
+    $font-Flaticon-transport-1: "\f102";
+    $font-Flaticon-suitcase-with-white-details: "\f103";
+    $font-Flaticon-technology: "\f104";
+    $font-Flaticon-transport: "\f105";
+    $font-Flaticon-handshake: "\f106";
+    $font-Flaticon-travel: "\f107";
+    $font-Flaticon-sedan-car-model: "\f108";
+    $font-Flaticon-car-black-side-view-pointing-left: "\f109";
+    $font-Flaticon-car-of-hatchback-model: "\f10a";
+    $font-Flaticon-coupe-car: "\f10b";
+    $font-Flaticon-car-1: "\f10c";
+    $font-Flaticon-cabrio-car: "\f10d";
+    $font-Flaticon-sportive-car: "\f10e";
+    $font-Flaticon-pick-up: "\f10f";
+    $font-Flaticon-ac: "\f110";
+    $font-Flaticon-oil: "\f111";
+    $font-Flaticon-transmision: "\f112";
+    $font-Flaticon-screwdriver-and-wrench: "\f113";
+    $font-Flaticon-gears: "\f114";
+    $font-Flaticon-voltage: "\f115";
+    $font-Flaticon-wheel-and-manometer: "\f116";
+    $font-Flaticon-car-driver: "\f117";
+    $font-Flaticon-auto-repair-service: "\f118";
+    $font-Flaticon-car-dashboard: "\f119";
+    $font-Flaticon-calculator: "\f11a";
+    $font-Flaticon-smartphone: "\f11b";
+    $font-Flaticon-car: "\f11c";
+    $font-Flaticon-fuel: "\f11d";
+    $font-Flaticon-wrench: "\f11e";
+    $font-Flaticon-gearbox: "\f11f";
+    $font-Flaticon-steering-wheel: "\f120";
+    $font-Flaticon-inspection: "\f121";
+    $font-Flaticon-painting: "\f122";
+    $font-Flaticon-gearstick: "\f123";
+    $font-Flaticon-wheel-alignment: "\f124";

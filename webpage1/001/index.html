@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>苏州安迈医疗器械有限公司</title>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/repeat.css" />
+<script type="text/javascript" src="js/a-mai.js"></script>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script>
+<script type="text/javascript" src="js/move.js"></script>
+<script type="text/javascript" src="js/cookie.js"></script>
+</head>
+<link rel="stylesheet" href="css/animate.css" />
+<script type="text/javascript" src="js/superslide.2.1.js" ></script>
+<script type="text/javascript" src="js/wow.min.js" ></script>
+<script>
+if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+	new WOW().init();
+};
+</script>
+
+<body>
+<div class="top">
+  <div class="top_box wths">
+    <p class="fl top_p1">欢迎您访问苏州安迈医疗器械有限公司官网！</p>
+    <p class="fr top_p2"> <a href="#" onClick="SetHome(this,window.location)">设为首页</a> | <a href="#" onClick="AddFavorite(window.location,document.title)">加入收藏</a> </p>
+  </div>
+</div>
+<!--head-->
+<div class="header">
+  <div class="header_box wths">
+    <div class="logo fl">
+      <h1><img src="img/logo.png" alt="苏州安迈医疗器械有限公司"></h1>
+    </div>
+    <div class="nav_box fl">
+      <ul class="nav">
+        <li><a href="index.html" class="nav_on">网站首页</a></li>
+        <li><a href="about.html">关于我们</a></li>
+        <li><a href="new.html">最新公告</a>
+          <ul class="second-nav">
+            <li><a href="#">公司新闻</a></li>
+            <li><a href="#">行业新闻</a></li>
+          </ul>
+        </li>
+        <li><a href="pro.html">产品展示</a>
+          <ul class="second-nav">
+            <li><a href="#">一次性使用（无磁）穿刺针</a></li>
+            <li><a href="#">一次性使用（无磁）穿刺针</a></li>
+            <li><a href="#">一次性使用（无磁）穿刺针</a></li>
+            <li><a href="#">一次性使用（无磁）穿刺针</a></li>
+            <li><a href="#">一次性使用（无磁）穿刺针</a></li>
+          </ul>
+        </li>
+        <li><a href="cont.html">联系我们</a></li>
+      </ul>
+    </div>
+    <div class="phone fr">
+      <p>153-7003-7321</p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		var _this1=null;
+		$('.nav>li').hover(function(){
+			_this1=$(this);
+			_this1.find('.second-nav').show();
+			var _this2=null;
+			_this1.find('.second-nav').find('li').hover(function(){
+				_this2=$(this);
+				_this2.find('.third-nav').show();
+				_this2.find('.third-nav').hover(function(){
+					$(this).show();
+					
+				},function(){
+					$(this).hide();
+				});
+			},function(){
+				_this2.find('.third-nav').hide();
+			});
+		},function(){
+			_this1.find('.second-nav').hide();
+		});
+	});
+</script>
+<div  class="clear"></div>
+<!--banner-->
+<div class="fullSlide">
+  <div class="bd">
+    <ul>
+      <li _src="url(img/banner1.jpg)" style="background:#E2025E center 0 no-repeat;"><a href="#"></a></li>
+      <li _src="url(img/banner1.jpg)" style="background:#DED5A1 center 0 no-repeat;"><a href="#"></a></li>
+      <li _src="url(img/banner1.jpg)" style="background:#B8CED1 center 0 no-repeat;"><a href="#"></a></li>
+    </ul>
+  </div>
+  <div class="hd">
+    <ul>
+    </ul>
+  </div>
+  <span class="prev"></span> <span class="next"></span> </div>
+<!--banner end--> 
+<script type="text/javascript">
+$(".fullSlide").hover(function(){
+    $(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.5)
+},
+function(){
+    $(this).find(".prev,.next").fadeOut()
+});
+$(".fullSlide").slide({
+    titCell: ".hd ul",
+    mainCell: ".bd ul",
+    effect: "fold",
+    autoPlay: true,
+    autoPage: true,
+    trigger: "click",
+    startFun: function(i) {
+        var curLi = jQuery(".fullSlide .bd li").eq(i);
+        if ( !! curLi.attr("_src")) {
+            curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+        }
+    }
+});
+</script>
+<div class="clear"></div>
+<div class="product_box">
+  <div class="wths">
+    <div class="product_focus fl wow rollIn bg-blue animated">
+      <div class="p_title">
+        <p class="p_p1">产品中心/Products</p>
+        <p class="p_p2">致力于国际顶尖医疗器械产品的引进与研发</p>
+      </div>
+      <ul class="product_focus_nav">
+        <li id="two1" onMouseOver="setContentTab('two',1,7)" class="hover" >
+          <p class="currt"><a href="#">一次性使用（无磁）穿刺针</a></p>
+        </li>
+        <li id="two2" onMouseOver="setContentTab('two',2,7)" class="hover">
+          <p><a href="#">射频系列产品</a></p>
+        </li>
+        <li id="two3" onMouseOver="setContentTab('two',3,7)" class="hover">
+          <p><a href="#">智能（瘫痪护理）转移床</a></p>
+        </li>
+        <li id="two4" onMouseOver="setContentTab('two',4,7)" class="hover">
+          <p><a href="#">射频系列产品</a></p>
+        </li>
+        <li id="two5" onMouseOver="setContentTab('two',5,7)" class="hover">
+          <p><a href="#">新型流动普放.体检两用车</a></p>
+        </li>
+        <li id="two6" onMouseOver="setContentTab('two',6,7)" class="hover">
+          <p><a href="#">DR立柱式成像系统</a></p>
+        </li>
+        <li id="two7" onMouseOver="setContentTab('two',7,7)" class="hover">
+          <p><a href="#">影像处理诊断系统</a></p>
+        </li>
+      </ul>
+      <div class="product_m">
+        <p class="m_p1">></p>
+        <a href="#" class="m_a"> MORE</a></div>
+    </div>
+    <div class="product_right fr wow lightSpeedIn bg-purple animated">
+      <div  id="con_two_1" class="pro_icon" style="display: block;">
+        <ul>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+        </ul>
+      </div>
+      <div  id="con_two_2" class="pro_icon" style="display: none;">
+        <ul>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品2</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品2</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品2</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+        </ul>
+      </div>
+      <div  id="con_two_3" class="pro_icon" style="display: none;">
+        <ul>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品3</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品3</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品3</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品3</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品3</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品3</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+        </ul>
+      </div>
+      <div  id="con_two_4" class="pro_icon" style="display: none;">
+        <ul>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品4</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品4</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品4</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品4</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品4</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品4</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+        </ul>
+      </div>
+      <div  id="con_two_5" class="pro_icon" style="display: none;">
+        <ul>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品5</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品5</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品5</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品5</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品5</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品5</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+        </ul>
+      </div>
+      <div  id="con_two_6" class="pro_icon" style="display: none;">
+        <ul>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品6</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品6</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品6</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品6</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品6</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品6</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+        </ul>
+      </div>
+      <div  id="con_two_7" class="pro_icon" style="display: none;">
+        <ul>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品7</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品7</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品7</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品7</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品7</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+          <li><a href=""><img src="img/cp.jpg" alt=""></a>
+            <p class="pro_p1">射频套管产品7</p>
+            <a href="#" class="pro_p2">查看更多</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+<div class="product2_box">
+  <div class="wth">
+    <div class="pro_title">
+      <p>推荐产品/products</p>
+    </div>
+    <div id="marquee1" class="marqueeleft wow fadeInUp animated">
+      <div style="width:8000px;">
+        <ul id="marquee1_1">
+          <li> <a class="pic" href="#"><img  src="img/cp2.jpg"></a>
+            <div class="txt"><a href="#">中风瘫痪护理病床</a></div>
+          </li>
+          <li> <a class="pic" href="#"><img  src="img/cp2.jpg"></a>
+            <div class="txt"><a href="#">中风瘫痪护理病床</a></div>
+          </li>
+          <li> <a class="pic" href="#"><img  src="img/cp2.jpg"></a>
+            <div class="txt"><a href="#">中风瘫痪护理病床</a></div>
+          </li>
+        </ul>
+        <ul id="marquee1_2">
+        </ul>
+      </div>
+    </div>
+    <!--marqueeleft end--> 
+    <script type="text/javascript">marqueeStart(1, "left");</script> 
+  </div>
+</div>
+<div class="clear"></div>
+<div class="about_box">
+  <div class="about wth">
+    <div class="about_title">
+      <p>关于我们/ABOUT US</p>
+    </div>
+    <div class="about_sp fl wow rollIn bg-red animated">
+      <embed src='http://player.youku.com/player.php/sid/XMjk0NTYwODQ4NA==/v.swf' allowFullScreen='true' quality='high' width='550' height='339' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+    </div>
+    <div class="about_txt fr wow lightSpeedIn bg-green animated"> <a href="#" class="about_a1">
+      <p> 苏州安迈医疗器械有限公司系美商独资企业，公司占地面积30000多平方米。公司全面实行“以人为本，科技先行”的发展战略。公司宗旨是：开拓、创新、务实、发展。公司多年来始终致力于国际顶尖医疗器械产品的引进与研发，YDR系列数字影像设备、新型流动普放、体检两用车、三维腹腔镜影像设备、射频针系列、心脏搭桥手术辅助器械套包等产品，其临床效果与技术参数均已达到国际同行业的先进水平，并广泛服务于国内外用户。 </p>
+      <p>公司目前已拥有自主知识产权的实用新型专利二项，正在申报的实用新型专利三项。公司还拥有国内外一流并长期从事医疗器械研发的科技人才以及保证产品质量.......</p>
+      </a> <a href="#" class="about_a2 fl"> 查看详情</a> <a href="#" class="about_a3 fl"> 联系我们</a> </div>
+    <div class="clear"></div>
+    <div class="about_link wow fadeInUp animated">
+      <p class="fl link_p1">友情链接：</p>
+      <p class="link_p2"><a href="#">苏州市药品监督管理局、</a><a href="#">江苏省食品药品监督管理局、</a><a href="#">江苏省食品药品监督管理局、</a><a href="#">苏州市药品监督管理局、</a><a href="#">江苏省食品药品监督管理局、</a><a href="#">江苏省食品药品监督管理局、</a><a href="#">苏州市药品监督管理局、</a><a href="#">江苏省食品药品监督管理局、</a><a href="#">江苏省食品药品监督管理局、</a></p>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+<div class="foot_box wow fadeInUp animated">
+  <div class="foot wths">
+    <div class="foot_p1 fl"> <img src="img/foot1.jpg">
+      <ul>
+        <li>
+          <p><b>地址：</b>江苏省苏州市相城区科技创业园（康元路777号）一栋三楼</p>
+        </li>
+        <li>
+          <p><b>邮箱：</b>yxf056115@163.com</p>
+        </li>
+        <li>
+          <p><b>网址：</b>http://www.i-med.com.cn</p>
+        </li>
+      </ul>
+    </div>
+    <div class="foot_p2 fl"> <img src="img/foot2.jpg">
+      <ul>
+        <li>
+          <p><b>总机：</b>86 0512- 65831232-803   65716179-803</p>
+        </li>
+        <li>
+          <p><b>传真 :</b> 86 0512 -65116004    65716179-802</p>
+        </li>
+      </ul>
+    </div>
+    <div class="foot_p3 fr"> <img src="img/wun.jpg">
+      <p>微信公众号</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer wow fadeInUp animated">
+  <p class="wths">Copyright © 20017-2019 苏州安迈医疗器械有限公司 <a href="#">苏ICP备09002915号</a></p>
+</div>
+<!--miaov_float_layer-->
+<div class="float_layer" id="miaov_float_layer" style="z-index:10001;">
+  <h2> <b>最新公告</b> <a id="btn_min" href="javascript:;" class="min"></a> <a id="btn_close" href="javascript:;" class="close"></a> </h2>
+  <div class="content2">
+    <div class="wrap2">
+      <ul>
+        <li><a class="nl" href="#">最新公告最新公告最新公告最新公告最新公告最新公告最新公告最新公告最新公告最新公告1 </a></li>
+        <li><a class="nl" href="#">最新公告1</a></li>
+        <li><a class="nl" href="#">最新公告2 </a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+$(function (){
+     if($.cookie("isClose") != 'yes')
+     {
+      TanChuang();
+      setTimeout("minTanChuang()",5000); //测试5秒自动关闭
+     }
+});   
+
+function minTanChuang()
+{
+  $("#btn_min").click();
+}
+
+function TanChuang() {
+    var oDiv = document.getElementById('miaov_float_layer');
+    var oBtnMin = document.getElementById('btn_min');
+    var oBtnClose = document.getElementById('btn_close');
+    var oDivContent = oDiv.getElementsByTagName('div')[0];
+
+    var iMaxHeight = 0;
+
+    var isIE6 = window.navigator.userAgent.match(/MSIE 6/ig) && !window.navigator.userAgent.match(/MSIE 7|8/ig);
+
+    oDiv.style.display = 'block';
+    iMaxHeight = oDivContent.offsetHeight;
+
+    if (isIE6) {
+        oDiv.style.position = 'absolute';
+        repositionAbsolute();
+        miaovAddEvent(window, 'scroll', repositionAbsolute);
+        miaovAddEvent(window, 'resize', repositionAbsolute);
+    }
+    else {
+        oDiv.style.position = 'fixed';
+        repositionFixed();
+        miaovAddEvent(window, 'resize', repositionFixed);
+    }
+
+    oBtnMin.timer = null;
+    oBtnMin.isMax = true;
+    oBtnMin.onclick = function() {
+        startMove
+    (
+      oDivContent, (this.isMax = !this.isMax) ? iMaxHeight : 0,
+      function() {
+          oBtnMin.className = oBtnMin.className == 'min' ? 'max' : 'min';
+      }
+    );
+    };
+
+    oBtnClose.onclick = function() {
+        oDiv.style.display = 'none';
+        oDiv.innerHTML = "";
+     $.cookie("isClose",'yes',{ expires:1/8640});  //测试关闭十秒后才能再次弹出
+    };
+  
+};
+</script>
+
+<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<title></title>
+	</head>
+	<script src="http://apps.bdimg.com/libs/jquery/1.8.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<body>
+		<style>
+			.all{
+				width: 700px;
+				height: 535px;
+				border: 1px solid red;
+				position: relative;
+			}
+			.left{
+				width: 50%;
+				position: absolute;
+			}
+			.right{
+					position: relative;
+                    padding-bottom: 50.4%;
+                    overflow: hidden;                   
+                    left: 50%;
+                    transition: 1s;
+                    width: 50%;
+				
+			}
+			.right img{
+					position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: -50%;
+                    max-height: 100%;
+                    display: block;
+                    vertical-align: middle;
+                    margin: auto;
+				}
+		</style>
+		<div class="all">
+			<div class="left">
+				
+			</div>
+			<div class="right">
+				<img src="images/pro_03.png" alt=""  />
+				
+			</div>
+		</div>
+		<script type="text/javascript">
+			
+			$(".all").hover(function(){
+				$(this).find(".right").animate({
+					"left":"0%",
+					"width":"100%"
+					
+				})
+				$(this).find(".right img").css({
+				"left":"0",	
+				})
+			},function(){
+				$(this).find(".right").animate({
+					"left":"50%",
+					"width":"50%"
+					
+				})
+				$(this).find(".right img").css({
+				"left":"-50%",	
+				})
+			});
+		</script>
+	<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>

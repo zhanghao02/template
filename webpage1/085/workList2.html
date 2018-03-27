@@ -1,0 +1,393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>场景分类列表页</title>
+<meta content="美城街具" name="keywords">
+<meta content="美城街具" name="description">
+<meta http-equiv="Cache-Control" content="max-age=180">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link href="css/basestyle.css" rel="stylesheet" type="text/css" />
+<link href="css/mc.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/fwslider.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--header-->
+<div class="header">
+  <div class="topper">
+    <div class="wrap cl">
+      <div class="t-left">您好，欢迎来到美城街具官方网站</div>
+      <div class="t-right">
+        <ul class="cl">
+          <li class="user-list">
+            <div class="top-user"><a href="desHome.html"><img src="upload/userhd.jpg" /><span>飞翔的土豆</span><i class="fa fa-caret-down"></i></a></div>
+            <div class="pop-dwon">
+              <a href="desHome.html"><i class="fa fa-user-o"></i>个人主页</a>
+              <a href="u_xiaoxi_list.html"><i class="fa fa-commenting-o"></i>我的消息</a>
+              <a href="u_user_list.html"><i class="fa fa-heart-o"></i>我的关注</a>
+              <a href="u_works_list.html"><i class="fa fa-image"></i>我的作品</a>
+              <a href="u_needs_list.html"><i class="fa fa-image"></i>我的需求</a>
+              <a href="javascript:;" class="last"><i class="fa fa-power-off"></i>退出登录</a>
+            </div>
+          </li>
+          <li><a href="help.html">帮助中心</a></li>
+          <li><a href="help.html">联系我们</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="head">
+    <div class="wrap cl">
+      <div class="logo"><a href="index.html"></a></div>
+      <div class="hd-r">
+        <div class="menu">
+          <ul class="cl">
+            <li class="active"><a href="workList2.html">首页<p>Index</p></a></li>
+            <li><a href="workList2.html">候车厅<p>Shelter</p></a></li>
+            <li><a href="workList2.html">垃圾箱<p>Dustbin</p></a></li>
+            <li><a href="workList2.html">导视牌<p>Guide</p></a></li>
+            <li><a href="workList2.html">路灯<p>Lamp</p></a></li>
+            <li><a href="workList2.html">灯箱<p>Web</p></a></li>
+            <li><a href="workList2.html">座椅<p>Chair</p></a></li>
+            <li><a href="workList2.html">路牌<p>Signs</p></a></li>
+            <li><a href="workList2.html">车桩<p>Car pile</p></a></li>
+            <li><a href="workList2.html">护栏<p>Fence</p></a></li>
+          </ul>
+        </div>
+        <div class="search">
+          <input type="txt" class="ipt-sea" placeholder="请输入街具名称" />
+          <a href="javascript:;">搜索</a>
+        </div>
+        <div class="num">
+          <span>设计师：<em>357,657</em>人</span>
+          <span>机构：<em>25,424</em>家</span>
+          <span>街具：<em>945,517</em>款</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="seclist">
+    <div class="wrap">
+      <a href="workList.html" class="gyjd"><i>G</i>公园景点</a>
+      <a href="workList.html" class="csdl"><i>C</i>城市道路</a>
+      <a href="workList.html" class="xqzz"><i>X</i>小区住宅</a>
+      <a href="workList.html" class="jgjd"><i>J</i>景观道路</a>
+      <a href="workList.html" class="syjq"><i>S</i>商业街区</a>
+      <a href="workList.html" class="bxjd"><i>B</i>步行街道</a>
+      <a href="workList.html" class="csal"><i>C</i>城市案例</a>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        var setTime;
+        $(".user-list").hover(function () {
+			var _this = $(this); 
+            setTime = setTimeout(function () {
+				_this.addClass("hover");
+				$(".top-user i").removeClass("fa-caret-down").addClass("fa-caret-up");
+                $(".user-list .pop-dwon").slideDown(300);
+            }, 300);
+        }, function () {
+			var _this = $(this);
+            if (setTime) {
+                clearTimeout(setTime);
+            }
+            $(".user-list .pop-dwon").hide();
+			_this.removeClass("hover");
+			$(".top-user i").removeClass("fa-caret-up").addClass("fa-caret-down");
+        });
+    });
+</script>
+<!--街具图库-->
+<div class="container">
+<div class="filterbox wrap">
+  <div class="filterlist">
+    <div class="filter-crumbs-nav">
+      <a href="javascript:;" class="back"><i class="fa fa-arrow-circle-o-left"></i></a><a href="index.html">首页</a><span>></span><span>候车厅</span>
+    </div>
+    <div class="filter-pbl">
+      <a href="#" class="active"><span>ALL</span><em>73</em></a>
+      <a href="#"><span>平面</span><em>5</em></a>
+      <a href="#"><span>工业</span><em>8</em></a>
+      <a href="#"><span>三维</span><em>8</em></a>
+      <a href="#"><span>摄影</span><em>22</em></a>
+      <a href="#"><span>CG</span><em>13</em></a>
+    </div>
+  </div>
+</div>
+
+<div class="wrap hide">
+  <div class="ind-tuku pbl">
+    <ul id="lxf-box">
+      <li>
+        <div class="img"><a href="workInfo.html"><img src="upload/pbl1.jpg" /></a></div>
+        <div class="info">
+          <div class="name">最多15个字程序限制<span>阅读<em>13</em>次</span></div>
+          <div class="sort"><span>原创街具</span><i>-</i><s>路灯</s><div class="sc">13小时前上传</div></div>
+          <div class="author">
+            <img src="upload/userhd.jpg" />浪迹天涯
+            <div class="spots">
+              <span><i class="fa fa-star sc_dz_btn"></i><em>23</em></span>
+              <span><i class="fa fa-thumbs-up sc_dz_btn"></i><em>2</em></span>
+              <span><i class="fa fa-commenting"></i><em>2</em></span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="img"><a href="workInfo.html"><img src="upload/pbl2.jpg" /></a></div>
+        <div class="info">
+          <div class="name">小区古典灯具<span>阅读<em>13</em>次</span></div>
+          <div class="sort"><span>原创街具</span><i>-</i><s>路灯</s><div class="sc">13小时前上传</div></div>
+          <div class="author">
+            <img src="upload/userhd.jpg" />浪迹天涯
+            <div class="spots">
+              <span><i class="fa fa-star sc_dz_btn"></i><em>23</em></span>
+              <span><i class="fa fa-thumbs-up sc_dz_btn"></i><em>2</em></span>
+              <span><i class="fa fa-commenting"></i><em>2</em></span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="img"><a href="workInfo.html"><img src="upload/pbl3.jpg" /></a></div>
+        <div class="info">
+          <div class="name">小区古典灯具<span>阅读<em>13</em>次</span></div>
+          <div class="sort"><span>原创街具</span><i>-</i><s>路灯</s><div class="sc">13小时前上传</div></div>
+          <div class="author">
+            <img src="upload/userhd.jpg" />浪迹天涯
+            <div class="spots">
+              <span><i class="fa fa-star sc_dz_btn"></i><em>23</em></span>
+              <span><i class="fa fa-thumbs-up sc_dz_btn"></i><em>2</em></span>
+              <span><i class="fa fa-commenting"></i><em>2</em></span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="img"><a href="workInfo.html"><img src="upload/pbl4.jpg" /></a></div>
+        <div class="info">
+          <div class="name">小区古典灯具<span>阅读<em>13</em>次</span></div>
+          <div class="sort"><span>原创街具</span><i>-</i><s>路灯</s><div class="sc">13小时前上传</div></div>
+          <div class="author">
+            <img src="upload/userhd.jpg" />浪迹天涯
+            <div class="spots">
+              <span><i class="fa fa-star sc_dz_btn"></i><em>23</em></span>
+              <span><i class="fa fa-thumbs-up sc_dz_btn"></i><em>2</em></span>
+              <span><i class="fa fa-commenting"></i><em>2</em></span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="img"><a href="workInfo.html"><img src="upload/pbl5.jpg" /></a></div>
+        <div class="info">
+          <div class="name">小区古典灯具<span>阅读<em>13</em>次</span></div>
+          <div class="sort"><span>原创街具</span><i>-</i><s>路灯</s><div class="sc">13小时前上传</div></div>
+          <div class="author">
+            <img src="upload/userhd.jpg" />浪迹天涯
+            <div class="spots">
+              <span><i class="fa fa-star sc_dz_btn"></i><em>23</em></span>
+              <span><i class="fa fa-thumbs-up sc_dz_btn"></i><em>2</em></span>
+              <span><i class="fa fa-commenting"></i><em>2</em></span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="img"><a href="workInfo.html"><img src="upload/pbl6.jpg" /></a></div>
+        <div class="info">
+          <div class="name">小区古典灯具<span>阅读<em>13</em>次</span></div>
+          <div class="sort"><span>原创街具</span><i>-</i><s>路灯</s><div class="sc">13小时前上传</div></div>
+          <div class="author">
+            <img src="upload/userhd.jpg" />浪迹天涯
+            <div class="spots">
+              <span><i class="fa fa-star sc_dz_btn"></i><em>23</em></span>
+              <span><i class="fa fa-thumbs-up sc_dz_btn"></i><em>2</em></span>
+              <span><i class="fa fa-commenting"></i><em>2</em></span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="img"><a href="workInfo.html"><img src="upload/pbl7.jpg" /></a></div>
+        <div class="info">
+          <div class="name">小区古典灯具<span>阅读<em>13</em>次</span></div>
+          <div class="sort"><span>原创街具</span><i>-</i><s>路灯</s><div class="sc">13小时前上传</div></div>
+          <div class="author">
+            <img src="upload/userhd.jpg" />浪迹天涯
+            <div class="spots">
+              <span><i class="fa fa-star sc_dz_btn"></i><em>23</em></span>
+              <span><i class="fa fa-thumbs-up sc_dz_btn"></i><em>2</em></span>
+              <span><i class="fa fa-commenting"></i><em>2</em></span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="img"><a href="workInfo.html"><img src="upload/pbl8.jpg" /></a></div>
+        <div class="info">
+          <div class="name">小区古典灯具<span>阅读<em>13</em>次</span></div>
+          <div class="sort"><span>原创街具</span><i>-</i><s>路灯</s><div class="sc">13小时前上传</div></div>
+          <div class="author">
+            <img src="upload/userhd.jpg" />浪迹天涯
+            <div class="spots">
+              <span><i class="fa fa-star sc_dz_btn"></i><em>23</em></span>
+              <span><i class="fa fa-thumbs-up sc_dz_btn"></i><em>2</em></span>
+              <span><i class="fa fa-commenting"></i><em>2</em></span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="img"><a href="workInfo.html"><img src="upload/pbl9.jpg" /></a></div>
+        <div class="info">
+          <div class="name">小区古典灯具<span>阅读<em>13</em>次</span></div>
+          <div class="sort"><span>原创街具</span><i>-</i><s>路灯</s><div class="sc">13小时前上传</div></div>
+          <div class="author">
+            <img src="upload/userhd.jpg" />浪迹天涯
+            <div class="spots">
+              <span><i class="fa fa-star sc_dz_btn"></i><em>23</em></span>
+              <span><i class="fa fa-thumbs-up sc_dz_btn"></i><em>2</em></span>
+              <span><i class="fa fa-commenting"></i><em>2</em></span>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="listPage pbl">
+    <a href="publish_needs.html">发布需求</a>
+    <a href="publish_needs.html" class="jz">加载更多...</a>                    
+  </div>
+</div>
+</div>
+<!--footer-->
+<div class="footer">
+  <div class="ft-menu">
+    <div class="wrap hide">
+      <dl>
+        <dt><i class="fa fa-compass"></i>新手指南</dt>
+        <dd>
+          <a href="#">注册新用户</a>
+          <a href="#">设计入门</a>
+          <a href="#">设计机构入门</a>
+          <a href="#">规则中心</a>
+          <a href="#">会员须知</a>
+        </dd>
+      </dl>
+      <dl>
+        <dt><i class="fa fa-mortar-board"></i>设计师</dt>
+        <dd>
+          <a href="#">上传作品</a>
+          <a href="#">查看需求</a>
+          <a href="#">购买设计作品</a>
+          <a href="#">案例作品</a>
+          <a href="#">我的故事</a>
+        </dd>
+      </dl>
+      <dl>
+        <dt><i class="fa fa-institution"></i>设计机构</dt>
+        <dd>
+          <a href="#">投标赚钱</a>
+          <a href="#">发布作品</a>
+          <a href="#">赚钱利器</a>
+          <a href="#">大咖分享</a>
+          <a href="#">设计机构联盟</a>
+          <a href="#">美城商学院</a>
+          <a href="#">机构等级</a>
+        </dd>
+      </dl>
+      <dl>
+        <dt><i class="fa fa-get-pocket"></i>交易保障</dt>
+        <dd>
+          <a href="#">双倍赔付</a>
+          <a href="#">美城担保交易</a>
+          <a href="#">诚信管理中心</a>
+          <a href="#">曝光台</a>
+          <a href="#">信用查询</a>
+        </dd>
+      </dl>
+    </div>
+  </div>
+  <div class="ft-cop">
+    <p>Copyright 2005-2016 meicheng.com 版权所有 <a href="#">苏ICP备102002274-4号</a> 苏B2-200080005 不良信息举报电话：0527-88390110  邮箱：110@meicheng.com</p>
+    <p><a href="#"><img src="images/ft0.jpg" /></a><a href="#"><img src="images/ft1.jpg" /></a><a href="#"><img src="images/ft2.jpg" /></a><a href="#"><img src="images/ft3.jpg" /></a><a href="#"><img src="images/ft4.jpg" /></a></p>
+  </div>
+</div>
+<script src="js/masonry-docs.min.js"></script>
+<script>
+$(function() {
+    var $container = $('#lxf-box');
+    $container.imagesLoaded(function() {
+        $container.masonry({
+                itemSelector: '#lxf-box li',
+                gutter: 20,
+                isAnimated: true,
+            });
+     });
+});
+</script>
+<script>
+    (function($) {
+        $.extend({
+            tipsBox: function(options) {
+                options = $.extend({
+                    obj: null,  //jq对象，要在那个html标签上显示
+                    str: "+1",  //字符串，要显示的内容;也可以传一段html，如: "<b style='font-family:Microsoft YaHei;'>+1</b>"
+                    startSize: "12px",  //动画开始的文字大小
+                    endSize: "12px",    //动画结束的文字大小
+                    interval:500,  //动画时间间隔
+                    color: "red",    //文字颜色
+                    callback: function() {}    //回调函数
+                }, options);
+                $("body").append("<span class='count'>"+ options.str +"</span>");
+                var box = $(".count");
+                var left = options.obj.offset().left + options.obj.width() / 2;
+                var top = options.obj.offset().top - options.obj.height();
+                box.css({
+                    "position": "absolute",
+                    "left": left + "px",
+                    "top": top + "px",
+                    "z-index": 9999,
+                    "font-size": options.startSize,
+                    "line-height": options.endSize,
+                    "color": options.color
+                });
+                box.animate({
+                    "font-size": options.endSize,
+                    "opacity": "0",
+                    "top": top - parseInt(options.endSize) + "px"
+                }, options.interval , function() {
+                    box.remove();
+                    options.callback();
+                });
+            }
+        });
+    })(jQuery);
+</script>
+<script>
+	$(function() {
+		$(".sc_dz_btn").click(function() {
+			var _this =$(this);
+			$.tipsBox({
+				obj: _this,
+				str: "+1",
+			});
+		});
+	});
+</script>
+<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>

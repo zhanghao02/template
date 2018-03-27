@@ -1,0 +1,175 @@
+@media screen and(max-width:1370px) {
+	.welcome{
+		width: 100%;
+	}
+	.main_wrap1, .main_wrap2{
+		width: 100%;
+	}
+	.talented_person{
+		width: 100%;
+	}
+}
+@media  screen and (max-width:1024px) {
+	.top_wrap{
+		width:100%;
+		padding:0 20px;
+	}
+	.banner_con{
+		width:100%;
+	}
+	.talented_person{
+		width: 100%;
+	}
+	ul.menu_list{
+		display: none;
+	}
+	
+	.contact_con{
+		width: 100%;
+	} 
+	.carousel-indicators{
+		right:15px;
+	}   
+	.pro_con_left,.pro_con_right{
+		font-size: 1.6rem;
+	}
+	.pro_con_right {
+		padding:2rem 3rem;
+		p{
+			font-size: 2.2rem;
+		}
+		table{
+			line-height: 2.2rem;
+		}
+	}
+	.teaching_con{
+		width: 100%;
+		section{
+			dl{
+				dt{
+					dd.teaching_con{
+						
+					}
+				}
+			}
+		}
+	}
+	.new_view_con{
+		width: 100%;
+	}
+}
+
+@media  screen and (max-width:768px){
+	.top_wrap ul.menu_li{
+		display: none;
+	}
+	.menu_catalog{
+		display: block;
+	}
+	
+	.logo_wrap{
+		margin: 10px 0 0 0;
+		img{
+			width: 90px;
+		}
+	}
+	.pro_con_left,.pro_con_right{
+		width: 100%;
+	}
+	.pro_con_right{
+		height: 360px;
+	}
+	.pro_con_left.right{
+		float: left;
+	}
+
+	.person_con{
+		width: 50%;
+		text-align: center;
+		h3{
+			text-align: center;
+		}
+		h3:after{
+			left: 50%;  
+  			-webkit-transform: translate(-50%,0);  
+      		-ms-transform: translate(-50%,0);  
+          	transform: translate(-50%,0);  
+
+		}
+		p{
+			padding: 0 40px;
+		}
+	}
+}
+@media  screen and (max-width:640px){
+	.img_border{
+		width: 100%;
+		margin: 0;
+	}
+	.img_wrap .img_border:last-child{
+		display: none;
+	}
+	.pro_con_left{
+		height: 420px;
+	}
+	.pro_con_right{
+		padding:1rem 1rem;
+		p{
+			font-size: 2rem;
+		}
+		table{
+			line-height: 2rem;
+		}
+		button.btn-green{
+			margin: 20px 0 0 0;
+		}
+	}
+	.teaching_con{
+		width: 100%;
+		section{
+			.teaching_img{
+				width: 100%;
+			}
+			dl{
+				width: 100%;
+				dt{
+					dd.teaching_con{
+						
+					}
+				}
+			}
+		}
+	}
+	.contact_con_left, .contact_con_right{
+ 		width: 100%;
+ 		float: left;
+ 		padding:0;
+ 		input,textarea,button{
+ 			width: 100%;
+ 		}
+	}
+
+}
+@media  screen and (max-width:460px){
+	.person_con{
+		width: 100%;
+		p{
+		padding: 0;
+		}
+	}
+	.pro_con_left{
+		height: 320px;
+	}
+	.pro_con_right{
+		padding:0.5rem 0.5rem;
+		p{
+			font-size: 1.8rem;
+		}
+		table{
+			line-height: 1.8rem;
+		}
+		button.btn-green{
+			margin: 15px 0 0 0;
+		}
+	}	
+}

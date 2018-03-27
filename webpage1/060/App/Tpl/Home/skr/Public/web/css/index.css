@@ -1,0 +1,539 @@
+﻿/* ==========================================================================
+   Index Page
+   ========================================================================== */
+
+/*我们*/
+
+.loadLayer {
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background: url('../images/yw_bg1.png') bottom center;
+}
+
+.js_load {
+    display: block;
+    margin: 0 auto;
+    width: 270px;
+    height: 60px;
+    background: url('../images/yw_begin.png') no-repeat;
+    visibility: hidden;
+}
+
+.sect_us1 {
+    overflow: hidden;
+    padding: 60px 0 40px 0;
+    background: url('../images/yw_bg1.png') bottom center no-repeat;
+    text-align: center;
+    -moz-transition: padding ease-in-out 0.35s;
+    -webkit-transition: padding ease-in-out 0.35s;
+    -o-transition: padding ease-in-out 0.35s;
+    -ms-transition: padding ease-in-out 0.35s;
+    transition: padding ease-in-out 0.35s;
+}
+
+.sect_us1 .us2 {
+    margin-top: -70px;
+    padding: 0 5%;
+}
+
+.animBox {
+    position: relative;
+    padding-bottom: 30px;
+    background: url('../images/yw_bg2.png') bottom center no-repeat;
+    animation: animatedBackground 20s linear infinite alternate;
+}
+
+@keyframes animatedBackground {
+    from {
+        background-position-x: 0;
+    }
+    to {
+        background-position-x: 100%;
+    }
+}
+
+.obj_center {
+    position: relative;
+    margin: 0 auto;
+    width: 811px;
+    height: 531px;
+}
+
+.obj_center img {
+    visibility: hidden;
+}
+
+.obj_center img.img2 {
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    margin-left: -402px;
+    width: 836px;
+    height: 262px;
+}
+
+.obj_ship {
+    position: absolute;
+    bottom: 70px;
+    width: 250px;
+    height: 177px;
+    background: url('../images/yw_ship.png') no-repeat;
+    animation: animatedShip 40s linear infinite alternate;
+}
+
+@keyframes animatedShip {
+    0% {
+        left: 0;
+    }
+    10% {
+        left: 4%;
+        opacity: 1;
+    }
+    20% {
+        left: 8%;
+        opacity: 1;
+    }
+    30% {
+        left: 12%;
+        opacity: 1;
+    }
+    40% {
+        left: 16%;
+        opacity: 1;
+    }
+    50% {
+        left: 20%;
+        opacity: 1;
+    }
+    60% {
+        left: 24%;
+        opacity: 1;
+    }
+    70% {
+        left: 28%;
+        opacity: 0.3;
+        transform: scale(0.9);
+    }
+    80% {
+        left: 32%;
+        opacity: 0.2;
+        transform: scale(0.7);
+    }
+    90% {
+        left: 36%;
+        opacity: 0.1;
+        transform: scale(0.5);
+    }
+    100% {
+        left: 40%;
+        opacity: 0;
+        transform: scale(0.2);
+    }
+}
+
+.obj_ship2 {
+    position: absolute;
+    bottom: 116px;
+    left: 28%;
+    width: 150px;
+    height: 100px;
+    background: url('../images/yw_ship.png') no-repeat;
+    background-size: 100%;
+    transform: scale(0.6);
+    transform-origin: bottom;
+    animation: animatedShip2 40s linear infinite alternate;
+}
+
+@keyframes animatedShip2 {
+    0% {
+        left: 28%;
+        opacity: 0.4;
+    }
+    100% {
+        left: -35%;
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.obj_house {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    width: 477px;
+    height: 325px;
+    background: url('../images/yw_house.png') no-repeat;
+}
+
+.obj_cloud1 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 40%;
+    height: 114px;
+    background: url('../images/yw_cloud1.png') no-repeat;
+    opacity: 0.3;
+    background-position-x: 90%;
+    animation: animatedCloud1 30s linear infinite alternate;
+}
+
+@keyframes animatedCloud1 {
+    0% {
+        opacity: 0.3;
+        background-position-x: 90%;
+    }
+    50% {
+        opacity: 1;
+        background-position-x: 45%;
+    }
+    100% {
+        opacity: 0.3;
+        background-position-x: 0%;
+    }
+}
+
+.obj_cloud2 {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 40%;
+    height: 114px;
+    background: url('../images/yw_cloud2.png') no-repeat;
+    opacity: 0.3;
+    background-position-x: 90%;
+    animation: animatedCloud2 30s linear infinite alternate;
+}
+
+@keyframes animatedCloud2 {
+    0% {
+        opacity: 0.3;
+        background-position-x: 90%;
+    }
+    50% {
+        opacity: 1;
+        background-position-x: 45%;
+    }
+    100% {
+        opacity: 0.3;
+        background-position-x: 0%;
+    }
+}
+
+.obj_cloud3 {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 40%;
+    height: 114px;
+    background: url('../images/yw_cloud3.png') no-repeat;
+    background-position-x: 0%;
+    visibility: hidden;
+}
+
+.obj_cloud4 {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    width: 40%;
+    height: 96px;
+    background: url('../images/yw_cloud4.png') no-repeat;
+    background-position-x: 100%;
+    visibility: hidden;
+}
+
+
+/*我们*/
+
+.sect_us {
+    overflow: hidden;
+    background: url('../images/bg03.jpg') bottom center #fff no-repeat;
+    position: relative;
+}
+
+.us_text {
+    padding: 1rem 0;
+    line-height: 2.5;
+    text-indent: 2em
+}
+
+.us_img2 {
+    margin-top: 1rem
+}
+
+
+/*项目*/
+
+.sect_xm {
+    overflow: hidden;
+}
+
+.sect_xm .index_ {
+    padding-bottom: 0
+}
+
+.module_prod {
+    background: url('../images/bg01.jpg') top center;
+    padding: 6rem 0;
+    margin-top: -100px
+}
+
+.module_prod .media-box {
+    background: #f3f4f8
+}
+
+.module_prod .media-box h5 {
+    background: #c1484d;
+    color: #fff;
+    text-align: left;
+    text-indent: 2em;
+    position: relative;
+}
+
+.module_prod .media-box h5:after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background: url('../images/03.jpg') no-repeat;
+    right: 10px;
+    top: 50%;
+    margin-top: -11px
+}
+
+.mask3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .4);
+    transform: scale(0);
+    transform-origin: center center;
+    line-height: 100%;
+    color: #000
+}
+
+.mask3 p {
+    font-size: 1rem
+}
+
+.module_prod .media-box:hover .mask3 {
+    transform: scale(1);
+}
+
+.module_prod .media-box:hover h5 {
+    opacity: 0
+}
+
+
+/*分类*/
+
+.module_cate {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.module_cate .swiper-container {
+    overflow: visible;
+}
+
+.module_cate .swiper-slide {
+    width: 25%;
+    float: left;
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+}
+
+.module_cate .swiper-slide .js_cate {
+    display: block;
+    padding: 1.4rem 0;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-bottom: 0
+}
+
+.module_cate .swiper-slide .js_cate p {
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: -webkit-pictograph
+}
+
+.module_cate .swiper-slide a.cateMore {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: -60%;
+    border: 1px solid #2b2a2a;
+    border-top: 0;
+    font-size: 0.88rem;
+    opacity: 0;
+    background: url('../images/01.png') bottom center no-repeat;
+    padding: 0
+}
+
+.module_cate .swiper-slide:hover a.cateMore {
+    bottom: -72%;
+    opacity: 1;
+    border-color: #fff
+}
+
+.module_cate .swiper-slide:hover .js_cate {
+    border-color: #2b2a2a
+}
+
+
+/*优势*/
+
+.sect_adv {
+    overflow: hidden;
+    background:#c89f64;
+    color: #fff
+}
+
+.sect_adv .index_ .T,
+.sect_adv .index_ .T h4 {
+    color: #fff
+}
+
+
+/*新闻*/
+
+.sect_new {
+    overflow: hidden;
+    background: url('../images/bg02.jpg');
+    background-size: contain
+}
+
+.news_wrap {
+    background-color: #fff;
+}
+
+.news_wrap .swiper-wrapper {
+    border-bottom: 1px solid #e0dddc
+}
+
+.news-box {
+    position: relative;
+    margin-bottom: 3rem
+}
+
+.news-box .news_time .date {
+    padding: 0.5rem 0.6rem;
+    text-align: center;
+    font-size: 12px
+}
+
+.news-box .news_time .date i {
+    font-size: 3rem;
+    font-weight: bold;
+    display: block;
+    line-height: 1
+}
+
+.news-box .news_time .item {
+    display: none;
+}
+
+.news-box .news_cont {
+    padding: .5rem 0 0 4%;
+    border-left: 1px solid #e8eaf1
+}
+
+.news-box .news_cont h5 {
+    font-size: 1rem;
+    font-weight: normal;
+    padding-bottom: 6px
+}
+
+.news-box .news_cont h5 a {
+    color: #363535;
+    display: block;
+    position: relative;
+}
+
+.news-box .news_cont h5 a:after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    background-color: #2b2a2a
+}
+
+.news-box .news_cont h5 a:hover:after {
+    width: 90%;
+    background-color: #c1484d
+}
+
+.news-box .news_cont p {
+    font-size: 0.875rem;
+    height: 54px;
+    overflow: hidden;
+    margin-bottom: 1.4rem;
+    text-align: justify
+}
+
+.news-box a.more {
+    border: 1px solid #2b2a2a;
+    font-size: 0.875rem;
+    padding: 0.3rem 1.2rem;
+    display: inline-block;
+}
+
+.news-box a.more:hover {
+    border-color: #c1484d;
+    color: inherit;
+}
+
+.thumb {
+    width: 100%;
+    height: 168px;
+    background-position: center center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+
+/*播放*/
+
+.news-button {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0
+}
+
+.news-button-next,
+.news-button-prev {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.news-button-next {
+    background: url('../images/next.jpg') center center no-repeat #c89f64;
+}
+
+.news-button-prev {
+    background: url('../images/prev.jpg') center center no-repeat #c89f64;
+}
+
+.swiper-button-disabled {
+    opacity: 0.35
+}
+
+.swiper-wrapper {
+    transition-timing-function: ease-in-out;
+}
+
+
+.tianchong{width: 25%;}
+

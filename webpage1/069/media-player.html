@@ -1,0 +1,888 @@
+<!doctype html>
+<html lang="en-gb" class="no-js">
+
+<head>
+	<title>MEDIA PLAYER | CleanLab Template</title>
+
+	<!-- ***** meta ***** -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+	<meta name="keywords" content="premium html template, unique premium template, multipurpose" />
+	<meta name="description" content="Welcome to CleanLab Template, a wonderful and premium product for multipurpose websites" />
+
+	<!-- ***** Favicons ***** -->	
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="44x72" href="images/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="70x114" href="images/favicons/apple-touch-icon-114x114.png">
+
+	<!-- ***** Google Fonts ***** -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+
+	<!-- ***** Addons Stylesheet ***** -->
+	<link rel="stylesheet" type="text/css" href="css/rev-settings.css" media="screen" />
+
+	<!-- ***** Bootstrap CSS Stylesheet ***** -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- ***** DemoPane CSS Stylesheet ***** -->
+	<link rel="stylesheet" type="text/css" href="css/switcher.css">
+
+	<!-- ***** Main + Responsive CSS Stylesheet ***** -->
+	<link rel="stylesheet" type="text/css" href="css/icons-styles.css">
+	<link rel="stylesheet" type="text/css" href="css/template.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive-devices.css" />
+	<!-- ***** Updates CSS Stylesheet (for future templates updates ***** -->
+	<link rel="stylesheet" type="text/css" href="css/updates.css">
+	<!-- ***** Custom CSS Stylesheet (where you should add your own css rules) ***** -->
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+	<link rel="alternate stylesheet" type="text/css" href="css/blue.css" title="blue" media="all">
+	<link rel="alternate stylesheet" type="text/css" href="css/green.css" title="green" media="all">
+	<link rel="alternate stylesheet" type="text/css" href="css/orange.css" title="orange" media="all">
+	<link rel="alternate stylesheet" type="text/css" href="css/lynch.css" title="lynch" media="all">
+	<link rel="alternate stylesheet" type="text/css" href="css/wisteria.css" title="wisteria" media="all">
+	<link rel="alternate stylesheet" type="text/css" href="css/dark-cyan.css" title="cyan" media="all">		
+	
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+	
+</head>
+<body class="">
+<!-- start preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+<!-- end preloader -->
+<!-- Start Switcher -->
+<div class="demo_changer">
+    <div class="demo-icon">
+        <i class="fa icon-cog spin"></i>
+    </div><!-- end opener icon -->
+    <div class="form_holder">
+        <div class="row">
+            <h4 class="text-center">Style Switcher</h4>
+            <div class="col-sm-6">
+            	<form>
+                    <select id="headers" class="show-menu-arrow selectpicker" value="GO">
+                        <option value="">Change Header</option>
+                        <option value="header1">Style 1</option>
+                        <option value="header2">Style 2</option>
+                        <option value="header3">Style 3</option>
+                        <option value="header4">Style 4</option>
+                        <option value="header5">Style 5</option>
+                        <option value="header6">Style 6 (New)</option>
+                    </select>
+                </form>  
+            </div>
+            <div class="col-sm-6">
+            	<form>
+            		<select id="footers" class="show-menu-arrow selectpicker" value="GO">
+                        <option value="">Change Footer</option>
+                        <option value="footer-style1">Style 1</option>
+                        <option value="footer-style2">Style 2</option>
+                        <option value="footer-style3">Style 3</option>
+                    </select> 
+            	</form>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+        	<h4 class="text-center">Boxed or Full Width</h4>
+        	<div class="col-sm-12">
+        		<div class="layoutswitcher">
+                	<a href="#" rel="boxed" class="styleswitch">
+                		<img class="img-thumbnail" src="images/boxed.png" width="154" height="93" alt="">
+                	</a> 
+                	<a href="#" rel="full" class="styleswitch">
+                		<img class="img-thumbnail" src="images/fullwidth.png" width="154" height="93" alt="">
+                	</a>
+                </div><!-- /.layoutswitcher -->
+        	</div>
+        </div>
+        <hr>
+        <div class="row">
+        	<h4 class="text-center">Backgrounds</h4>
+        	<div class="col-sm-12 center">
+        		<div class="PatternChanger">
+                    <a href="images/bg1.jpg" class="bg_t">
+                    	<img src="images/bg-t1.jpg" alt="" width="32" height="32" />
+                    </a>
+                    <a href="images/bg2.jpg" class="bg_t">
+                    	<img src="images/bg-t2.jpg" alt="" width="32" height="32" />
+                    </a>
+                    <a href="images/bg3.jpg" class="bg_t">
+                    	<img src="images/bg-t3.jpg" alt="" width="32" height="32" />
+                    </a>
+                    <a href="images/bg4.jpg" class="bg_t">
+                    	<img src="images/bg-t4.jpg" alt="" width="32" height="32" />
+                    </a>
+                </div> 
+        	</div>
+        </div>
+        <hr>
+        <div class="row">
+        	<h4 class="text-center">Color Skins</h4>
+        	<div class="col-sm-12 center">
+        		<a href="css/template.css" rel="default" class="styleswitch">
+                	<span class="color-skin default"></span>
+                </a>      
+                <a href="css/blue.css" rel="blue" class="styleswitch">
+                	<span class="color-skin blue"></span>
+                </a>
+                <a href="css/green.css" rel="green" class="styleswitch">
+                	<span class="color-skin green"></span>
+                </a>
+                <a href="css/orange.css" rel="orange" class="styleswitch">
+                	<span class="color-skin orange"></span>
+                </a>
+                <a href="css/lynch.css" rel="lynch" class="styleswitch">
+                	<span class="color-skin lynch"></span>
+                </a>
+                <a href="css/wisteria.css" rel="wisteria" class="styleswitch">
+                	<span class="color-skin wisteria"></span>
+                </a>
+                <a href="css/dark-cyan.css" rel="cyan" class="styleswitch">
+                	<span class="color-skin dark-cyan"></span>
+                </a>    
+        	</div>
+        </div>
+        <hr>
+        <div class="row">
+        	<div class="col-sm-12">
+        		<h4 class="text-center">Background Picker</h4>
+                <!-- MODULE #5 -->
+                <div class="demoPanel">
+                    <input class="form-control" id="cp1">
+                    <div id="tests" class="demo-links">
+                    </div>
+                </div>
+        	</div>
+        </div>
+        <hr>
+        <div class="row">
+        	<div class="col-sm-12">
+        		<p class="text-center">This tools is just for demo site.</p>
+        	</div>
+        </div>
+    </div><!-- end form_holder -->
+</div><!-- end demo_changer -->
+<!-- End Switcher -->
+<div id="page-wrapper" class="typography">
+	<header id="header" class="nav-down header3">
+		<div id="panel">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9">
+						<ul class="info-left reset-list">
+							<li><span class="icon-location"></span><p>102580 Santa Monica BLVD Los Angeles</p></li>
+							<li><span class="icon-phone"></span><p>1 (800) 456 - 6789</p></li>
+							<li><span class="icon-envelope2"></span><p>info@yourwebsite.com</p></li>
+							<li><span class="icon-skype"></span><p>YourSkype</p></li>
+						</ul>
+					</div>
+					<div class="col-sm-3">
+						<ul class="info-right reset-list">
+							<li class="ico-twitter animation">
+								<a href="#">
+									<span class="icon-twitter"></span>
+								</a>
+							</li>
+							<li class="ico-facebook animation">
+								<a href="#">
+									<span class="icon-facebook"></span>
+								</a>
+							</li>
+							<li class="ico-pinterest animation">
+								<a href="#">
+									<span class="icon-pinterest"></span>
+								</a>
+							</li>
+							<li class="ico-instagram animation">
+								<a href="#">
+									<span class="icon-instagram"></span>
+								</a>
+							</li>
+							<li class="ico-dribbble animation">
+								<a href="#">
+									<span class="icon-dribbble"></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="container relative">
+				<a href="#" class="btn-slide"><span class="icon-angle-up"></span></a>
+			</div>
+		</div><!-- end sliding panel -->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="relative onlyh3">
+						<div class="logo-container hasinfocard">
+							<h1 id="logo">
+								<a href="index.html">
+									<div class="logo-default">
+										<img src="images/logo.png" alt="CleanLab HTML Template" title="Click to return to CleanLab Template's homepage" class="img-responsive">
+									</div>
+									<div class="logo-white">
+										<img src="images/logo-white.png" alt="CleanLab HTML Template" title="Click to return to CleanLab Template's homepage" class="img-responsive">
+									</div>
+								</a>
+							</h1><!-- end logo -->
+							<div id="infocard">
+								<div class="row">
+									<div class="col-sm-5 center">
+										<img src="images/info-logo.png" alt="" class="mbottom20" />
+										<h2>CleanLab is Multi Purpose & Responsive It’s Suitable for Corporate, Creative, Personal, Noncommercial Needs</h2>
+									</div>
+									<div class="col-sm-7">
+										<p><span class="icon-phone"></span> 1 (800) 456 - 6789</p>
+										<p class="mbottom10"><span class="icon-envelope2 mright5"></span>Email: office@yourwebsite.com</p>
+										<p>Your Company LTD</p>
+										<p class="mbottom30">102580 Santa Monica BLVD Los Angeles</p>
+										<ul class="info-social center reset-list">
+											<li class="width100 mbottom10">
+												<p>Get Social</p>
+											</li>
+											<li>
+												<a href="#">	
+													<span class="icon-facebook"></span>
+												</a>
+											</li>
+											<li>
+												<a href="#">	
+													<span class="icon-twitter"></span>
+												</a>
+											</li>
+											<li>
+												<a href="#">	
+													<span class="icon-dribbble"></span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="icon-pinterest"></span>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div><!-- end infocard -->
+						</div><!-- end logo-container -->
+						<div id="cart">
+							<span class="icon-cart">
+							</span>
+							<div class="cart-container">
+								<ul class="reset-list">
+									<li>
+										<div class="cart-item">
+											<img src="images/cart-item.jpg" alt="" />
+											<h4>At vero eos</h4>
+											<span class="tcolor">$45.00</span>
+											<a href="#" class="remove-item icon-close"></a>
+										</div>
+									</li>
+									<li>
+										<div class="cart-item">
+											<img src="images/cart-item2.jpg" alt="" />
+											<h4>Et quidem</h4>
+											<span class="tcolor">$85.00</span>
+											<a href="#" class="remove-item icon-close"></a>
+										</div>
+									</li>
+									<li>
+										<div class="cart-item">
+											<img src="images/cart-item3.jpg" alt="" />
+											<h4>Temporibus</h4>
+											<span class="tcolor">$45.00</span>
+											<a href="#" class="remove-item icon-close"></a>
+										</div>
+									</li>
+									<li class="total clearfix">
+										<p class="fleft">Total</p>
+										<p class="fright">$175.00</p>
+									</li>
+									<li class="checkout">
+										<a href="#">Checkout</a>
+									</li>
+								</ul>
+							</div>
+						</div><!-- end cart -->
+						<div class="searchPanel">
+							<span class="icon-search3"></span>
+							<form action="http://www.google.com/search" method="get" onsubmit="Gsitesearch(this)" target="_blank" class="searchForm">
+								<input name="qfront" type="text" placeholder="just type in here..." class="searchBox">
+							</form>
+						</div><!-- end searchPanel -->
+						<div class="dropdown language">
+							<span class=""></span>
+							<div class="dropdown">
+							<span class="globe icon-earth" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+							</span>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								<li role="presentation">
+									<a role="menuitem" tabindex="-1" href="#">English</a>
+									<img src="images/flags/us.png" alt="English" class="flag-img">
+								</li>
+								<li role="presentation">
+									<a role="menuitem" tabindex="-1" href="#">Spanish</a>
+									<img src="images/flags/es.png" alt="Spanish" class="flag-img">
+								</li>
+								<li role="presentation">
+									<a role="menuitem" tabindex="-1" href="#">French</a>
+									<img src="images/flags/fr.png" alt="French" class="flag-img">
+								</li>
+							</ul>
+							</div>
+						</div><!-- end language -->
+						<!-- Responsive Menu -->
+						<div class="zn-res-menuwrapper">
+							<a class="zn-res-trigger" href="#"></a>
+						</div>
+						<div id="main-menu">
+							<ul>
+							    <li class="has-sub mega">
+							    	<a href="index.html">Home</a>
+							   		<ul class="mega-menu container clearfix">
+							   			<li class="col-sm-3">
+							   				<a href="http://#" class="mega-title">Homepages examples 1</a>
+							   				<ul class="sub-menu clearfix">
+							   					<li>
+									   			 	<a href="home-layout-1.html">Home Layout 1</a>
+									   			</li>
+									   			<li>
+									   			 	<a href="home-layout-2.html">Home Layout 2</a>
+									   			</li>
+									   			<li>
+									   			 	<a href="home-layout-3.html">Home Layout 3</a>
+									   			</li>
+							   				</ul>
+							   			</li>
+							   			<li class="col-sm-3">
+							   				<a href="http://#" class="mega-title">Homepages examples 2</a>
+							   				<ul class="sub-menu clearfix">
+							   					<li>
+												 	<a href="home-layout-4.html">Home Layout 4</a>
+												</li>
+												<li>
+												 	<a href="home-layout-5.html">Home Layout 5</a>
+												</li>
+												<li>
+												 	<a href="home-layout-6.html">Home Layout 6</a>
+												</li>
+							   				</ul>
+							   			</li>
+							   			<li class="col-sm-3">
+							   				<a href="http://#" class="mega-title">Homepages examples 3</a>
+							   				<ul class="sub-menu clearfix">
+							   					<li>
+												 	<a href="home-layout-7.html">Home Layout 7</a>
+												</li>
+												<li>
+												 	<a href="home-layout-8.html">Home Layout 8</a>
+												</li>
+												<li>
+												 	<a href="home-layout-9.html">Home Layout 9</a>
+												</li>
+							   				</ul>
+							   			</li>
+							   			<li class="col-sm-3">
+							   				<a href="http://#" class="mega-title">Homepages examples 4</a>
+							   				<ul class="sub-menu clearfix">
+							   					<li>
+												 	<a href="home-layout-10.html">Home Layout 10</a>
+												</li>
+												<li>
+												 	<a href="one-page.html">One Page</a>
+												</li>
+												<li>
+												 	<a href="full-page.html">Full Page</a>
+												</li>
+							   				</ul>
+							   			</li>
+							   		</ul>
+							    </li>
+							    <li class="has-sub">
+									<a href="#">Sliders</a>
+									<ul>
+										<li>
+											<a href="full-screen.html">Full Screen Slider</a>
+										</li>
+										<li>
+											<a href="boxed-slideshow.html">Boxed Slider</a>
+										</li>
+										<li>
+											<a href="video-bg.html">Video Background</a>
+										</li>
+									</ul>
+								</li>
+							    <li class="has-sub">
+							        <a href="#">Portfolio</a>
+							        <ul>
+							        	<li>
+							         	    <a href="portfolio.html">Portfolio</a>
+							            </li>
+							            <li>
+							         	    <a href="portfolio-simple.html">Portfolio Simple Layout</a>
+							            </li>
+							            <li>
+											<a href="portfolio-full-width.html">Portfolio - Full Width</a>
+										</li>
+							            <li>
+							         	    <a href="single-project.html">Single Project</a>
+							            </li>
+							        </ul>
+							    </li>
+							    <li>
+								    <a href="#">Blog</a>
+								    <ul>
+								   		<li>
+										    <a href="blog.html">Blog Style 1</a>
+										</li>
+						                <li>
+										    <a href="blog-2.html">Blog Style 2</a>
+										</li>
+										<li>
+										    <a href="blog-3.html">Blog Style 3</a>
+										</li>
+										<li>
+										    <a href="blog-4.html">Blog Style 4</a>
+										</li>
+										<li>
+											<a href="blog-timeline.html">Timeline Blog</a>
+										</li>
+										<li>
+											<a href="blog-masonry.html">Masonry Blog</a>
+										</li>
+										<li>
+											<a href="blog-masonry-full.html">Masonry Blog Full</a>
+										</li>
+										<li>
+										    <a href="blog-post.html">Blog Post Style 1</a>
+										</li>
+										<li>
+										    <a href="blog-post-2.html">Blog Post Style 2</a>
+										</li>
+						            </ul>
+							    </li>
+							    <li class="has-sub mega">
+							   	    <a href="#">Pages</a>
+							   	    <ul class="mega-menu container clearfix">
+							   	    	<li class="col-sm-3">
+							   	    		<a href="http://#" class="mega-title">Pages examples 1</a>
+							   				<ul class="sub-menu clearfix">
+							   					<li> 
+								  		   	   		<a href="full-width-page.html">Full Width</a>
+								  		   	    </li>
+								  		   	    <li> 
+								  		   	   		<a href="left-sidebar-page.html">Left Sidebar</a>
+								  		   	    </li>
+								  		   	    <li> 
+								  		   	   		<a href="right-sidebar-page.html">Right Sidebar</a>
+								  		   	    </li>
+								  		   	    <li> 
+								  		   	   		<a href="text-page.html">Text Page</a>
+								  		   	    </li>
+								  		   	    <li> 
+													<a href="product-launch.html">Product Launch</a>
+												</li>	
+							   				</ul>
+							   	    	</li>
+							   	    	<li class="col-sm-3">
+							   	    		<a href="http://#" class="mega-title">Pages examples 2</a>
+							   				<ul class="sub-menu clearfix">
+							   					<li> 
+								  		   	   		<a href="faq.html">FAQ</a>
+								  		   	    </li>
+									   	        <li>
+								  		   	   	    <a href="testimonials.html">Testimonials</a>
+								  		   	    </li>
+									   	        <li> 
+								  		   	   		<a href="features.html">Features</a>
+								  		   	    </li>
+								  		   	    <li> 
+													<a href="our-office.html">Our Office</a>
+												</li>
+												<li>
+									   	       		<a href="pricing.html">Pricing</a>
+									   	        </li>
+							   				</ul>
+							   	    	</li>
+							   	    	<li class="col-sm-3">
+							   	    		<a href="http://#" class="mega-title">Pages examples 3</a>
+							   				<ul class="sub-menu clearfix">
+							   					<li> 
+													<a href="timeline-page.html">Timeline Page</a>
+												</li>
+								  		   		<li>
+								  		   			<a href="clients.html">Clients</a>
+								  		   		</li>
+									   	   	    <li> 
+								  		   	   	    <a href="team.html">Our Team</a>
+								  		   	    </li>
+								  		   	    <li> 
+								  		   	   		<a href="team-member.html">Team Member</a>
+								  		   	    </li>
+								  		   	    <li> 
+													<a href="about-us.html">About us</a>
+												</li>		
+							   				</ul>
+							   	    	</li>
+							   	    	<li class="col-sm-3">
+							   	    		<a href="http://#" class="mega-title">Pages examples 4</a>
+							   				<ul class="sub-menu clearfix">
+							   					<li> 
+								  		   	   	    <a href="coming-soon.html">Coming Soon</a>
+								  		   	    </li>
+								  		   	    <li> 
+								  		   	   	    <a href="maintenance-mode.html">Maintenance Mode</a>
+								  		   	    </li>
+								  		   	    <li>
+											   	    <a href="contact.html">Contact Page</a>
+											    </li>
+											    <li> 
+													<a href="sitemap.html">Sitemap</a>
+												</li>
+												<li>
+									   	       	    <a href="404.html">404 Error Page</a>
+									   	        </li>
+							   				</ul>
+							   	    	</li>	
+							   	    </ul>
+							    </li>
+							    <li class="has-sub">
+							   	    <a href="#">Shop</a>
+							   	    <ul>
+							   	   	    <li>
+							   			 	<a href="shop-home.html">Home Page</a>
+							   		    <li>
+							   		    <li>
+						  		   	   	    <a href="product.html">Product Item</a>
+						  		   	    </li>
+							   	   	    <li> 
+						  		   	   	    <a href="shopping-cart.html">Shopping Cart</a>
+						  		   	    </li>
+						  		   	    <li> 
+						  		   	   	    <a href="shop-order-recieved.html">Order Confirmation</a>
+						  		   	    </li>
+						  		   	    <li> 
+						  		   	   	    <a href="shop-account-login.html">My Account - Login</a>
+						  		   	    </li>
+							   	    </ul>
+						        </li>
+						        <li>
+						       	    <a href="bootstrap.html">Features</a>
+						       	    <ul>
+						       	    	<li>
+						       	    		<a href="">Page Builder</a>
+						       	    	</li>
+						       	    	<li>
+						       	    		<a href="gallery-1.html">Gallery 1 column</a>
+						       	    	</li>
+						       	    	<li>
+						       	    		<a href="gallery-2.html">Gallery 2 column</a>
+						       	    	</li>
+						       	    	<li>
+						       	    		<a href="gallery-3.html">Gallery 3 column</a>
+						       	    	</li>
+						       	    	<li>
+						       	    		<a href="gallery-4.html">Gallery 4 column</a>
+						       	    	</li>
+						       	    	<li>
+						       	    		<a href="gallery-masonry.html">Gallery - Masonry</a>
+						       	    	</li>
+						       	    	<li>
+						       	    		<a href="gallery-masonry-full.html">Gallery Full - Masonry</a>
+						       	    	</li>
+						       	    </ul>
+						        </li>
+							    <li class="active">
+							   	    <a href="#">Shortcodes</a>
+							   	    <ul>
+							   	        <li>
+							   	   	   	    <a href="typography.html">Typography</a>
+							   	   	    </li>
+							   	   	    <li>
+							   	   	   	    <a href="page-header.html">Page Header</a>
+							   	   	    </li>
+							   	   	    <li class="active">
+							   	   	   	    <a href="media-player.html">Media Player</a>
+							   	   	    </li>
+							   	   	    <li>
+							   	   	   	    <a href="gallery.html">Gallery</a>
+							   	   	    </li>
+							   	   	    <li>
+											<a href="services-box.html">Services Box</a>
+										</li>
+							   	   	    <li>
+							   	   	   	    <a href="buttons.html">Buttons</a>
+							   	   	    </li>
+							   	   	    <li>
+							   	   	   	    <a href="progress-bars.html">Progress Bars & Skill Meter</a>
+							   	   	    </li>
+							   	   	    <li>
+							   	   	   	    <a href="tabs.html">Tabs</a>
+							   	   	    </li>
+							   	   	    <li>
+							   	   	   	    <a href="google-maps.html">Google Maps</a>
+							   	   	    </li>
+							   	   	    <li>
+							   	   	   	    <a href="accordion.html">Accordion & Toggles</a>
+							   	   	    </li>
+							   	   	    <li>
+							   	   	   	    <a href="callout-box.html">Custom Callout Box</a>
+							   	   	    </li>
+							   	   	    <li>
+							   	   	   	    <a href="laptop-slider.html">Laptop Slider</a>
+							   	   	    </li>
+							   	   	    <li>
+							   	   	   	    <a href="image-shadows.html">Image Shadows</a>
+							   	   	    </li>
+							   	    </ul>
+							   </li>
+							</ul>
+						</div><!-- end main menu -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</header><!-- end header -->
+	<div class="header-breadcrumb page-header mbottom50">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="section-title fleft">Media Player</h1>
+					<ul class="reset-list">
+						<li>
+							<p>Shortcodes</p>
+						</li>
+						<li>/</li>
+						<li class="active">
+							<p>Media Player</p>
+						</li>
+					</ul>
+					<span id="current-date"></span>
+				</div>
+			</div>
+		</div>
+	</div><!-- end header-breadcrumb -->
+	<div id="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9">
+					<h2 class="mbottom30">Audio Player</h2>
+					<div class="soundcloud mbottom50">
+						<iframe class="mbottom30" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34509639&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+					</div>	
+					<h2 class="mbottom30">Video Player</h2>
+					<div class="mbottom50">
+						<iframe class="blog-video mbottom30" src="//player.vimeo.com/video/62158541?title=0&amp;byline=0&amp;portrait=0"></iframe>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="sidebar5 mbottom50">
+						<ul class="reset-list">
+							<li>
+								<a href="typography.html">Typography</a>
+							</li>
+							<li>
+								<a href="page-header.html">Page Header</a>
+							</li>
+							<li class="active">
+								<a href="media-player.html">Media Player</a>
+							</li>
+							<li>
+								<a href="gallery.html">Gallery</a>
+							</li>
+							<li>
+								<a href="services-box.html">Services Box</a>
+							</li>
+							<li>
+								<a href="buttons.html">Buttons</a>
+							</li>
+							<li>
+								<a href="progress-bars.html">Progress bars and Skill meter</a>
+							</li>
+							<li>
+								<a href="tabs.html">Tabs</a>
+							</li>
+							<li>
+								<a href="testimonials.html">Testimonials</a>
+							</li>
+							<li>
+								<a href="google-maps.html">Google Maps</a>
+							</li>
+							<li>
+								<a href="accordion.html">Accordion and Toggles</a>
+							</li>
+							<li>
+								<a href="callout-box.html">Custom callout box</a>
+							</li>
+							<li>
+								<a href="laptop-slider.html">Laptop Slider</a>
+								<span class="new-item2">New</span>
+							</li>
+							<li>
+								<a href="image-shadows.html">Image Shadows</a>
+								<span class="new-item2">New</span>
+							</li>
+							<li>
+								<a href="pricing.html">Pricing & Data tables</a>
+							</li>
+						</ul>
+					</div><!-- end sidebar5 -->
+				</div>
+			</div>
+		</div>
+	</div><!-- end content -->
+	<footer class="footer-style2">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3 mbottom30">
+					<a href="index.html">
+						<img src="images/footer-logo.png" alt="" class="default" />
+						<img src="images/footer-logo2.png" alt="" class="only3" />
+					</a>
+					<p class="mtop30 f300">Etiam accumsan tristique diam, nec mollis nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+					<div class="social mtop25 mbottom30 clearfix">
+						<ul class="reset-list">
+							<li class="ico-twitter animation">
+								<a href="#">
+									<span class="icon-twitter"></span>
+								</a>
+							</li>
+							<li class="ico-facebook animation">
+								<a href="#">
+									<span class="icon-facebook"></span>
+								</a>
+							</li>
+							<li class="ico-google animation">
+								<a href="#">
+									<span class="icon-googleplus"></span>
+								</a>
+							</li>
+							<li class="ico-pinterest animation">
+								<a href="#">
+									<span class="icon-pinterest"></span>
+								</a>
+							</li>
+							<li class="ico-dribbble animation">
+								<a href="#">
+									<span class="icon-dribbble"></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-3 mbottom30">
+					<h3>From the Blog</h3>
+					<ul class="footer-blog reset-list">
+						<li>
+							<a href="blog-post.html">
+								<img src="images/footer-img.jpg" alt=""/>
+							</a>
+							<p>Donec ullamcorper nulla non ms ac is</p>
+							<p class="tcolor">January 22, 2015</p>
+							<div class="clearfix mbottom20"></div>
+						</li>
+						<li>
+							<a href="blog-post.html">
+								<img src="images/footer-img2.jpg" alt=""/>
+							</a>
+							<p>Donec ullamcorper nulla non ms ac is </p>
+							<p class="tcolor">January 22, 2015</p>
+							<div class="clearfix"></div>
+						</li>	
+					</ul>						
+				</div>
+				<div class="col-sm-3 mbottom30">
+					<h3>Company</h3>
+					<ul class="menu-list reset-list">
+						<li>
+							<a href="#">About Us</a>
+						</li>
+						<li>
+							<a href="faq.html">FAQs</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+						<li>
+							<a href="#">Terms</a>
+						</li>
+						<li>
+							<a href="#">Privacy</a>
+						</li>
+						<li>
+							<a href="testimonials.html">Testimonials</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h3>Newsletter Singup</h3>
+					<div id="subscribe" class="footer-subscribe center mbottom10">
+						<form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email to subscribe" required>
+							<div style="position: absolute; left: -5000px;">
+	                            <input type="text" name="b_9ed253451c5b914e9c34e388b_6e3ba686ba" value="">
+	                        </div>
+							<button class=" btn-sm btn-small" type="submit" name="subscribe" id="mc-embedded-subscribe"><span class="icon-envelope"></span></button>
+						</form>	
+						<div id="notification_container"></div>				
+					</div>
+					<p class="f300">By subscribing to our mailing list you will always be update with the latest news from us.</p>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 center">
+						<p class="copyright">©2015 developed by <strong>LorThemes</strong>. All Rights Reserved</p>
+					</div>
+				</div>
+			</div>
+		</div><!-- end bottom-footer -->
+	</footer>
+	<!-- end footer -->
+</div>
+<p id="back-top">
+	<a href="#top"><span class="icon-angle-up"></span></a>
+</p>
+
+<!-- JavaScript at the bottom for faster page loading -->
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/clean-js-plugins.js"></script>
+<script type="text/javascript" src="js/nivo-lightbox.js"></script>
+
+<!-- DemoPanel -->
+<script type="text/javascript" src="js/bootstrap-select.js"></script>
+<script type="text/javascript" src="js/evol.colorpicker.min.js"></script>
+<script type="text/javascript" src="js/dmss.js"></script>
+
+<!-- CleanLab Scrips File -->
+<script type="text/javascript" src="js/cleanlab_script.js"></script>
+<!-- Custom Scrips loaded on this page -->
+<script>
+	$(document).ready(function(){
+	    $('#photo-gallery2 a').nivoLightbox();
+	});
+</script>
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
+<script>
+	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+	function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+	e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+	e.src='//www.google-analytics.com/analytics.js';
+	r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+	ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
+-->
+<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%; background: #f5f5f5; border-top: 1px solid #ddd;">本素材由源代码设计店铺收集整理，<a style="color:blue" target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.db8f67ddfNU55&id=564028312196">点此购买合集</a>
+	</div>
+</body>
+</html>

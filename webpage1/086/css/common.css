@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*公共部分*/
+*{ margin:0; padding:0; list-style:none; text-decoration:none; font-family:"微软雅黑"; font-size:16px; border:none;box-sizing:border-box; font-weight:normal;}
+a,img{ display:block;}
+.clearfix{ clear:both;}
+
+/*header*/
+.lines{  
+	height:1px;
+	}
+.header{ max-width:1224px; margin:0 auto; background-image:url(../img/lines01.png);
+background-repeat:no-repeat;
+background-position:0 108px; z-index:8;}
+.header_bg{ background-color:#dd251d; height:3px;}
+.top_box{ max-width:1100px; margin:0 auto; position:relative;}
+.top_tip{ float:right;}
+.top_tip li{ float:left;}
+.top_tip a{ font-size:14px; color:#373636;}
+.top_tip span:hover{ color:#FD161A;}
+.contact{ clear:right;float:right;}
+.contact p{ font-size:14px; height:72px; line-height:72px; padding-right:130px;}
+.contact{ background-image:url(../img/icon_weibo.png);
+background-repeat:no-repeat;
+background-position:240px 8px;}
+.contact span{ color:#FD161A;}
+.logo{ position:absolute; left:0; top:10px;}
+.nav li{ 
+	float:left; 
+	padding:0 23px; 
+	background:url(../img/icon_dot.png) no-repeat right center;
+	padding-bottom:8px;
+	}
+.nav a{ 
+	font-size:16px; 
+	color:#000000;
+	}
+.sub_nav a{ 
+	font-size:12px; 
+	color:#E7E7E7; 
+	line-height:18px; 
+	padding-left:10px; 
+	border-bottom:solid 1px white; 
+	margin-bottom:10px;
+	}
+.sub_nav{ 
+	background:#393939; 
+	position:absolute;
+	padding:10px; 
+	z-index:1;
+	}
+.nav a:hover{ 
+	color:#FD161A;
+	}
+.banner_box{ max-width:1224px; margin:0 auto; position:relative; margin-top:20px;}
+.banner{ position:relative; left:50%; margin-left:-612px;}
+.chain{background-color:#dfdfdf;width:480px;position:relative; left:50%; margin-left:-240px; bottom:30px; z-index:2;}
+.chain p{ height:30px; line-height:30px; font-size:12px; text-align:center; color:#414141; cursor:pointer;}
+.chain p:hover{ color:#F02C2F;}
+/*页尾*/
+
+.footer_bg{ background-color:#dd251d; margin-top:50px;}
+.footer_bg ul{ width:531px; margin:0 auto;}
+.footer_bg a{ float:left; font-size:14px;height:18px; line-height:18px; padding:0 30px; border-left:1px solid #ECEBEB; color:#fff;}
+.address{ width:400px; margin:0 auto; padding-top:8px;}
+.address p{ text-align:center; line-height:20px; font-size:12px;}

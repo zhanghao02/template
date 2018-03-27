@@ -1,0 +1,245 @@
+@charset "utf-8";
+body{
+	overflow-x: hidden;
+}
+/*清除浮动*/
+.clearfix:after{ content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{zoom:1}
+
+/*公共内容区域*/
+.wrapper{
+	width: 1080px;
+	margin: 0 auto;
+}
+.float-l{
+	float: left;
+}
+.float-r{
+	float: right;
+}
+
+/*侧边联系我们*/
+.right-fixed-bar{
+	position:fixed;
+	right:0;
+	top:50%;
+	margin-top: -120px;
+	z-index: 200;
+}
+.contact li{
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+.aside-chat,.aside-tel{
+	position: relative;
+}
+.aside-pic-chat{
+	position: relative;
+	background: url(../img/aside-chat.png) no-repeat -70px 0;
+	height: 60px;
+	width: 60px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.aside-pic-chat:hover{
+	background: url(../img/aside-chat.png) no-repeat 0px 0;
+}
+.ser-num{
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #fff;
+	line-height: 60px;
+	padding: 0 20px;
+	text-align: center;
+	background-color: #7aad4e;
+	width: 200px;
+	display: none;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.aside-rwm-box{
+	top: 0;
+	right: 60px;
+	position: absolute;
+	width: 200px;
+	z-index: 202;
+	display: none;
+}
+.aside-rwm-box img{
+	width: 100%;
+}
+.aside-chat:hover .aside-rwm-box,.aside-tel:hover .ser-num{
+	display: block;
+}
+/****页眉----开始****/
+.header{
+	position: relative;
+	z-index: 2;
+}
+.hd-container{
+	margin-top: 41px;
+	height: 76px;
+	position: relative;
+	background: url(../img/nav-bg.jpg) no-repeat bottom center;
+}
+.hd-nav .main-nav .main-nav-item{
+	font-size: 16px;
+	float: left;
+	line-height: 76px;
+	position: relative;
+}
+.hd-nav .main-nav .main-nav-item.li-4{
+	margin-right: 320px;
+}
+.hd-nav .main-nav .main-nav-item > a{
+	color: #fff;
+	line-height: 21px;
+	padding: 0 14px;
+	box-sizing: border-box;
+	border-left: 1px solid #7aad4e;
+	border-right: 1px solid #11733a;
+	text-shadow: 0px 1px 1px rgb( 4, 0, 0 );
+	-moz-transform: scale(0.99, 1);
+	-webkit-transform: scale(0.99, 1);
+	-ms-transform: scale(0.99, 1);
+}
+.hd-nav .main-nav .main-nav-item:first-child > a{
+	padding: 0 30px;
+	border-left: none;
+}
+.hd-nav .main-nav .main-nav-item:last-child > a{
+	border-right: none;
+}
+.hd-nav .main-nav .main-nav-item.li-4 > a{
+	border-right: none;
+}
+.hd-nav .main-nav .main-nav-item.li-5 > a{
+	border-left: none;
+}
+.head-logo{
+	position: absolute;
+	top: -52px;
+	left: 50%;
+	margin-left: -145px;
+}
+.hd-nav .main-nav .main-nav-item:hover{
+	background: url(../img/nav-item-bg.png) no-repeat left center;
+}
+.hd-nav .main-nav .nav-active{
+	background: url(../img/nav-item-bg.png) no-repeat left center;
+}
+.hd-nav .sub-nav{
+	width: 100%;
+	padding: 10px 0;
+	position: absolute;
+	background: #11733a;
+	display: none;
+}
+.hd-nav .sub-nav span{
+	text-align: center;
+	width: 100%;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+}
+.hd-nav .sub-nav span a{
+	color: #fff;
+	display: block;
+	line-height: 40px;
+}
+.hd-nav .sub-nav span a:hover{
+	background: #77ad2b;
+}
+/****页眉----结束****/
+
+/****页脚----开始****/
+.footer{
+	height: 232px;
+	background: url(../img/foot-bg.png) no-repeat center;
+	position: relative;
+	margin-top: -38px;
+}
+.ft-mountin-bg{
+	width: 100%;
+	height: 416px;
+	margin-top: -200px;
+	z-index: -1;
+	background: url(../img/ft-moutain-bg.png) no-repeat top;
+}
+.ft-container{
+	padding-top: 86px;
+}
+.ft-container ul li{
+	float: left;
+	color: #fff;
+	text-align: center;
+	width: 20%;
+}
+.ft-container ul li.ft-left{
+	padding-top: 10px;
+}
+.ft-container ul li.ft-middle{
+	font-family: "宋体";
+	font-size: 12px;
+	width: 60%;
+	padding-top: 26px;
+}
+.ft-container ul li.ft-middle p{
+	margin-bottom: 16px;
+}
+.ft-container .ft-right .ewm{
+	float: left;
+	width: 114px;
+	height: 114px;
+}
+.ft-container .ft-right dd{
+	font-size: 18px;
+	font-weight: normal;
+}
+.ft-container .ft-right h4{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	font-weight: normal;
+}
+.ft-container .back-top{
+	position: absolute;
+	top: 28px;
+	left: 50%;
+	margin-left: -34px;
+}
+/****页脚----结束****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
